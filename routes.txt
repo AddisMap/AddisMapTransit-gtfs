@@ -14,6 +14,7 @@ route_type,route_id,route_short_name,route_long_name,agency_id,route_desc,route_
 3,15488050,AB007,Alaltu ↔ Megenagna,AA,,1779c2,ffffff
 3,10521610,D25,Summit Condominiums ↔ Megenagna,AA,,1779c2,ffffff
 3,10479678,B37,Shero Meda ↔ Autobis Tera (3),AA,,1779c2,ffffff
+3,10694720,TX001,Arada ↔ 18 Mazoria,AA,,1779c2,ffffff
 3,10541125,A04,Sefera ↔ Mexico,AA,,1779c2,ffffff
 3,15402577,29879,bole medhanialem ↔ autobus tera,AA,,1779c2,ffffff
 3,10468435,C14,Sansusi ↔ Piassa,AA,,1779c2,ffffff
@@ -33,6 +34,7 @@ route_type,route_id,route_short_name,route_long_name,agency_id,route_desc,route_
 3,15601809,SH018,Dil Ber ↔ Piassa Arada,AA,,1779c2,ffffff
 3,15480467,AB031T1A01,legehar(old station) ↔ shuro meda,AA,,1779c2,ffffff
 3,10400405,AB049,Megenegna Terminal ↔ Ayat Chefe Condominium,AA,,1779c2,ffffff
+3,10568347,TX065,Safari (Summit) ↔ Megenagna,AA,,1779c2,ffffff
 3,10542241,C50,kera ↔ Addisu Gebeya,AA,,1779c2,ffffff
 3,15601842,Sh021,Jemmo 2 ↔ Mexico,AA,,1779c2,ffffff
 3,10535103,B22,Autobis Tera ↔ Asko,AA,,1779c2,ffffff
@@ -51,6 +53,7 @@ route_type,route_id,route_short_name,route_long_name,agency_id,route_desc,route_
 3,10410198,AB009,Piassa Arada ↔ Brass Clinic (Bole),AA,,1779c2,ffffff
 3,15405838,32046,legehar ↔ jemo3,AA,,1779c2,ffffff
 3,15588630,SH001,Haile Garment ↔ Mexico,AA,,1779c2,ffffff
+3,10568476,TX341,Olympia ↔ Agona Cinema,AA,,1779c2,ffffff
 3,10400029,AB097,Megenegna Terminal ↔ Legedadi Mission,AA,,1779c2,ffffff
 3,10460963,A10,Mexico ↔ Haile Garment,AA,,1779c2,ffffff
 3,10534180,A05,Mexico ↔ Lafto,AA,,1779c2,ffffff
@@ -67,6 +70,8 @@ route_type,route_id,route_short_name,route_long_name,agency_id,route_desc,route_
 3,15588745,SH003,Megenagna Terminal ↔ Aba Kiros Roundabout,AA,,1779c2,ffffff
 3,15601977,SH020,Piassa ↔ Mebrat Condominium,AA,,1779c2,ffffff
 3,10541371,A18,Piassa ↔ Jemmo 2,AA,,1779c2,ffffff
+3,15676213,TX005,Kality Menaheria ↔ Megenagna Terminal,AA,,1779c2,ffffff
+3,15676214,TX002,Kera ↔ 3 Mazoria,AA,,1779c2,ffffff
 3,10547526,AB076,Kality Meneharia ↔ Megenagna Terminal,AA,,1779c2,ffffff
 3,15406407,16588,tracking android,AA,,1779c2,ffffff
 3,15484747,AB067T1A01,Jemo3 ↔ legehar(old train station),AA,,1779c2,ffffff
@@ -87,7 +92,6 @@ route_type,route_id,route_short_name,route_long_name,agency_id,route_desc,route_
 3,10460046,SH028,Shero Meda ↔ Abo Junction,AA,,1779c2,ffffff
 3,10550163,AB087,Winget ↔ Ayer Tena (Terminal),AA,,1779c2,ffffff
 3,15484821,AB067T2A01,Legehar(old station) ↔ Jemmo3,AA,,1779c2,ffffff
-3,15487383,AB098,debre gelan ↔ Saris Abo,AA,,1779c2,ffffff
 3,15481243,AB039T2A01,Bole medanialem ↔ autobis tera,AA,,1779c2,ffffff
 3,15597982,SH011,Megenagna ↔ Mexico,AA,,1779c2,ffffff
 3,15602160,Sh023,Sefera ↔ Mexico,AA,,1779c2,ffffff
@@ -96,6 +100,7 @@ route_type,route_id,route_short_name,route_long_name,agency_id,route_desc,route_
 3,10529704,B40,Saris Abo ↔ Ayer Tena,AA,,1779c2,ffffff
 3,15598066,SH012,Autobis Tera ↔ Sansusi,AA,,1779c2,ffffff
 3,10542001,A02,Mexico ↔ Jemo 1,AA,,1779c2,ffffff
+3,15487411,AB098,Saris Abo ↔ Gelan,AA,,1779c2,ffffff
 3,10549686,AB015,Autobis Tera (Adarash) ↔ Marathon Motor (Megenagna),AA,,1779c2,ffffff
 3,10460602,SH010,Autobis Tera (2) ↔ Alem Bank,AA,,1779c2,ffffff
 3,10551230,AB047,Shegole (Mender 7) ↔ Autobis Tera (Adarash 2),AA,,1779c2,ffffff
@@ -105,6 +110,7 @@ route_type,route_id,route_short_name,route_long_name,agency_id,route_desc,route_
 3,15598024,SH013,Shero Meda ↔ Mexico,AA,,1779c2,ffffff
 3,15477710,AB025T2A01,Akaki Korkoro ↔ Legehar (Old Train Station),AA,,1779c2,ffffff
 3,15479251,AB098T2A01,Saris Abo ↔ Gelan,AA,,1779c2,ffffff
+3,15652317,TX200,Wello Sefer ↔ Kera,AA,,1779c2,ffffff
 3,15602159,SH023,Mexico ↔ Sefera,AA,,1779c2,ffffff
 3,15477232,AB28149,Legehar (Old Train Station) ↔ Akaki Korkoro,AA,,1779c2,ffffff
 3,15402481,23519,sheromeda ↔ legehar(old train station),AA,,1779c2,ffffff

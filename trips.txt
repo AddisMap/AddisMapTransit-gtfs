@@ -1,4 +1,5 @@
 route_id,trip_id,service_id,shape_id,direction_id,trip_headsign
+10694720,165,0,10694719,0,Arada
 10460407,133,0,10460406,0,Yeka Abado G13
 15588745,132,0,15588745,0,Aba Kiros Roundabout
 15588708,131,0,15588708,0,Haile Garment
@@ -9,6 +10,7 @@ route_id,trip_id,service_id,shape_id,direction_id,trip_headsign
 10460407,134,0,10460405,1,Megenagna
 10460602,139,0,10460600,0,Autobis Tera (2)
 15591716,138,0,15591716,0,Ayer Tena
+10694720,166,0,10694129,1,18 Mazoria
 10541371,24,0,10541370,0,Piassa
 10541371,25,0,10541369,1,Jemmo 2
 10466290,26,0,10466288,0,Mexico
@@ -36,6 +38,7 @@ route_id,trip_id,service_id,shape_id,direction_id,trip_headsign
 5697658,127,0,5696983,1,Tor Hailoch
 5697659,128,0,5696985,0,Menelik II Square
 5697659,129,0,5696986,1,Kality
+15676214,167,0,15633035,0,Kera
 10521610,118,0,10521609,0,Summit Condominiums
 15656246,59,0,15480612,1,Merkato (Dubai Tera)
 15656246,58,0,15480652,0,German Square
@@ -57,7 +60,7 @@ route_id,trip_id,service_id,shape_id,direction_id,trip_headsign
 10542241,113,0,10542239,1,Addisu Gebeya
 10542241,112,0,10542240,0,Kera
 10400029,82,0,10399951,1,Legedadi Mission
-15487383,83,0,15487383,0,Saris Abo
+15487411,83,0,15487411,0,Gelan
 15487352,80,0,15487352,0,Autobis Tera(Adarash)
 10400029,81,0,10399952,0,Megenagna Terminal
 10400258,86,0,10400256,1,Aba Kiros Roundabout
@@ -86,6 +89,7 @@ route_id,trip_id,service_id,shape_id,direction_id,trip_headsign
 10407732,36,0,10407731,1,Piassa Arada
 10407732,35,0,10407730,0,Kotebe Teachers College
 10410198,34,0,10410196,1,Brass Clinic (Bole)
+10568476,176,0,10568474,1,Agona Cinema
 15481134,60,0,15481134,0,Arat Kilo
 15481243,61,0,15481243,0,autobis tera
 10551605,62,0,10551604,0,Eyesus
@@ -96,11 +100,19 @@ route_id,trip_id,service_id,shape_id,direction_id,trip_headsign
 10400405,67,0,10400404,0,Megenagna
 10400405,68,0,10400403,1,Ayat Chefe Condominium
 10441511,69,0,10406696,0,Ayat Chefe Condominium
+10568476,175,0,10568475,0,Olympia
+15652317,174,0,10567917,1,Kera
+15652317,173,0,10567916,0,Wello Sefer
+10568347,172,0,10568345,1,Megenagna
+10568347,171,0,10568346,0,Safari (Summit)
+15676213,170,0,15652319,1,Megenagna Terminal
 15406461,2,0,15406461,0,zenebwork
 15591158,162,0,15591158,0,Megenagna Terminal
 15405838,6,0,15405838,0,jemo3
 10542096,99,0,10542095,1,Ashewa Meda
 10542096,98,0,10542094,0,Merkato
+15676214,168,0,10667604,1,3 Mazoria
+15676213,169,0,10715392,0,Kality Menaheriya
 15477232,91,0,15477232,0,Akaki Korkoro
 10550650,90,0,10550649,1,Shero Meda
 10480005,93,0,10480004,1,Abo Junction
