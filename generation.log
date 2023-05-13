@@ -1,4 +1,5 @@
-INFO:root:Using the end date from config file: 20201101
+INFO:root:Using the end date from config file: 20991231
+WARNING:root:Date range is more than one year.
 INFO:root:Query and build fresh data for routes
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -2320,10 +2321,9 @@ Generating schedule for line: SH035
 Generating schedule for line: SH055
 Generating schedule for line: Sh021
 Generating schedule for line: Sh023
-All services are defined on a weekly basis from 2019-12-01 to 2020-11-01 with
+All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
-This feed expired on November 01, 2020 (feed_end_date in feed_info.txt)
 The stops "Kality Total" (ID node/7112648161) and "Kality Total" (ID
 node/10846106471) are 1.78m apart and probably represent the same location.
 The stops "Haile garment" (ID node/10842129016) and "Haile Garment" (ID
