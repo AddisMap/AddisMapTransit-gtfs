@@ -1,5 +1,4 @@
-INFO:root:Using the end date from config file: 20991231
-WARNING:root:Date range is more than one year.
+INFO:root:Using the end date from config file: 20201101
 INFO:root:Query and build fresh data for routes
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -23,8 +22,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10400257
 WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10400256
 WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15842820
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460167
 WARNING:root:  Problem at: https://osm.org/way/761303523
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460166
@@ -37,22 +34,14 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10547201
 WARNING:root:  Problem at: https://osm.org/way/1098187859
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547200
 WARNING:root:  Problem at: https://osm.org/way/760620928
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15850016
-WARNING:root: Assuming it to be a bus line (standard).
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15677019
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15591213
 WARNING:root:  Problem at: https://osm.org/way/758158813
 WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/15844904
 WARNING:root:Using 'ref' from member variant instead
 WARNING:root:https://osm.org/relation/15591212
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15841839
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15845948
 WARNING:root:  Problem at: https://osm.org/way/761078793
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15845949
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/15845949
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -60,20 +49,14 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10479676
 WARNING:root:  Problem at: https://osm.org/way/208713957
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10479677
 WARNING:root:  Problem at: https://osm.org/way/185405220
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/10694720
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541124
 WARNING:root:  Problem at: https://osm.org/way/760793206
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541123
 WARNING:root:  Problem at: https://osm.org/way/422479024
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15850509
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Warning: This relation route master:
 WARNING:root: https://osm.org/relation/15842386
 WARNING:root: has a member which is not a valid itinerary:
 WARNING:root: https://osm.org/relation/15842384
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15842386
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10406489
 WARNING:root:  Problem at: https://osm.org/way/760620922
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10406490
@@ -92,8 +75,6 @@ WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/15633036
 WARNING:root:Using 'ref' from member variant instead
 WARNING:root:https://osm.org/relation/15633035
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15633036
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10534540
 WARNING:root:  Problem at: https://osm.org/way/24278704
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10534539
@@ -106,46 +87,24 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10400404
 WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10400403
 WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/10568347
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10542240
 WARNING:root:  Problem at: https://osm.org/way/255542233
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10542239
 WARNING:root:  Problem at: https://osm.org/way/760587281
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15841978
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15841978
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/10567918
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/15841977
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15850226
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460406
 WARNING:root:  Problem at: https://osm.org/way/304871585
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460405
 WARNING:root:  Problem at: https://osm.org/way/755468009
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15797527
-WARNING:root: Assuming it to be a bus line (standard).
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15797528
-WARNING:root: Assuming it to be a bus line (standard).
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15797529
-WARNING:root: Assuming it to be a bus line (standard).
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15797530
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15797530
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/10568476
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10399952
 WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10399951
 WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15833378
-WARNING:root: Assuming it to be a bus line (standard).
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15846182
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15846182
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -160,8 +119,6 @@ WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10568475
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10568474
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15676210
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/15676210
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -169,8 +126,6 @@ WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10567916
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10567917
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15676211
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/15676211
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -182,8 +137,6 @@ WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10694719
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10694129
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15676215
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/15676215
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -191,21 +144,13 @@ WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10568346
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10568345
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15676212
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/15676212
 WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15676213
-WARNING:root: Assuming it to be a bus line (standard).
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15677252
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/15633035
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10667604
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15676214
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/15676214
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -213,10 +158,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10547524
 WARNING:root:  Problem at: https://osm.org/way/25012595
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547525
 WARNING:root:  Problem at: https://osm.org/way/25091553
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15841640
-WARNING:root: Assuming it to be a bus line (standard).
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15845950
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15845950
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -232,16 +173,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10533757
 WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10533756
 WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15842687
-WARNING:root: Assuming it to be a bus line (standard).
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15774596
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10480003
 WARNING:root:  Problem at: https://osm.org/way/761303523
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10480004
 WARNING:root:  Problem at: https://osm.org/way/255542233
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15775112
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10340743
 WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10340744
@@ -254,8 +189,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10550162
 WARNING:root:  Problem at: https://osm.org/way/43292693
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550161
 WARNING:root:  Problem at: https://osm.org/way/761247504
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15830934
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10466723
 WARNING:root:  Problem at: https://osm.org/way/760587281
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10466724
@@ -264,8 +197,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10529703
 WARNING:root:  Problem at: https://osm.org/way/760406145
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10529702
 WARNING:root:  Problem at: https://osm.org/way/23411084
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15833518
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10549685
 WARNING:root:  Problem at: https://osm.org/way/185405220
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10549684
@@ -280,8 +211,6 @@ WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10567916
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10567917
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15652317
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/15652317
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -289,8 +218,6 @@ WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10568475
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10568474
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15652318
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/15652318
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -298,8 +225,6 @@ WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10715392
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/15652319
-WARNING:root:Route master relation with an unknown route type (share_taxi): https://osm.org/relation/15652320
-WARNING:root: Assuming it to be a bus line (standard).
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/15652320
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -338,9 +263,7 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15596592
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15596592
-WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15596592
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15488050
 WARNING:root: Please fix in OpenStreetMap
@@ -382,9 +305,7 @@ WARNING:root: https://osm.org/relation/15601016
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15601016
 WARNING:root:  Problem at: https://osm.org/way/761303523
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15601016
-WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15601016
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15520388
 WARNING:root: Please fix in OpenStreetMap
@@ -417,7 +338,7 @@ WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15520257
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15520257
-WARNING:root:  Problem at: https://osm.org/way/242865155
+WARNING:root:  Problem at: https://osm.org/way/761290295
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15520257
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15602160
@@ -462,9 +383,7 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15850225
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15850225
-WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15850225
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15591891
 WARNING:root: Please fix in OpenStreetMap
@@ -600,9 +519,7 @@ WARNING:root: https://osm.org/relation/15600954
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15600954
 WARNING:root:  Problem at: https://osm.org/way/388718982
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15600954
-WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15600954
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15487222
 WARNING:root: Please fix in OpenStreetMap
@@ -660,9 +577,7 @@ WARNING:root: https://osm.org/relation/15743389
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15743389
 WARNING:root:  Problem at: https://osm.org/way/612810674
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15743389
-WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15743389
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15597982
 WARNING:root: Please fix in OpenStreetMap
@@ -694,9 +609,7 @@ WARNING:root: https://osm.org/relation/15591848
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15591848
 WARNING:root:  Problem at: https://osm.org/way/532315719
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15591848
-WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15591848
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15485879
 WARNING:root: Please fix in OpenStreetMap
@@ -710,9 +623,7 @@ WARNING:root: https://osm.org/relation/15588800
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15588800
 WARNING:root:  Problem at: https://osm.org/way/755468009
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15588800
-WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15588800
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15598024
 WARNING:root: Please fix in OpenStreetMap
@@ -723,7 +634,7 @@ WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15477710
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15477710
-WARNING:root:  Problem at: https://osm.org/way/242865155
+WARNING:root:  Problem at: https://osm.org/way/761290295
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15477710
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15479251
@@ -1623,6 +1534,7 @@ INFO:root:Added stop: Goro - https://osm.org/node/10893030394
 INFO:root:Added stop: Gojam Berenda - https://osm.org/node/10845731585
 INFO:root:Added stop: Gojam Berenda - https://osm.org/node/10845731584
 INFO:root:Added stop: Pepsi - https://osm.org/node/10845731587
+INFO:root:Added stop: Derartu - https://osm.org/node/10845731586
 INFO:root:Added stop: Bole Printing Press - https://osm.org/node/6373574986
 INFO:root:Added stop: Autobis Tera (1) - https://osm.org/node/7078406240
 INFO:root:Added stop: kebele 11 - https://osm.org/node/10845731574
@@ -1907,6 +1819,7 @@ INFO:root:Added stop: Kore - https://osm.org/node/10842129122
 INFO:root:Added stop: Akaki Beretaberet - https://osm.org/node/7037142448
 INFO:root:Added stop: Yeka Abado G13 - https://osm.org/node/7022397421
 INFO:root:Added stop: Autobus Tera - https://osm.org/way/759359432
+INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10842129126
 INFO:root:Added stop: Sebategna - https://osm.org/way/759359430
 INFO:root:Added stop: Autobus Tera - https://osm.org/way/759359431
 INFO:root:Added stop: Megenagna - https://osm.org/node/7037142442
@@ -2075,6 +1988,7 @@ INFO:root:Added stop: Civil Service College - https://osm.org/node/7037183495
 INFO:root:Added stop: Hana Mariam (2) - https://osm.org/node/7049122265
 INFO:root:Added stop: Key Afer - https://osm.org/node/10890290096
 INFO:root:Added stop: Kality Cheralia - https://osm.org/node/10842129088
+INFO:root:Added stop: Kality Cheralia - https://osm.org/node/10842129089
 INFO:root:Added stop: Tikur Anbesa - https://osm.org/node/10892863230
 INFO:root:Added stop: Safari - https://osm.org/node/7123180290
 INFO:root:Added stop: Gurd Shola - https://osm.org/node/7123180297
@@ -2246,7 +2160,7 @@ INFO:root:Added stop: Bole Bridge - https://osm.org/node/10886282001
 INFO:root:Added stop: Kotebe Teachers College - https://osm.org/node/10781643837
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10887120324
 INFO:root:Added stop: Arbegnoch Primary School - https://osm.org/node/7105840326
-INFO:root:Added stop: Derartu (Kality 08) - https://osm.org/node/10842129027
+INFO:root:Added stop: Derartu - https://osm.org/node/10842129027
 INFO:root:Added stop: Autobis Tera (Adarash) - https://osm.org/node/7111821013
 INFO:root:Added stop: Mebrathile (EEPCo) - https://osm.org/node/7107670563
 INFO:root:Added stop: Enqulal Fabrica - https://osm.org/node/7105840327
@@ -2255,6 +2169,91 @@ INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10845731592
 INFO:root:Added stop: Betel - https://osm.org/node/7074504390
 INFO:root:Added stop: Beg Tera - https://osm.org/node/10845731593
 Timezone not checked (install pytz package for timezone validation)
+Generating schedule for line: 10340745
+Generating schedule for line: 10400029
+Generating schedule for line: 10400258
+Generating schedule for line: 10400405
+Generating schedule for line: 10406491
+Generating schedule for line: 10406697
+Generating schedule for line: 10407732
+Generating schedule for line: 10409764
+Generating schedule for line: 10410198
+Generating schedule for line: 10441511
+Generating schedule for line: 10458624
+Generating schedule for line: 10458768
+Generating schedule for line: 10460046
+Generating schedule for line: 10460168
+Generating schedule for line: 10460407
+Generating schedule for line: 10460602
+Generating schedule for line: 10460963
+Generating schedule for line: 10461811
+Generating schedule for line: 10465903
+Generating schedule for line: 10466290
+Generating schedule for line: 10466725
+Generating schedule for line: 10468435
+Generating schedule for line: 10469388
+Generating schedule for line: 10478792
+Generating schedule for line: 10479678
+Generating schedule for line: 10480005
+Generating schedule for line: 10480336
+Generating schedule for line: 10521543
+Generating schedule for line: 10521610
+Generating schedule for line: 10529108
+Generating schedule for line: 10529704
+Generating schedule for line: 10533497
+Generating schedule for line: 10533758
+Generating schedule for line: 10534180
+Generating schedule for line: 10534541
+Generating schedule for line: 10534848
+Generating schedule for line: 10535103
+Generating schedule for line: 10541125
+Generating schedule for line: 10541371
+Generating schedule for line: 10542001
+Generating schedule for line: 10542096
+Generating schedule for line: 10542241
+Generating schedule for line: 10547202
+Generating schedule for line: 10547526
+Generating schedule for line: 10549686
+Generating schedule for line: 10550063
+Generating schedule for line: 10550163
+Generating schedule for line: 10550650
+Generating schedule for line: 10550800
+Generating schedule for line: 10551230
+Generating schedule for line: 10551231
+Generating schedule for line: 10551605
+Generating schedule for line: 10567918
+Generating schedule for line: 10568347
+Generating schedule for line: 10568476
+Generating schedule for line: 10694720
+Generating schedule for line: 15625520
+Generating schedule for line: 15633036
+Generating schedule for line: 15656246
+Generating schedule for line: 15676213
+Generating schedule for line: 15677019
+Generating schedule for line: 15677252
+Generating schedule for line: 15774596
+Generating schedule for line: 15775112
+Generating schedule for line: 15797527
+Generating schedule for line: 15797528
+Generating schedule for line: 15797529
+Generating schedule for line: 15797530
+Generating schedule for line: 15830934
+Generating schedule for line: 15833378
+Generating schedule for line: 15833518
+Generating schedule for line: 15841640
+Generating schedule for line: 15841839
+Generating schedule for line: 15841978
+Generating schedule for line: 15842386
+Generating schedule for line: 15842687
+Generating schedule for line: 15842820
+Generating schedule for line: 15844903
+Generating schedule for line: 15844904
+Generating schedule for line: 15846182
+Generating schedule for line: 15850016
+travel_time not a number / exception thrown for route with OSM ID 15850014
+Generating schedule for line: 15850226
+Generating schedule for line: 15850509
+Generating schedule for line: 15850623
 Generating schedule for line: 16588
 Generating schedule for line: 17329
 frequency not a number for route_master 15402322
@@ -2270,105 +2269,38 @@ Generating schedule for line: 32046
 frequency not a number for route_master 15405838
 Generating schedule for line: 36032
 frequency not a number for route_master 15402540
-Generating schedule for line: 37245
+Generating schedule INFO:root:Removed 18 unused stops
+for line: 37245
 frequency not a number for route_master 15405615
 Generating schedule for line: 42667
 travel_time not a number / exception thrown for route with OSM ID 15405986
-Generating schedule for line: A01
-Generating schedule for line: A02
-Generating schedule for line: A04
-Generating schedule for line: A05
-Generating schedule for line: A08
-Generating schedule for line: A09
-Generating schedule for line: A10
-Generating schedule for line: A18
-Generating schedule for line: A24
-Generating schedule for line: AB001
-Generating schedule for line: AB003
+Generating schedule for line: 5697658
+Generating schedule for line: 5697659
 Generating schedule for line: AB007
-Generating schedule for line: AB009
-Generating schedule for line: AB010
 Generating schedule for line: AB012
-Generating schedule for line: AB015
-Generating schedule for line: AB018
 Generating schedule for line: AB019
 Generating schedule for line: AB021
 Generating schedule for line: AB025
 Generating schedule for line: AB025T2A01
-Generating schedule for line: AB028
-Generating schedule for line: AB029
 Generating schedule for line: AB030
 Generating schedule for line: AB031
-Generating schedule for line: AB032
-Generating schedule for line: AB034
 Generating schedule for line: AB039
-Generating schedule for line: AB041
-Generating schedule for line: AB047
 Generating schedule for line: AB048
-Generating schedule for line: AB049
 Generating schedule for line: AB061
 Generating schedule for line: AB067
 Generating schedule for line: AB067T2A01
-Generating schedule for line: AB076
 Generating schedule for line: AB079
-Generating schedule for line: AB083
 Generating schedule for line: AB085
-Generating schedule for line: AB087
 Generating schedule for line: AB091
-Generating schedule for line: AB097
 Generating schedule for line: AB098
 Generating schedule for line: AB098T2A01
-Generating schedule for line: AB101
-Generating schedule for line: AB106
-Generating schedule for line: AB110
 Generating schedule for line: AB28149
-Generating schedule for line: B19
-Generating schedule for line: B22
-Generating schedule for line: B35
-Generating schedule for line: B35B
-Generating schedule for line: B37
-Generating schedule for line: B40
-Generating schedule for line: C14
-Generating schedule for line: C15
-Generating schedule for line: C17
-Generating schedule for line: C31
-Generating schedule for line: C50
-Generating schedule for line: C51
-Generating schedule for line: D23
-Generating schedule for line: D25
-Generating schedule for line: D26
-Generating schedule for line: D46
-Generating schedule for line: D52
-Generating schedule for line: E-W
-Generating schedule for line: Minibus B 001
-Generating schedule for line: Minibus Bole 002
-Generating schedule for line: Minibus Bole 003
-Generating schedule for line: Minibus Bole 004
 Generating schedule for line: Minibus Bole 005
-Generating schedule for line: Minibus Bole 006
-Generating schedule for line: Minibus Bole 009
-Generating schedule for line: Minibus Bole 010
-Generating schedule for line: Minibus Bole 013
-travel_time not a number / exception thrown for route with OSM ID 15850014
-Generating schedule for line: Minibus Bole 014
-Generating schedule for line: Minibus Bolr 012
-Generating schedule for line: Minibus Kal 001
-Generating schedule for line: Minibus Kal 002
-Generating schedule for line: Minibus Kal 003
-Generating schedule for line: Minibus Kal 004
-Generating schedule for line: Minibus Kal 005
-Generating schedINFO:root:Removed 26 unused stops
-ule for line: Minibus Kal 006
-Generating schedule for line: Minibus Kal 012
-Generating schedule for line: Minibus Kal 013
-Generating schedule for line: S-N
 Generating schedule for line: SH001
 Generating schedule for line: SH002
 Generating schedule for line: SH003
 Generating schedule for line: SH004
 Generating schedule for line: SH005
-Generating schedule for line: SH007
-Generating schedule for line: SH008
 Generating schedule for line: SH009
 Generating schedule for line: SH010
 Generating schedule for line: SH011
@@ -2382,25 +2314,16 @@ Generating schedule for line: SH020
 Generating schedule for line: SH022
 Generating schedule for line: SH023
 Generating schedule for line: SH024
-Generating schedule for line: SH027
 Generating schedule for line: SH028
 Generating schedule for line: SH033
 Generating schedule for line: SH035
-Generating schedule for line: SH040
 Generating schedule for line: SH055
 Generating schedule for line: Sh021
 Generating schedule for line: Sh023
-Generating schedule for line: TX001
-Generating schedule for line: TX002
-Generating schedule for line: TX005
-Generating schedule for line: TX006
-Generating schedule for line: TX008
-Generating schedule for line: TX065
-Generating schedule for line: TX200
-Generating schedule for line: TX341
-All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
+All services are defined on a weekly basis from 2019-12-01 to 2020-11-01 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
+This feed expired on November 01, 2020 (feed_end_date in feed_info.txt)
 The stops "Kality Total" (ID node/7112648161) and "Kality Total" (ID
 node/10846106471) are 1.78m apart and probably represent the same location.
 The stops "Haile garment" (ID node/10842129016) and "Haile Garment" (ID
@@ -2460,6 +2383,18 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value Minibus Bole 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Minibus Kal 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Minibus Bole 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -2572,63 +2507,73 @@ This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
-The trip with the trip_id "0" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 0
-The trip with the trip_id "4" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 4
-The trip with the trip_id "8" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 8
-The trip with the trip_id "163" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 163
+The trip with the trip_id "212" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 212
+The trip with the trip_id "213" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 213
+The trip with the trip_id "210" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 210
+The trip with the trip_id "211" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 211
+The trip with the trip_id "218" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 218
+The trip with the trip_id "219" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 219
+The trip with the trip_id "166" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 166
 The trip with the trip_id "167" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 167
-The trip with the trip_id "164" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 164
 The trip with the trip_id "201" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 201
+The trip with the trip_id "200" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 200
 The trip with the trip_id "197" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 197
-The trip with the trip_id "178" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 178
-The trip with the trip_id "193" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 193
-The trip with the trip_id "192" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 192
-The trip with the trip_id "86" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 86
-The trip with the trip_id "3" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 3
-The trip with the trip_id "177" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 177
-The trip with the trip_id "7" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 7
-The trip with the trip_id "32" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 32
-The trip with the trip_id "176" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 176
+The trip with the trip_id "113" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 113
+The trip with the trip_id "198" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 198
+The trip with the trip_id "206" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 206
+The trip with the trip_id "205" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 205
 The trip with the trip_id "175" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 175
+The trip with the trip_id "174" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 174
+The trip with the trip_id "173" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 173
 The trip with the trip_id "172" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 172
-The trip with the trip_id "183" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 183
-The trip with the trip_id "2" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 2
-The trip with the trip_id "162" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 162
-The trip with the trip_id "6" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 6
+The trip with the trip_id "171" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 171
+The trip with the trip_id "170" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 170
+The trip with the trip_id "203" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 203
+The trip with the trip_id "222" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 222
+The trip with the trip_id "180" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 180
+The trip with the trip_id "220" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 220
+The trip with the trip_id "202" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 202
 The trip with the trip_id "196" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 196
-The trip with the trip_id "45" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 45
-The trip with the trip_id "1" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 1
-The trip with the trip_id "5" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 5
-The trip with the trip_id "9" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 9
-The trip with the trip_id "79" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 79
-The trip with the trip_id "78" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 78
+The trip with the trip_id "221" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 221
+The trip with the trip_id "185" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 185
+The trip with the trip_id "168" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 168
+The trip with the trip_id "169" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 169
+The trip with the trip_id "204" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 204
+The trip with the trip_id "207" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 207
+The trip with the trip_id "209" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 209
+The trip with the trip_id "208" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 208

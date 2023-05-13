@@ -11,7 +11,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 8.93801100004,38.7631070001,way/759359409,,Kality,0
 8.9797944,38.7719673,node/10842129054,,Bole Mickael,0
 8.9361583,38.7445147,node/10842129053,,Hana mariam,0
-8.9295569,38.7681784,node/10842129052,,Wuhalimat,0
+8.9295556,38.7681435,node/10842129052,,Wuhalimat,0
 8.9859342,38.7888143,node/10842129051,,Bole Roundabout,0
 8.9411484,38.7218311,node/10842129119,,Meskelegna,0
 8.9860956,38.7483037,node/7108224469,,Kera,0
@@ -90,6 +90,9 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.0218654,38.8345374,node/10886427071,,Civil Servis College,0
 9.0209991,38.853604,node/10886427072,,Yetebaberut,0
 9.0215223,38.8749759,node/10886427073,,Ayat,0
+9.0215577,38.8350083,node/10886427074,,Civil Servis College,0
+9.0211408,38.8738172,node/10886427075,,Ayat,0
+9.0204163,38.8598848,node/10886427076,,Meshageria,0
 9.0216167,38.8342032,node/7037183495,,Civil Service College,0
 9.0515491,38.7588473,node/7084722460,,Menen,0
 8.9866742,38.7077567,node/7041052951,,Zenebework,0
@@ -241,6 +244,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.0196382,38.7638714,node/7041071471,,Hilton Hotel (Apartments),0
 9.036585,38.7522608,node/7041071579,,St. George Church,0
 9.0233468,38.7772342,node/7041071473,,Women Square,0
+9.0234508,38.7771738,node/7041071474,,Women Square,0
 8.9007946,38.8152364,node/7098810335,,kilinto Right (Heniken),0
 8.9934001,38.7663984,node/7123265054,,Nazra Hotel,0
 9.0326531,38.6653802,node/7074496217,,Ashewa Meda,0
@@ -463,6 +467,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.0343553,38.7381021,node/10845731585,,Gojam Berenda,0
 9.0342603,38.7378007,node/10845731584,,Gojam Berenda,0
 8.9824223,38.7557408,node/10845731587,,Pepsi,0
+8.8869148,38.7818893,node/10845731586,,Derartu,0
 8.9976331,38.7718334,node/6373574986,,Bole Printing Press,0
 9.0247282,38.7457773,node/10845731574,,kebele 11,0
 9.0606875,38.8812971,node/7037183569,,Aba Kiros,0
@@ -492,10 +497,12 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.0019915,38.8575794,node/7098833732,,Gomista,0
 9.01043660009,38.76879995,way/758922739,,Bambis,0
 9.021617,38.8400876,node/7098833730,,St. Michael,0
+9.020619,38.8535182,node/10886427077,,Yetebaberut,0
 8.9838697,38.6960209,node/7084932741,,Ayer Tena (Alemu Abera),0
 9.0208488,38.8504565,node/7098833737,,CMC (Apartments),0
 9.0213594001,38.8426211,way/758915882,,St. Michael,0
 9.0214511001,38.8426345,way/758915883,,St. Michael,0
+9.0206693,38.7715231,node/7041071466,,Meles Zenawi Foundation,0
 9.0199107,38.7675809,node/7041071464,,St. Gebriel,0
 9.0193852,38.7680315,node/7041071465,,Zenebewerk Hotel,0
 9.0118738,38.7626376,node/7041071462,,St. Estifanos Church,0
@@ -610,7 +617,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.0319356,38.7512565,node/6967281241,,Piassa (Downtown Cafe),0
 9.0330123,38.7526242,node/6967281242,,Piassa Arada (2),0
 8.8956285,38.7720203,node/10845840895,,kality Meneharia,0
-8.9379482,38.76294,node/10842129005,,Kality Customs,0
+8.9379429,38.7628904,node/10842129005,,Kality Customs,0
 8.9470109,38.7342372,node/7103202617,,Mebrathile (EEPCo),0
 8.9357766,38.7441248,node/10842129008,,Hana mariam,0
 8.9373819,38.7703639,node/10842129009,,Gomista,0
@@ -756,7 +763,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.0689298,38.875565,node/7022397420,,Yeka Abado G13,0
 9.0688377,38.8756232,node/7022397421,,Yeka Abado G13,0
 8.9093265,38.7645559,node/10842129048,,Kality Gebriel,0
-8.9309368,38.7544146,node/7074561393,,Hana Mariam,0
+8.9357353,38.7643342,node/10842129126,,kality Maseltegna,0
 8.9518942,38.7863461,node/10842129125,,Bulbula,0
 9.03409105009,38.7329878,way/759359431,,Autobus Tera,0
 9.0182711,38.8017521,node/7037142442,,Megenagna,0
@@ -922,6 +929,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 8.9393928,38.8217947,node/7098810343,,Endorro 2,0
 8.9673959,38.720836,node/7041052939,,Jemo Michael,0
 8.9068482,38.7654586,node/10842129088,,Kality Cheralia,0
+8.9066965,38.7653555,node/10842129089,,Kality Cheralia,0
 9.0191125,38.746758,node/10892863230,,Tikur Anbesa,0
 8.9943894,38.717673,node/10672961242,,3 Kutir (TZNA Area),0
 9.0189315,38.8201425,node/7123180297,,Gurd Shola,0
@@ -988,6 +996,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.0348925,38.8281186,node/7110438111,,Kotebe 01,0
 8.992776,38.715946,node/7078406239,,3 Kutir Mazoriya (Total),0
 9.0301828,38.7373348,node/7111821015,AB018,Autobis Tera (Adarash),0
+9.0216842,38.7887833,node/7111821016,,Dinberwa Hospital (1),0
 9.0354591,38.7588358,node/7111821010,,4 Kilo (Berhan Selam Printing),0
 9.0325113,38.7538404,node/7111821011,,Piassa (EPPCO),0
 9.0716602,38.7369836,node/7076294512,,Del Ber,0
@@ -999,6 +1008,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 8.9795049,38.6853911,node/7078406237,,Repi (Gerar),0
 8.9822452,38.6939258,node/7078406236,,Ayer Tena (Gerar-Repi),0
 9.0330948,38.8442968,node/7037183504,,Wessen,0
+9.02034,38.8000136,node/7037142467,,Megenagna / Zefmesh,0
 9.0330982,38.8446898,node/7037183507,,Wessen (Mariam),0
 9.0169433,38.8025239,node/10887120330,,Mulugeta Building,0
 9.030459,38.838592,node/7037183501,,Wessen Michael,0
@@ -1067,6 +1077,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.0331479,38.7516761,node/6728583386,,Arada,0
 9.0080412,38.8031745,node/10893030388,,Anbessa Garage,0
 9.0035488,38.8169267,node/10893030389,,Jacros,0
+8.9309368,38.7544146,node/7074561393,,Hana Mariam,0
 9.0418236,38.6217166,node/6967318740,,Gojo,0
 9.017758,38.7950715,node/10886427068,,Lem Hotel,0
 9.010735,38.7471393,node/7074707878,,Mexico,0
@@ -1097,7 +1108,7 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.0348007,38.8490303,node/10781643837,,Kotebe Teachers College,0
 8.9901805,38.7938037,node/10887120324,,Bole Bridge,0
 8.8747821,38.8201689,node/7037142462,,Tulu Dimtu Adebabay,0
-8.8869247,38.7819709,node/10842129027,,Derartu (Kality 08),0
+8.8869211,38.7821218,node/10842129027,,Derartu,0
 8.8738867,38.7887564,node/7037142448,,Akaki Beretaberet,0
 9.0317457,38.7374552,node/7111821013,,Autobis Tera (Adarash),0
 8.94963,38.7332384,node/7107670563,,Mebrathile (EEPCo),0
