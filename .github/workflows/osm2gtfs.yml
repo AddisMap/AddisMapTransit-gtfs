@@ -16,21 +16,22 @@ jobs:
       with:
         repository: AddisMap/osm2gtfs
         ref: refs/heads/develop-flex-python3  
-        path: ../osm2gtfs 
+        path: osm2gtfs 
     - name: Set up Python 3
       uses: actions/setup-python@v3
       with:
         python-version: 3.x
     - name: Install dependencies
       run: |
-        cd ../osm2gtfs
+        cd osm2gtfs
         pip install -e .
     - name: Run
       run: |
-        cd ../osm2gtfs      
-        osm2gtfs -c osm2gtfs/creators/et_addisababa/config.json --refresh-all 2>&1 | tee ..//AddisMapTransit-gtfs/generation.log
-        cp data/et-addisababa.zip ../AddisMapTransit-gtfs/
-        cd ../AddisMapTransit-gtfs/
+        cd osm2gtfs      
+        osm2gtfs -c osm2gtfs/creators/et_addisababa/config.json --refresh-all 2>&1 | tee ..//generation.log
+        cp data/et-addisababa.zip ../
+        cd ../
+        rm -r osm2gtfs
         unzip et-addisababa.zip
         rm et-addisababa.zip
         find
