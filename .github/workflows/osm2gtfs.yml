@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         repository: AddisMap/osm2gtfs
-        ref: refs/heads/develop-flex   
+        ref: refs/heads/develop-flex-python3  
         path: osm2gtfs 
     - name: Set up Python 3
       uses: actions/setup-python@v3
