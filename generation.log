@@ -35,14 +35,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10521608
 WARNING:root:  Problem at: https://osm.org/way/1183374331
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547201
 WARNING:root:  Problem at: https://osm.org/way/760620922
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10547200
-WARNING:root:  Problem at: https://osm.org/way/760620928
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15876623
-WARNING:root:  Problem at: https://osm.org/way/1166096267
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15861781
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15961303
-WARNING:root:  Problem at: https://osm.org/way/1171110127
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15591315
 WARNING:root:  Problem at: https://osm.org/way/1166096267
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15591213
@@ -51,24 +43,10 @@ WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/15844904
 WARNING:root:Using 'ref' from member variant instead
 WARNING:root:https://osm.org/relation/15591212
-WARNING:root:Invalid colour: Minibus Kal 009: Sefera Square <=> Akaki Gebeya found in OSM data
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15845948
-WARNING:root:  Problem at: https://osm.org/way/761078793
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15845949
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10479676
-WARNING:root:  Problem at: https://osm.org/way/208713957
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10479677
-WARNING:root:  Problem at: https://osm.org/way/1175758006
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541124
 WARNING:root:  Problem at: https://osm.org/way/760793206
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541123
 WARNING:root:  Problem at: https://osm.org/way/422479024
-WARNING:root:Warning: This relation route master:
-WARNING:root: https://osm.org/relation/15842386
-WARNING:root: has a member which is not a valid itinerary:
-WARNING:root: https://osm.org/relation/15842384
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10406489
 WARNING:root:  Problem at: https://osm.org/way/760620922
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10406490
@@ -77,26 +55,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10550798
 WARNING:root:  Problem at: https://osm.org/way/43456240
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550799
 WARNING:root:  Problem at: https://osm.org/way/36403853
-WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
-WARNING:root: https://osm.org/relation/15909991
-WARNING:root:Using 'ref' from member variant instead
-WARNING:root:https://osm.org/relation/15909989
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15862748
-WARNING:root:  Problem at: https://osm.org/way/532715229
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15862750
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15862750
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10465901
 WARNING:root:  Problem at: https://osm.org/way/758158813
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10533495
 WARNING:root:  Problem at: https://osm.org/way/588529668
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10533496
-WARNING:root:  Problem at: https://osm.org/way/755468009
-WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
-WARNING:root: https://osm.org/relation/15633036
-WARNING:root:Using 'ref' from member variant instead
-WARNING:root:https://osm.org/relation/15633035
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10534540
 WARNING:root:  Problem at: https://osm.org/way/24278704
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10534539
@@ -113,74 +75,18 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10542240
 WARNING:root:  Problem at: https://osm.org/way/255542233
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10542239
 WARNING:root:  Problem at: https://osm.org/way/760587281
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15858339
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15904625
-WARNING:root:  Problem at: https://osm.org/way/1175976366
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15998426
-WARNING:root:  Problem at: https://osm.org/way/1183640801
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15958642
-WARNING:root:  Problem at: https://osm.org/way/1171110127
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15841978
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15910593
-WARNING:root:  Problem at: https://osm.org/way/1175976366
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/15858957
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10480335
 WARNING:root:  Problem at: https://osm.org/way/1166096267
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15913169
-WARNING:root:  Problem at: https://osm.org/way/1094731470
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15900881
-WARNING:root:  Problem at: https://osm.org/way/1175618695
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15900882
-WARNING:root:  Problem at: https://osm.org/way/1175618693
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15858403
-WARNING:root:  Problem at: https://osm.org/way/1171110127
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15858404
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/15841977
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460406
 WARNING:root:  Problem at: https://osm.org/way/304871585
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10460405
-WARNING:root:  Problem at: https://osm.org/way/755468009
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15961339
-WARNING:root:  Problem at: https://osm.org/way/1175976366
-WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
-WARNING:root: https://osm.org/relation/15910153
-WARNING:root:Using 'ref' from member variant instead
-WARNING:root:https://osm.org/relation/15910152
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15973776
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15973776
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15864075
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15864075
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/15858957
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15858958
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15867149
-WARNING:root:  Problem at: https://osm.org/way/496175954
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15797530
-WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
-WARNING:root: https://osm.org/relation/15962159
-WARNING:root:Using 'ref' from member variant instead
-WARNING:root:https://osm.org/relation/15962157
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10399952
 WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10399951
 WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15833377
-WARNING:root:  Problem at: https://osm.org/way/1171110127
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15846182
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15846182
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10406696
 WARNING:root:  Problem at: https://osm.org/way/762340635
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10406694
@@ -191,72 +97,22 @@ WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15871275
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15487613
 WARNING:root:  Problem at: https://osm.org/way/1166096267
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10568475
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10568474
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15676210
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10567916
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10567917
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15676211
-WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10551604
 WARNING:root:  Problem at: https://osm.org/way/45902026
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10551603
 WARNING:root:  Problem at: https://osm.org/way/1175758006
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10694719
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10694129
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15676215
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10568346
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10568345
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15676212
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/15633035
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10667604
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15676214
-WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547524
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547525
 WARNING:root:  Problem at: https://osm.org/way/25091553
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15901019
-WARNING:root:  Problem at: https://osm.org/way/533157309
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15901018
-WARNING:root:  Problem at: https://osm.org/way/24814296
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15916628
-WARNING:root:  Problem at: https://osm.org/way/532948926
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15865947
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15865947
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15845950
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15845950
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15845950
-WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10479676
+WARNING:root:  Problem at: https://osm.org/way/208713957
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10479677
+WARNING:root:  Problem at: https://osm.org/way/1175758006
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550648
 WARNING:root:  Problem at: https://osm.org/way/1175647839
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550649
 WARNING:root:  Problem at: https://osm.org/way/384392299
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15917948
-WARNING:root:  Problem at: https://osm.org/way/1171110127
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10533757
 WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10533756
@@ -302,46 +158,18 @@ WARNING:root:  Problem at: https://osm.org/way/758158807
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10521542
 WARNING:root:  Problem at: https://osm.org/way/758158813
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15880659
+WARNING:root:https://osm.org/relation/15862750
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15880659
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10567916
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10567917
+WARNING:root:https://osm.org/relation/15862750
 WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15652317
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10568475
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10568474
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15652318
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
-WARNING:root: https://osm.org/relation/15905759
-WARNING:root:Using 'ref' from member variant instead
-WARNING:root:https://osm.org/relation/15905757
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10715392
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/15652319
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/15652320
+WARNING:root: https://osm.org/relation/15862750
 WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/15862749
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/15862748
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15862748
-WARNING:root:  Problem at: https://osm.org/way/532715229
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15858150
-WARNING:root:  Problem at: https://osm.org/way/1171110127
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10466288
 WARNING:root:  Problem at: https://osm.org/way/221437411
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15918069
-WARNING:root:  Problem at: https://osm.org/way/1175618693
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15923409
 WARNING:root: Please fix in OpenStreetMap
@@ -357,6 +185,8 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15880332
 WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15880332
+WARNING:root:  Problem at: https://osm.org/way/381626296
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15880332
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -368,10 +198,6 @@ WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15601842
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15601842
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15861961
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15861961
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15601900
 WARNING:root: Please fix in OpenStreetMap
@@ -573,10 +399,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15520470
 WARNING:root:  Problem at: https://osm.org/way/24278704
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15520470
 WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15850225
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15850225
-WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15479251
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15479251
@@ -585,8 +407,6 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15602430
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15602430
-WARNING:root:  Problem at: https://osm.org/way/755468009
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15602430
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -733,8 +553,6 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15588800
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15588800
-WARNING:root:  Problem at: https://osm.org/way/755468009
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15588800
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15402481
@@ -855,18 +673,6 @@ WARNING:root: https://osm.org/relation/15488330
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15488330
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15863783
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15863783
-WARNING:root:  Problem at: https://osm.org/way/532715229
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15863783
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15863784
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15863784
 WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:(
@@ -1556,7 +1362,7 @@ INFO:root:Added stop: Jemmo 1 - https://osm.org/node/10905772004
 INFO:root:Added stop: Kality Customs - https://osm.org/node/10842129005
 INFO:root:Added stop: Germen Square - https://osm.org/node/10842129006
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041499
-INFO:root:Added stop: Hana mariam - https://osm.org/node/10842129008
+INFO:root:Added stop: Hana Mariam - https://osm.org/node/10842129008
 INFO:root:Added stop: Gomista - https://osm.org/node/10842129009
 INFO:root:Added stop: St. George Church - https://osm.org/node/7041071580
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/10937167108
@@ -1824,11 +1630,9 @@ INFO:root:Added stop: Hilton Hotel (Apartments) - https://osm.org/node/704107147
 INFO:root:Added stop: Women Square - https://osm.org/node/7041071473
 INFO:root:Added stop: Merab Hotel - https://osm.org/node/10909186648
 INFO:root:Added stop: Women Square - https://osm.org/node/7041071474
-INFO:root:Added stop: Kassech Kitfo - https://osm.org/node/7122983961
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/7054842410
 INFO:root:Added stop: WAGGA (Singer Liquior Store) - https://osm.org/node/7122983963
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/7054842414
-INFO:root:Added stop: Ambasel - https://osm.org/node/7122983962
 INFO:root:Added stop: TAF Oil (Tulu Dimtu) - https://osm.org/node/7112648172
 INFO:root:Added stop: Belay Ab Moters (Alem Bank) - https://osm.org/node/7112648171
 INFO:root:Added stop: Belay Ab Moters - https://osm.org/node/7112648170
@@ -1895,8 +1699,8 @@ INFO:root:Added stop: Sheger Building - https://osm.org/node/10845731589
 INFO:root:Added stop: Global Hotel - https://osm.org/node/10845731588
 INFO:root:Added stop: Mariam - https://osm.org/node/10926040103
 INFO:root:Added stop: Mariam - https://osm.org/node/10926040104
-INFO:root:Added stop: Ananuel Total - https://osm.org/node/10936490565
-INFO:root:Added stop: Leghar - https://osm.org/node/10845731581
+INFO:root:Added stop: Amanuel Total - https://osm.org/node/10936490565
+INFO:root:Added stop: Legehar - https://osm.org/node/10845731581
 INFO:root:Added stop: Saris Abo - https://osm.org/node/10845731580
 INFO:root:Added stop: Kality Customs - https://osm.org/node/10845731583
 INFO:root:Added stop: Kera - https://osm.org/node/10845731582
@@ -2087,7 +1891,6 @@ INFO:root:Added stop: Kara Kore - https://osm.org/node/7078406235
 INFO:root:Added stop: Gerji Mebrat Haile - https://osm.org/node/7037142483
 INFO:root:Added stop: Repi (Gerar) - https://osm.org/node/7078406237
 INFO:root:Added stop: Sara Ampol - https://osm.org/node/7037183567
-INFO:root:Added stop: Mulugeta Building - https://osm.org/node/10887120330
 INFO:root:Added stop: Rufael - https://osm.org/node/10924211093
 INFO:root:Added stop: Torhayloch - https://osm.org/node/10909186654
 INFO:root:Added stop: Torhayloch - https://osm.org/node/10909186655
@@ -2136,7 +1939,7 @@ INFO:root:Added stop: Bulgaria - https://osm.org/node/10842129057
 INFO:root:Added stop: Yoseph - https://osm.org/node/10842129056
 INFO:root:Added stop: Sheger building - https://osm.org/node/10842129055
 INFO:root:Added stop: Bole Mickael - https://osm.org/node/10842129054
-INFO:root:Added stop: Hana mariam - https://osm.org/node/10842129053
+INFO:root:Added stop: Hana Mariam - https://osm.org/node/10842129053
 INFO:root:Added stop: Wuhalimat - https://osm.org/node/10842129052
 INFO:root:Added stop: Bole Roundabout - https://osm.org/node/10842129051
 INFO:root:Added stop: Kera - https://osm.org/node/7108224469
@@ -2204,7 +2007,7 @@ INFO:root:Added stop: Hayat Hospital - https://osm.org/node/10887120325
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10887120324
 INFO:root:Added stop: Ferensay - https://osm.org/node/10931884719
 INFO:root:Added stop: 4 Kilo - https://osm.org/node/10931884718
-INFO:root:Added stop: 4 Kilo - https://osm.org/node/10766121866
+INFO:root:Added stop: 4 Kilo (Menlik) - https://osm.org/node/10766121866
 INFO:root:Added stop: 6 Kilo (Akim Genbata) - https://osm.org/node/7076310930
 INFO:root:Added stop: Shiromeda Anbessa bus stop - https://osm.org/node/7076310931
 INFO:root:Added stop: Mulugeta Building - https://osm.org/node/10887120328
@@ -2288,7 +2091,7 @@ INFO:root:Added stop: Mesgid - https://osm.org/node/10899590290
 INFO:root:Added stop: Saint Georgis - https://osm.org/node/10899590293
 INFO:root:Added stop: Brass Clinic (Bole) - https://osm.org/node/7057187393
 INFO:root:Added stop: Brass Clinic (Bole) - https://osm.org/node/7057187392
-INFO:root:Added stop: Ananuel Total - https://osm.org/node/10936490564
+INFO:root:Added stop: Amanuel Total - https://osm.org/node/10936490564
 INFO:root:Added stop: Kara - https://osm.org/node/10931809329
 INFO:root:Added stop: Kara - https://osm.org/node/10931809328
 INFO:root:Added stop: Lamberet - https://osm.org/node/10931809327
@@ -2552,7 +2355,7 @@ INFO:root:Added stop: Varnelo Squer - https://osm.org/node/10903398380
 INFO:root:Added stop: Abune Petros - https://osm.org/node/7105840324
 INFO:root:Added stop: kebele 11 - https://osm.org/node/10845731597
 INFO:root:Added stop: Arbegnoch Primary School - https://osm.org/node/7105840326
-INFO:root:Added stop: Total 3 Kutir mazoria - https://osm.org/node/10755917250
+INFO:root:Added stop: Total 3 Kuter Mazoria - https://osm.org/node/10755917250
 INFO:root:Added stop: Enqulal Fabrica - https://osm.org/node/7105840327
 INFO:root:Added stop: Medhanalem - https://osm.org/node/10925835154
 INFO:root:Added stop: Pawlos Hospital - https://osm.org/node/10925835155
@@ -2776,10 +2579,10 @@ INFO:root:Added stop: Abenet - https://osm.org/node/7041071388
 INFO:root:Added stop: MEDCO - https://osm.org/node/7122983969
 INFO:root:Added stop: Wengalawit - https://osm.org/node/7122983968
 INFO:root:Added stop: Wengalawit - https://osm.org/node/7122983964
-INFO:root:Added stop: Emperial Hotel - https://osm.org/node/10890083972
+INFO:root:Added stop: Kassech Kitfo - https://osm.org/node/7122983961
 INFO:root:Added stop: Wello Sefer - https://osm.org/node/7122983960
 INFO:root:Added stop: Hayat Hospital - https://osm.org/node/10890083970
-INFO:root:Added stop: Sport Accadamy - https://osm.org/node/10890083971
+INFO:root:Added stop: Ambasel - https://osm.org/node/7122983962
 INFO:root:Added stop: Saris Abo - https://osm.org/node/10842129040
 INFO:root:Added stop: ERA Office (Big Mak) - https://osm.org/node/7074707880
 INFO:root:Added stop: Saint Josphe School - https://osm.org/node/7074707881
@@ -2796,7 +2599,7 @@ INFO:root:Added stop: Kality Maseltegna - https://osm.org/node/7103202621
 INFO:root:Added stop: Piassa - https://osm.org/node/10925161784
 INFO:root:Added stop: IVECO - https://osm.org/node/7110725246
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041498
-INFO:root:Added stop: Leghar - https://osm.org/node/10922141942
+INFO:root:Added stop: Legehar - https://osm.org/node/10922141942
 INFO:root:Added stop: Medhanialem - https://osm.org/node/7074267434
 INFO:root:Added stop: Winget - https://osm.org/node/7074267435
 INFO:root:Added stop: Pastor - https://osm.org/node/7074267433
@@ -2850,7 +2653,7 @@ INFO:root:Added stop: Atikilt Tera - https://osm.org/way/759354438
 INFO:root:Added stop: Ras Hailu (Medhanialem) - https://osm.org/node/7113004014
 INFO:root:Added stop: Kore - https://osm.org/node/10842129122
 INFO:root:Added stop: Yeka Abado G13 - https://osm.org/node/7022397420
-INFO:root:Added stop: Haile garment - https://osm.org/node/10842129120
+INFO:root:Added stop: Haile Garment - https://osm.org/node/10842129120
 INFO:root:Added stop: Autobus Tera - https://osm.org/way/759359432
 INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10842129126
 INFO:root:Added stop: Bulbula - https://osm.org/node/10842129125
@@ -3067,14 +2870,14 @@ Generating schedule for line: 10550800
 Generating schedule for line: 10551230
 Generating schedule for line: 10551231
 Generating schedule for line: 10551605
-Generating schedule for line: 10567918
-Generating schedule for line: 10568347
 Generating schedule for line: 10568476
-Generating schedule for line: 10694720
 Generating schedule for line: 15625520
 Generating schedule for line: 15633036
 Generating schedule for line: 15656246
+Generating schedule for line: 15676211
+Generating schedule for line: 15676212
 Generating schedule for line: 15676213
+Generating schedule for line: 15676215
 Generating schedule for line: 15677019
 Generating schedule for line: 15677252
 Generating schedule for line: 15774596
@@ -3091,9 +2894,12 @@ Generating schedule for line: 15841839
 Generating schedule for line: 15841978
 Generating schedule for line: 15842386
 Generating schedule for line: 15842687
-Generating schedule for line: 15842820
 Generating schedule for line: 15844903
 Generating schedule for line: 15844904
+Generating schedule for line: 15845949
+Generating schedule for line: 15845950
+WARNING: No duration set --- Using default travel time for route with OSM ID 15845945
+WARNING: No duration set --- Using default travel time for route with OSM ID 15845946
 Generating schedule for line: 15846182
 Generating schedule for line: 15850226
 Generating schedule for line: 15850509
@@ -3108,7 +2914,6 @@ Generating schedule for line: 15858887
 Generating schedule for line: 15858958
 Generating schedule for line: 15861781
 Generating schedule for line: 15861962
-Generating schedule for line: 15862750
 Generating schedule for line: 15863782
 Generating schedule for line: 15863862
 Generating schedule for line: 15864075
@@ -3317,18 +3122,19 @@ Generating schedule for line: 16007850
 Generating schedule for line: 16007931
 Generating schedule for line: 16008090
 Generating schedule for line: 16008308
+Generating schedule for line: 16028728
 Generating schedule for line: 16588
 Generating schedule for line: 17329
 frequency not a number for route_master 15402322
 Generating schedule for line: 18717
 Generating schedule for line: 23519
-frequency not a number for route_master 15402481
+frequency not a number for route_masteINFO:root:Removed 9 unused stops
+r 15402481
 Generating schedule for line: 24967
 frequency not a number for route_master 15402290
 Generating schedule for line: 29879
 frequency not a number for route_master 15402577
-travel_time not a number / excINFO:root:Removed 11 unused stops
-eption thrown for route with OSM ID 15402577
+travel_time not a number / exception thrown for route with OSM ID 15402577
 Generating schedule for line: 32046
 frequency not a number for route_master 15405838
 Generating schedule for line: 36032
@@ -3364,9 +3170,6 @@ Generating schedule for line: AB3
 Generating schedule for line: AB4
 Generating schedule for line: AB5
 Generating schedule for line: AB8
-Generating schedule for line: Minibus Bole 005
-Generating schedule for line: Minibus Lafto 003
-Generating schedule for line: Minibus Lafto 006
 Generating schedule for line: SH001
 Generating schedule for line: SH002
 Generating schedule for line: SH003
@@ -3412,7 +3215,7 @@ The stops "Kality Total" (ID node/7112648161) and "Kality Total" (ID
 node/10846106471) are 1.78m apart and probably represent the same location.
 The stops "Sefera" (ID node/7047495433) and "Sefera" (ID node/10901428143) are
 1.92m apart and probably represent the same location.
-The stops "Haile garment" (ID node/10842129120) and "Haile Garment" (ID
+The stops "Haile Garment" (ID node/10842129120) and "Haile Garment" (ID
 node/7078164251) are 0.60m apart and probably represent the same location.
 The stops "Haile Garment" (ID node/10842129016) and "Haile Garment" (ID
 node/7049122266) are 0.52m apart and probably represent the same location.
@@ -3642,13 +3445,19 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
+Invalid value Minibus KRK 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
 Invalid value Minibus Lafto 016 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 011: in field route_short_name
+Invalid value Minibus Lafto 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -3727,12 +3536,6 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value Minibus LK 012 in field route_short_name
-This route_short_name is relatively long, which probably means that it
-contains a place name.  You should only use this field to hold a short code
-that riders use to identify a route.  If this route doesn't have such a code,
-it's OK to leave this field empty.
- column route_short_name
-Invalid value Minibus Lafto 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -3876,12 +3679,6 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 004 in field route_short_name
-This route_short_name is relatively long, which probably means that it
-contains a place name.  You should only use this field to hold a short code
-that riders use to identify a route.  If this route doesn't have such a code,
-it's OK to leave this field empty.
- column route_short_name
 Invalid value Minibus YK 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
@@ -3907,12 +3704,6 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value Minibus LID 010 in field route_short_name
-This route_short_name is relatively long, which probably means that it
-contains a place name.  You should only use this field to hold a short code
-that riders use to identify a route.  If this route doesn't have such a code,
-it's OK to leave this field empty.
- column route_short_name
-Invalid value Minibus Bole 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -4008,7 +3799,7 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 003 in field route_short_name
+Invalid value Minibus Kolfe 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -4051,6 +3842,18 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value Minibus Kal 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Minibus Bole 014 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Minibus Bole 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -4182,7 +3985,7 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 0014 in field route_short_name
+Invalid value Minibus Kolfa 014 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -4218,7 +4021,7 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bolr 012 in field route_short_name
+Invalid value Minibus Bole 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -4362,12 +4165,6 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 006 in field route_short_name
-This route_short_name is relatively long, which probably means that it
-contains a place name.  You should only use this field to hold a short code
-that riders use to identify a route.  If this route doesn't have such a code,
-it's OK to leave this field empty.
- column route_short_name
 Invalid value Minibus LK 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
@@ -4429,6 +4226,12 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value Minibus Lafto 042 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Minibus Lafto 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -4507,6 +4310,12 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value Minibus Kal 032 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Minibus Kolfa 031 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -4644,12 +4453,6 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 031 in field route_short_name
-This route_short_name is relatively long, which probably means that it
-contains a place name.  You should only use this field to hold a short code
-that riders use to identify a route.  If this route doesn't have such a code,
-it's OK to leave this field empty.
- column route_short_name
 Invalid value Minibus Kolfa 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
@@ -4728,12 +4531,6 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 014 in field route_short_name
-This route_short_name is relatively long, which probably means that it
-contains a place name.  You should only use this field to hold a short code
-that riders use to identify a route.  If this route doesn't have such a code,
-it's OK to leave this field empty.
- column route_short_name
 Invalid value Minibus YK 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
@@ -4752,7 +4549,7 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus 009 in field route_short_name
+Invalid value Minibus Lafto 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -5034,12 +4831,6 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 006 in field route_short_name
-This route_short_name is relatively long, which probably means that it
-contains a place name.  You should only use this field to hold a short code
-that riders use to identify a route.  If this route doesn't have such a code,
-it's OK to leave this field empty.
- column route_short_name
 Invalid value Minibus KRK 017 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
@@ -5065,20 +4856,22 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
 The trip with the trip_id "606" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 606
+The trip with the trip_id "641" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 641
 High speed travel detected in trip 640: Awash Bank (Akaki Kality) to Selam
 Building. 35 meters in 1 seconds. (128 km/h).
 High speed travel detected in trip 640: Mamo (NFSL TVET) to Mamo (NFSL). 7
 meters in 0 seconds.
 High speed travel detected in trip 640: Saris to Saris (CBE/Shoa Bakery). 6
 meters in 0 seconds.
+The trip with the trip_id "643" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 643
+The trip with the trip_id "642" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 642
 The trip with the trip_id "645" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 645
 The trip with the trip_id "644" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 644
-The trip with the trip_id "230" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 230
-The trip with the trip_id "231" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 231
 The trip with the trip_id "610" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 610
 The trip with the trip_id "611" doesn't have any stop times defined.
@@ -5089,10 +4882,6 @@ The trip with the trip_id "607" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 607
 The trip with the trip_id "621" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 621
-The trip with the trip_id "656" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 656
-The trip with the trip_id "657" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 657
 The trip with the trip_id "654" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 654
 The trip with the trip_id "652" doesn't have any stop times defined.
@@ -5103,18 +4892,16 @@ The trip with the trip_id "650" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 650
 The trip with the trip_id "651" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 651
-The trip with the trip_id "655" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 655
-The trip with the trip_id "666" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 666
-The trip with the trip_id "665" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 665
-The trip with the trip_id "664" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 664
+The trip with the trip_id "659" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 659
 The trip with the trip_id "663" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 663
 The trip with the trip_id "662" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 662
+The trip with the trip_id "661" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 661
+The trip with the trip_id "660" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 660
 The trip with the trip_id "605" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 605
 The trip with the trip_id "604" doesn't have any stop times defined.
@@ -5123,10 +4910,10 @@ The trip with the trip_id "603" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 603
 The trip with the trip_id "602" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 602
-The trip with the trip_id "504" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 504
-The trip with the trip_id "505" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 505
+The trip with the trip_id "502" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 502
+The trip with the trip_id "503" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 503
 The trip with the trip_id "632" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 632
 The trip with the trip_id "633" doesn't have any stop times defined.
@@ -5141,6 +4928,10 @@ The trip with the trip_id "649" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 649
 The trip with the trip_id "648" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 648
+The trip with the trip_id "229" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 229
+The trip with the trip_id "228" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 228
 The trip with the trip_id "609" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 609
 The trip with the trip_id "608" doesn't have any stop times defined.
