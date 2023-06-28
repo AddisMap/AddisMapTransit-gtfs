@@ -32,6 +32,6 @@ jobs:
         cp data/et-addisababa.zip ../
         cd ../
         rm -r osm2gtfs
-        unzip et-addisababa.zip
+        unzip -o et-addisababa.zip
         rm et-addisababa.zip
         find
