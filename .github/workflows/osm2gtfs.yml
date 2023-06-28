@@ -1,7 +1,10 @@
 name: OSM2GTFS for Addis Ababa
 
-on: [workflow_dispatch]
-
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  
 permissions:
   contents: write
 
