@@ -1,2 +1,2 @@
-feed_publisher_name,feed_publisher_url,feed_end_date,feed_lang,feed_start_date,feed_version
-AddisMap,http://addismap.com,20991231,en,20191201,0.1
+feed_publisher_name,feed_start_date,feed_lang,feed_publisher_url,feed_end_date,feed_version
+AddisMap,20191201,en,http://addismap.com,20991231,0.1
