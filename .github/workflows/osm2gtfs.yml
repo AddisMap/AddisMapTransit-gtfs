@@ -24,8 +24,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd osm2gtfs
-        pip install -r requirements.txt
-        pip install -e
+        pip install -e .
     - name: Run
       run: |
         cd osm2gtfs      
