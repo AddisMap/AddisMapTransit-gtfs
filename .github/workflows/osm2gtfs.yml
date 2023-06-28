@@ -7,14 +7,16 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Checkout osm2gtfs repo
+      uses: actions/checkout@v3
       with:
-        name: AddisMap/osm2gtfs
+        repository: AddisMap/osm2gtfs
         ref: refs/heads/develop-flex   
+        path: osm2gtfs 
     - name: Set up Python 2
       uses: actions/setup-python@v2
     - name: Install dependencies
