@@ -19,4 +19,4 @@ If you want to use this data please contact info@addismap.com
 
 * https://addismaptransit.com/
 * [Web Transit Planner](https://web.addismaptransit.com/)
-* [Transit Map](https://xn--pnvkarte-m4a.de/#38.7864;8.9797;13)
+* [Transit Map](https://xn--pnvkarte-m4a.de/#38.7864;8.9797;13) (delayed update frequency)
