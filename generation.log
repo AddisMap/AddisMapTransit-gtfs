@@ -151,6 +151,8 @@ WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15883171
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15883171
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15900882
+WARNING:root:  Problem at: https://osm.org/way/648257956
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15402290
 WARNING:root: Please fix in OpenStreetMap
