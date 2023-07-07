@@ -154,63 +154,11 @@ WARNING:root:https://osm.org/relation/15883171
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15900882
 WARNING:root:  Problem at: https://osm.org/way/648257956
 WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15402290
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15402290
-WARNING:root:  Problem at: https://osm.org/way/717920972
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15402290
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15402322
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15402322
-WARNING:root:  Problem at: https://osm.org/way/954653520
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15402322
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15402481
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15402481
-WARNING:root:  Problem at: https://osm.org/way/717920972
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15402481
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15402540
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15402540
-WARNING:root:  Problem at: https://osm.org/way/163598649
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15402540
-WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15402577
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15402577
 WARNING:root:  Problem at: https://osm.org/way/532925100
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15402577
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15405615
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15405615
-WARNING:root:  Problem at: https://osm.org/way/283562282
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15405615
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15405838
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15405838
-WARNING:root:  Problem at: https://osm.org/way/761043762
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15405838
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15405986
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15405986
-WARNING:root:  Problem at: https://osm.org/way/1184264181
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15405986
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15406407
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15406407
-WARNING:root:  Problem at: https://osm.org/way/1184223478
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15406407
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15406461
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15406461
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15477232
 WARNING:root: Please fix in OpenStreetMap
@@ -678,46 +626,6 @@ INFO:root:(
             rel(bn:"platform")["public_transport"="stop_area"];
             out body;
             );
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/way/567853980
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/way/1174065347
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/1175729044
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464611810
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720697
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720698
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720701
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720702
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720703
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720704
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720705
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720706
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720707
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720708
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720709
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720710
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720711
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720713
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720714
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/5464720716
 WARNING:root:Warning: Potential stop is invalid and has been ignored.
 WARNING:root: Check tagging: https://osm.org/node/5732559685
 WARNING:root:Warning: Potential stop is invalid and has been ignored.
@@ -3108,25 +3016,9 @@ Generating schedule for line: 16008090
 Generating schedule for line: 16008308
 Generating schedule for line: 16028728
 Generating schedule for line: 16028886
-Generating schedule for line: 16588
-Generating schedule for line: 17329
-frequency not a number for route_master 15402322
-Generating schedule for line: 18717
-Generating schedule for line: 23519
-frequency not a number for route_master 15402481
-Generating schedule for line: 24967
-frequency not a number for route_master 15402290
 Generating schedule for line: 29879
 frequency not a number for route_master 15402577
 travel_time not a number / exception thrown for route with OSM ID 15402577
-Generating schedule for line: 32046
-frequency not a number for route_master 15405838
-Generating schedule for line: 36032
-frequency not a number for route_master 15402540
-Generating schedule for line: 37245
-frequency not a number for route_master 15405615
-Generating schedule for line: 42667
-travel_time not a number / exception thrown for route with OSM ID 15405986
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 Generating schedule for line: AB007
@@ -4846,42 +4738,40 @@ The trip with the trip_id "501" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 501
 The trip with the trip_id "602" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 602
-The trip with the trip_id "603" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 603
-The trip with the trip_id "604" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 604
-The trip with the trip_id "605" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 605
-The trip with the trip_id "606" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 606
 The trip with the trip_id "607" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 607
-The trip with the trip_id "608" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 608
-The trip with the trip_id "609" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 609
 The trip with the trip_id "610" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 610
-The trip with the trip_id "611" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 611
-The trip with the trip_id "616" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 616
-The trip with the trip_id "619" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 619
-The trip with the trip_id "621" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 621
+The trip with the trip_id "612" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 612
+The trip with the trip_id "623" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 623
+The trip with the trip_id "624" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 624
+The trip with the trip_id "627" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 627
+High speed travel detected in trip 631: Mamo (NFSL TVET) to Mamo (NFSL). 7
+meters in 0 seconds.
+High speed travel detected in trip 631: Saris to Saris (CBE/Shoa Bakery). 6
+meters in 0 seconds.
 The trip with the trip_id "632" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 632
 The trip with the trip_id "633" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 633
+The trip with the trip_id "634" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 634
+The trip with the trip_id "635" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 635
 The trip with the trip_id "636" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 636
-High speed travel detected in trip 640: Awash Bank (Akaki Kality) to Selam
-Building. 35 meters in 1 seconds. (128 km/h).
-High speed travel detected in trip 640: Mamo (NFSL TVET) to Mamo (NFSL). 7
-meters in 0 seconds.
-High speed travel detected in trip 640: Saris to Saris (CBE/Shoa Bakery). 6
-meters in 0 seconds.
+The trip with the trip_id "637" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 637
+The trip with the trip_id "638" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 638
+The trip with the trip_id "639" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 639
+The trip with the trip_id "640" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 640
 The trip with the trip_id "641" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 641
 The trip with the trip_id "642" doesn't have any stop times defined.
@@ -4892,14 +4782,6 @@ The trip with the trip_id "644" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 644
 The trip with the trip_id "645" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 645
-The trip with the trip_id "646" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 646
-The trip with the trip_id "647" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 647
-The trip with the trip_id "648" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 648
-The trip with the trip_id "649" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 649
 The trip with the trip_id "650" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 650
 The trip with the trip_id "651" doesn't have any stop times defined.
@@ -4910,13 +4792,3 @@ The trip with the trip_id "653" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 653
 The trip with the trip_id "654" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 654
-The trip with the trip_id "659" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 659
-The trip with the trip_id "660" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 660
-The trip with the trip_id "661" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 661
-The trip with the trip_id "662" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 662
-The trip with the trip_id "663" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 663
