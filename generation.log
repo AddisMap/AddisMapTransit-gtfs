@@ -153,6 +153,10 @@ WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15883171
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15900882
 WARNING:root:  Problem at: https://osm.org/way/648257956
+WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
+WARNING:root: https://osm.org/relation/16067901
+WARNING:root:Using 'ref' from member variant instead
+WARNING:root:https://osm.org/relation/16067899
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15402577
 WARNING:root: Please fix in OpenStreetMap
@@ -605,6 +609,10 @@ WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15923719
 WARNING:root:  Problem at: https://osm.org/way/1183705283
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15923719
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/16069230
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/16069230
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -1119,6 +1127,7 @@ INFO:root:Added stop: Salite Mihret - https://osm.org/node/7037183498
 INFO:root:Added stop: Hillside (Ethio-China Mebrathaile) - https://osm.org/node/7037183499
 INFO:root:Added stop: Wessen Michael - https://osm.org/node/7037183501
 INFO:root:Added stop: Wessen - https://osm.org/node/7037183504
+INFO:root:Added stop: Wessen - https://osm.org/node/7037183505
 INFO:root:Added stop: Wessen (Mariam) - https://osm.org/node/7037183507
 INFO:root:Added stop: Kotebe Teachers College - https://osm.org/node/7037183508
 INFO:root:Added stop: Yabem Hotel - https://osm.org/node/7037183509
@@ -1369,6 +1378,9 @@ INFO:root:Added stop: Teferi Mekonen - https://osm.org/node/7041071726
 INFO:root:Added stop: Sebseba Maekel - https://osm.org/node/7041071729
 INFO:root:Added stop: Eyesus - https://osm.org/node/7041071737
 INFO:root:Added stop: Hamle 19 - https://osm.org/node/7041071738
+INFO:root:Added stop: Selassie - https://osm.org/node/7041071740
+INFO:root:Added stop: Sanba Nekersa-Shiromeda - https://osm.org/node/7041071741
+INFO:root:Added stop: Kuskoam - https://osm.org/node/7041071742
 INFO:root:Added stop: Dil Ber - https://osm.org/node/7041071749
 INFO:root:Added stop: Anbessa Garage (Shegole) - https://osm.org/node/7041071753
 INFO:root:Added stop: Entoto Kela - https://osm.org/node/7041071755
@@ -1489,6 +1501,7 @@ INFO:root:Added stop: Gojo - https://osm.org/node/7074496225
 INFO:root:Added stop: Alem Bank - https://osm.org/node/7074504387
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/7074504388
 INFO:root:Added stop: Betel - https://osm.org/node/7074504390
+INFO:root:Added stop: Mendida - https://osm.org/node/7074504392
 INFO:root:Added stop: Mebrat Nigist Hotel - https://osm.org/node/7074525370
 INFO:root:Added stop: Lideta Kefetega Firdbet - https://osm.org/node/7074541084
 INFO:root:Added stop: Haile Garment - https://osm.org/node/7074561391
@@ -1521,7 +1534,9 @@ INFO:root:Added stop: Michael (2) - https://osm.org/node/7076294509
 INFO:root:Added stop: Shero Meda - https://osm.org/node/7076294510
 INFO:root:Added stop: Shero Meda - https://osm.org/node/7076294511
 INFO:root:Added stop: Del Ber - https://osm.org/node/7076294512
-INFO:root:Added stop: Shiromeda - https://osm.org/node/7076294516
+INFO:root:Added stop: Sanba Nekrsa - https://osm.org/node/7076294514
+INFO:root:Added stop: Shiromeda Selassie - https://osm.org/node/7076294515
+INFO:root:Added stop: Shiro Meda - https://osm.org/node/7076294516
 INFO:root:Added stop: 6 Kilo (Akim Genbata) - https://osm.org/node/7076310930
 INFO:root:Added stop: Shiromeda Anbessa bus stop - https://osm.org/node/7076310931
 INFO:root:Added stop: Medhanialem - https://osm.org/node/7077424942
@@ -1579,6 +1594,7 @@ INFO:root:Added stop: Pastor - https://osm.org/node/7080893994
 INFO:root:Added stop: Winget - https://osm.org/node/7080893995
 INFO:root:Added stop: Chereta - https://osm.org/node/7080893996
 INFO:root:Added stop: Sansusi - https://osm.org/node/7080894001
+INFO:root:Added stop: 5 Kilo (History Museum) - https://osm.org/node/7081034796
 INFO:root:Added stop: Abo Mazoriya - https://osm.org/node/7081034797
 INFO:root:Added stop: Education Bureau (6 Kilo) - https://osm.org/node/7081034799
 INFO:root:Added stop: Total (Dil Ber) - https://osm.org/node/7084255331
@@ -2708,6 +2724,36 @@ INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041498
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041499
 INFO:root:Added stop: Shola - https://osm.org/node/10998041503
 INFO:root:Added stop: Shola - https://osm.org/node/10998041504
+INFO:root:Added stop: Kality Meneharia - https://osm.org/node/11033818190
+INFO:root:Added stop: Kality Maseltegna - https://osm.org/node/11033818192
+INFO:root:Added stop: AU (Mikael) Rounrdabout - https://osm.org/node/11033818193
+INFO:root:Added stop: Mexico - https://osm.org/node/11033818195
+INFO:root:Added stop: Mexico - https://osm.org/node/11033818196
+INFO:root:Added stop: Bulgaria Mazoria - https://osm.org/node/11033818197
+INFO:root:Added stop: Autobis Tera - https://osm.org/node/11033818199
+INFO:root:Added stop: Autobis Tera - https://osm.org/node/11033818200
+INFO:root:Added stop: Kera - https://osm.org/node/11033903482
+INFO:root:Added stop: Saris Abo - https://osm.org/node/11034015157
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/11034015158
+INFO:root:Added stop: Autobis Tera (Adarash) - https://osm.org/node/11034031010
+INFO:root:Added stop: Shiromeda Anbessa bus stop - https://osm.org/node/11034031011
+INFO:root:Added stop: Tsehay Chora (ShiroMeda) - https://osm.org/node/11034031012
+INFO:root:Added stop: Abune Petros - https://osm.org/node/11034031013
+INFO:root:Added stop: Autobis Tera (Adarash) - https://osm.org/node/11034031014
+INFO:root:Added stop: Kuskoam - https://osm.org/node/11034054993
+INFO:root:Added stop: 4 Kilo - https://osm.org/node/11034209866
+INFO:root:Added stop: Kara Kore - https://osm.org/node/11034280233
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/11034280234
+INFO:root:Added stop: Kara Kore - https://osm.org/node/11034280236
+INFO:root:Added stop: Lion Zoo (PEPSI Kiosk) - https://osm.org/node/11034427397
+INFO:root:Added stop: Abo Mazoriya - https://osm.org/node/11034427398
+INFO:root:Added stop: Yeha - https://osm.org/node/11034427399
+INFO:root:Added stop: Gurara - https://osm.org/node/11034427400
+INFO:root:Added stop: Gurara - https://osm.org/node/11034427401
+INFO:root:Added stop: Saris - https://osm.org/node/11034511605
+INFO:root:Added stop: Saris - https://osm.org/node/11034511606
+INFO:root:Added stop: Autobis Tera - https://osm.org/node/11034611751
+INFO:root:Added stop: Megenagna - https://osm.org/node/11034647605
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10340745
 Generating schedule for line: 10400029
@@ -2914,7 +2960,7 @@ Generating schedule for line: 15916401
 Generating schedule for line: 15916629
 Generating schedule for line: 15916756
 Generating schedule for line: 15916839
-INFO:root:Removed 9 unused stops
+INFO:root:Removed 7 unused stops
 INFO:root:Removed 0 unused routes
 Generating schedule for line: 15916909
 Generating schedule for line: 15916957
@@ -3016,6 +3062,20 @@ Generating schedule for line: 16008090
 Generating schedule for line: 16008308
 Generating schedule for line: 16028728
 Generating schedule for line: 16028886
+Generating schedule for line: 16067901
+Generating schedule for line: 16068007
+Generating schedule for line: 16068104
+Generating schedule for line: 16068274
+Generating schedule for line: 16068409
+Generating schedule for line: 16068572
+Generating schedule for line: 16068674
+Generating schedule for line: 16068754
+Generating schedule for line: 16068915
+Generating schedule for line: 16069113
+Generating schedule for line: 16069192
+Generating schedule for line: 16069231
+Generating schedule for line: 16069472
+Generating schedule for line: 16069558
 Generating schedule for line: 29879
 frequency not a number for route_master 15402577
 travel_time not a number / exception thrown for route with OSM ID 15402577
@@ -3051,6 +3111,7 @@ Generating schedule for line: SH002
 Generating schedule for line: SH003
 Generating schedule for line: SH004
 Generating schedule for line: SH005
+Generating schedule for line: SH008
 Generating schedule for line: SH009
 Generating schedule for line: SH010
 Generating schedule for line: SH011
@@ -3097,6 +3158,8 @@ The stops "Haile Garment" (ID node/10842129016) and "Haile Garment" (ID
 node/7049122266) are 0.52m apart and probably represent the same location.
 The stops "Saris Abo" (ID node/10842129022) and "Saris Abo" (ID
 node/7103202619) are 0.24m apart and probably represent the same location.
+The stops "Abo Junction" (ID node/7041071289) and "Saris Abo" (ID
+node/11034015157) are 0.30m apart and probably represent the same location.
 The stops "Lafto" (ID node/10973631797) and "Lafto" (ID node/7049122264) are
 1.60m apart and probably represent the same location.
 The stops "Lafto" (ID node/7049122264) and "Lafto" (ID node/10995013014) are
@@ -3187,6 +3250,8 @@ The stops "Megenagna" (ID node/10931937848) and "Megenagna" (ID
 node/7037142441) are 0.56m apart and probably represent the same location.
 The stops "Abenet" (ID node/10913863174) and "Abinet" (ID node/7077863018) are
 1.26m apart and probably represent the same location.
+The stops "Megenagna" (ID node/7037142469) and "Megenagna" (ID
+node/10931788262) are 1.03m apart and probably represent the same location.
 The stops "Megenagna (Marathon Motors)" (ID node/10781643831) and "Megenagna"
 (ID node/10931850027) are 1.24m apart and probably represent the same
 location.
@@ -3212,6 +3277,8 @@ The stops "Autobis Tera (1)" (ID node/7078406240) and "Autobus Tera" (ID
 node/10905160356) are 1.16m apart and probably represent the same location.
 The stops "Autobus Tera" (ID node/10905160357) and "Autobis Tera (1)" (ID
 node/7078406225) are 0.82m apart and probably represent the same location.
+The stops "Piassa Arada" (ID node/11034015158) and "Piassa Arada (3)" (ID
+node/7080527281) are 0.34m apart and probably represent the same location.
 The stops "Tourist Hotel (4 Kilo)" (ID node/7105584908) and "Tourist Hotel (4
 Kilo)" (ID node/7105584911) are 0.62m apart and probably represent the same
 location.
@@ -3234,8 +3301,10 @@ School" (ID node/7037142431) are 1.69m apart and probably represent the same
 location.
 The stops "Piassa" (ID node/10925161784) and "Piassa Arada" (ID
 node/10970829160) are 0.84m apart and probably represent the same location.
+The stops "Abune Petros" (ID node/10925161777) and "Abune Petros" (ID
+node/11034031013) are 0.84m apart and probably represent the same location.
 The stops "St. George Church" (ID node/7041071579) and "Piassa" (ID
-node/10924088004) are 0.45m apart and probably represent the same location.
+node/10924088004) are 0.09m apart and probably represent the same location.
 The stops "Menlik Hospital" (ID node/10924342468) and "Menlik II Hospital" (ID
 node/7041071483) are 0.72m apart and probably represent the same location.
 The stops "Red-Cross (St. George Total)" (ID node/7041071638) and "St. George
@@ -3272,6 +3341,10 @@ The stops "Addisu Gebeya" (ID node/10923941251) and "Adisu Gebeya" (ID
 node/7074233344) are 0.22m apart and probably represent the same location.
 The stops "Addisu Gebeya" (ID node/7084255334) and "Addisu Gebeya" (ID
 node/10923941250) are 0.83m apart and probably represent the same location.
+The stops "Shiromeda Selassie" (ID node/7076294515) and "Selassie" (ID
+node/7041071740) are 0.80m apart and probably represent the same location.
+The stops "Kuskoam" (ID node/11034054993) and "Kuskoam" (ID node/7041071742)
+are 1.98m apart and probably represent the same location.
  column route_short_name
 Invalid value Minibus Kal 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
@@ -4736,59 +4809,87 @@ The trip with the trip_id "500" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 500
 The trip with the trip_id "501" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 501
-The trip with the trip_id "602" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 602
-The trip with the trip_id "607" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 607
-The trip with the trip_id "610" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 610
-The trip with the trip_id "612" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 612
-The trip with the trip_id "623" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 623
-The trip with the trip_id "624" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 624
-The trip with the trip_id "627" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 627
-High speed travel detected in trip 631: Mamo (NFSL TVET) to Mamo (NFSL). 7
-meters in 0 seconds.
-High speed travel detected in trip 631: Saris to Saris (CBE/Shoa Bakery). 6
-meters in 0 seconds.
-The trip with the trip_id "632" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 632
-The trip with the trip_id "633" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 633
-The trip with the trip_id "634" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 634
+The trip with the trip_id "606" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 606
+High speed travel detected in trip 627: Megenagna to Shola Gebeya. 657 meters
+in 17 seconds. (139 km/h).
+High speed travel detected in trip 627: Shola Gebeya to Abebe Sook. 831 meters
+in 22 seconds. (136 km/h).
+High speed travel detected in trip 627: Abebe Sook to Belgium Embassy. 629
+meters in 16 seconds. (142 km/h).
+High speed travel detected in trip 627: Belgium Embassy to Kokebe Tsebah
+School. 506 meters in 14 seconds. (130 km/h).
+High speed travel detected in trip 627: Kokebe Tsebah School to Bel Air. 842
+meters in 22 seconds. (138 km/h).
+High speed travel detected in trip 627: Bel Air to 4 Kilo. 1078 meters in 28
+seconds. (139 km/h).
+High speed travel detected in trip 627: 4 Kilo to Education Bureau (6 Kilo).
+1093 meters in 28 seconds. (141 km/h).
+High speed travel detected in trip 627: Education Bureau (6 Kilo) to 3rd
+Shaleka. 640 meters in 17 seconds. (136 km/h).
+High speed travel detected in trip 627: 3rd Shaleka to Mezan. 804 meters in 21
+seconds. (138 km/h).
+High speed travel detected in trip 627: Mezan to Abo Mazoriya. 718 meters in
+19 seconds. (136 km/h).
+High speed travel detected in trip 627: Abo Mazoriya to Biret Dildiy (Bono
+Wuha). 492 meters in 13 seconds. (136 km/h).
+High speed travel detected in trip 627: Biret Dildiy (Bono Wuha) to Tena
+Tabya. 325 meters in 8 seconds. (146 km/h).
+High speed travel detected in trip 627: Tena Tabya to Gurara. 563 meters in 15
+seconds. (135 km/h).
+The trip with the trip_id "630" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 630
 The trip with the trip_id "635" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 635
-The trip with the trip_id "636" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 636
-The trip with the trip_id "637" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 637
 The trip with the trip_id "638" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 638
-The trip with the trip_id "639" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 639
 The trip with the trip_id "640" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 640
-The trip with the trip_id "641" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 641
-The trip with the trip_id "642" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 642
-The trip with the trip_id "643" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 643
-The trip with the trip_id "644" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 644
-The trip with the trip_id "645" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 645
-The trip with the trip_id "650" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 650
 The trip with the trip_id "651" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 651
 The trip with the trip_id "652" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 652
-The trip with the trip_id "653" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 653
-The trip with the trip_id "654" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 654
+The trip with the trip_id "655" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 655
+High speed travel detected in trip 659: Mamo (NFSL TVET) to Mamo (NFSL). 7
+meters in 0 seconds.
+High speed travel detected in trip 659: Saris to Saris (CBE/Shoa Bakery). 6
+meters in 0 seconds.
+The trip with the trip_id "660" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 660
+The trip with the trip_id "661" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 661
+The trip with the trip_id "662" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 662
+The trip with the trip_id "663" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 663
+The trip with the trip_id "664" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 664
+The trip with the trip_id "666" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 666
+The trip with the trip_id "667" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 667
+The trip with the trip_id "668" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 668
+The trip with the trip_id "669" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 669
+The trip with the trip_id "670" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 670
+The trip with the trip_id "671" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 671
+The trip with the trip_id "672" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 672
+The trip with the trip_id "673" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 673
+The trip with the trip_id "674" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 674
+The trip with the trip_id "679" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 679
+The trip with the trip_id "680" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 680
+The trip with the trip_id "681" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 681
+The trip with the trip_id "682" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 682
+The trip with the trip_id "683" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 683
