@@ -17,10 +17,6 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10340743
-WARNING:root:  Problem at: https://osm.org/way/612810674
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10340744
-WARNING:root:  Problem at: https://osm.org/way/762340635
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10399952
 WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10399951
@@ -48,23 +44,13 @@ WARNING:root:  Problem at: https://osm.org/way/224859351
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10458622
 WARNING:root:  Problem at: https://osm.org/way/25382413
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10458767
-WARNING:root:  Problem at: https://osm.org/way/25382413
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10458766
-WARNING:root:  Problem at: https://osm.org/way/1175647839
+WARNING:root:  Problem at: https://osm.org/way/283557724
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460045
 WARNING:root:  Problem at: https://osm.org/way/761303523
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460044
 WARNING:root:  Problem at: https://osm.org/way/1175647839
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10460167
-WARNING:root:  Problem at: https://osm.org/way/761303523
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10460166
-WARNING:root:  Problem at: https://osm.org/way/1094731470
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460406
 WARNING:root:  Problem at: https://osm.org/way/304871585
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10465901
-WARNING:root:  Problem at: https://osm.org/way/758158813
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10466288
-WARNING:root:  Problem at: https://osm.org/way/221437411
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10466723
 WARNING:root:  Problem at: https://osm.org/way/760587281
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10466724
@@ -73,44 +59,22 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10479676
 WARNING:root:  Problem at: https://osm.org/way/208713957
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10479677
 WARNING:root:  Problem at: https://osm.org/way/1175758006
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10480003
-WARNING:root:  Problem at: https://osm.org/way/761303523
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10480004
-WARNING:root:  Problem at: https://osm.org/way/255542233
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10480335
-WARNING:root:  Problem at: https://osm.org/way/1166096267
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10521541
 WARNING:root:  Problem at: https://osm.org/way/758158807
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10521542
 WARNING:root:  Problem at: https://osm.org/way/758158813
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10521609
-WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10521608
-WARNING:root:  Problem at: https://osm.org/way/1183374331
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10529703
 WARNING:root:  Problem at: https://osm.org/way/760406145
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10529702
 WARNING:root:  Problem at: https://osm.org/way/23411084
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10533495
 WARNING:root:  Problem at: https://osm.org/way/588529668
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10533757
-WARNING:root:  Problem at: https://osm.org/way/612810674
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10533756
-WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10534540
-WARNING:root:  Problem at: https://osm.org/way/24278704
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10534539
-WARNING:root:  Problem at: https://osm.org/way/1175647839
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10534846
 WARNING:root:  Problem at: https://osm.org/way/588529668
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541124
 WARNING:root:  Problem at: https://osm.org/way/760793206
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541123
 WARNING:root:  Problem at: https://osm.org/way/422479024
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10542240
-WARNING:root:  Problem at: https://osm.org/way/255542233
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10542239
-WARNING:root:  Problem at: https://osm.org/way/760587281
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547201
 WARNING:root:  Problem at: https://osm.org/way/760620922
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547524
@@ -330,8 +294,6 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15591158
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15591158
-WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15591158
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15591257
@@ -348,8 +310,6 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15591717
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15591717
-WARNING:root:  Problem at: https://osm.org/way/592036285
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15591717
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -370,14 +330,10 @@ WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15591891
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15591891
-WARNING:root:  Problem at: https://osm.org/way/760620928
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15591891
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15595786
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15595786
-WARNING:root:  Problem at: https://osm.org/way/1175647839
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15595786
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -474,8 +430,6 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15601978
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15601978
-WARNING:root:  Problem at: https://osm.org/way/760587281
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15601978
 WARNING:root: Skipped. Please fix in OpenStreetMap
@@ -494,14 +448,10 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15602159
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15602159
-WARNING:root:  Problem at: https://osm.org/way/760793206
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15602159
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15602160
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15602160
-WARNING:root:  Problem at: https://osm.org/way/422479024
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15602160
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15602430
@@ -1429,6 +1379,7 @@ INFO:root:Added stop: St. George Church (2) - https://osm.org/node/7062689845
 INFO:root:Added stop: Piassa - https://osm.org/node/7062689848
 INFO:root:Added stop: 4 Kilo - https://osm.org/node/7062689850
 INFO:root:Added stop: 4 Kilo - https://osm.org/node/7062689851
+INFO:root:Added stop: Medhanialem - https://osm.org/node/7062689852
 INFO:root:Added stop: Education Bureau (6 Kilo) - https://osm.org/node/7062689854
 INFO:root:Added stop: Jan Meda - https://osm.org/node/7062689855
 INFO:root:Added stop: Frensaye Kela - https://osm.org/node/7062689856
@@ -3289,6 +3240,8 @@ The stops "Gerar" (ID node/7041052954) and "Gerar" (ID node/10913974720) are
 1.50m apart and probably represent the same location.
 The stops "Gerar" (ID node/7074353066) and "Gerar" (ID node/10913974719) are
 1.38m apart and probably represent the same location.
+The stops "Ayer Tena" (ID node/10911725505) and "Ayer Tena" (ID
+node/7074504388) are 0.69m apart and probably represent the same location.
 The stops "Ayer Tena" (ID node/11035914865) and "Ayer Tena (Alemu Abera)" (ID
 node/7084932744) are 0.40m apart and probably represent the same location.
 The stops "Ayer Tena (Alemu Abera)" (ID node/7084932741) and "Ayer Tena" (ID
@@ -4964,8 +4917,6 @@ The trip with the trip_id "702" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 702
 The trip with the trip_id "703" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 703
-The trip with the trip_id "704" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 704
 The trip with the trip_id "705" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 705
 The trip with the trip_id "706" doesn't have any stop times defined.
@@ -4988,7 +4939,3 @@ The trip with the trip_id "718" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 718
 The trip with the trip_id "719" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 719
-The trip with the trip_id "720" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 720
-The trip with the trip_id "721" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 721
