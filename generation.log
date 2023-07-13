@@ -39,26 +39,14 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10406695
 WARNING:root:  Problem at: https://osm.org/way/762340635
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10406696
 WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10458623
-WARNING:root:  Problem at: https://osm.org/way/224859351
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10458622
-WARNING:root:  Problem at: https://osm.org/way/25382413
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10458767
 WARNING:root:  Problem at: https://osm.org/way/283557724
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10460045
-WARNING:root:  Problem at: https://osm.org/way/761303523
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460044
-WARNING:root:  Problem at: https://osm.org/way/1175647839
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10460406
-WARNING:root:  Problem at: https://osm.org/way/304871585
+WARNING:root:  Problem at: https://osm.org/way/221437411
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10466723
 WARNING:root:  Problem at: https://osm.org/way/760587281
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10466724
 WARNING:root:  Problem at: https://osm.org/way/255542233
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10479676
-WARNING:root:  Problem at: https://osm.org/way/208713957
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10479677
-WARNING:root:  Problem at: https://osm.org/way/1175758006
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10521541
 WARNING:root:  Problem at: https://osm.org/way/758158807
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10521542
@@ -272,10 +260,6 @@ WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15520553
 WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15588630
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15588630
-WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15588708
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15588708
@@ -288,8 +272,6 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15591121
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15591121
-WARNING:root:  Problem at: https://osm.org/way/1183374331
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15591121
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15591158
@@ -344,8 +326,6 @@ WARNING:root:Route master relation without a route_master tag: https://osm.org/r
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15597982
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15597982
-WARNING:root:  Problem at: https://osm.org/way/221437411
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15597982
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15597983
@@ -361,16 +341,6 @@ WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15598024
 WARNING:root:  Problem at: https://osm.org/way/1175647839
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15598024
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15598066
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15598066
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15598067
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15598067
-WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15598928
 WARNING:root: Please fix in OpenStreetMap
@@ -1495,8 +1465,6 @@ INFO:root:Added stop: Medhanialem - https://osm.org/node/7077424942
 INFO:root:Added stop: Ambassador - https://osm.org/node/7077601626
 INFO:root:Added stop: Lamberet - https://osm.org/node/7077785205
 INFO:root:Added stop: Kara Condominium - https://osm.org/node/7077785206
-INFO:root:Added stop: G-7 (Meskelegna) - https://osm.org/node/7077785207
-INFO:root:Added stop: Meskelegna (Ababdo) - https://osm.org/node/7077785208
 INFO:root:Added stop: Kara Condominium - https://osm.org/node/7077785209
 INFO:root:Added stop: Autobis Tera (2) - https://osm.org/node/7077863009
 INFO:root:Added stop: Tropical - https://osm.org/node/7077863010
@@ -2788,6 +2756,7 @@ INFO:root:Added stop: AB007 (Unknown) - https://osm.org/node/11037676743
 INFO:root:Added stop: Aleltu Primary School - https://osm.org/node/11037676744
 INFO:root:Added stop: Aleltu - https://osm.org/node/11037676745
 INFO:root:Added stop: Aleltu - https://osm.org/node/11037676746
+INFO:root:Added stop: Sansusi - https://osm.org/node/11042897810
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10340745
 Generating schedule for line: 10400029
@@ -3132,6 +3101,7 @@ Generating schedule for line: 16074676
 Generating schedule for line: 16074771
 Generating schedule for line: 16074871
 Generating schedule for line: 16075030
+Generating schedule for line: 16086556
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 Generating schedule for line: AB007
@@ -3156,14 +3126,12 @@ Generating schedule for line: AB3
 Generating schedule for line: AB4
 Generating schedule for line: AB5
 Generating schedule for line: AB8
-Generating schedule for line: SH001
 Generating schedule for line: SH002
 Generating schedule for line: SH003
 Generating schedule for line: SH005
 Generating schedule for line: SH009
 Generating schedule for line: SH010
 Generating schedule for line: SH011
-Generating schedule for line: SH012
 Generating schedule for line: SH013
 Generating schedule for line: SH014
 Generating schedule for line: SH015
@@ -4901,28 +4869,22 @@ High speed travel detected in trip 627: Biret Dildiy (Bono Wuha) to Tena
 Tabya. 325 meters in 8 seconds. (146 km/h).
 High speed travel detected in trip 627: Tena Tabya to Gurara. 563 meters in 15
 seconds. (135 km/h).
-The trip with the trip_id "682" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 682
-The trip with the trip_id "693" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 693
-High speed travel detected in trip 699: Mamo (NFSL TVET) to Mamo (NFSL). 7
+The trip with the trip_id "684" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 684
+The trip with the trip_id "695" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 695
+High speed travel detected in trip 701: Mamo (NFSL TVET) to Mamo (NFSL). 7
 meters in 0 seconds.
-High speed travel detected in trip 699: Saris to Saris (CBE/Shoa Bakery). 6
+High speed travel detected in trip 701: Saris to Saris (CBE/Shoa Bakery). 6
 meters in 0 seconds.
-The trip with the trip_id "700" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 700
-The trip with the trip_id "701" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 701
 The trip with the trip_id "702" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 702
 The trip with the trip_id "703" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 703
-The trip with the trip_id "705" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 705
+The trip with the trip_id "704" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 704
 The trip with the trip_id "706" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 706
-The trip with the trip_id "707" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 707
 The trip with the trip_id "708" doesn't have any stop times defined.
 Frequencies defined, but no stop times given in trip 708
 The trip with the trip_id "709" doesn't have any stop times defined.
