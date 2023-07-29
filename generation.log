@@ -29,6 +29,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10406696
 WARNING:root:  Problem at: https://osm.org/way/762340635
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460044
 WARNING:root:  Problem at: https://osm.org/way/221437411
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10480003
+WARNING:root:  Problem at: https://osm.org/way/44630712
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547524
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547525
