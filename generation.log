@@ -27,24 +27,14 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10406490
 WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10406696
 WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10460044
-WARNING:root:  Problem at: https://osm.org/way/221437411
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10480003
 WARNING:root:  Problem at: https://osm.org/way/44630712
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547524
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10547525
 WARNING:root:  Problem at: https://osm.org/way/25091553
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10550162
-WARNING:root:  Problem at: https://osm.org/way/758605265
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10550161
-WARNING:root:  Problem at: https://osm.org/way/761247504
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15833377
 WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
-WARNING:root: https://osm.org/relation/15844904
-WARNING:root:Using 'ref' from member variant instead
-WARNING:root:https://osm.org/relation/15591212
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15883171
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -75,27 +65,21 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16004299
 WARNING:root:  Problem at: https://osm.org/way/1176305612
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
 WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
-WARNING:root: https://osm.org/relation/16067901
-WARNING:root:Using 'ref' from member variant instead
-WARNING:root:https://osm.org/relation/16067899
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16070565
 WARNING:root:  Problem at: https://osm.org/way/758593966
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15591257
 WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15600954
-WARNING:root:  Problem at: https://osm.org/way/224859351
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/10458622
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/16088619
 WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15479251
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15479251
-WARNING:root:  Problem at: https://osm.org/way/1166096254
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15479251
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15484747
+WARNING:root:  Problem at: https://osm.org/way/758179886
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15520388
+WARNING:root:  Problem at: https://osm.org/way/45902026
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15520318
+WARNING:root:  Problem at: https://osm.org/way/1175758006
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15481134
 WARNING:root: Please fix in OpenStreetMap
@@ -108,22 +92,6 @@ WARNING:root:  Problem at: https://osm.org/way/1175758006
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15481243
 WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15484447
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15484447
-WARNING:root:  Problem at: https://osm.org/way/25382413
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15484447
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15484747
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15484747
-WARNING:root:  Problem at: https://osm.org/way/758179886
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15484747
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15484821
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15484821
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15485879
 WARNING:root: Please fix in OpenStreetMap
@@ -139,28 +107,6 @@ WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15485956
 WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15487095
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15487095
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15487222
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15487222
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15487352
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15487352
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15487411
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15487411
-WARNING:root:  Problem at: https://osm.org/way/1166096254
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15487411
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15488574
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15488574
@@ -169,20 +115,6 @@ WARNING:root: https://osm.org/relation/15488702
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/15488702
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15520318
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15520318
-WARNING:root:  Problem at: https://osm.org/way/1175758006
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15520318
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15520388
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15520388
-WARNING:root:  Problem at: https://osm.org/way/45902026
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15520388
 WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15743389
@@ -635,8 +567,8 @@ INFO:root:Added stop: Goro School - https://osm.org/node/7022397411
 INFO:root:Added stop: Bole Arabsa - https://osm.org/node/7022397416
 INFO:root:Added stop: Bole Arabsa - https://osm.org/node/7022397417
 INFO:root:Added stop: Aba Kiros Roundabout - https://osm.org/node/7022397418
-INFO:root:Added stop: Yeka Abado G13 - https://osm.org/node/7022397420
-INFO:root:Added stop: Yeka Abado G13 - https://osm.org/node/7022397421
+INFO:root:Added stop: Yeka Abado - https://osm.org/node/7022397420
+INFO:root:Added stop: Yeka Abado - https://osm.org/node/7022397421
 INFO:root:Added stop: Gurara - https://osm.org/node/7037142410
 INFO:root:Added stop: Abuare Roundabout - https://osm.org/node/7037142414
 INFO:root:Added stop: Abuare Roundabout - https://osm.org/node/7037142415
@@ -1096,7 +1028,7 @@ INFO:root:Added stop: St. Gebriel - https://osm.org/node/7074496222
 INFO:root:Added stop: Gojo - https://osm.org/node/7074496225
 INFO:root:Added stop: Alem Bank - https://osm.org/node/7074504387
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/7074504388
-INFO:root:Added stop: Betel - https://osm.org/node/7074504390
+INFO:root:Added stop: Bethel - https://osm.org/node/7074504390
 INFO:root:Added stop: Mendida - https://osm.org/node/7074504392
 INFO:root:Added stop: Mebrat Nigist Hotel - https://osm.org/node/7074525370
 INFO:root:Added stop: Lideta Kefetega Firdbet - https://osm.org/node/7074541084
@@ -1386,7 +1318,7 @@ INFO:root:Added stop: Gulele - https://osm.org/node/7113004013
 INFO:root:Added stop: Ras Hailu (Medhanialem) - https://osm.org/node/7113004014
 INFO:root:Added stop: Woreda 7 TVET - https://osm.org/node/7113004015
 INFO:root:Added stop: Chid Tera - https://osm.org/node/7113004016
-INFO:root:Added stop: Autobis Tera (Adarash 2) - https://osm.org/node/7113004018
+INFO:root:Added stop: Autobis Tera - https://osm.org/node/7113004018
 INFO:root:Added stop: Michael (2) - https://osm.org/node/7113004020
 INFO:root:Added stop: Pawlos Hospital (Saba Mosque) - https://osm.org/node/7113004021
 INFO:root:Added stop: Anbessa Garage (Shegole) - https://osm.org/node/7113004022
@@ -1705,7 +1637,6 @@ INFO:root:Added stop: Hayat Hospital - https://osm.org/node/10887120325
 INFO:root:Added stop: Sport Accadamy - https://osm.org/node/10887120326
 INFO:root:Added stop: Emperial Hotel - https://osm.org/node/10887120327
 INFO:root:Added stop: Mulugeta Building - https://osm.org/node/10887120328
-INFO:root:Added stop: IVECO - https://osm.org/node/10889510244
 INFO:root:Added stop: 93 Mazoria - https://osm.org/node/10890083966
 INFO:root:Added stop: Kaldisco - https://osm.org/node/10890083967
 INFO:root:Added stop: Key Afer - https://osm.org/node/10890083968
@@ -2339,6 +2270,7 @@ INFO:root:Added stop: Megenagna - https://osm.org/node/11034647605
 INFO:root:Added stop: Menlik Hospital - https://osm.org/node/11035234708
 INFO:root:Added stop: Torhailoch - https://osm.org/node/11035234709
 INFO:root:Added stop: Millenium School - https://osm.org/node/11035240259
+INFO:root:Added stop: Chid Tera - https://osm.org/node/11035240260
 INFO:root:Added stop: Degu Hotel - https://osm.org/node/11035240261
 INFO:root:Added stop: Philiphs (Lomi Meda) - https://osm.org/node/11035240263
 INFO:root:Added stop: Philiphs (Lomi Meda) - https://osm.org/node/11035240264
@@ -2428,7 +2360,6 @@ INFO:root:Added stop: 02 Kebele - https://osm.org/node/11056827968
 INFO:root:Added stop: Bercheko Fabrica (Asko) - https://osm.org/node/11056827970
 INFO:root:Added stop: Aba Kiros Roundabout - https://osm.org/node/11057053412
 Timezone not checked (install pytz package for timezone validation)
-Generating schedule for line: 10340745
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
 Generating schedule for line: 10400405
@@ -2504,8 +2435,6 @@ Generating schedule for line: 15841839
 Generating schedule for line: 15841978
 Generating schedule for line: 15842386
 Generating schedule for line: 15842687
-Generating schedule for line: 15844903
-Generating schedule for line: 15844904
 Generating schedule for line: 15845949
 Generating schedule for line: 15845950
 WARNING: No duration set --- Using default travel time for route with OSM ID 15845945
@@ -2633,11 +2562,11 @@ Generating schedule for line: 15916401
 Generating schedule for line: 15916629
 Generating schedule for line: 15916756
 Generating schedule for line: 15916839
-INFO:root:Removed 1 unused stop
-INFO:root:Removed 0 unused routes
 Generating schedule for line: 15916909
 Generating schedule for line: 15916957
 Generating schedule for line: 15917637
+INFO:root:Removed 1 unused stop
+INFO:root:Removed 0 unused routes
 Generating schedule for line: 15917697
 Generating schedule for line: 15917888
 Generating schedule for line: 15917949
@@ -2781,19 +2710,17 @@ Generating schedule for line: 16112804
 Generating schedule for line: 16112805
 Generating schedule for line: 16112806
 Generating schedule for line: 16113471
+Generating schedule for line: 16148439
+Generating schedule for line: 16148440
+Generating schedule for line: 16148441
+Generating schedule for line: 16148442
+Generating schedule for line: 16148443
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 Generating schedule for line: AB021
-Generating schedule for line: AB030
 Generating schedule for line: AB039
-Generating schedule for line: AB048
 Generating schedule for line: AB061
-Generating schedule for line: AB067
-Generating schedule for line: AB067T2A01
 Generating schedule for line: AB079
-Generating schedule for line: AB085
-Generating schedule for line: AB091
-Generating schedule for line: AB098
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
@@ -4483,39 +4410,31 @@ This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
- column route_short_name
-Invalid value AB067T2A01 in field route_short_name
-This route_short_name is relatively long, which probably means that it
-contains a place name.  You should only use this field to hold a short code
-that riders use to identify a route.  If this route doesn't have such a code,
-it's OK to leave this field empty.
-The trip with the trip_id "225" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 225
-High speed travel detected in trip 626: Megenagna to Shola Gebeya. 657 meters
+The trip with the trip_id "219" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 219
+High speed travel detected in trip 620: Megenagna to Shola Gebeya. 657 meters
 in 17 seconds. (139 km/h).
-High speed travel detected in trip 626: Shola Gebeya to Abebe Sook. 831 meters
+High speed travel detected in trip 620: Shola Gebeya to Abebe Sook. 831 meters
 in 22 seconds. (136 km/h).
-High speed travel detected in trip 626: Abebe Sook to Belgium Embassy. 629
+High speed travel detected in trip 620: Abebe Sook to Belgium Embassy. 629
 meters in 16 seconds. (142 km/h).
-High speed travel detected in trip 626: Belgium Embassy to Kokebe Tsebah
+High speed travel detected in trip 620: Belgium Embassy to Kokebe Tsebah
 School. 506 meters in 14 seconds. (130 km/h).
-High speed travel detected in trip 626: Kokebe Tsebah School to Bel Air. 842
+High speed travel detected in trip 620: Kokebe Tsebah School to Bel Air. 842
 meters in 22 seconds. (138 km/h).
-High speed travel detected in trip 626: Bel Air to 4 Kilo. 1078 meters in 28
+High speed travel detected in trip 620: Bel Air to 4 Kilo. 1078 meters in 28
 seconds. (139 km/h).
-High speed travel detected in trip 626: 4 Kilo to Education Bureau (6 Kilo).
+High speed travel detected in trip 620: 4 Kilo to Education Bureau (6 Kilo).
 1093 meters in 28 seconds. (141 km/h).
-High speed travel detected in trip 626: Education Bureau (6 Kilo) to 3rd
+High speed travel detected in trip 620: Education Bureau (6 Kilo) to 3rd
 Shaleka. 640 meters in 17 seconds. (136 km/h).
-High speed travel detected in trip 626: 3rd Shaleka to Mezan. 804 meters in 21
+High speed travel detected in trip 620: 3rd Shaleka to Mezan. 804 meters in 21
 seconds. (138 km/h).
-High speed travel detected in trip 626: Mezan to Abo Mazoriya. 718 meters in
+High speed travel detected in trip 620: Mezan to Abo Mazoriya. 718 meters in
 19 seconds. (136 km/h).
-High speed travel detected in trip 626: Abo Mazoriya to Biret Dildiy (Bono
+High speed travel detected in trip 620: Abo Mazoriya to Biret Dildiy (Bono
 Wuha). 492 meters in 13 seconds. (136 km/h).
-High speed travel detected in trip 626: Biret Dildiy (Bono Wuha) to Tena
+High speed travel detected in trip 620: Biret Dildiy (Bono Wuha) to Tena
 Tabya. 325 meters in 8 seconds. (146 km/h).
-High speed travel detected in trip 626: Tena Tabya to Gurara. 563 meters in 15
+High speed travel detected in trip 620: Tena Tabya to Gurara. 563 meters in 15
 seconds. (135 km/h).
-The trip with the trip_id "707" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 707
