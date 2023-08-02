@@ -17,22 +17,6 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10399952
-WARNING:root:  Problem at: https://osm.org/way/612810674
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10399951
-WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10406489
-WARNING:root:  Problem at: https://osm.org/way/760620922
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10406490
-WARNING:root:  Problem at: https://osm.org/way/612810674
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10406696
-WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10480003
-WARNING:root:  Problem at: https://osm.org/way/44630712
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10547524
-WARNING:root:  Problem at: https://osm.org/way/24554421
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10547525
-WARNING:root:  Problem at: https://osm.org/way/25091553
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15833377
 WARNING:root:  Problem at: https://osm.org/way/1176305612
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -65,62 +49,13 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16004299
 WARNING:root:  Problem at: https://osm.org/way/1176305612
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
 WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16070565
-WARNING:root:  Problem at: https://osm.org/way/758593966
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15591257
-WARNING:root:  Problem at: https://osm.org/way/762340635
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/10458622
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/16088619
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15484747
-WARNING:root:  Problem at: https://osm.org/way/758179886
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15520388
 WARNING:root:  Problem at: https://osm.org/way/45902026
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15520318
 WARNING:root:  Problem at: https://osm.org/way/1175758006
 WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15481134
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15481134
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15481243
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15481243
-WARNING:root:  Problem at: https://osm.org/way/1175758006
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15481243
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15485879
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15485879
-WARNING:root:  Problem at: https://osm.org/way/760620922
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15485879
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15485956
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15485956
-WARNING:root:  Problem at: https://osm.org/way/1183374331
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15485956
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15488574
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15488574
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15488702
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route with existing route_id (ref)
-WARNING:root: https://osm.org/relation/15488702
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15743389
 WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15743389
-WARNING:root:  Problem at: https://osm.org/way/612810674
 WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15743389
 INFO:root:Query and build fresh data for stops
 INFO:root:(
@@ -564,6 +499,8 @@ INFO:root:Added stop: Megenagna Terminal - https://osm.org/node/7022361366
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397409
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397410
 INFO:root:Added stop: Goro School - https://osm.org/node/7022397411
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/7022397413
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/7022397414
 INFO:root:Added stop: Bole Arabsa - https://osm.org/node/7022397416
 INFO:root:Added stop: Bole Arabsa - https://osm.org/node/7022397417
 INFO:root:Added stop: Aba Kiros Roundabout - https://osm.org/node/7022397418
@@ -651,7 +588,6 @@ INFO:root:Added stop: Medhanalem Church - https://osm.org/node/7037183523
 INFO:root:Added stop: Safari - https://osm.org/node/7037183525
 INFO:root:Added stop: Summit (MOHA) - https://osm.org/node/7037183527
 INFO:root:Added stop: Tena Tabeya - https://osm.org/node/7037183529
-INFO:root:Added stop: Summit Condominiums - https://osm.org/node/7037183531
 INFO:root:Added stop: Gate 2 - https://osm.org/node/7037183532
 INFO:root:Added stop: Ayat Train Station - https://osm.org/node/7037183535
 INFO:root:Added stop: CMC - https://osm.org/node/7037183536
@@ -860,7 +796,8 @@ INFO:root:Added stop: Luwkanda - https://osm.org/node/7041071614
 INFO:root:Added stop: Comprensive - https://osm.org/node/7041071615
 INFO:root:Added stop: Realstate - https://osm.org/node/7041071616
 INFO:root:Added stop: Police Tabiya - https://osm.org/node/7041071619
-INFO:root:Added stop: Feli Doro (3) - https://osm.org/node/7041071622
+INFO:root:Added stop: Feli Doro (1) - https://osm.org/node/7041071620
+INFO:root:Added stop: Feli Doro - https://osm.org/node/7041071622
 INFO:root:Added stop: Ras Mekonene Bridge (Seba Dereja) - https://osm.org/node/7041071628
 INFO:root:Added stop: 5 Kilo (History Museum) - https://osm.org/node/7041071629
 INFO:root:Added stop: 5 Kilo University - https://osm.org/node/7041071630
@@ -2312,6 +2249,7 @@ INFO:root:Added stop: Gefersa - https://osm.org/node/11037329865
 INFO:root:Added stop: Gefersa - https://osm.org/node/11037329866
 INFO:root:Added stop: Sansusi - https://osm.org/node/11037329868
 INFO:root:Added stop: Sansusi - https://osm.org/node/11037329869
+INFO:root:Added stop: Feli Doro - https://osm.org/node/11037663903
 INFO:root:Added stop: Wessen Michael - https://osm.org/node/11037663904
 INFO:root:Added stop: Kara - https://osm.org/node/11037676705
 INFO:root:Added stop: Legetafo - https://osm.org/node/11037676706
@@ -2359,6 +2297,8 @@ INFO:root:Added stop: Akaki Beretaberet - https://osm.org/node/11056827967
 INFO:root:Added stop: 02 Kebele - https://osm.org/node/11056827968
 INFO:root:Added stop: Bercheko Fabrica (Asko) - https://osm.org/node/11056827970
 INFO:root:Added stop: Aba Kiros Roundabout - https://osm.org/node/11057053412
+INFO:root:Added stop: Sululta - https://osm.org/node/11083569807
+INFO:root:Added stop: Sululta - https://osm.org/node/11083569808
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2369,7 +2309,6 @@ Generating schedule for line: 10407732
 Generating schedule for line: 10409764
 Generating schedule for line: 10410198
 Generating schedule for line: 10441511
-Generating schedule for line: 10458624
 Generating schedule for line: 10458768
 Generating schedule for line: 10460046
 Generating schedule for line: 10460168
@@ -2565,9 +2504,9 @@ Generating schedule for line: 15916839
 Generating schedule for line: 15916909
 Generating schedule for line: 15916957
 Generating schedule for line: 15917637
-INFO:root:Removed 1 unused stop
-INFO:root:Removed 0 unused routes
 Generating schedule for line: 15917697
+INFO:root:Removed 0 unused stops
+INFO:root:Removed 0 unused routes
 Generating schedule for line: 15917888
 Generating schedule for line: 15917949
 Generating schedule for line: 15917971
@@ -2705,6 +2644,7 @@ Generating schedule for line: 16088269
 Generating schedule for line: 16088616
 Generating schedule for line: 16088617
 Generating schedule for line: 16088618
+Generating schedule for line: 16088619
 Generating schedule for line: 16112803
 Generating schedule for line: 16112804
 Generating schedule for line: 16112805
@@ -2715,12 +2655,11 @@ Generating schedule for line: 16148440
 Generating schedule for line: 16148441
 Generating schedule for line: 16148442
 Generating schedule for line: 16148443
+Generating schedule for line: 16151480
+Generating schedule for line: 16151481
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
-Generating schedule for line: AB021
-Generating schedule for line: AB039
 Generating schedule for line: AB061
-Generating schedule for line: AB079
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
@@ -2974,6 +2913,8 @@ The stops "Shiromeda Selassie" (ID node/7076294515) and "Selassie" (ID
 node/7041071740) are 0.80m apart and probably represent the same location.
 The stops "Kuskoam" (ID node/11034054993) and "Kuskoam" (ID node/7041071742)
 are 1.98m apart and probably represent the same location.
+The stops "Sululta" (ID node/11083569808) and "Sululta" (ID node/11083569807)
+are 1.03m apart and probably represent the same location.
 The stops "Aleltu" (ID node/11037676746) and "Aleltu" (ID node/11037676745)
 are 0.16m apart and probably represent the same location.
  column route_short_name
@@ -4410,31 +4351,31 @@ This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
-The trip with the trip_id "219" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 219
-High speed travel detected in trip 620: Megenagna to Shola Gebeya. 657 meters
+The trip with the trip_id "218" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 218
+High speed travel detected in trip 619: Megenagna to Shola Gebeya. 657 meters
 in 17 seconds. (139 km/h).
-High speed travel detected in trip 620: Shola Gebeya to Abebe Sook. 831 meters
+High speed travel detected in trip 619: Shola Gebeya to Abebe Sook. 831 meters
 in 22 seconds. (136 km/h).
-High speed travel detected in trip 620: Abebe Sook to Belgium Embassy. 629
+High speed travel detected in trip 619: Abebe Sook to Belgium Embassy. 629
 meters in 16 seconds. (142 km/h).
-High speed travel detected in trip 620: Belgium Embassy to Kokebe Tsebah
+High speed travel detected in trip 619: Belgium Embassy to Kokebe Tsebah
 School. 506 meters in 14 seconds. (130 km/h).
-High speed travel detected in trip 620: Kokebe Tsebah School to Bel Air. 842
+High speed travel detected in trip 619: Kokebe Tsebah School to Bel Air. 842
 meters in 22 seconds. (138 km/h).
-High speed travel detected in trip 620: Bel Air to 4 Kilo. 1078 meters in 28
+High speed travel detected in trip 619: Bel Air to 4 Kilo. 1078 meters in 28
 seconds. (139 km/h).
-High speed travel detected in trip 620: 4 Kilo to Education Bureau (6 Kilo).
+High speed travel detected in trip 619: 4 Kilo to Education Bureau (6 Kilo).
 1093 meters in 28 seconds. (141 km/h).
-High speed travel detected in trip 620: Education Bureau (6 Kilo) to 3rd
+High speed travel detected in trip 619: Education Bureau (6 Kilo) to 3rd
 Shaleka. 640 meters in 17 seconds. (136 km/h).
-High speed travel detected in trip 620: 3rd Shaleka to Mezan. 804 meters in 21
+High speed travel detected in trip 619: 3rd Shaleka to Mezan. 804 meters in 21
 seconds. (138 km/h).
-High speed travel detected in trip 620: Mezan to Abo Mazoriya. 718 meters in
+High speed travel detected in trip 619: Mezan to Abo Mazoriya. 718 meters in
 19 seconds. (136 km/h).
-High speed travel detected in trip 620: Abo Mazoriya to Biret Dildiy (Bono
+High speed travel detected in trip 619: Abo Mazoriya to Biret Dildiy (Bono
 Wuha). 492 meters in 13 seconds. (136 km/h).
-High speed travel detected in trip 620: Biret Dildiy (Bono Wuha) to Tena
+High speed travel detected in trip 619: Biret Dildiy (Bono Wuha) to Tena
 Tabya. 325 meters in 8 seconds. (146 km/h).
-High speed travel detected in trip 620: Tena Tabya to Gurara. 563 meters in 15
+High speed travel detected in trip 619: Tena Tabya to Gurara. 563 meters in 15
 seconds. (135 km/h).
