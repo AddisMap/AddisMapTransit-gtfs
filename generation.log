@@ -17,37 +17,11 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15833377
-WARNING:root:  Problem at: https://osm.org/way/1176305612
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15883171
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/15883171
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15898346
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15900882
-WARNING:root:  Problem at: https://osm.org/way/648257956
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15907056
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15910593
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15912955
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15913168
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15913398
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15917948
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15961303
-WARNING:root:  Problem at: https://osm.org/way/1176305612
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15961883
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15962158
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16004299
-WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
 WARNING:root:  Problem at: https://osm.org/way/1176305612
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15520388
 WARNING:root:  Problem at: https://osm.org/way/45902026
@@ -2016,7 +1990,6 @@ INFO:root:Added stop: St. Urael Church - https://osm.org/node/10934121408
 INFO:root:Added stop: Kera - https://osm.org/node/10934142102
 INFO:root:Added stop: Kera - https://osm.org/node/10934142103
 INFO:root:Added stop: 4 Kilo - https://osm.org/node/10934274056
-INFO:root:Added stop: 4 Kilo - https://osm.org/node/10934274057
 INFO:root:Added stop: St. Estifanos - https://osm.org/node/10934274058
 INFO:root:Added stop: Buna Ena Shay - https://osm.org/node/10934274059
 INFO:root:Added stop: Buna Ena Shay - https://osm.org/node/10934274060
@@ -2101,7 +2074,6 @@ INFO:root:Added stop: Bole Mickael - https://osm.org/node/10989306740
 INFO:root:Added stop: Bole Mickael - https://osm.org/node/10989306742
 INFO:root:Added stop: Riventy - https://osm.org/node/10989306744
 INFO:root:Added stop: Riventy - https://osm.org/node/10989306745
-INFO:root:Added stop: Lomi Meda - https://osm.org/node/10989322787
 INFO:root:Added stop: Lomi Meda - https://osm.org/node/10989322788
 INFO:root:Added stop: Philiphs - https://osm.org/node/10989322789
 INFO:root:Added stop: Philiphs - https://osm.org/node/10989322790
@@ -2299,6 +2271,7 @@ INFO:root:Added stop: Bercheko Fabrica (Asko) - https://osm.org/node/11056827970
 INFO:root:Added stop: Aba Kiros Roundabout - https://osm.org/node/11057053412
 INFO:root:Added stop: Sululta - https://osm.org/node/11083569807
 INFO:root:Added stop: Sululta - https://osm.org/node/11083569808
+INFO:root:Added stop: Lomi Meda - https://osm.org/node/11084058584
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2841,8 +2814,6 @@ The stops "Merkato" (ID node/7102193971) and "Merkato" (ID node/10961301942)
 are 0.58m apart and probably represent the same location.
 The stops "Merkato" (ID node/10961301941) and "Merkato" (ID node/7102269985)
 are 1.25m apart and probably represent the same location.
-The stops "Mesalemia (Area Police)" (ID node/7102193972) and "Mesalemia" (ID
-node/10961301939) are 1.50m apart and probably represent the same location.
 The stops "Autobus Tera" (ID node/10883106542) and "Autobis Tera (3)" (ID
 node/7084722456) are 0.32m apart and probably represent the same location.
 The stops "Piassa" (ID node/10924116805) and "Piassa Arada" (ID
@@ -2880,6 +2851,12 @@ The stops "Millenium School" (ID node/7041071602) and "Millenium School" (ID
 node/11035240259) are 1.79m apart and probably represent the same location.
 The stops "Atena Tera" (ID node/10914784457) and "Atena Tera" (ID
 node/7112280391) are 0.21m apart and probably represent the same location.
+The stops "Atena Tera" (ID node/10989322794) and "Atena Tera" (ID
+node/10989322793) are 1.64m apart and probably represent the same location.
+The stops "Philiphs" (ID node/10989322789) and "Philiphs" (ID
+node/10989322790) are 1.20m apart and probably represent the same location.
+The stops "Lomi Meda" (ID node/11084058584) and "Lomi Meda" (ID
+node/10989322788) are 0.25m apart and probably represent the same location.
 The stops "3rd Shaleka" (ID node/7041071721) and "Jan Meda" (ID
 node/10931884723) are 0.45m apart and probably represent the same location.
 The stops "Jan Meda" (ID node/10931884724) and "Jan Meda" (ID node/7062689855)
@@ -2909,6 +2886,8 @@ The stops "Addisu Gebeya" (ID node/10923941251) and "Adisu Gebeya" (ID
 node/7074233344) are 0.22m apart and probably represent the same location.
 The stops "Addisu Gebeya" (ID node/7084255334) and "Addisu Gebeya" (ID
 node/10923941250) are 0.83m apart and probably represent the same location.
+The stops "Kechenie" (ID node/10924116808) and "Kechenie" (ID
+node/10937271651) are 1.26m apart and probably represent the same location.
 The stops "Shiromeda Selassie" (ID node/7076294515) and "Selassie" (ID
 node/7041071740) are 0.80m apart and probably represent the same location.
 The stops "Kuskoam" (ID node/11034054993) and "Kuskoam" (ID node/7041071742)
@@ -4351,8 +4330,6 @@ This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
-The trip with the trip_id "218" doesn't have any stop times defined.
-Frequencies defined, but no stop times given in trip 218
 High speed travel detected in trip 619: Megenagna to Shola Gebeya. 657 meters
 in 17 seconds. (139 km/h).
 High speed travel detected in trip 619: Shola Gebeya to Abebe Sook. 831 meters
