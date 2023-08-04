@@ -17,20 +17,8 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15883171
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/15883171
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15961883
 WARNING:root:  Problem at: https://osm.org/way/1176305612
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15520388
-WARNING:root:  Problem at: https://osm.org/way/45902026
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15520318
-WARNING:root:  Problem at: https://osm.org/way/1175758006
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15743389
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15743389
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -2632,7 +2620,6 @@ Generating schedule for line: 16151480
 Generating schedule for line: 16151481
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
-Generating schedule for line: AB061
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
@@ -3335,7 +3322,7 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 023 in field route_short_name
+Invalid value TX kolfe 023 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -4330,29 +4317,29 @@ This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
-High speed travel detected in trip 619: Megenagna to Shola Gebeya. 657 meters
+High speed travel detected in trip 620: Megenagna to Shola Gebeya. 657 meters
 in 17 seconds. (139 km/h).
-High speed travel detected in trip 619: Shola Gebeya to Abebe Sook. 831 meters
+High speed travel detected in trip 620: Shola Gebeya to Abebe Sook. 831 meters
 in 22 seconds. (136 km/h).
-High speed travel detected in trip 619: Abebe Sook to Belgium Embassy. 629
+High speed travel detected in trip 620: Abebe Sook to Belgium Embassy. 629
 meters in 16 seconds. (142 km/h).
-High speed travel detected in trip 619: Belgium Embassy to Kokebe Tsebah
+High speed travel detected in trip 620: Belgium Embassy to Kokebe Tsebah
 School. 506 meters in 14 seconds. (130 km/h).
-High speed travel detected in trip 619: Kokebe Tsebah School to Bel Air. 842
+High speed travel detected in trip 620: Kokebe Tsebah School to Bel Air. 842
 meters in 22 seconds. (138 km/h).
-High speed travel detected in trip 619: Bel Air to 4 Kilo. 1078 meters in 28
+High speed travel detected in trip 620: Bel Air to 4 Kilo. 1078 meters in 28
 seconds. (139 km/h).
-High speed travel detected in trip 619: 4 Kilo to Education Bureau (6 Kilo).
+High speed travel detected in trip 620: 4 Kilo to Education Bureau (6 Kilo).
 1093 meters in 28 seconds. (141 km/h).
-High speed travel detected in trip 619: Education Bureau (6 Kilo) to 3rd
+High speed travel detected in trip 620: Education Bureau (6 Kilo) to 3rd
 Shaleka. 640 meters in 17 seconds. (136 km/h).
-High speed travel detected in trip 619: 3rd Shaleka to Mezan. 804 meters in 21
+High speed travel detected in trip 620: 3rd Shaleka to Mezan. 804 meters in 21
 seconds. (138 km/h).
-High speed travel detected in trip 619: Mezan to Abo Mazoriya. 718 meters in
+High speed travel detected in trip 620: Mezan to Abo Mazoriya. 718 meters in
 19 seconds. (136 km/h).
-High speed travel detected in trip 619: Abo Mazoriya to Biret Dildiy (Bono
+High speed travel detected in trip 620: Abo Mazoriya to Biret Dildiy (Bono
 Wuha). 492 meters in 13 seconds. (136 km/h).
-High speed travel detected in trip 619: Biret Dildiy (Bono Wuha) to Tena
+High speed travel detected in trip 620: Biret Dildiy (Bono Wuha) to Tena
 Tabya. 325 meters in 8 seconds. (146 km/h).
-High speed travel detected in trip 619: Tena Tabya to Gurara. 563 meters in 15
+High speed travel detected in trip 620: Tena Tabya to Gurara. 563 meters in 15
 seconds. (135 km/h).
