@@ -1,2 +1,2 @@
-agency_timezone,agency_name,agency_url,agency_id,agency_lang
-Africa/Addis_Ababa,Addis Ababa Transport (all),https://example.com,AA,en
+agency_lang,agency_timezone,agency_name,agency_url,agency_id
+en,Africa/Addis_Ababa,Addis Ababa Transport (all),https://example.com,AA
