@@ -2882,439 +2882,439 @@ are 1.03m apart and probably represent the same location.
 The stops "Aleltu" (ID node/11037676746) and "Aleltu" (ID node/11037676745)
 are 0.16m apart and probably represent the same location.
  column route_short_name
-Invalid value Minibus Kal 001 in field route_short_name
+Invalid value Tx Kal 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 002 in field route_short_name
+Invalid value Tx Kal 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 006 in field route_short_name
+Invalid value Tx Kal 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 003 in field route_short_name
+Invalid value Tx Kal 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 004 in field route_short_name
+Invalid value Tx Kal 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 005 in field route_short_name
+Invalid value Tx Kal 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 001 in field route_short_name
+Invalid value Tx Bole 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 012 in field route_short_name
+Invalid value Tx Kal 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 013 in field route_short_name
+Invalid value Tx Kal 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 002 in field route_short_name
+Invalid value Tx Bole 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 004 in field route_short_name
+Invalid value Tx Bole 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 005 in field route_short_name
+Invalid value Tx Bole 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 003 in field route_short_name
+Invalid value Tx Bole 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 006 in field route_short_name
+Invalid value Tx Bole 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 014 in field route_short_name
+Invalid value Tx Bole 014 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 011 in field route_short_name
+Invalid value Tx Bole 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 012 in field route_short_name
+Invalid value Tx Bole 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 009 in field route_short_name
+Invalid value Tx Bole 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 010 in field route_short_name
+Invalid value Tx Bole 010 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 011 in field route_short_name
+Invalid value Tx Kal 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 015 in field route_short_name
+Invalid value Tx Bole 015 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 016 in field route_short_name
+Invalid value Tx Bole 016 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 018 in field route_short_name
+Invalid value Tx Bole 018 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 019 in field route_short_name
+Invalid value Tx Bole 019 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 020 in field route_short_name
+Invalid value Tx Bole 020 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 021 in field route_short_name
+Invalid value Tx Bole 021 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 022 in field route_short_name
+Invalid value Tx Bole 022 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 002 in field route_short_name
+Invalid value Tx Lafto 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 003 in field route_short_name
+Invalid value Tx Lafto 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 004 in field route_short_name
+Invalid value Tx Lafto 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 008 in field route_short_name
+Invalid value Tx Lafto 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 009 in field route_short_name
+Invalid value Tx Lafto 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 010 in field route_short_name
+Invalid value Tx Lafto 010 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 011 in field route_short_name
+Invalid value Tx Lafto 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 012 in field route_short_name
+Invalid value Tx Lafto 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 013 in field route_short_name
+Invalid value Tx Lafto 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 014 in field route_short_name
+Invalid value Tx Lafto 014 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 015 in field route_short_name
+Invalid value Tx Lafto 015 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 017 in field route_short_name
+Invalid value Tx Lafto 017 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 018 in field route_short_name
+Invalid value Tx Lafto 018 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 021 in field route_short_name
+Invalid value Tx Lafto 021 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 019 in field route_short_name
+Invalid value Tx Lafto 019 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 020 in field route_short_name
+Invalid value Tx Lafto 020 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 022 in field route_short_name
+Invalid value Tx Lafto 022 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 023 in field route_short_name
+Invalid value Tx Lafto 023 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 024 in field route_short_name
+Invalid value Tx Lafto 024 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 025 in field route_short_name
+Invalid value Tx Lafto 025 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 026 in field route_short_name
+Invalid value Tx Lafto 026 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 027 in field route_short_name
+Invalid value Tx Lafto 027 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 028 in field route_short_name
+Invalid value Tx Lafto 028 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 031 in field route_short_name
+Invalid value Tx Lafto 031 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 032 in field route_short_name
+Invalid value Tx Lafto 032 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 001 in field route_short_name
+Invalid value Tx Kolfa 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfe 003 in field route_short_name
+Invalid value Tx Kolfe 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 004 in field route_short_name
+Invalid value Tx Kolfa 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 005 in field route_short_name
+Invalid value Tx Kolfa 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 006 in field route_short_name
+Invalid value Tx Kolfa 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 007 in field route_short_name
+Invalid value Tx Kolfa 007 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 008 in field route_short_name
+Invalid value Tx Kolfa 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 009 in field route_short_name
+Invalid value Tx Kolfa 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 015 in field route_short_name
+Invalid value Tx Kolfa 015 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 010 in field route_short_name
+Invalid value Tx Kolfa 010 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 011 in field route_short_name
+Invalid value Tx Kolfa 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 012 in field route_short_name
+Invalid value Tx Kolfa 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 013 in field route_short_name
+Invalid value Tx Kolfa 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 014 in field route_short_name
+Invalid value Tx Kolfa 014 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 016 in field route_short_name
+Invalid value Tx Kolfa 016 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 017 in field route_short_name
+Invalid value Tx Kolfa 017 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 018 in field route_short_name
+Invalid value Tx Kolfa 018 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 019 in field route_short_name
+Invalid value Tx Kolfa 019 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 020 in field route_short_name
+Invalid value Tx Kolfa 020 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 021 in field route_short_name
+Invalid value Tx Kolfa 021 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 022 in field route_short_name
+Invalid value Tx Kolfa 022 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
@@ -3326,991 +3326,991 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 024 in field route_short_name
+Invalid value Tx Kolfa 024 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 025 in field route_short_name
+Invalid value Tx Kolfa 025 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 026 in field route_short_name
+Invalid value Tx Kolfa 026 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 027 in field route_short_name
+Invalid value Tx Kolfa 027 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 028 in field route_short_name
+Invalid value Tx Kolfa 028 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 017 in field route_short_name
+Invalid value Tx Kal 017 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 001 in field route_short_name
+Invalid value Tx Gl 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 002 in field route_short_name
+Invalid value Tx Gl 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 003 in field route_short_name
+Invalid value Tx Gl 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 004 in field route_short_name
+Invalid value Tx Gl 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 005 in field route_short_name
+Invalid value Tx Gl 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 007 in field route_short_name
+Invalid value Tx Gl 007 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 008 in field route_short_name
+Invalid value Tx Gl 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 009 in field route_short_name
+Invalid value Tx Gl 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 010 in field route_short_name
+Invalid value Tx Gl 010 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 011 in field route_short_name
+Invalid value Tx Gl 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 012 in field route_short_name
+Invalid value Tx Gl 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 013 in field route_short_name
+Invalid value Tx Gl 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 001 in field route_short_name
+Invalid value Tx LK 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 002 in field route_short_name
+Invalid value Tx LK 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 003 in field route_short_name
+Invalid value Tx LK 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 004 in field route_short_name
+Invalid value Tx LK 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 005 in field route_short_name
+Invalid value Tx LK 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 006 in field route_short_name
+Invalid value Tx LK 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 007 in field route_short_name
+Invalid value Tx LK 007 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 008 in field route_short_name
+Invalid value Tx LK 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 009 in field route_short_name
+Invalid value Tx LK 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 010 in field route_short_name
+Invalid value Tx LK 010 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 013 in field route_short_name
+Invalid value Tx LK 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 014 in field route_short_name
+Invalid value Tx LK 014 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 003 in field route_short_name
+Invalid value Tx LID 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 004 in field route_short_name
+Invalid value Tx LID 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 009 in field route_short_name
+Invalid value Tx LID 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 010 in field route_short_name
+Invalid value Tx LID 010 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 011 in field route_short_name
+Invalid value Tx LID 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 001 in field route_short_name
+Invalid value Tx YK 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 004 in field route_short_name
+Invalid value Tx YK 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 006 in field route_short_name
+Invalid value Tx YK 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 007 in field route_short_name
+Invalid value Tx YK 007 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 009 in field route_short_name
+Invalid value Tx YK 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 010 in field route_short_name
+Invalid value Tx YK 010 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 011 in field route_short_name
+Invalid value Tx YK 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 012 in field route_short_name
+Invalid value Tx YK 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 013 in field route_short_name
+Invalid value Tx YK 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 016 in field route_short_name
+Invalid value Tx YK 016 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 023 in field route_short_name
+Invalid value Tx YK 023 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 002 in field route_short_name
+Invalid value Tx KRK 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 003 in field route_short_name
+Invalid value Tx KRK 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 004 in field route_short_name
+Invalid value Tx KRK 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 006 in field route_short_name
+Invalid value Tx KRK 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 007 in field route_short_name
+Invalid value Tx KRK 007 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 008 in field route_short_name
+Invalid value Tx KRK 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 009 in field route_short_name
+Invalid value Tx KRK 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 011 in field route_short_name
+Invalid value Tx KRK 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 013 in field route_short_name
+Invalid value Tx KRK 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 002 in field route_short_name
+Invalid value Tx ARD 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 003 in field route_short_name
+Invalid value Tx ARD 003 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 004 in field route_short_name
+Invalid value Tx ARD 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 005 in field route_short_name
+Invalid value Tx ARD 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 007 in field route_short_name
+Invalid value Tx ARD 007 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 006 in field route_short_name
+Invalid value Tx ARD 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 008 in field route_short_name
+Invalid value Tx ARD 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 002 in field route_short_name
+Invalid value Tx ADK 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 004 in field route_short_name
+Invalid value Tx ADK 004 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 008 in field route_short_name
+Invalid value Tx ADK 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 009 in field route_short_name
+Invalid value Tx ADK 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 011 in field route_short_name
+Invalid value Tx ADK 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 012 in field route_short_name
+Invalid value Tx ADK 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 013 in field route_short_name
+Invalid value Tx ADK 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 014 in field route_short_name
+Invalid value Tx ADK 014 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 015 in field route_short_name
+Invalid value Tx ADK 015 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 016 in field route_short_name
+Invalid value Tx ADK 016 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 017 in field route_short_name
+Invalid value Tx ADK 017 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 020 in field route_short_name
+Invalid value Tx ADK 020 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 021 in field route_short_name
+Invalid value Tx ADK 021 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 022 in field route_short_name
+Invalid value Tx ADK 022 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 026 in field route_short_name
+Invalid value Tx ADK 026 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 028 in field route_short_name
+Invalid value Tx ADK 028 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 030 in field route_short_name
+Invalid value Tx ADK 030 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 031 in field route_short_name
+Invalid value Tx ADK 031 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 038 in field route_short_name
+Invalid value Tx ADK 038 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 042 in field route_short_name
+Invalid value Tx ADK 042 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 043 in field route_short_name
+Invalid value Tx ADK 043 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 044 in field route_short_name
+Invalid value Tx ADK 044 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 047 in field route_short_name
+Invalid value Tx ADK 047 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 048 in field route_short_name
+Invalid value Tx ADK 048 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 052 in field route_short_name
+Invalid value Tx ADK 052 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 053 in field route_short_name
+Invalid value Tx ADK 053 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 058 in field route_short_name
+Invalid value Tx ADK 058 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 011 in field route_short_name
+Invalid value Tx ARD 011 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 012 in field route_short_name
+Invalid value Tx ARD 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 016 in field route_short_name
+Invalid value Tx ARD 016 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 023 in field route_short_name
+Invalid value Tx Bole 023 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 018 in field route_short_name
+Invalid value Tx Gl 018 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 032 in field route_short_name
+Invalid value Tx Kal 032 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 033 in field route_short_name
+Invalid value Tx Kal 033 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 037 in field route_short_name
+Invalid value Tx Kal 037 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 034 in field route_short_name
+Invalid value Tx Kolfa 034 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 036 in field route_short_name
+Invalid value Tx Kolfa 036 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 037 in field route_short_name
+Invalid value Tx Kolfa 037 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 014 in field route_short_name
+Invalid value Tx KRK 014 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 015 in field route_short_name
+Invalid value Tx KRK 015 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 016 in field route_short_name
+Invalid value Tx KRK 016 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 017 in field route_short_name
+Invalid value Tx KRK 017 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 020 in field route_short_name
+Invalid value Tx KRK 020 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 034 in field route_short_name
+Invalid value Tx Lafto 034 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 042 in field route_short_name
+Invalid value Tx Lafto 042 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 016 in field route_short_name
+Invalid value Tx LK 016 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 039 in field route_short_name
+Invalid value Tx ADK 039 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 040 in field route_short_name
+Invalid value Tx ADK 040 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 045 in field route_short_name
+Invalid value Tx ADK 045 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 013 in field route_short_name
+Invalid value Tx ARD 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 015 in field route_short_name
+Invalid value Tx Gl 015 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfe 035 in field route_short_name
+Invalid value Tx Kolfe 035 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 042 in field route_short_name
+Invalid value Tx Kolfa 042 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 038 in field route_short_name
+Invalid value Tx Lafto 038 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 039 in field route_short_name
+Invalid value Tx Lafto 039 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 040 in field route_short_name
+Invalid value Tx Lafto 040 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 043 in field route_short_name
+Invalid value Tx Lafto 043 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 002 in field route_short_name
+Invalid value Tx YK 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 008 in field route_short_name
+Invalid value Tx YK 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 014 in field route_short_name
+Invalid value Tx YK 014 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 007 in field route_short_name
+Invalid value Tx Bole 007 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 008 in field route_short_name
+Invalid value Tx Bole 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Bole 017 in field route_short_name
+Invalid value Tx Bole 017 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 005 in field route_short_name
+Invalid value Tx ADK 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 006 in field route_short_name
+Invalid value Tx ADK 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 024 in field route_short_name
+Invalid value Tx ADK 024 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 023 in field route_short_name
+Invalid value Tx ADK 023 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 035 in field route_short_name
+Invalid value Tx ADK 035 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 037 in field route_short_name
+Invalid value Tx ADK 037 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 055 in field route_short_name
+Invalid value Tx ADK 055 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ADK 057 in field route_short_name
+Invalid value Tx ADK 057 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 001 in field route_short_name
+Invalid value Tx ARD 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus ARD 009 in field route_short_name
+Invalid value Tx ARD 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Gl 006 in field route_short_name
+Invalid value Tx Gl 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 021 in field route_short_name
+Invalid value Tx Kal 021 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 022 in field route_short_name
+Invalid value Tx Kal 022 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 023 in field route_short_name
+Invalid value Tx Kal 023 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 027 in field route_short_name
+Invalid value Tx Kal 027 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 008 in field route_short_name
+Invalid value Tx Kal 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 009 in field route_short_name
+Invalid value Tx Kal 009 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 030 in field route_short_name
+Invalid value Tx Kal 030 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 034 in field route_short_name
+Invalid value Tx Kal 034 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kal 035 in field route_short_name
+Invalid value Tx Kal 035 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 001 in field route_short_name
+Invalid value Tx KRK 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus KRK 012 in field route_short_name
+Invalid value Tx KRK 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 031 in field route_short_name
+Invalid value Tx Kolfa 031 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 033 in field route_short_name
+Invalid value Tx Kolfa 033 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 038 in field route_short_name
+Invalid value Tx Kolfa 038 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Kolfa 041 in field route_short_name
+Invalid value Tx Kolfa 041 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 001 in field route_short_name
+Invalid value Tx Lafto 001 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 016 in field route_short_name
+Invalid value Tx Lafto 016 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 030 in field route_short_name
+Invalid value Tx Lafto 030 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LK 012 in field route_short_name
+Invalid value Tx LK 012 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 002 in field route_short_name
+Invalid value Tx LID 002 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 005 in field route_short_name
+Invalid value Tx LID 005 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 007 in field route_short_name
+Invalid value Tx LID 007 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 008 in field route_short_name
+Invalid value Tx LID 008 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus LID 013 in field route_short_name
+Invalid value Tx LID 013 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 017 in field route_short_name
+Invalid value Tx YK 017 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 019 in field route_short_name
+Invalid value Tx YK 019 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus YK 021 in field route_short_name
+Invalid value Tx YK 021 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 006 in field route_short_name
+Invalid value Tx Lafto 006 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value Minibus Lafto 007 in field route_short_name
+Invalid value Tx Lafto 007 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
