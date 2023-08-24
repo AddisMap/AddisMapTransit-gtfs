@@ -1060,7 +1060,7 @@ INFO:root:Added stop: Goro Roundabout - https://osm.org/node/7098810331
 INFO:root:Added stop: Kotebe Shet' - https://osm.org/node/7098810332
 INFO:root:Added stop: Bole Lemi - https://osm.org/node/7098810333
 INFO:root:Added stop: Endorro 2 - https://osm.org/node/7098810334
-INFO:root:Added stop: kilinto Right (Heniken) - https://osm.org/node/7098810335
+INFO:root:Added stop: Kilinto Right (Heniken) - https://osm.org/node/7098810335
 INFO:root:Added stop: Koye Feche 4 - https://osm.org/node/7098810336
 INFO:root:Added stop: Koye Feche 3 - https://osm.org/node/7098810337
 INFO:root:Added stop: Koye Feche 2 - https://osm.org/node/7098810338
@@ -1263,6 +1263,10 @@ INFO:root:Added stop: Total 3 Kuter Mazoria - https://osm.org/node/7182111861
 INFO:root:Added stop: Kera - https://osm.org/node/7182111862
 INFO:root:Added stop: 4 Kilo Minilik School - https://osm.org/node/7214490240
 INFO:root:Added stop: Kality Menaheriya - https://osm.org/node/7214490241
+INFO:root:Added stop: Delta Fuel Station - https://osm.org/node/10672721751
+INFO:root:Added stop: Sidama Awash NOC - https://osm.org/node/10672739809
+INFO:root:Added stop: Atlas Resort - https://osm.org/node/10672739811
+INFO:root:Added stop: ODDA Fuel Station - https://osm.org/node/10672739815
 INFO:root:Added stop: 3 Kutir (TZNA Area) - https://osm.org/node/10672961242
 INFO:root:Added stop: Lideta High Court - https://osm.org/node/10672961244
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/10750378219
@@ -2262,6 +2266,43 @@ INFO:root:Added stop: Aba Kiros Roundabout - https://osm.org/node/11057053412
 INFO:root:Added stop: Sululta - https://osm.org/node/11083569807
 INFO:root:Added stop: Sululta - https://osm.org/node/11083569808
 INFO:root:Added stop: Lomi Meda - https://osm.org/node/11084058584
+INFO:root:Added stop: Kality Total - https://osm.org/node/11141680766
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11141680767
+INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/11141680768
+INFO:root:Added stop: Delta Fuel Station - https://osm.org/node/11141680769
+INFO:root:Added stop: Sidama Awash NOC - https://osm.org/node/11141680770
+INFO:root:Added stop: Atlas Resort - https://osm.org/node/11141680771
+INFO:root:Added stop: KOSPI - https://osm.org/node/11141680772
+INFO:root:Added stop: Gelan - https://osm.org/node/11141680773
+INFO:root:Added stop: Gelan Customs - https://osm.org/node/11141680774
+INFO:root:Added stop: Dukem - https://osm.org/node/11141680775
+INFO:root:Added stop: Dukem - https://osm.org/node/11141680777
+INFO:root:Added stop: Abysinnia Bank Oda Nebie Branch - https://osm.org/node/11141680778
+INFO:root:Added stop: Elsewdy - https://osm.org/node/11141680779
+INFO:root:Added stop: Gelan Customs - https://osm.org/node/11141680780
+INFO:root:Added stop: Gelan - https://osm.org/node/11141680781
+INFO:root:Added stop: KOSPI - https://osm.org/node/11141680782
+INFO:root:Added stop: Adal Bamboo Industrial PLC - https://osm.org/node/11141680783
+INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/11141680784
+INFO:root:Added stop: Awash Bank (Akaki Kality) - https://osm.org/node/11141680785
+INFO:root:Added stop: Goro Primary School - https://osm.org/node/11141680786
+INFO:root:Added stop: Goro Roundabout - https://osm.org/node/11141680787
+INFO:root:Added stop: Eldana Pharmacy - https://osm.org/node/11141680789
+INFO:root:Added stop: Bishoftu Harar Supermarket - https://osm.org/node/11141680790
+INFO:root:Added stop: Bishoftu (Pyramid Paradise) - https://osm.org/node/11141680791
+INFO:root:Added stop: Bishoftu (Eyasu Meda) - https://osm.org/node/11141680792
+INFO:root:Added stop: Bishoftu - https://osm.org/node/11141680793
+INFO:root:Added stop: Bishoftu - https://osm.org/node/11141680794
+INFO:root:Added stop: Debre Zeit - https://osm.org/node/11141680795
+INFO:root:Added stop: Debre Zeit - https://osm.org/node/11141680797
+INFO:root:Added stop: Bishoftu - https://osm.org/node/11141680798
+INFO:root:Added stop: Bishoftu - https://osm.org/node/11141680799
+INFO:root:Added stop: Eastern Industry Zone - https://osm.org/node/11141680800
+INFO:root:Added stop: Bishoftu (Eyasu Meda) - https://osm.org/node/11141680801
+INFO:root:Added stop: Eastern Industry Zone - https://osm.org/node/11141680802
+INFO:root:Added stop: Eldana Pharmacy - https://osm.org/node/11141680803
+INFO:root:Added stop: Debre Zeit (Toll Exit) - https://osm.org/node/11141680804
+INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/11141681405
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2620,12 +2661,18 @@ Generating schedule for line: 16148442
 Generating schedule for line: 16148443
 Generating schedule for line: 16151480
 Generating schedule for line: 16151481
+Generating schedule for line: 16239079
+Generating schedule for line: 16239080
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 Generating schedule for line: Minibus Bole 003
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
+The stops "Debre Zeit" (ID node/11141680797) and "Debre Zeit" (ID
+node/11141680795) are 0.71m apart and probably represent the same location.
+The stops "Dukem" (ID node/11141680777) and "Dukem" (ID node/11141680775) are
+0.83m apart and probably represent the same location.
 The stops "Belay Ab Moters (Alem Bank)" (ID node/7037142458) and "Yeshi Total"
 (ID node/10973672014) are 0.59m apart and probably represent the same
 location.
