@@ -17,6 +17,20 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15833376
+WARNING:root:  Problem at: https://osm.org/way/534436266
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15917947
+WARNING:root:  Problem at: https://osm.org/way/534436266
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15961304
+WARNING:root:  Problem at: https://osm.org/way/534436266
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16004298
+WARNING:root:  Problem at: https://osm.org/way/534436266
+WARNING:root:Warning: This relation route master:
+WARNING:root: https://osm.org/relation/16148442
+WARNING:root: has a member which is not a valid itinerary:
+WARNING:root: https://osm.org/relation/1173967663
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15484821
+WARNING:root:  Problem at: https://osm.org/way/758195525
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/15842384
 WARNING:root: Please fix in OpenStreetMap
@@ -662,7 +676,6 @@ INFO:root:Added stop: Stadium - https://osm.org/node/7041071374
 INFO:root:Added stop: Legehar - https://osm.org/node/7041071376
 INFO:root:Added stop: Legehar - https://osm.org/node/7041071377
 INFO:root:Added stop: Legehar (Old Train Station) - https://osm.org/node/7041071378
-INFO:root:Added stop: Legehar (Old Train Station) - https://osm.org/node/7041071379
 INFO:root:Added stop: Mexico - https://osm.org/node/7041071380
 INFO:root:Added stop: African Union - https://osm.org/node/7041071382
 INFO:root:Added stop: Popolare - https://osm.org/node/7041071383
