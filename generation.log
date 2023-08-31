@@ -23,6 +23,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15917947
 WARNING:root:  Problem at: https://osm.org/way/534436266
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15961304
 WARNING:root:  Problem at: https://osm.org/way/534436266
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15992644
+WARNING:root:  Problem at: https://osm.org/way/1183374327
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004298
 WARNING:root:  Problem at: https://osm.org/way/534436266
 WARNING:root:Warning: This relation route master:
