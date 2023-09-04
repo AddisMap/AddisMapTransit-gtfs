@@ -17,26 +17,6 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15833376
-WARNING:root:  Problem at: https://osm.org/way/534436266
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15917947
-WARNING:root:  Problem at: https://osm.org/way/534436266
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15961304
-WARNING:root:  Problem at: https://osm.org/way/534436266
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15992644
-WARNING:root:  Problem at: https://osm.org/way/1183374327
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16004298
-WARNING:root:  Problem at: https://osm.org/way/534436266
-WARNING:root:Warning: This relation route master:
-WARNING:root: https://osm.org/relation/16148442
-WARNING:root: has a member which is not a valid itinerary:
-WARNING:root: https://osm.org/relation/1173967663
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15484821
-WARNING:root:  Problem at: https://osm.org/way/758195525
-WARNING:root:Route (variant) without route_master
-WARNING:root: https://osm.org/relation/15842384
-WARNING:root: Please fix in OpenStreetMap
-WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/15842384
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -749,7 +729,7 @@ INFO:root:Added stop: Arat Kilo - https://osm.org/node/7041071479
 INFO:root:Added stop: Arat Kilo - https://osm.org/node/7041071480
 INFO:root:Added stop: Bel Air - https://osm.org/node/7041071481
 INFO:root:Added stop: Addis View Hotel - https://osm.org/node/7041071482
-INFO:root:Added stop: Menlik II Hospital - https://osm.org/node/7041071483
+INFO:root:Added stop: Menelik II Hospital - https://osm.org/node/7041071483
 INFO:root:Added stop: Menlik Hospital - https://osm.org/node/7041071484
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/7041071579
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/7041071580
@@ -1859,7 +1839,7 @@ INFO:root:Added stop: Yohanes - https://osm.org/node/10924212643
 INFO:root:Added stop: Yohanes - https://osm.org/node/10924212644
 INFO:root:Added stop: Shola Abyssinia Bank - https://osm.org/node/10924342466
 INFO:root:Added stop: British Embassy - https://osm.org/node/10924342467
-INFO:root:Added stop: Menlik Hospital - https://osm.org/node/10924342468
+INFO:root:Added stop: Menelik II Hospital - https://osm.org/node/10924342468
 INFO:root:Added stop: Menlik Hospital - https://osm.org/node/10924342469
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/10924342470
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/10924342471
@@ -2185,7 +2165,6 @@ INFO:root:Added stop: Saris - https://osm.org/node/11034511605
 INFO:root:Added stop: Saris - https://osm.org/node/11034511606
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/11034611751
 INFO:root:Added stop: Megenagna - https://osm.org/node/11034647605
-INFO:root:Added stop: Menlik Hospital - https://osm.org/node/11035234708
 INFO:root:Added stop: Torhailoch - https://osm.org/node/11035234709
 INFO:root:Added stop: Millenium School - https://osm.org/node/11035240259
 INFO:root:Added stop: Chid Tera - https://osm.org/node/11035240260
@@ -2680,7 +2659,6 @@ Generating schedule for line: 16239079
 Generating schedule for line: 16239080
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
-Generating schedule for line: Minibus Bole 003
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
@@ -2800,8 +2778,6 @@ The stops "Flamingo" (ID node/7070861710) and "Flamingo" (ID node/10766121863)
 are 0.77m apart and probably represent the same location.
 The stops "Mexico" (ID node/7080440208) and "Mexico" (ID node/10932115667) are
 1.22m apart and probably represent the same location.
-The stops "Mexico" (ID node/10932115666) and "Mexico" (ID node/7074707878) are
-0.76m apart and probably represent the same location.
 The stops "Lideta Condominium" (ID node/11035607131) and "Lideta (Balcha
 Hospital)" (ID node/7041071430) are 0.45m apart and probably represent the
 same location.
@@ -2880,13 +2856,10 @@ node/10970829160) are 0.84m apart and probably represent the same location.
 The stops "Abune Petros" (ID node/10925161777) and "Abune Petros" (ID
 node/11034031013) are 0.84m apart and probably represent the same location.
 The stops "Piassa Arada" (ID node/7041071579) and "Piassa" (ID
-node/10924088004) are 0.09m apart and probably represent the same location.
-The stops "Menlik Hospital" (ID node/10924342468) and "Menlik Hospital" (ID
-node/11035234708) are 0.64m apart and probably represent the same location.
-The stops "Menlik Hospital" (ID node/10924342468) and "Menlik II Hospital" (ID
-node/7041071483) are 0.72m apart and probably represent the same location.
-The stops "Menlik Hospital" (ID node/11035234708) and "Menlik II Hospital" (ID
-node/7041071483) are 0.08m apart and probably represent the same location.
+node/10924088004) are 1.72m apart and probably represent the same location.
+The stops "Menelik II Hospital" (ID node/7041071483) and "Menelik II Hospital"
+(ID node/10924342468) are 1.03m apart and probably represent the same
+location.
 The stops "Red-Cross (St. George Total)" (ID node/7041071638) and "St. George
 Total" (ID node/10932040830) are 0.22m apart and probably represent the same
 location.
@@ -4382,35 +4355,29 @@ This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
- column route_short_name
-Invalid value Tx Bole 003 in field route_short_name
-This route_short_name is relatively long, which probably means that it
-contains a place name.  You should only use this field to hold a short code
-that riders use to identify a route.  If this route doesn't have such a code,
-it's OK to leave this field empty.
-High speed travel detected in trip 620: Megenagna to Shola Gebeya. 657 meters
+High speed travel detected in trip 621: Megenagna to Shola Gebeya. 657 meters
 in 17 seconds. (139 km/h).
-High speed travel detected in trip 620: Shola Gebeya to Abebe Sook. 831 meters
+High speed travel detected in trip 621: Shola Gebeya to Abebe Sook. 831 meters
 in 22 seconds. (136 km/h).
-High speed travel detected in trip 620: Abebe Sook to Belgium Embassy. 629
+High speed travel detected in trip 621: Abebe Sook to Belgium Embassy. 629
 meters in 16 seconds. (142 km/h).
-High speed travel detected in trip 620: Belgium Embassy to Kokebe Tsebah
+High speed travel detected in trip 621: Belgium Embassy to Kokebe Tsebah
 School. 506 meters in 14 seconds. (130 km/h).
-High speed travel detected in trip 620: Kokebe Tsebah School to Bel Air. 842
+High speed travel detected in trip 621: Kokebe Tsebah School to Bel Air. 842
 meters in 22 seconds. (138 km/h).
-High speed travel detected in trip 620: Bel Air to 4 Kilo. 1078 meters in 28
+High speed travel detected in trip 621: Bel Air to 4 Kilo. 1078 meters in 28
 seconds. (139 km/h).
-High speed travel detected in trip 620: 4 Kilo to Education Bureau (6 Kilo).
+High speed travel detected in trip 621: 4 Kilo to Education Bureau (6 Kilo).
 1093 meters in 28 seconds. (141 km/h).
-High speed travel detected in trip 620: Education Bureau (6 Kilo) to 3rd
+High speed travel detected in trip 621: Education Bureau (6 Kilo) to 3rd
 Shaleka. 640 meters in 17 seconds. (136 km/h).
-High speed travel detected in trip 620: 3rd Shaleka to Mezan. 804 meters in 21
+High speed travel detected in trip 621: 3rd Shaleka to Mezan. 804 meters in 21
 seconds. (138 km/h).
-High speed travel detected in trip 620: Mezan to Abo Mazoriya. 718 meters in
+High speed travel detected in trip 621: Mezan to Abo Mazoriya. 718 meters in
 19 seconds. (136 km/h).
-High speed travel detected in trip 620: Abo Mazoriya to Biret Dildiy (Bono
+High speed travel detected in trip 621: Abo Mazoriya to Biret Dildiy (Bono
 Wuha). 492 meters in 13 seconds. (136 km/h).
-High speed travel detected in trip 620: Biret Dildiy (Bono Wuha) to Tena
+High speed travel detected in trip 621: Biret Dildiy (Bono Wuha) to Tena
 Tabya. 325 meters in 8 seconds. (146 km/h).
-High speed travel detected in trip 620: Tena Tabya to Gurara. 563 meters in 15
+High speed travel detected in trip 621: Tena Tabya to Gurara. 563 meters in 15
 seconds. (135 km/h).
