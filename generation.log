@@ -63,6 +63,11 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16004440
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
 WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Itinerary was assigned again:
+WARNING:root:https://osm.org/relation/15484447
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/16290773
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -399,6 +404,7 @@ WARNING:root: https://osm.org/relation/10578291
 WARNING:root:OSM stop area has only one platform and can't be used as a GTFS station:
 WARNING:root: https://osm.org/relation/10354869
 INFO:root:* Found alternative stop name: Arada - https://osm.org/node/6728583386
+INFO:root:* Found alternative stop name: Kazanchis - https://osm.org/node/6728599185
 INFO:root:Agency creator: Default
 INFO:root:Feed info creator: Default
 INFO:root:Routes creator: et_addisababa
@@ -490,6 +496,7 @@ INFO:root:Added stop: Mebrathail - https://osm.org/node/6251054285
 INFO:root:Added stop: Asko - https://osm.org/node/6307600909
 INFO:root:Added stop: Bole Printing Press - https://osm.org/node/6373574986
 INFO:root:Added stop: Arada - https://osm.org/node/6728583386
+INFO:root:Added stop: Kazanchis - https://osm.org/node/6728599185
 INFO:root:Added stop: Mexico - https://osm.org/node/6814022390
 INFO:root:Added stop: Mebrat Condominium - https://osm.org/node/6967142984
 INFO:root:Added stop: Mebrat - https://osm.org/node/6967165728
@@ -584,6 +591,7 @@ INFO:root:Added stop: Wessen (Mariam) - https://osm.org/node/7037183507
 INFO:root:Added stop: Kotebe Teachers College - https://osm.org/node/7037183508
 INFO:root:Added stop: Yabem Hotel - https://osm.org/node/7037183509
 INFO:root:Added stop: Kotebe Gebriel - https://osm.org/node/7037183510
+INFO:root:Added stop: Yetebaberut - https://osm.org/node/7037183513
 INFO:root:Added stop: Yetebaberut - https://osm.org/node/7037183515
 INFO:root:Added stop: Meri - https://osm.org/node/7037183516
 INFO:root:Added stop: Meri (Yetebaberut) - https://osm.org/node/7037183518
@@ -593,8 +601,10 @@ INFO:root:Added stop: Kara (Turn) - https://osm.org/node/7037183521
 INFO:root:Added stop: Medhanalem Church - https://osm.org/node/7037183523
 INFO:root:Added stop: Safari - https://osm.org/node/7037183525
 INFO:root:Added stop: Summit (MOHA) - https://osm.org/node/7037183527
+INFO:root:Added stop: Saint Georgis - https://osm.org/node/7037183528
 INFO:root:Added stop: Tena Tabeya - https://osm.org/node/7037183529
 INFO:root:Added stop: Gate 2 - https://osm.org/node/7037183532
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/7037183533
 INFO:root:Added stop: Ayat Train Station - https://osm.org/node/7037183535
 INFO:root:Added stop: CMC - https://osm.org/node/7037183536
 INFO:root:Added stop: Ayat Square - https://osm.org/node/7037183537
@@ -803,6 +813,7 @@ INFO:root:Added stop: Realstate - https://osm.org/node/7041071616
 INFO:root:Added stop: Police Tabiya - https://osm.org/node/7041071619
 INFO:root:Added stop: Feli Doro (1) - https://osm.org/node/7041071620
 INFO:root:Added stop: Feli Doro - https://osm.org/node/7041071622
+INFO:root:Added stop: Arada - https://osm.org/node/7041071623
 INFO:root:Added stop: Ras Mekonene Bridge (Seba Dereja) - https://osm.org/node/7041071628
 INFO:root:Added stop: 5 Kilo (History Museum) - https://osm.org/node/7041071629
 INFO:root:Added stop: 5 Kilo University - https://osm.org/node/7041071630
@@ -2343,6 +2354,19 @@ INFO:root:Added stop: Eastern Industry Zone - https://osm.org/node/11141680802
 INFO:root:Added stop: Eldana Pharmacy - https://osm.org/node/11141680803
 INFO:root:Added stop: Debre Zeit (Toll Exit) - https://osm.org/node/11141680804
 INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/11141681405
+INFO:root:Added stop: Adwa Square - https://osm.org/node/11167384415
+INFO:root:Added stop: Gurd-shola - https://osm.org/node/11167384416
+INFO:root:Added stop: Saint Georgis - https://osm.org/node/11167384417
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/11167384418
+INFO:root:Added stop: Ambassador - https://osm.org/node/11171800354
+INFO:root:Added stop: Bole Mickael - https://osm.org/node/11171800355
+INFO:root:Added stop: Wollo Sefer - https://osm.org/node/11171800356
+INFO:root:Added stop: Dembel - https://osm.org/node/11171800357
+INFO:root:Added stop: St. Urael Church - https://osm.org/node/11171800358
+INFO:root:Added stop: St. Urael Church - https://osm.org/node/11171800359
+INFO:root:Added stop: Kazanchis (6th) - https://osm.org/node/11171800360
+INFO:root:Added stop: Place Parking (Gibi Gebriel) - https://osm.org/node/11171800361
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/11171800362
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2549,7 +2573,7 @@ Generating schedule for line: 15916909
 Generating schedule for line: 15916957
 Generating schedule for line: 15917637
 Generating schedule for line: 15917697
-INFO:root:Removed 0 unused stops
+INFO:root:Removed 3 unused stops
 INFO:root:Removed 0 unused routes
 Generating schedule for line: 15917888
 Generating schedule for line: 15917949
@@ -2703,6 +2727,11 @@ Generating schedule for line: 16151480
 Generating schedule for line: 16151481
 Generating schedule for line: 16239079
 Generating schedule for line: 16239080
+Generating schedule for line: 16290772
+Generating schedule for line: 16290774
+WARNING: No duration set --- Using default travel time for route with OSM ID 16290766
+WARNING: No duration set --- Using default travel time for route with OSM ID 16290765
+Generating schedule for line: 16290775
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
@@ -2781,6 +2810,9 @@ The stops "Ayer Tena" (ID node/7084932741) and "Ayer Tena" (ID
 node/10911198619) are 0.76m apart and probably represent the same location.
 The stops "Summit Condominiums" (ID node/10928876313) and "Summit
 Condominiums" (ID node/10925946103) are 0.49m apart and probably represent the
+same location.
+The stops "Summit Condominiums" (ID node/10928876312) and "Summit
+Condominiums" (ID node/7037183533) are 0.34m apart and probably represent the
 same location.
 The stops "Kera" (ID node/11036079245) and "Kera (Green Market)" (ID
 node/7084873009) are 0.40m apart and probably represent the same location.
