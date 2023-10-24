@@ -551,7 +551,6 @@ INFO:root:Added stop: G7 (Tulu Dimtu) - https://osm.org/node/7037142450
 INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/7037142454
 INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/7037142455
 INFO:root:Added stop: Akaki Korkoro - https://osm.org/node/7037142456
-INFO:root:Added stop: Belay Ab Moters (Alem Bank) - https://osm.org/node/7037142458
 INFO:root:Added stop: Tulu Dimtu (Taf Gas Station) - https://osm.org/node/7037142459
 INFO:root:Added stop: Arsema - https://osm.org/node/7037142460
 INFO:root:Added stop: Selam Sefer (Tapela Gar) - https://osm.org/node/7037142461
@@ -1253,7 +1252,6 @@ INFO:root:Added stop: Wehalemat - https://osm.org/node/7112648167
 INFO:root:Added stop: Awash Bank (Akaki Kality) - https://osm.org/node/7112648168
 INFO:root:Added stop: Gelan Condominium - https://osm.org/node/7112648169
 INFO:root:Added stop: Belay Ab Moters - https://osm.org/node/7112648170
-INFO:root:Added stop: Belay Ab Moters (Alem Bank) - https://osm.org/node/7112648171
 INFO:root:Added stop: TAF Oil (Tulu Dimtu) - https://osm.org/node/7112648172
 INFO:root:Added stop: Addis Sefer (NFSL W09) - https://osm.org/node/7112755336
 INFO:root:Added stop: Addis Sefer - https://osm.org/node/7112755337
@@ -2099,7 +2097,6 @@ INFO:root:Added stop: Mebrathayil - https://osm.org/node/10973631794
 INFO:root:Added stop: Mebrathayil - https://osm.org/node/10973631795
 INFO:root:Added stop: Lafto - https://osm.org/node/10973631797
 INFO:root:Added stop: Yeshi Total - https://osm.org/node/10973672014
-INFO:root:Added stop: Yeshi Total - https://osm.org/node/10973672015
 INFO:root:Added stop: Megenagna - https://osm.org/node/10973929780
 INFO:root:Added stop: Biretabret - https://osm.org/node/10973929781
 INFO:root:Added stop: Hanna Mariam - https://osm.org/node/10973929783
@@ -2255,7 +2252,6 @@ INFO:root:Added stop: Kera - https://osm.org/node/11036079245
 INFO:root:Added stop: Anfo Meda - https://osm.org/node/11036753217
 INFO:root:Added stop: Tulu Dimtu Adebabay - https://osm.org/node/11036769860
 INFO:root:Added stop: Saris Abo - https://osm.org/node/11036769861
-INFO:root:Added stop: Belay Ab Moters (Alem Bank) - https://osm.org/node/11036769863
 INFO:root:Added stop: Mestawet Fabrica - https://osm.org/node/11036961231
 INFO:root:Added stop: Dil Ber - https://osm.org/node/11037128648
 INFO:root:Added stop: Mama - https://osm.org/node/11037149942
@@ -2741,17 +2737,6 @@ The stops "Debre Zeit" (ID node/11141680797) and "Debre Zeit" (ID
 node/11141680795) are 0.71m apart and probably represent the same location.
 The stops "Dukem" (ID node/11141680777) and "Dukem" (ID node/11141680775) are
 0.83m apart and probably represent the same location.
-The stops "Belay Ab Moters (Alem Bank)" (ID node/7037142458) and "Yeshi Total"
-(ID node/10973672014) are 0.59m apart and probably represent the same
-location.
-The stops "Belay Ab Moters (Alem Bank)" (ID node/7037142458) and "Yeshi Total"
-(ID node/10973672015) are 1.02m apart and probably represent the same
-location.
-The stops "Yeshi Total" (ID node/10973672014) and "Yeshi Total" (ID
-node/10973672015) are 0.69m apart and probably represent the same location.
-The stops "Belay Ab Moters (Alem Bank)" (ID node/11036769863) and "Belay Ab
-Moters (Alem Bank)" (ID node/7112648171) are 1.97m apart and probably
-represent the same location.
 The stops "Akaki Beretaberet" (ID node/11056827967) and "Breta bret" (ID
 node/10994789635) are 0.66m apart and probably represent the same location.
 The stops "Akaki Beretaberet" (ID node/11056827967) and "Akaki Beretaberet"
