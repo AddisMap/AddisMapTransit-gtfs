@@ -19,6 +19,10 @@ INFO:root:(
             );out body;
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10458767
 WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10550648
+WARNING:root:  Problem at: https://osm.org/way/761290294
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10550649
+WARNING:root:  Problem at: https://osm.org/way/9717648
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15652319
 WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15858007
@@ -59,10 +63,22 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15962157
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15962158
 WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15999427
+WARNING:root:  Problem at: https://osm.org/way/1183705289
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15999428
+WARNING:root:  Problem at: https://osm.org/way/548379917
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16003638
+WARNING:root:  Problem at: https://osm.org/way/1183941090
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16003639
+WARNING:root:  Problem at: https://osm.org/way/1183705289
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004440
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
 WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16074206
+WARNING:root:  Problem at: https://osm.org/way/9717648
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16074207
+WARNING:root:  Problem at: https://osm.org/way/43290672
 WARNING:root:Itinerary was assigned again:
 WARNING:root:https://osm.org/relation/15484447
 WARNING:root:'Ref' of route_master already taken
@@ -2743,12 +2759,6 @@ The stops "Akaki Beretaberet" (ID node/11056827967) and "Akaki Beretaberet"
 (ID node/7037142448) are 1.33m apart and probably represent the same location.
 The stops "Breta bret" (ID node/10994789635) and "Akaki Beretaberet" (ID
 node/7037142448) are 1.95m apart and probably represent the same location.
-The stops "Selam Building" (ID node/10842129096) and "Selam Building" (ID
-node/7041052894) are 0.35m apart and probably represent the same location.
-The stops "Selam Building" (ID node/10842129096) and "Selam Building" (ID
-node/10992247910) are 1.65m apart and probably represent the same location.
-The stops "Selam Building" (ID node/7041052894) and "Selam Building" (ID
-node/10992247910) are 1.45m apart and probably represent the same location.
 The stops "Derartu" (ID node/10845731586) and "Derartu" (ID node/7037142443)
 are 1.82m apart and probably represent the same location.
 The stops "Kality Total" (ID node/7112648161) and "Kality Total" (ID
