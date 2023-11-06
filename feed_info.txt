@@ -1,2 +1,2 @@
-feed_contact_url,feed_contact_email,feed_version,feed_start_date,feed_publisher_name,feed_end_date,feed_publisher_url,feed_lang
-https://addismaptransit.com/support/,info@addismap.com,0.1,20191201,AddisMap,20991231,http://addismap.com,en
+feed_contact_email,feed_publisher_url,feed_start_date,feed_lang,feed_contact_url,feed_publisher_name,feed_end_date,feed_version
+info@addismap.com,http://addismap.com,20191201,en,https://addismaptransit.com/support/,AddisMap,20991231,0.1
