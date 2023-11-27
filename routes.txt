@@ -1,361 +1,361 @@
-route_long_name,route_id,route_short_name,route_type,agency_id,route_desc,route_color,route_text_color
-Megenegna Terminal ↔ Legedadi Mission,10400029,AB097,3,AA,,1779c2,ffffff
-Megenagna Terminal ↔ Aba Kiros Roundabout,10400258,AB101,3,AA,,1779c2,ffffff
-Megenegna Terminal ↔ Ayat Chefe Condominium,10400405,AB049,3,AA,,1779c2,ffffff
-Ayat Chefe Condominium ↔ 6 Kilo,10406491,AB083,3,AA,,1779c2,ffffff
-Megenegna Terminal ↔ Bole Arabsa,10406697,AB106,3,AA,,1779c2,ffffff
-Kotebe Teachers College ↔ Piassa Arada,10407732,AB010,3,AA,,1779c2,ffffff
-Yeka Abado ↔ Megenagna,10409764,AB001,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Brass Clinic (Bole),10410198,AB009,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ Ayat Chefe Condominium,10441511,AB061,3,AA,,1779c2,ffffff
-Shero Meda ↔ Bole Millenium,10458768,SH027,3,AA,,1779c2,ffffff
-Shero Meda ↔ Abo Junction,10460046,SH028,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Abo Junction,10460168,SH016,3,AA,,1779c2,ffffff
-Yeka Abado ↔ Megenagna,10460407,SH004,3,AA,,1779c2,ffffff
-Autobis Tera (2) ↔ Alem Bank,10460602,SH010,3,AA,,1779c2,ffffff
-Mexico ↔ Haile Garment,10460963,A10,3,AA,,1779c2,ffffff
-Kara Kore ↔ Autobis Tera (1),10461811,SH040,3,AA,,1779c2,ffffff
-Yerer Goro ↔ Megenagna,10465903,D26,3,AA,,1779c2,ffffff
-Mexico ↔ Megenagna,10466290,A24,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Mebrat Condominium,10466725,C15,3,AA,,1779c2,ffffff
-Sansusi ↔ Piassa Arada,10468435,C14,3,AA,,1779c2,ffffff
-Gurara ↔ 4 Kilo,10469388,A08,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Dil Ber,10478792,C31,3,AA,,1779c2,ffffff
-Shero Meda ↔ Autobis Tera (3),10479678,B37,3,AA,,1779c2,ffffff
-Autobis Tera (1) ↔ Abo Junction,10480005,B19,3,AA,,1779c2,ffffff
-Mexico ↔ Alem Bank,10480336,A09,3,AA,,1779c2,ffffff
-Koye Feche ↔ Megenagna,10521543,D52,3,AA,,1779c2,ffffff
-Summit Condominiums ↔ Megenagna Terminal,10521610,D25,3,AA,,1779c2,ffffff
-Autobis Tera (2) ↔ Kela,10529108,B35,3,AA,,1779c2,ffffff
-Saris Abo ↔ Ayer Tena,10529704,B40,3,AA,,1779c2,ffffff
-Yeka Abado ↔ Piassa Arada,10533497,C51,3,AA,,1779c2,ffffff
-Megenagna Terminal ↔ Aba Kiros Roundabout,10533758,D23,3,AA,,1779c2,ffffff
-Mexico ↔ Lafto,10534180,A05,3,AA,,1779c2,ffffff
-Shero Meda ↔ Mexico,10534541,A01,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Marathon Motor (Megenagna),10534848,C17,3,AA,,1779c2,ffffff
-Autobis Tera ↔ Asko,10535103,B22,3,AA,,1779c2,ffffff
-Sefera ↔ Mexico,10541125,A04,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Jemmo 2,10541371,A18,3,AA,,1779c2,ffffff
-Mexico ↔ Jemo 1,10542001,A02,3,AA,,1779c2,ffffff
-Merkato ↔ Ashewa Meda,10542096,B35B,3,AA,,1779c2,ffffff
-kera ↔ Addisu Gebeya,10542241,C50,3,AA,,1779c2,ffffff
-Kotebe 01 ↔ Legehar (Old Train Station),10547202,AB032,3,AA,,1779c2,ffffff
-Kality Meneharia ↔ Megenagna Terminal,10547526,AB076,3,AA,,1779c2,ffffff
-Autobis Tera ↔ Arat Kilo,10549686,AB015,3,AA,,1779c2,ffffff
-Yeshi Debele ↔ Autobis Tera,10550063,AB018,3,AA,,1779c2,ffffff
-Winget ↔ Ayer Tena (Terminal),10550163,AB087,3,AA,,1779c2,ffffff
-Tulu Dimtu ↔ Shero Meda,10550650,AB110,3,AA,,1779c2,ffffff
-Addis Sefer (Gebriel) ↔ Autobis Tera,10550800,AB029,3,AA,,1779c2,ffffff
-Shegole (Mender 7) ↔ Autobis Tera,10551230,AB047,3,AA,,1779c2,ffffff
-Sansusi ↔ Autobis Tera,10551231,AB028,3,AA,,1779c2,ffffff
-Eyesus ↔ Autobis Tera,10551605,AB041,3,AA,,1779c2,ffffff
-Olympia ↔ Agona Cinema (Minibus),10568476,TX341,3,AA,,1779c2,ffffff
-Ayer Tena ↔ Piassa Arada,15625520,AB003,3,AA,,1779c2,ffffff
-Total 3 kuter Mazoria ↔ Kera (Minibus),15633036,TX002,3,AA,,1779c2,ffffff
-German Square ↔ Autobis Tera,15656246,AB034,3,AA,,1779c2,ffffff
-Wello Sefer ↔ Kera (Minibus),15676211,TX200,3,AA,,1779c2,ffffff
-Safari (Summit) ↔ Megenagna (Minibus),15676212,TX065,3,AA,,1779c2,ffffff
-Kality Menaheria ↔ 4 Kilo (Minibus),15676213,TX005,3,AA,,1779c2,ffffff
-Arada ↔ 18 Mazoria (Minibus),15676215,TX001,3,AA,,1779c2,ffffff
-Kara ↔ 4 Kilo (Children Theatre) (Minibus),15677019,TX006,3,AA,,1779c2,ffffff
-Megenagna ↔ 6 Kilo (Minibus),15677252,TX008,3,AA,,1779c2,ffffff
-Kality Menaheria ↔ Ayer Tena (Minibus),15774596,Tx Kal 001,3,AA,,1779c2,ffffff
-Kality Total ↔ Bole Roundabout (Minibus),15775112,Tx Kal 002,3,AA,,1779c2,ffffff
-Saris ↔ Mexico (Minibus),15797527,Tx Kal 006,3,AA,,1779c2,ffffff
-Saris ↔ Kality Total (Minibus),15797528,Tx Kal 003,3,AA,,1779c2,ffffff
-Saris Abo ↔ Bulbula (Minibus),15797529,Tx Kal 004,3,AA,,1779c2,ffffff
-Kality Maseltegna ↔ Jemo (Minibus),15797530,Tx Kal 005,3,AA,,1779c2,ffffff
-Saris Abo ↔ Bole Bridge (Minibus),15830934,Tx Bole 001,3,AA,,1779c2,ffffff
-Kality Total ↔ Autobus Tera (Minibus),15833378,Tx Kal 012,3,AA,,1779c2,ffffff
-Mexico ↔ Kality Total (Minibus),15833518,Tx Kal 013,3,AA,,1779c2,ffffff
-Tulu Dimu ↔ Sefera Square (Minibus),15841640,Tx Bole 002,3,AA,,1779c2,ffffff
-Bole Bridge ↔ 22 Mazoria (Minibus),15841839,Tx Bole 004,3,AA,,1779c2,ffffff
-Ayat ↔ 22 Mazoria (Minibus),15841978,Tx Bole 005,3,AA,,1779c2,ffffff
-Bole Bridge ↔ Megenagna (Minibus),15842386,Tx Bole 003,3,AA,,1779c2,ffffff
-Summit ↔ Megenagna (Minibus),15842687,Tx Bole 006,3,AA,,1779c2,ffffff
-Mulugeta Building ↔ Bole Bridge (Minibus),15845949,Tx Bole 014,3,AA,,1779c2,ffffff
-Megenagna ↔ Bulbula (Minibus),15845950,Tx Bole 011,3,AA,,1779c2,ffffff
-Bulbula ↔ Bole Bridge (Minibus),15846182,Tx Bole 012,3,AA,,1779c2,ffffff
-Goro ↔ Bole Bridge (Minibus),15850226,Tx Bole 009,3,AA,,1779c2,ffffff
-Safari ↔ Bole Bridge (Minibus),15850509,Tx Bole 010,3,AA,,1779c2,ffffff
-Saris ↔ Derartu (Minibus),15850623,Tx Kal 011,3,AA,,1779c2,ffffff
-Tekle Haimanot ↔ Bole Mickael (Minibus),15858008,Tx Bole 015,3,AA,,1779c2,ffffff
-Bole Mickael ↔ Autobus Tera (Minibus),15858151,Tx Bole 016,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Bole Mickael (Minibus),15858269,Tx Bole 018,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Bole Bridge (Minibus),15858339,Tx Bole 019,3,AA,,1779c2,ffffff
-Bole Bridge ↔ Autobus Tera (Minibus),15858404,Tx Bole 020,3,AA,,1779c2,ffffff
-Tulu Dimtu ↔ Megenagna (Minibus),15858713,Tx Bole 021,3,AA,,1779c2,ffffff
-Saint Georgis ↔ Megenagna (Minibus),15858887,Tx Bole 022,3,AA,,1779c2,ffffff
-Ayer Tena ↔ Hana Mariam (Minibus),15858958,Tx Lafto 002,3,AA,,1779c2,ffffff
-Sefera ↔ Ayer Tena (Minibus),15861781,Tx Lafto 003,3,AA,,1779c2,ffffff
-Gelan Condominium ↔ Haile Garment (Minibus),15861962,Tx Lafto 004,3,AA,,1779c2,ffffff
-Tulu Dimtu ↔ Saris (Minibus),15863862,Tx Lafto 008,3,AA,,1779c2,ffffff
-Sefera ↔ Jemmo 1 (Minibus),15864075,Tx Lafto 009,3,AA,,1779c2,ffffff
-Total 3 Kuter Mazoria ↔ Kara (Minibus),15865443,Tx Lafto 010,3,AA,,1779c2,ffffff
-Kera ↔ Autobus Tera (Minibus),15865947,Tx Lafto 011,3,AA,,1779c2,ffffff
-Kera ↔ Kality Total (Minibus),15866774,Tx Lafto 012,3,AA,,1779c2,ffffff
-Kality Maseltegna ↔ Jemmo 1 (Minibus),15867049,Tx Lafto 013,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Jemmo 1 (Minibus),15867151,Tx Lafto 014,3,AA,,1779c2,ffffff
-Jemmo 1 ↔ Alem Gena (Minibus),15867420,Tx Lafto 015,3,AA,,1779c2,ffffff
-Piassa Arada ↔ German Square (Minibus),15867572,Tx Lafto 017,3,AA,,1779c2,ffffff
-Tekle Haimanot ↔ Gofa (Minibus),15867651,Tx Lafto 018,3,AA,,1779c2,ffffff
-Gofa ↔ Ayer Tena (Minibus),15867786,Tx Lafto 021,3,AA,,1779c2,ffffff
-Alem Gena ↔ Gofa (Minibus),15869243,Tx Lafto 019,3,AA,,1779c2,ffffff
-Gofa ↔ Alem Bank (Minibus),15869312,Tx Lafto 020,3,AA,,1779c2,ffffff
-Kera ↔ German Square (Minibus),15869366,Tx Lafto 022,3,AA,,1779c2,ffffff
-Mexico ↔ German Square (Minibus),15869889,Tx Lafto 023,3,AA,,1779c2,ffffff
-Mexico ↔ Mekanisa Abo (Minibus),15870075,Tx Lafto 024,3,AA,,1779c2,ffffff
-Mekanisa ↔ Piassa Arada (Minibus),15870224,Tx Lafto 025,3,AA,,1779c2,ffffff
-Sefera ↔ Mexico (Minibus),15870632,Tx Lafto 026,3,AA,,1779c2,ffffff
-Jemmo Mickael ↔ Autobis Tera (Minibus),15870793,Tx Lafto 027,3,AA,,1779c2,ffffff
-Kality Menaheria ↔ Jemmo 1 (Minibus),15870960,Tx Lafto 028,3,AA,,1779c2,ffffff
-Mebrathile ↔ Ayer Tena (Minibus),15871080,Tx Lafto 031,3,AA,,1779c2,ffffff
-Mexico ↔ Mebrathile (Minibus),15871275,Tx Lafto 032,3,AA,,1779c2,ffffff
-Merab Hotel ↔ Alem Bank (Minibus),15871624,Tx Kolfa 001,3,AA,,1779c2,ffffff
-Mexico ↔ Alem Bank (Minibus),15876625,Tx Kolfe 003,3,AA,,1779c2,ffffff
-Alem Bank ↔ Mexico Shebelle Hotel (Minibus),15876725,Tx Kolfa 004,3,AA,,1779c2,ffffff
-Torhayloch ↔ Alem Bank (Minibus),15876752,Tx Kolfa 005,3,AA,,1779c2,ffffff
-Germen Square ↔ Ayer Tena (Minibus),15876870,Tx Kolfa 006,3,AA,,1779c2,ffffff
-Jemmo 1 ↔ Ayer Tena (Minibus),15876935,Tx Kolfa 007,3,AA,,1779c2,ffffff
-Mexico ↔ Ayer Tena (Minibus),15877451,Tx Kolfa 008,3,AA,,1779c2,ffffff
-Mexico Shebelle Hotel ↔ Betel (Minibus),15877500,Tx Kolfa 009,3,AA,,1779c2,ffffff
-Zenebewerk ↔ Mexico (Minibus),15879148,Tx Kolfa 015,3,AA,,1779c2,ffffff
-Alem Bank ↔ 18 Mazoria (Minibus),15880133,Tx Kolfa 010,3,AA,,1779c2,ffffff
-Merab Hotel ↔ Ayer Tena (Minibus),15880213,Tx Kolfa 011,3,AA,,1779c2,ffffff
-Merab Hotel ↔ Betel (Minibus),15880308,Tx Kolfa 012,3,AA,,1779c2,ffffff
-Meraba Hotel ↔ Kara Kore (Minibus),15880397,Tx Kolfa 013,3,AA,,1779c2,ffffff
-Zenebewerk ↔ Piassa Arada (Minibus),15880659,Tx Kolfa 014,3,AA,,1779c2,ffffff
-Zenebewerk ↔ Mexico Shebelle Hotel (Minibus),15881004,Tx Kolfa 016,3,AA,,1779c2,ffffff
-Zenebewerk Meneharia ↔ Autobus Tera (Minibus),15881508,Tx Kolfa 017,3,AA,,1779c2,ffffff
-Atena Tera ↔ Alem Bank (Minibus),15881684,Tx Kolfa 018,3,AA,,1779c2,ffffff
-Mexico Shebelle Hotel ↔ Kara Kore (Minibus),15882444,Tx Kolfa 019,3,AA,,1779c2,ffffff
-Tekle Haimanot ↔ Kara Kore (Minibus),15882498,Tx Kolfa 020,3,AA,,1779c2,ffffff
-Kara Kore ↔ Autobus Tera (Minibus),15882550,Tx Kolfa 021,3,AA,,1779c2,ffffff
-Kara Kore ↔ Atena Tera (Minibus),15882638,Tx Kolfa 022,3,AA,,1779c2,ffffff
-Ayer Tena ↔ Asko (Minibus),15883171,TX Kolfe 023,3,AA,,1779c2,ffffff
-Yeshi Debele ↔ Atena Tera (Minibus),15885969,Tx Kolfa 024,3,AA,,1779c2,ffffff
-Kara Kore ↔ 18 Mazoria (Minibus),15886152,Tx Kolfa 025,3,AA,,1779c2,ffffff
-Yeshi Debele ↔ Sebategna (Minibus),15887144,Tx Kolfa 026,3,AA,,1779c2,ffffff
-Yeshi Debele ↔ Winget (Minibus),15887191,Tx Kolfa 027,3,AA,,1779c2,ffffff
-Yeshi Debele ↔ 18 Mazoria (Minibus),15887240,Tx Kolfa 028,3,AA,,1779c2,ffffff
-Leghar ↔ Kality Total (Minibus),15898347,Tx Kal 017,3,AA,,1779c2,ffffff
-Atena Tera ↔ Addisu Gebeya (Minibus),15900380,Tx Gl 001,3,AA,,1779c2,ffffff
-Addisu Gebeya ↔ Ertirea Hotel (Minibus),15900555,Tx Gl 002,3,AA,,1779c2,ffffff
-Piassa ↔ Kechenie (Minibus),15900883,Tx Gl 003,3,AA,,1779c2,ffffff
-Shegole ↔ Piassa Arada (Minibus),15901020,Tx Gl 004,3,AA,,1779c2,ffffff
-Megenagna (Marathon Motors) ↔ 6 Kilo (Minibus),15901146,Tx Gl 005,3,AA,,1779c2,ffffff
-Kazanchis ↔ 6 Kilo (Minibus),15901995,Tx Gl 007,3,AA,,1779c2,ffffff
-piassa ↔ Addisu Gebeya (Minibus),15902043,Tx Gl 008,3,AA,,1779c2,ffffff
-Shiromeda ↔ Kazanchis (Minibus),15902171,Tx Gl 009,3,AA,,1779c2,ffffff
-Shiromeda ↔ Raguel Church (Minibus),15902285,Tx Gl 010,3,AA,,1779c2,ffffff
-Mexico ↔ Addisu Gebeya (Minibus),15902321,Tx Gl 011,3,AA,,1779c2,ffffff
-Addisu Gebeya ↔ Asko (Minibus),15903001,Tx Gl 012,3,AA,,1779c2,ffffff
-Shegole ↔ Autobis Tera (Minibus),15903091,Tx Gl 013,3,AA,,1779c2,ffffff
-Summit Condominiums ↔ Aba Kiros (Minibus),15903260,Tx LK 001,3,AA,,1779c2,ffffff
-Ayat ↔ Bole Arabsa (Minibus),15903402,Tx LK 002,3,AA,,1779c2,ffffff
-Aba Kiros ↔ Bole Arabsa (Minibus),15903454,Tx LK 003,3,AA,,1779c2,ffffff
-Megenagna ↔ Summit Condominiums (Minibus),15903518,Tx LK 004,3,AA,,1779c2,ffffff
-Tafo Square ↔ Megenagna (Minibus),15904627,Tx LK 005,3,AA,,1779c2,ffffff
-Goro ↔ Bole Arabsa (Minibus),15904691,Tx LK 006,3,AA,,1779c2,ffffff
-22 Mazoria ↔ Ayat Chefe Condominium (Minibus),15904811,Tx LK 007,3,AA,,1779c2,ffffff
-Goro ↔ Aba Kiros (Minibus),15905759,Tx LK 008,3,AA,,1779c2,ffffff
-Aba Kiros ↔ Megenagna (Minibus),15905796,Tx LK 009,3,AA,,1779c2,ffffff
-Megenagna ↔ Ayat Chefe Condominium (Minibus),15905849,Tx LK 010,3,AA,,1779c2,ffffff
-Summit Condominiums ↔ Megenagna (Minibus),15906133,Tx LK 013,3,AA,,1779c2,ffffff
-Bole Arabsa ↔ Ayat (Minibus),15906163,Tx LK 014,3,AA,,1779c2,ffffff
-Torhayloch ↔ Piassa Arada (Minibus),15906876,Tx LID 003,3,AA,,1779c2,ffffff
-Torhayloch ↔ Stadium (Minibus),15906946,Tx LID 004,3,AA,,1779c2,ffffff
-Torhayloch ↔ Megenagna (Minibus),15907058,Tx LID 009,3,AA,,1779c2,ffffff
-Tekle Haimanot ↔ Megenagna (Minibus),15907234,Tx LID 010,3,AA,,1779c2,ffffff
-Asko ↔ Torhayloch (Minibus),15907305,Tx LID 011,3,AA,,1779c2,ffffff
-Megenagna ↔ Addisu Gebeya (Minibus),15909909,Tx YK 001,3,AA,,1779c2,ffffff
-Megenagna ↔ Kara (Minibus),15909991,Tx YK 004,3,AA,,1779c2,ffffff
-Shiromeda ↔ Megenagna (Minibus),15910058,Tx YK 006,3,AA,,1779c2,ffffff
-Ferensay ↔ 4 Kilo (Minibus),15910153,Tx YK 007,3,AA,,1779c2,ffffff
-Megenagna ↔ Kality Total (Minibus),15910213,Tx YK 009,3,AA,,1779c2,ffffff
-Megenagna ↔ Ayat (Minibus),15910286,Tx YK 010,3,AA,,1779c2,ffffff
-Megenagna ↔ Ferensay (Minibus),15910343,Tx YK 011,3,AA,,1779c2,ffffff
-St. George Total ↔ Ferensay (Minibus),15910407,Tx YK 012,3,AA,,1779c2,ffffff
-Raguel Church ↔ Ferensay (Minibus),15910507,Tx YK 013,3,AA,,1779c2,ffffff
-Mexico ↔ Lamberet Menaheria (Minibus),15910595,Tx YK 016,3,AA,,1779c2,ffffff
-Kidane Mihret ↔ Shola Gebeya (Minibus),15912626,Tx YK 023,3,AA,,1779c2,ffffff
-Mexico ↔ Megenagna (Minibus),15912956,Tx KRK 002,3,AA,,1779c2,ffffff
-Total 3 Kuter Mazoria ↔ Kera (Minibus),15912995,Tx KRK 003,3,AA,,1779c2,ffffff
-Kazanchis ↔ Megenagna (Minibus),15913024,Tx KRK 004,3,AA,,1779c2,ffffff
-Stadium ↔ Autobus Tera (Minibus),15913086,Tx KRK 006,3,AA,,1779c2,ffffff
-Kazanchis ↔ Bole Bridge (Minibus),15913109,Tx KRK 007,3,AA,,1779c2,ffffff
-Legehar ↔ Kality Total (Minibus),15913170,Tx KRK 008,3,AA,,1779c2,ffffff
-Wello Sefer ↔ Kera (Minibus),15913211,Tx KRK 009,3,AA,,1779c2,ffffff
-Stadium ↔ Kera (Minibus),15913312,Tx KRK 011,3,AA,,1779c2,ffffff
-Shiromeda ↔ Buna Ena Shay (Minibus),15913400,Tx KRK 013,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Adey Abeba (Minibus),15913788,Tx ARD 002,3,AA,,1779c2,ffffff
-Addisu Gebeya ↔ Piassa (Minibus),15913797,Tx ARD 003,3,AA,,1779c2,ffffff
-Kality Total ↔ Piassa Arada (Minibus),15913851,Tx ARD 004,3,AA,,1779c2,ffffff
-Jemmo 1 ↔ Piassa Arada (Minibus),15913986,Tx ARD 005,3,AA,,1779c2,ffffff
-4 Kilo ↔ Megenagna (Minibus),15916307,Tx ARD 007,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Alem Bank (Minibus),15916364,Tx ARD 006,3,AA,,1779c2,ffffff
-Saris ↔ Piassa Arada (Minibus),15916401,Tx ARD 008,3,AA,,1779c2,ffffff
-Amanuel total ↔ Merab Hotel (Minibus),15916629,Tx ADK 002,3,AA,,1779c2,ffffff
-Asko ↔ Autobis Tera (Minibus),15916756,Tx ADK 004,3,AA,,1779c2,ffffff
-Menlik Hospital ↔ Autobus Tera (Minibus),15916839,Tx ADK 008,3,AA,,1779c2,ffffff
-Abune Petros ↔ Asko (Minibus),15916909,Tx ADK 009,3,AA,,1779c2,ffffff
-Alem Bank ↔ Autobus Tera (Minibus),15916957,Tx ADK 011,3,AA,,1779c2,ffffff
-Haile Garment ↔ Autobus Tera (Minibus),15917637,Tx ADK 012,3,AA,,1779c2,ffffff
-Shiromeda ↔ Autobus Tera (Minibus),15917697,Tx ADK 013,3,AA,,1779c2,ffffff
-Kera ↔ Autobus Tera (Minibus),15917888,Tx ADK 014,3,AA,,1779c2,ffffff
-Kality Total ↔ Autobus Tera (Minibus),15917949,Tx ADK 015,3,AA,,1779c2,ffffff
-Jemmo 1 ↔ Autobis Tera (Minibus),15917971,Tx ADK 016,3,AA,,1779c2,ffffff
-Kechenie ↔ Eritrea Hotel (Minibus),15918070,Tx ADK 017,3,AA,,1779c2,ffffff
-Bole Bridge ↔ Cinema Ras (Minibus),15919609,Tx ADK 020,3,AA,,1779c2,ffffff
-Cinema Ras ↔ Bole Mekael (Minibus),15919798,Tx ADK 021,3,AA,,1779c2,ffffff
-Kera ↔ Cinema Ras (Minibus),15919880,Tx ADK 022,3,AA,,1779c2,ffffff
-Autobus Tera ↔ Asko (Minibus),15921312,Tx ADK 026,3,AA,,1779c2,ffffff
-Tekle Haimanot ↔ Alem Bank (Minibus),15921454,Tx ADK 028,3,AA,,1779c2,ffffff
-Winget ↔ Torhayloch (Minibus),15921591,Tx ADK 030,3,AA,,1779c2,ffffff
-Asco ↔ Atena Tera (Minibus),15921656,Tx ADK 031,3,AA,,1779c2,ffffff
-Mekanisa ↔ Cinema Ras (Minibus),15957904,Tx ADK 038,3,AA,,1779c2,ffffff
-Megenagna ↔ Cinema Ras (Minibus),15958044,Tx ADK 042,3,AA,,1779c2,ffffff
-Yeshi Debele ↔ Merab Hotel (Minibus),15958107,Tx ADK 043,3,AA,,1779c2,ffffff
-Merab Hotel ↔ Mekanisa (Minibus),15958349,Tx ADK 044,3,AA,,1779c2,ffffff
-Saris Abo ↔ Cinema Ras (Minibus),15958502,Tx ADK 047,3,AA,,1779c2,ffffff
-Tekle Haimanot ↔ Saris Abo (Minibus),15958564,Tx ADK 048,3,AA,,1779c2,ffffff
-Atena Tera ↔ Alem Bank (Minibus),15958618,Tx ADK 052,3,AA,,1779c2,ffffff
-Bole Bridge ↔ Autobus Tera (Minibus),15958644,Tx ADK 053,3,AA,,1779c2,ffffff
-Raguel Church ↔ Menlik Hospital (Minibus),15958710,Tx ADK 058,3,AA,,1779c2,ffffff
-Kality Menaheria ↔ 4 Kilo (Minibus),15960815,Tx ARD 011,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Mekanisa (Minibus),15960877,Tx ARD 012,3,AA,,1779c2,ffffff
-Bole Medhanialem ↔ Piassa Arada (Minibus),15960944,Tx ARD 016,3,AA,,1779c2,ffffff
-Cinema Ras ↔ Bole Medhanialem (Minibus),15960977,Tx Bole 023,3,AA,,1779c2,ffffff
-Addisu Gebeya ↔ Eritrea Hotel (Minibus),15961078,Tx Gl 018,3,AA,,1779c2,ffffff
-Gojam Berenda ↔ Kality Total (Minibus),15961305,Tx Kal 032,3,AA,,1779c2,ffffff
-Lamberet Menaheria ↔ Kality Total (Minibus),15961341,Tx Kal 033,3,AA,,1779c2,ffffff
-Mexico ↔ Gelan Condominium (Minibus),15961494,Tx Kal 037,3,AA,,1779c2,ffffff
-Weybla Mariam ↔ Merab Hotel (Minibus),15961764,Tx Kolfa 034,3,AA,,1779c2,ffffff
-Stadium ↔ Zenebewerk (Minibus),15961854,Tx Kolfa 036,3,AA,,1779c2,ffffff
-18 Mazoria ↔ 22 Mazoria (Minibus),15961885,Tx Kolfa 037,3,AA,,1779c2,ffffff
-Saris ↔ Stadium (Minibus),15961978,Tx KRK 014,3,AA,,1779c2,ffffff
-Saris Abo ↔ Mexico (Minibus),15962019,Tx KRK 015,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Kera (Minibus),15962065,Tx KRK 016,3,AA,,1779c2,ffffff
-Stadium ↔ Bole Bridge (Minibus),15962103,Tx KRK 017,3,AA,,1779c2,ffffff
-Bole Mickael ↔ Buna Ena Shay (Minibus),15962159,Tx KRK 020,3,AA,,1779c2,ffffff
-Merab Hotel ↔ Jemmo 1 (Minibus),15963098,Tx Lafto 034,3,AA,,1779c2,ffffff
-Gofa Gebriel ↔ Atena Tera (Minibus),15963187,Tx Lafto 042,3,AA,,1779c2,ffffff
-Ayat ↔ Megenagna (Minibus),15963257,Tx LK 016,3,AA,,1779c2,ffffff
-Merkato ↔ Lukanda (Minibus),15970722,Tx ADK 039,3,AA,,1779c2,ffffff
-Tero Mosque ↔ Merkato (Minibus),15970883,Tx ADK 040,3,AA,,1779c2,ffffff
-Sebategna ↔ Luwkanda (Minibus),15970955,Tx ADK 045,3,AA,,1779c2,ffffff
-Luwkanda ↔ Piassa Arada (Minibus),15971057,Tx ARD 013,3,AA,,1779c2,ffffff
-Rufael ↔ Piassa Arada (Minibus),15971140,Tx Gl 015,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Selefia Mosque (Minibus),15973776,Tx Kolfe 035,3,AA,,1779c2,ffffff
-Piassa Arada ↔ 18 Mazoria (Minibus),15973832,Tx Kolfa 042,3,AA,,1779c2,ffffff
-Saris ↔ Akaki Gebeya (Minibus),15973924,Tx Lafto 038,3,AA,,1779c2,ffffff
-Akaki Gebeya ↔ Adey Abeba (Minibus),15974268,Tx Lafto 039,3,AA,,1779c2,ffffff
-Lafto ↔ Jemmo 1 (Minibus),15974308,Tx Lafto 040,3,AA,,1779c2,ffffff
-Saris ↔ Yeshi Total (Minibus),15974328,Tx Lafto 043,3,AA,,1779c2,ffffff
-Kotebe Gebriel ↔ Megenagna (Minibus),15974746,Tx YK 002,3,AA,,1779c2,ffffff
-Kotebe ↔ 4 Kilo (Minibus),15974793,Tx YK 008,3,AA,,1779c2,ffffff
-Yeka Abado ↔ Megenagna (Minibus),15974906,Tx YK 014,3,AA,,1779c2,ffffff
-22 Mazoria ↔ Summit (Minibus),15992541,Tx Bole 007,3,AA,,1779c2,ffffff
-Summit ↔ Bole Bridge (Minibus),15992646,Tx Bole 008,3,AA,,1779c2,ffffff
-Riventy ↔ Bole Mickael (Minibus),15992742,Tx Bole 017,3,AA,,1779c2,ffffff
-Lomi Meda ↔ Atena Tera (Minibus),15992882,Tx ADK 005,3,AA,,1779c2,ffffff
-Atena Tera ↔ Sebategna (Minibus),15992969,Tx ADK 006,3,AA,,1779c2,ffffff
-Saris ↔ Autobus Tera (Minibus),15993132,Tx ADK 024,3,AA,,1779c2,ffffff
-Tourist Hotel ↔ Autobus Tera (Minibus),15993248,Tx ADK 023,3,AA,,1779c2,ffffff
-Mesalemia ↔ Coca Cola (Minibus),15993363,Tx ADK 035,3,AA,,1779c2,ffffff
-Asko ↔ Piassa Arada (Minibus),15993376,Tx ADK 037,3,AA,,1779c2,ffffff
-Tikur Anbesa ↔ Tero Mosque (Minibus),15993527,Tx ADK 055,3,AA,,1779c2,ffffff
-Raguel Church ↔ Megenagna (Minibus),15993651,Tx ADK 057,3,AA,,1779c2,ffffff
-Piassa ↔ Megenagna (Minibus),15998238,Tx ARD 001,3,AA,,1779c2,ffffff
-Ambasader ↔ Tourist Hotel (Minibus),15998277,Tx ARD 009,3,AA,,1779c2,ffffff
-Shiromeda ↔ Addisu Gebeya (Minibus),15998427,Tx Gl 006,3,AA,,1779c2,ffffff
-Selam Building ↔ Saris (Minibus),15999097,Tx Kal 021,3,AA,,1779c2,ffffff
-Saris Abo ↔ Kality Total (Minibus),15999123,Tx Kal 022,3,AA,,1779c2,ffffff
-Gelan Condominium ↔ Saris (Minibus),15999152,Tx Kal 023,3,AA,,1779c2,ffffff
-Bulbula ↔ Saris (Minibus),15999254,Tx Kal 027,3,AA,,1779c2,ffffff
-Gelan Condominium ↔ Akaki Gebeya (Minibus),15999429,Tx Kal 008,3,AA,,1779c2,ffffff
-Akaki Gebeya ↔ Sefera Square (Minibus),16003640,Tx Kal 009,3,AA,,1779c2,ffffff
-Akaki Gebeya ↔ Saris Abo (Minibus),16004103,Tx Kal 030,3,AA,,1779c2,ffffff
-Saris Abo ↔ Akaki CBE (Minibus),16004169,Tx Kal 034,3,AA,,1779c2,ffffff
-Merkato ↔ Akaki Gebeya (Minibus),16004300,Tx Kal 035,3,AA,,1779c2,ffffff
-Lafto ↔ Mexico (Minibus),16004409,Tx KRK 001,3,AA,,1779c2,ffffff
-Bole Bridge ↔ Mexico (Minibus),16004442,Tx KRK 012,3,AA,,1779c2,ffffff
-Woyira Sefer ↔ Mexico Shebelle Hotel (Minibus),16004670,Tx Kolfa 031,3,AA,,1779c2,ffffff
-Selefia Mosque ↔ Merab Hotel (Minibus),16006993,Tx Kolfa 033,3,AA,,1779c2,ffffff
-Zenebewerk ↔ Asko (Minibus),16007055,Tx Kolfa 038,3,AA,,1779c2,ffffff
-Kara Kore ↔ Piassa Arada (Minibus),16007115,Tx Kolfa 041,3,AA,,1779c2,ffffff
-Gofa Gebriel ↔ Adey Abeba (Minibus),16007166,Tx Lafto 001,3,AA,,1779c2,ffffff
-Jemmo 1 ↔ Cinema Ras (Minibus),16007247,Tx Lafto 016,3,AA,,1779c2,ffffff
-Mexico Shebelle Hotel ↔ Lafto (Minibus),16007282,Tx Lafto 030,3,AA,,1779c2,ffffff
-Kera ↔ Tafo Square (Minibus),16007348,Tx LK 012,3,AA,,1779c2,ffffff
-Abenet ↔ Weleta (Minibus),16007491,Tx LID 002,3,AA,,1779c2,ffffff
-Torhayloch ↔ Alem Gena (Minibus),16007565,Tx LID 005,3,AA,,1779c2,ffffff
-Weleta ↔ Mexico (Minibus),16007600,Tx LID 007,3,AA,,1779c2,ffffff
-Mexico ↔ Amanuel Church (Minibus),16007791,Tx LID 008,3,AA,,1779c2,ffffff
-Alem Gena ↔ Abenet (Minibus),16007850,Tx LID 013,3,AA,,1779c2,ffffff
-Raguel Church ↔ Megenagna (Minibus),16007931,Tx YK 017,3,AA,,1779c2,ffffff
-Autobus Tera ↔ Lamberet MenaherIa (Minibus),16008090,Tx YK 019,3,AA,,1779c2,ffffff
-Shola ↔ Piassa Arada (Minibus),16008308,Tx YK 021,3,AA,,1779c2,ffffff
-Mexico ↔ Hana Mariam (Minibus),16028728,Tx Lafto 006,3,AA,,1779c2,ffffff
-Mexico ↔ Haile Garment (Minibus),16028886,Tx Lafto 007,3,AA,,1779c2,ffffff
-Kality Meneharia ↔ Autobis Tera,16067901,AB004,3,AA,,1779c2,ffffff
-kera ↔ Addisu Gebeya,16068007,AB006,3,AA,,1779c2,ffffff
-Saris Abo ↔ Piassa Arada,16068104,AB014,3,AA,,1779c2,ffffff
-Shero Meda ↔ Autobis Tera,16068274,AB016,3,AA,,1779c2,ffffff
-Autobis Tera ↔ Kuskoam,16068409,AB017,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ kality Meneharia,16068572,AB027,3,AA,,1779c2,ffffff
-Kotebe Gebriel ↔ Arat Kilo,16068674,AB033,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ Kara Kore,16068754,AB036,3,AA,,1779c2,ffffff
-Yeshi Debele ↔ St. George Church,16068915,AB037,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ Gurara,16069113,AB055,3,AA,,1779c2,ffffff
-Saris ↔ Shero Meda,16069192,AB056,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ Alem Bank,16069231,AB058,3,AA,,1779c2,ffffff
-Megenagna ↔ Gurara,16069472,AB064,3,AA,,1779c2,ffffff
-Autobis Tera ↔ Alem Bank,16069558,AB065,3,AA,,1779c2,ffffff
-Kara Kore ↔ Autobis Tera,16070513,AB066,3,AA,,1779c2,ffffff
-Menlik Hospital ↔ Torhailoch,16070566,AB068,3,AA,,1779c2,ffffff
-Philiphs (Lomi Meda) ↔ Autobis Tera,16070654,AB069,3,AA,,1779c2,ffffff
-Ayer Tena ↔ Abuare Roundabout,16071249,AB070,3,AA,,1779c2,ffffff
-Kera ↔ Ayer Tena,16071322,AB077,3,AA,,1779c2,ffffff
-Yerer Goro ↔ Lideta Condominium,16071554,AB082,3,AA,,1779c2,ffffff
-Betel ↔ Legehar (Old Train Station),16071657,AB090,3,AA,,1779c2,ffffff
-Hana Mariam ↔ Darmar,16071828,AB092,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Mikili Land,16072018,AB094,3,AA,,1779c2,ffffff
-Alem Bank ↔ Ayer Tena,16072169,AB099,3,AA,,1779c2,ffffff
-Jemmo 1 ↔ Autobis Tera,16072247,AB100,3,AA,,1779c2,ffffff
-Kara ↔ Legehar (Old Train Station),16072458,AB102,3,AA,,1779c2,ffffff
-Werku Sefer ↔ Kera,16072500,AB104,3,AA,,1779c2,ffffff
-Anfo Meda ↔ Legehar (Old Train Station),16074160,AB105,3,AA,,1779c2,ffffff
-Saris Abo ↔ Tulu Dimtu Adebabay,16074208,AB109,3,AA,,1779c2,ffffff
-Sefera ↔ Mexico,16074342,AB117,3,AA,,1779c2,ffffff
-Jemo 3 ↔ Mexico,16074398,AB121,3,AA,,1779c2,ffffff
-Yeka Abado G13 ↔ Megenagna,16074456,AB123,3,AA,,1779c2,ffffff
-Dil Ber ↔ Legehar (Old Train Station),16074676,AB045,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ Sebeta,16074771,AB062,3,AA,,1779c2,ffffff
-Gerji Mebrat Haile ↔ Darmar,16074871,AB071,3,AA,,1779c2,ffffff
-Piassa Arada ↔ Gefersa,16075030,AB111,3,AA,,1779c2,ffffff
-Sansusi ↔ Autobis Tera,16086556,SH012,3,AA,,1779c2,ffffff
-Ayer Tena ↔ Autobis Tera (2),16088269,SH009,3,AA,,1779c2,ffffff
-Megenagna Terminal ↔ Bole Arabsa,16088616,D46,3,AA,,1779c2,ffffff
-Shero Meda ↔ Megenagna,16088617,SH035,3,AA,,1779c2,ffffff
-Mexico ↔ Hana Mariam (2),16088618,SH022,3,AA,,1779c2,ffffff
-Bole Millenium ↔ 4 Kilo,16088619,SH015,3,AA,,1779c2,ffffff
-Gurara ↔ Autobis Tera,16112803,AB012,3,AA,,1779c2,ffffff
-Megenagna ↔ Aleltu,16112804,AB007,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ Akaki Korkoro,16112805,AB025,3,AA,,1779c2,ffffff
-Sansusi ↔ Piassa Arada,16112806,AB019,3,AA,,1779c2,ffffff
-Shero Meda ↔ Legehar (Old Train Station),16113471,AB031,3,AA,,1779c2,ffffff
-Bole Mikael ↔ Piassa Arada,16148439,AB048,3,AA,,1779c2,ffffff
-Repi (Gerar) ↔ Autobis Tera,16148440,AB091,3,AA,,1779c2,ffffff
-Kela ↔ Chid Tera,16148441,AB085,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ Jemmo 3,16148442,AB067,3,AA,,1779c2,ffffff
-Sululta ↔ Autobis Tera,16148443,AB030,3,AA,,1779c2,ffffff
-Summit Condominuiums ↔ Arat Kilo,16151480,AB079,3,AA,,1779c2,ffffff
-File Doro ↔ Autobis Tera,16151481,AB021,3,AA,,1779c2,ffffff
-Saris Abo ↔ Dukem,16239079,AB098,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ DebreZeit,16239080,AB060,3,AA,,1779c2,ffffff
-Bole Medhanialem ↔ Autobis Tera,16290772,AB039,3,AA,,1779c2,ffffff
-Legehar (Old Train Station) ↔ Kara,16290774,AB057,3,AA,,1779c2,ffffff
-Summit Condominiums ↔ Legehar (Old Train Station),16290775,AB022,3,AA,,1779c2,ffffff
-Ayat ↔ Tor Hailoch (Light Rail),5697658,E-W,0,AA,,1779c2,ffffff
-Menelik II Square ↔ Kality (Light Rail),5697659,S-N,0,AA,,1779c2,ffffff
+route_short_name,route_long_name,route_id,agency_id,route_type,route_desc,route_color,route_text_color
+AB097,Megenegna Terminal ↔ Legedadi Mission,10400029,AA,3,,1779c2,ffffff
+AB101,Megenagna Terminal ↔ Aba Kiros Roundabout,10400258,AA,3,,1779c2,ffffff
+AB049,Megenegna Terminal ↔ Ayat Chefe Condominium,10400405,AA,3,,1779c2,ffffff
+AB083,Ayat Chefe Condominium ↔ 6 Kilo,10406491,AA,3,,1779c2,ffffff
+AB106,Megenegna Terminal ↔ Bole Arabsa,10406697,AA,3,,1779c2,ffffff
+AB010,Kotebe Teachers College ↔ Piassa Arada,10407732,AA,3,,1779c2,ffffff
+AB001,Yeka Abado ↔ Megenagna,10409764,AA,3,,1779c2,ffffff
+AB009,Piassa Arada ↔ Brass Clinic (Bole),10410198,AA,3,,1779c2,ffffff
+AB061,Legehar (Old Train Station) ↔ Ayat Chefe Condominium,10441511,AA,3,,1779c2,ffffff
+SH027,Shero Meda ↔ Bole Millenium,10458768,AA,3,,1779c2,ffffff
+SH028,Shero Meda ↔ Abo Junction,10460046,AA,3,,1779c2,ffffff
+SH016,Piassa Arada ↔ Abo Junction,10460168,AA,3,,1779c2,ffffff
+SH004,Yeka Abado ↔ Megenagna,10460407,AA,3,,1779c2,ffffff
+SH010,Autobis Tera (2) ↔ Alem Bank,10460602,AA,3,,1779c2,ffffff
+A10,Mexico ↔ Haile Garment,10460963,AA,3,,1779c2,ffffff
+SH040,Kara Kore ↔ Autobis Tera (1),10461811,AA,3,,1779c2,ffffff
+D26,Yerer Goro ↔ Megenagna,10465903,AA,3,,1779c2,ffffff
+A24,Mexico ↔ Megenagna,10466290,AA,3,,1779c2,ffffff
+C15,Piassa Arada ↔ Mebrat Condominium,10466725,AA,3,,1779c2,ffffff
+C14,Sansusi ↔ Piassa Arada,10468435,AA,3,,1779c2,ffffff
+A08,Gurara ↔ 4 Kilo,10469388,AA,3,,1779c2,ffffff
+C31,Piassa Arada ↔ Dil Ber,10478792,AA,3,,1779c2,ffffff
+B37,Shero Meda ↔ Autobis Tera (3),10479678,AA,3,,1779c2,ffffff
+B19,Autobis Tera (1) ↔ Abo Junction,10480005,AA,3,,1779c2,ffffff
+A09,Mexico ↔ Alem Bank,10480336,AA,3,,1779c2,ffffff
+D52,Koye Feche ↔ Megenagna,10521543,AA,3,,1779c2,ffffff
+D25,Summit Condominiums ↔ Megenagna Terminal,10521610,AA,3,,1779c2,ffffff
+B35,Autobis Tera (2) ↔ Kela,10529108,AA,3,,1779c2,ffffff
+B40,Saris Abo ↔ Ayer Tena,10529704,AA,3,,1779c2,ffffff
+C51,Yeka Abado ↔ Piassa Arada,10533497,AA,3,,1779c2,ffffff
+D23,Megenagna Terminal ↔ Aba Kiros Roundabout,10533758,AA,3,,1779c2,ffffff
+A05,Mexico ↔ Lafto,10534180,AA,3,,1779c2,ffffff
+A01,Shero Meda ↔ Mexico,10534541,AA,3,,1779c2,ffffff
+C17,Piassa Arada ↔ Marathon Motor (Megenagna),10534848,AA,3,,1779c2,ffffff
+B22,Autobis Tera ↔ Asko,10535103,AA,3,,1779c2,ffffff
+A04,Sefera ↔ Mexico,10541125,AA,3,,1779c2,ffffff
+A18,Piassa Arada ↔ Jemmo 2,10541371,AA,3,,1779c2,ffffff
+A02,Mexico ↔ Jemo 1,10542001,AA,3,,1779c2,ffffff
+B35B,Merkato ↔ Ashewa Meda,10542096,AA,3,,1779c2,ffffff
+C50,kera ↔ Addisu Gebeya,10542241,AA,3,,1779c2,ffffff
+AB032,Kotebe 01 ↔ Legehar (Old Train Station),10547202,AA,3,,1779c2,ffffff
+AB076,Kality Meneharia ↔ Megenagna Terminal,10547526,AA,3,,1779c2,ffffff
+AB015,Autobis Tera ↔ Arat Kilo,10549686,AA,3,,1779c2,ffffff
+AB018,Yeshi Debele ↔ Autobis Tera,10550063,AA,3,,1779c2,ffffff
+AB087,Winget ↔ Ayer Tena (Terminal),10550163,AA,3,,1779c2,ffffff
+AB110,Tulu Dimtu ↔ Shero Meda,10550650,AA,3,,1779c2,ffffff
+AB029,Addis Sefer (Gebriel) ↔ Autobis Tera,10550800,AA,3,,1779c2,ffffff
+AB047,Shegole (Mender 7) ↔ Autobis Tera,10551230,AA,3,,1779c2,ffffff
+AB028,Sansusi ↔ Autobis Tera,10551231,AA,3,,1779c2,ffffff
+AB041,Eyesus ↔ Autobis Tera,10551605,AA,3,,1779c2,ffffff
+TX341,Olympia ↔ Agona Cinema (Minibus),10568476,AA,3,,1779c2,ffffff
+AB003,Ayer Tena ↔ Piassa Arada,15625520,AA,3,,1779c2,ffffff
+TX002,Total 3 kuter Mazoria ↔ Kera (Minibus),15633036,AA,3,,1779c2,ffffff
+AB034,German Square ↔ Autobis Tera,15656246,AA,3,,1779c2,ffffff
+TX200,Wello Sefer ↔ Kera (Minibus),15676211,AA,3,,1779c2,ffffff
+TX065,Safari (Summit) ↔ Megenagna (Minibus),15676212,AA,3,,1779c2,ffffff
+TX005,Kality Menaheria ↔ 4 Kilo (Minibus),15676213,AA,3,,1779c2,ffffff
+TX001,Arada ↔ 18 Mazoria (Minibus),15676215,AA,3,,1779c2,ffffff
+TX006,Kara ↔ 4 Kilo (Children Theatre) (Minibus),15677019,AA,3,,1779c2,ffffff
+TX008,Megenagna ↔ 6 Kilo (Minibus),15677252,AA,3,,1779c2,ffffff
+Tx Kal 001,Kality Menaheria ↔ Ayer Tena (Minibus),15774596,AA,3,,1779c2,ffffff
+Tx Kal 002,Kality Total ↔ Bole Roundabout (Minibus),15775112,AA,3,,1779c2,ffffff
+Tx Kal 006,Saris ↔ Mexico (Minibus),15797527,AA,3,,1779c2,ffffff
+Tx Kal 003,Saris ↔ Kality Total (Minibus),15797528,AA,3,,1779c2,ffffff
+Tx Kal 004,Saris Abo ↔ Bulbula (Minibus),15797529,AA,3,,1779c2,ffffff
+Tx Kal 005,Kality Maseltegna ↔ Jemo (Minibus),15797530,AA,3,,1779c2,ffffff
+Tx Bole 001,Saris Abo ↔ Bole Bridge (Minibus),15830934,AA,3,,1779c2,ffffff
+Tx Kal 012,Kality Total ↔ Autobus Tera (Minibus),15833378,AA,3,,1779c2,ffffff
+Tx Kal 013,Mexico ↔ Kality Total (Minibus),15833518,AA,3,,1779c2,ffffff
+Tx Bole 002,Tulu Dimu ↔ Sefera Square (Minibus),15841640,AA,3,,1779c2,ffffff
+Tx Bole 004,Bole Bridge ↔ 22 Mazoria (Minibus),15841839,AA,3,,1779c2,ffffff
+Tx Bole 005,Ayat ↔ 22 Mazoria (Minibus),15841978,AA,3,,1779c2,ffffff
+Tx Bole 003,Bole Bridge ↔ Megenagna (Minibus),15842386,AA,3,,1779c2,ffffff
+Tx Bole 006,Summit ↔ Megenagna (Minibus),15842687,AA,3,,1779c2,ffffff
+Tx Bole 014,Mulugeta Building ↔ Bole Bridge (Minibus),15845949,AA,3,,1779c2,ffffff
+Tx Bole 011,Megenagna ↔ Bulbula (Minibus),15845950,AA,3,,1779c2,ffffff
+Tx Bole 012,Bulbula ↔ Bole Bridge (Minibus),15846182,AA,3,,1779c2,ffffff
+Tx Bole 009,Goro ↔ Bole Bridge (Minibus),15850226,AA,3,,1779c2,ffffff
+Tx Bole 010,Safari ↔ Bole Bridge (Minibus),15850509,AA,3,,1779c2,ffffff
+Tx Kal 011,Saris ↔ Derartu (Minibus),15850623,AA,3,,1779c2,ffffff
+Tx Bole 015,Tekle Haimanot ↔ Bole Mickael (Minibus),15858008,AA,3,,1779c2,ffffff
+Tx Bole 016,Bole Mickael ↔ Autobus Tera (Minibus),15858151,AA,3,,1779c2,ffffff
+Tx Bole 018,Piassa Arada ↔ Bole Mickael (Minibus),15858269,AA,3,,1779c2,ffffff
+Tx Bole 019,Piassa Arada ↔ Bole Bridge (Minibus),15858339,AA,3,,1779c2,ffffff
+Tx Bole 020,Bole Bridge ↔ Autobus Tera (Minibus),15858404,AA,3,,1779c2,ffffff
+Tx Bole 021,Tulu Dimtu ↔ Megenagna (Minibus),15858713,AA,3,,1779c2,ffffff
+Tx Bole 022,Saint Georgis ↔ Megenagna (Minibus),15858887,AA,3,,1779c2,ffffff
+Tx Lafto 002,Ayer Tena ↔ Hana Mariam (Minibus),15858958,AA,3,,1779c2,ffffff
+Tx Lafto 003,Sefera ↔ Ayer Tena (Minibus),15861781,AA,3,,1779c2,ffffff
+Tx Lafto 004,Gelan Condominium ↔ Haile Garment (Minibus),15861962,AA,3,,1779c2,ffffff
+Tx Lafto 008,Tulu Dimtu ↔ Saris (Minibus),15863862,AA,3,,1779c2,ffffff
+Tx Lafto 009,Sefera ↔ Jemmo 1 (Minibus),15864075,AA,3,,1779c2,ffffff
+Tx Lafto 010,Total 3 Kuter Mazoria ↔ Kara (Minibus),15865443,AA,3,,1779c2,ffffff
+Tx Lafto 011,Kera ↔ Autobus Tera (Minibus),15865947,AA,3,,1779c2,ffffff
+Tx Lafto 012,Kera ↔ Kality Total (Minibus),15866774,AA,3,,1779c2,ffffff
+Tx Lafto 013,Kality Maseltegna ↔ Jemmo 1 (Minibus),15867049,AA,3,,1779c2,ffffff
+Tx Lafto 014,Piassa Arada ↔ Jemmo 1 (Minibus),15867151,AA,3,,1779c2,ffffff
+Tx Lafto 015,Jemmo 1 ↔ Alem Gena (Minibus),15867420,AA,3,,1779c2,ffffff
+Tx Lafto 017,Piassa Arada ↔ German Square (Minibus),15867572,AA,3,,1779c2,ffffff
+Tx Lafto 018,Tekle Haimanot ↔ Gofa (Minibus),15867651,AA,3,,1779c2,ffffff
+Tx Lafto 021,Gofa ↔ Ayer Tena (Minibus),15867786,AA,3,,1779c2,ffffff
+Tx Lafto 019,Alem Gena ↔ Gofa (Minibus),15869243,AA,3,,1779c2,ffffff
+Tx Lafto 020,Gofa ↔ Alem Bank (Minibus),15869312,AA,3,,1779c2,ffffff
+Tx Lafto 022,Kera ↔ German Square (Minibus),15869366,AA,3,,1779c2,ffffff
+Tx Lafto 023,Mexico ↔ German Square (Minibus),15869889,AA,3,,1779c2,ffffff
+Tx Lafto 024,Mexico ↔ Mekanisa Abo (Minibus),15870075,AA,3,,1779c2,ffffff
+Tx Lafto 025,Mekanisa ↔ Piassa Arada (Minibus),15870224,AA,3,,1779c2,ffffff
+Tx Lafto 026,Sefera ↔ Mexico (Minibus),15870632,AA,3,,1779c2,ffffff
+Tx Lafto 027,Jemmo Mickael ↔ Autobis Tera (Minibus),15870793,AA,3,,1779c2,ffffff
+Tx Lafto 028,Kality Menaheria ↔ Jemmo 1 (Minibus),15870960,AA,3,,1779c2,ffffff
+Tx Lafto 031,Mebrathile ↔ Ayer Tena (Minibus),15871080,AA,3,,1779c2,ffffff
+Tx Lafto 032,Mexico ↔ Mebrathile (Minibus),15871275,AA,3,,1779c2,ffffff
+Tx Kolfa 001,Merab Hotel ↔ Alem Bank (Minibus),15871624,AA,3,,1779c2,ffffff
+Tx Kolfe 003,Mexico ↔ Alem Bank (Minibus),15876625,AA,3,,1779c2,ffffff
+Tx Kolfa 004,Alem Bank ↔ Mexico Shebelle Hotel (Minibus),15876725,AA,3,,1779c2,ffffff
+Tx Kolfa 005,Torhayloch ↔ Alem Bank (Minibus),15876752,AA,3,,1779c2,ffffff
+Tx Kolfa 006,Germen Square ↔ Ayer Tena (Minibus),15876870,AA,3,,1779c2,ffffff
+Tx Kolfa 007,Jemmo 1 ↔ Ayer Tena (Minibus),15876935,AA,3,,1779c2,ffffff
+Tx Kolfa 008,Mexico ↔ Ayer Tena (Minibus),15877451,AA,3,,1779c2,ffffff
+Tx Kolfa 009,Mexico Shebelle Hotel ↔ Betel (Minibus),15877500,AA,3,,1779c2,ffffff
+Tx Kolfa 015,Zenebewerk ↔ Mexico (Minibus),15879148,AA,3,,1779c2,ffffff
+Tx Kolfa 010,Alem Bank ↔ 18 Mazoria (Minibus),15880133,AA,3,,1779c2,ffffff
+Tx Kolfa 011,Merab Hotel ↔ Ayer Tena (Minibus),15880213,AA,3,,1779c2,ffffff
+Tx Kolfa 012,Merab Hotel ↔ Betel (Minibus),15880308,AA,3,,1779c2,ffffff
+Tx Kolfa 013,Meraba Hotel ↔ Kara Kore (Minibus),15880397,AA,3,,1779c2,ffffff
+Tx Kolfa 014,Zenebewerk ↔ Piassa Arada (Minibus),15880659,AA,3,,1779c2,ffffff
+Tx Kolfa 016,Zenebewerk ↔ Mexico Shebelle Hotel (Minibus),15881004,AA,3,,1779c2,ffffff
+Tx Kolfa 017,Zenebewerk Meneharia ↔ Autobus Tera (Minibus),15881508,AA,3,,1779c2,ffffff
+Tx Kolfa 018,Atena Tera ↔ Alem Bank (Minibus),15881684,AA,3,,1779c2,ffffff
+Tx Kolfa 019,Mexico Shebelle Hotel ↔ Kara Kore (Minibus),15882444,AA,3,,1779c2,ffffff
+Tx Kolfa 020,Tekle Haimanot ↔ Kara Kore (Minibus),15882498,AA,3,,1779c2,ffffff
+Tx Kolfa 021,Kara Kore ↔ Autobus Tera (Minibus),15882550,AA,3,,1779c2,ffffff
+Tx Kolfa 022,Kara Kore ↔ Atena Tera (Minibus),15882638,AA,3,,1779c2,ffffff
+TX Kolfe 023,Ayer Tena ↔ Asko (Minibus),15883171,AA,3,,1779c2,ffffff
+Tx Kolfa 024,Yeshi Debele ↔ Atena Tera (Minibus),15885969,AA,3,,1779c2,ffffff
+Tx Kolfa 025,Kara Kore ↔ 18 Mazoria (Minibus),15886152,AA,3,,1779c2,ffffff
+Tx Kolfa 026,Yeshi Debele ↔ Sebategna (Minibus),15887144,AA,3,,1779c2,ffffff
+Tx Kolfa 027,Yeshi Debele ↔ Winget (Minibus),15887191,AA,3,,1779c2,ffffff
+Tx Kolfa 028,Yeshi Debele ↔ 18 Mazoria (Minibus),15887240,AA,3,,1779c2,ffffff
+Tx Kal 017,Leghar ↔ Kality Total (Minibus),15898347,AA,3,,1779c2,ffffff
+Tx Gl 001,Atena Tera ↔ Addisu Gebeya (Minibus),15900380,AA,3,,1779c2,ffffff
+Tx Gl 002,Addisu Gebeya ↔ Ertirea Hotel (Minibus),15900555,AA,3,,1779c2,ffffff
+Tx Gl 003,Piassa ↔ Kechenie (Minibus),15900883,AA,3,,1779c2,ffffff
+Tx Gl 004,Shegole ↔ Piassa Arada (Minibus),15901020,AA,3,,1779c2,ffffff
+Tx Gl 005,Megenagna (Marathon Motors) ↔ 6 Kilo (Minibus),15901146,AA,3,,1779c2,ffffff
+Tx Gl 007,Kazanchis ↔ 6 Kilo (Minibus),15901995,AA,3,,1779c2,ffffff
+Tx Gl 008,piassa ↔ Addisu Gebeya (Minibus),15902043,AA,3,,1779c2,ffffff
+Tx Gl 009,Shiromeda ↔ Kazanchis (Minibus),15902171,AA,3,,1779c2,ffffff
+Tx Gl 010,Shiromeda ↔ Raguel Church (Minibus),15902285,AA,3,,1779c2,ffffff
+Tx Gl 011,Mexico ↔ Addisu Gebeya (Minibus),15902321,AA,3,,1779c2,ffffff
+Tx Gl 012,Addisu Gebeya ↔ Asko (Minibus),15903001,AA,3,,1779c2,ffffff
+Tx Gl 013,Shegole ↔ Autobis Tera (Minibus),15903091,AA,3,,1779c2,ffffff
+Tx LK 001,Summit Condominiums ↔ Aba Kiros (Minibus),15903260,AA,3,,1779c2,ffffff
+Tx LK 002,Ayat ↔ Bole Arabsa (Minibus),15903402,AA,3,,1779c2,ffffff
+Tx LK 003,Aba Kiros ↔ Bole Arabsa (Minibus),15903454,AA,3,,1779c2,ffffff
+Tx LK 004,Megenagna ↔ Summit Condominiums (Minibus),15903518,AA,3,,1779c2,ffffff
+Tx LK 005,Tafo Square ↔ Megenagna (Minibus),15904627,AA,3,,1779c2,ffffff
+Tx LK 006,Goro ↔ Bole Arabsa (Minibus),15904691,AA,3,,1779c2,ffffff
+Tx LK 007,22 Mazoria ↔ Ayat Chefe Condominium (Minibus),15904811,AA,3,,1779c2,ffffff
+Tx LK 008,Goro ↔ Aba Kiros (Minibus),15905759,AA,3,,1779c2,ffffff
+Tx LK 009,Aba Kiros ↔ Megenagna (Minibus),15905796,AA,3,,1779c2,ffffff
+Tx LK 010,Megenagna ↔ Ayat Chefe Condominium (Minibus),15905849,AA,3,,1779c2,ffffff
+Tx LK 013,Summit Condominiums ↔ Megenagna (Minibus),15906133,AA,3,,1779c2,ffffff
+Tx LK 014,Bole Arabsa ↔ Ayat (Minibus),15906163,AA,3,,1779c2,ffffff
+Tx LID 003,Torhayloch ↔ Piassa Arada (Minibus),15906876,AA,3,,1779c2,ffffff
+Tx LID 004,Torhayloch ↔ Stadium (Minibus),15906946,AA,3,,1779c2,ffffff
+Tx LID 009,Torhayloch ↔ Megenagna (Minibus),15907058,AA,3,,1779c2,ffffff
+Tx LID 010,Tekle Haimanot ↔ Megenagna (Minibus),15907234,AA,3,,1779c2,ffffff
+Tx LID 011,Asko ↔ Torhayloch (Minibus),15907305,AA,3,,1779c2,ffffff
+Tx YK 001,Megenagna ↔ Addisu Gebeya (Minibus),15909909,AA,3,,1779c2,ffffff
+Tx YK 004,Megenagna ↔ Kara (Minibus),15909991,AA,3,,1779c2,ffffff
+Tx YK 006,Shiromeda ↔ Megenagna (Minibus),15910058,AA,3,,1779c2,ffffff
+Tx YK 007,Ferensay ↔ 4 Kilo (Minibus),15910153,AA,3,,1779c2,ffffff
+Tx YK 009,Megenagna ↔ Kality Total (Minibus),15910213,AA,3,,1779c2,ffffff
+Tx YK 010,Megenagna ↔ Ayat (Minibus),15910286,AA,3,,1779c2,ffffff
+Tx YK 011,Megenagna ↔ Ferensay (Minibus),15910343,AA,3,,1779c2,ffffff
+Tx YK 012,St. George Total ↔ Ferensay (Minibus),15910407,AA,3,,1779c2,ffffff
+Tx YK 013,Raguel Church ↔ Ferensay (Minibus),15910507,AA,3,,1779c2,ffffff
+Tx YK 016,Mexico ↔ Lamberet Menaheria (Minibus),15910595,AA,3,,1779c2,ffffff
+Tx YK 023,Kidane Mihret ↔ Shola Gebeya (Minibus),15912626,AA,3,,1779c2,ffffff
+Tx KRK 002,Mexico ↔ Megenagna (Minibus),15912956,AA,3,,1779c2,ffffff
+Tx KRK 003,Total 3 Kuter Mazoria ↔ Kera (Minibus),15912995,AA,3,,1779c2,ffffff
+Tx KRK 004,Kazanchis ↔ Megenagna (Minibus),15913024,AA,3,,1779c2,ffffff
+Tx KRK 006,Stadium ↔ Autobus Tera (Minibus),15913086,AA,3,,1779c2,ffffff
+Tx KRK 007,Kazanchis ↔ Bole Bridge (Minibus),15913109,AA,3,,1779c2,ffffff
+Tx KRK 008,Legehar ↔ Kality Total (Minibus),15913170,AA,3,,1779c2,ffffff
+Tx KRK 009,Wello Sefer ↔ Kera (Minibus),15913211,AA,3,,1779c2,ffffff
+Tx KRK 011,Stadium ↔ Kera (Minibus),15913312,AA,3,,1779c2,ffffff
+Tx KRK 013,Shiromeda ↔ Buna Ena Shay (Minibus),15913400,AA,3,,1779c2,ffffff
+Tx ARD 002,Piassa Arada ↔ Adey Abeba (Minibus),15913788,AA,3,,1779c2,ffffff
+Tx ARD 003,Addisu Gebeya ↔ Piassa (Minibus),15913797,AA,3,,1779c2,ffffff
+Tx ARD 004,Kality Total ↔ Piassa Arada (Minibus),15913851,AA,3,,1779c2,ffffff
+Tx ARD 005,Jemmo 1 ↔ Piassa Arada (Minibus),15913986,AA,3,,1779c2,ffffff
+Tx ARD 007,4 Kilo ↔ Megenagna (Minibus),15916307,AA,3,,1779c2,ffffff
+Tx ARD 006,Piassa Arada ↔ Alem Bank (Minibus),15916364,AA,3,,1779c2,ffffff
+Tx ARD 008,Saris ↔ Piassa Arada (Minibus),15916401,AA,3,,1779c2,ffffff
+Tx ADK 002,Amanuel total ↔ Merab Hotel (Minibus),15916629,AA,3,,1779c2,ffffff
+Tx ADK 004,Asko ↔ Autobis Tera (Minibus),15916756,AA,3,,1779c2,ffffff
+Tx ADK 008,Menlik Hospital ↔ Autobus Tera (Minibus),15916839,AA,3,,1779c2,ffffff
+Tx ADK 009,Abune Petros ↔ Asko (Minibus),15916909,AA,3,,1779c2,ffffff
+Tx ADK 011,Alem Bank ↔ Autobus Tera (Minibus),15916957,AA,3,,1779c2,ffffff
+Tx ADK 012,Haile Garment ↔ Autobus Tera (Minibus),15917637,AA,3,,1779c2,ffffff
+Tx ADK 013,Shiromeda ↔ Autobus Tera (Minibus),15917697,AA,3,,1779c2,ffffff
+Tx ADK 014,Kera ↔ Autobus Tera (Minibus),15917888,AA,3,,1779c2,ffffff
+Tx ADK 015,Kality Total ↔ Autobus Tera (Minibus),15917949,AA,3,,1779c2,ffffff
+Tx ADK 016,Jemmo 1 ↔ Autobis Tera (Minibus),15917971,AA,3,,1779c2,ffffff
+Tx ADK 017,Kechenie ↔ Eritrea Hotel (Minibus),15918070,AA,3,,1779c2,ffffff
+Tx ADK 020,Bole Bridge ↔ Cinema Ras (Minibus),15919609,AA,3,,1779c2,ffffff
+Tx ADK 021,Cinema Ras ↔ Bole Mekael (Minibus),15919798,AA,3,,1779c2,ffffff
+Tx ADK 022,Kera ↔ Cinema Ras (Minibus),15919880,AA,3,,1779c2,ffffff
+Tx ADK 026,Autobus Tera ↔ Asko (Minibus),15921312,AA,3,,1779c2,ffffff
+Tx ADK 028,Tekle Haimanot ↔ Alem Bank (Minibus),15921454,AA,3,,1779c2,ffffff
+Tx ADK 030,Winget ↔ Torhayloch (Minibus),15921591,AA,3,,1779c2,ffffff
+Tx ADK 031,Asco ↔ Atena Tera (Minibus),15921656,AA,3,,1779c2,ffffff
+Tx ADK 038,Mekanisa ↔ Cinema Ras (Minibus),15957904,AA,3,,1779c2,ffffff
+Tx ADK 042,Megenagna ↔ Cinema Ras (Minibus),15958044,AA,3,,1779c2,ffffff
+Tx ADK 043,Yeshi Debele ↔ Merab Hotel (Minibus),15958107,AA,3,,1779c2,ffffff
+Tx ADK 044,Merab Hotel ↔ Mekanisa (Minibus),15958349,AA,3,,1779c2,ffffff
+Tx ADK 047,Saris Abo ↔ Cinema Ras (Minibus),15958502,AA,3,,1779c2,ffffff
+Tx ADK 048,Tekle Haimanot ↔ Saris Abo (Minibus),15958564,AA,3,,1779c2,ffffff
+Tx ADK 052,Atena Tera ↔ Alem Bank (Minibus),15958618,AA,3,,1779c2,ffffff
+Tx ADK 053,Bole Bridge ↔ Autobus Tera (Minibus),15958644,AA,3,,1779c2,ffffff
+Tx ADK 058,Raguel Church ↔ Menlik Hospital (Minibus),15958710,AA,3,,1779c2,ffffff
+Tx ARD 011,Kality Menaheria ↔ 4 Kilo (Minibus),15960815,AA,3,,1779c2,ffffff
+Tx ARD 012,Piassa Arada ↔ Mekanisa (Minibus),15960877,AA,3,,1779c2,ffffff
+Tx ARD 016,Bole Medhanialem ↔ Piassa Arada (Minibus),15960944,AA,3,,1779c2,ffffff
+Tx Bole 023,Cinema Ras ↔ Bole Medhanialem (Minibus),15960977,AA,3,,1779c2,ffffff
+Tx Gl 018,Addisu Gebeya ↔ Eritrea Hotel (Minibus),15961078,AA,3,,1779c2,ffffff
+Tx Kal 032,Gojam Berenda ↔ Kality Total (Minibus),15961305,AA,3,,1779c2,ffffff
+Tx Kal 033,Lamberet Menaheria ↔ Kality Total (Minibus),15961341,AA,3,,1779c2,ffffff
+Tx Kal 037,Mexico ↔ Gelan Condominium (Minibus),15961494,AA,3,,1779c2,ffffff
+Tx Kolfa 034,Weybla Mariam ↔ Merab Hotel (Minibus),15961764,AA,3,,1779c2,ffffff
+Tx Kolfa 036,Stadium ↔ Zenebewerk (Minibus),15961854,AA,3,,1779c2,ffffff
+Tx Kolfa 037,18 Mazoria ↔ 22 Mazoria (Minibus),15961885,AA,3,,1779c2,ffffff
+Tx KRK 014,Saris ↔ Stadium (Minibus),15961978,AA,3,,1779c2,ffffff
+Tx KRK 015,Saris Abo ↔ Mexico (Minibus),15962019,AA,3,,1779c2,ffffff
+Tx KRK 016,Piassa Arada ↔ Kera (Minibus),15962065,AA,3,,1779c2,ffffff
+Tx KRK 017,Stadium ↔ Bole Bridge (Minibus),15962103,AA,3,,1779c2,ffffff
+Tx KRK 020,Bole Mickael ↔ Buna Ena Shay (Minibus),15962159,AA,3,,1779c2,ffffff
+Tx Lafto 034,Merab Hotel ↔ Jemmo 1 (Minibus),15963098,AA,3,,1779c2,ffffff
+Tx Lafto 042,Gofa Gebriel ↔ Atena Tera (Minibus),15963187,AA,3,,1779c2,ffffff
+Tx LK 016,Ayat ↔ Megenagna (Minibus),15963257,AA,3,,1779c2,ffffff
+Tx ADK 039,Merkato ↔ Lukanda (Minibus),15970722,AA,3,,1779c2,ffffff
+Tx ADK 040,Tero Mosque ↔ Merkato (Minibus),15970883,AA,3,,1779c2,ffffff
+Tx ADK 045,Sebategna ↔ Luwkanda (Minibus),15970955,AA,3,,1779c2,ffffff
+Tx ARD 013,Luwkanda ↔ Piassa Arada (Minibus),15971057,AA,3,,1779c2,ffffff
+Tx Gl 015,Rufael ↔ Piassa Arada (Minibus),15971140,AA,3,,1779c2,ffffff
+Tx Kolfe 035,Piassa Arada ↔ Selefia Mosque (Minibus),15973776,AA,3,,1779c2,ffffff
+Tx Kolfa 042,Piassa Arada ↔ 18 Mazoria (Minibus),15973832,AA,3,,1779c2,ffffff
+Tx Lafto 038,Saris ↔ Akaki Gebeya (Minibus),15973924,AA,3,,1779c2,ffffff
+Tx Lafto 039,Akaki Gebeya ↔ Adey Abeba (Minibus),15974268,AA,3,,1779c2,ffffff
+Tx Lafto 040,Lafto ↔ Jemmo 1 (Minibus),15974308,AA,3,,1779c2,ffffff
+Tx Lafto 043,Saris ↔ Yeshi Total (Minibus),15974328,AA,3,,1779c2,ffffff
+Tx YK 002,Kotebe Gebriel ↔ Megenagna (Minibus),15974746,AA,3,,1779c2,ffffff
+Tx YK 008,Kotebe ↔ 4 Kilo (Minibus),15974793,AA,3,,1779c2,ffffff
+Tx YK 014,Yeka Abado ↔ Megenagna (Minibus),15974906,AA,3,,1779c2,ffffff
+Tx Bole 007,22 Mazoria ↔ Summit (Minibus),15992541,AA,3,,1779c2,ffffff
+Tx Bole 008,Summit ↔ Bole Bridge (Minibus),15992646,AA,3,,1779c2,ffffff
+Tx Bole 017,Riventy ↔ Bole Mickael (Minibus),15992742,AA,3,,1779c2,ffffff
+Tx ADK 005,Lomi Meda ↔ Atena Tera (Minibus),15992882,AA,3,,1779c2,ffffff
+Tx ADK 006,Atena Tera ↔ Sebategna (Minibus),15992969,AA,3,,1779c2,ffffff
+Tx ADK 024,Saris ↔ Autobus Tera (Minibus),15993132,AA,3,,1779c2,ffffff
+Tx ADK 023,Tourist Hotel ↔ Autobus Tera (Minibus),15993248,AA,3,,1779c2,ffffff
+Tx ADK 035,Mesalemia ↔ Coca Cola (Minibus),15993363,AA,3,,1779c2,ffffff
+Tx ADK 037,Asko ↔ Piassa Arada (Minibus),15993376,AA,3,,1779c2,ffffff
+Tx ADK 055,Tikur Anbesa ↔ Tero Mosque (Minibus),15993527,AA,3,,1779c2,ffffff
+Tx ADK 057,Raguel Church ↔ Megenagna (Minibus),15993651,AA,3,,1779c2,ffffff
+Tx ARD 001,Piassa ↔ Megenagna (Minibus),15998238,AA,3,,1779c2,ffffff
+Tx ARD 009,Ambasader ↔ Tourist Hotel (Minibus),15998277,AA,3,,1779c2,ffffff
+Tx Gl 006,Shiromeda ↔ Addisu Gebeya (Minibus),15998427,AA,3,,1779c2,ffffff
+Tx Kal 021,Selam Building ↔ Saris (Minibus),15999097,AA,3,,1779c2,ffffff
+Tx Kal 022,Saris Abo ↔ Kality Total (Minibus),15999123,AA,3,,1779c2,ffffff
+Tx Kal 023,Gelan Condominium ↔ Saris (Minibus),15999152,AA,3,,1779c2,ffffff
+Tx Kal 027,Bulbula ↔ Saris (Minibus),15999254,AA,3,,1779c2,ffffff
+Tx Kal 008,Gelan Condominium ↔ Akaki Gebeya (Minibus),15999429,AA,3,,1779c2,ffffff
+Tx Kal 009,Akaki Gebeya ↔ Sefera Square (Minibus),16003640,AA,3,,1779c2,ffffff
+Tx Kal 030,Akaki Gebeya ↔ Saris Abo (Minibus),16004103,AA,3,,1779c2,ffffff
+Tx Kal 034,Saris Abo ↔ Akaki CBE (Minibus),16004169,AA,3,,1779c2,ffffff
+Tx Kal 035,Merkato ↔ Akaki Gebeya (Minibus),16004300,AA,3,,1779c2,ffffff
+Tx KRK 001,Lafto ↔ Mexico (Minibus),16004409,AA,3,,1779c2,ffffff
+Tx KRK 012,Bole Bridge ↔ Mexico (Minibus),16004442,AA,3,,1779c2,ffffff
+Tx Kolfa 031,Woyira Sefer ↔ Mexico Shebelle Hotel (Minibus),16004670,AA,3,,1779c2,ffffff
+Tx Kolfa 033,Selefia Mosque ↔ Merab Hotel (Minibus),16006993,AA,3,,1779c2,ffffff
+Tx Kolfa 038,Zenebewerk ↔ Asko (Minibus),16007055,AA,3,,1779c2,ffffff
+Tx Kolfa 041,Kara Kore ↔ Piassa Arada (Minibus),16007115,AA,3,,1779c2,ffffff
+Tx Lafto 001,Gofa Gebriel ↔ Adey Abeba (Minibus),16007166,AA,3,,1779c2,ffffff
+Tx Lafto 016,Jemmo 1 ↔ Cinema Ras (Minibus),16007247,AA,3,,1779c2,ffffff
+Tx Lafto 030,Mexico Shebelle Hotel ↔ Lafto (Minibus),16007282,AA,3,,1779c2,ffffff
+Tx LK 012,Kera ↔ Tafo Square (Minibus),16007348,AA,3,,1779c2,ffffff
+Tx LID 002,Abenet ↔ Weleta (Minibus),16007491,AA,3,,1779c2,ffffff
+Tx LID 005,Torhayloch ↔ Alem Gena (Minibus),16007565,AA,3,,1779c2,ffffff
+Tx LID 007,Weleta ↔ Mexico (Minibus),16007600,AA,3,,1779c2,ffffff
+Tx LID 008,Mexico ↔ Amanuel Church (Minibus),16007791,AA,3,,1779c2,ffffff
+Tx LID 013,Alem Gena ↔ Abenet (Minibus),16007850,AA,3,,1779c2,ffffff
+Tx YK 017,Raguel Church ↔ Megenagna (Minibus),16007931,AA,3,,1779c2,ffffff
+Tx YK 019,Autobus Tera ↔ Lamberet MenaherIa (Minibus),16008090,AA,3,,1779c2,ffffff
+Tx YK 021,Shola ↔ Piassa Arada (Minibus),16008308,AA,3,,1779c2,ffffff
+Tx Lafto 006,Mexico ↔ Hana Mariam (Minibus),16028728,AA,3,,1779c2,ffffff
+Tx Lafto 007,Mexico ↔ Haile Garment (Minibus),16028886,AA,3,,1779c2,ffffff
+AB004,Kality Meneharia ↔ Autobis Tera,16067901,AA,3,,1779c2,ffffff
+AB006,kera ↔ Addisu Gebeya,16068007,AA,3,,1779c2,ffffff
+AB014,Saris Abo ↔ Piassa Arada,16068104,AA,3,,1779c2,ffffff
+AB016,Shero Meda ↔ Autobis Tera,16068274,AA,3,,1779c2,ffffff
+AB017,Autobis Tera ↔ Kuskoam,16068409,AA,3,,1779c2,ffffff
+AB027,Legehar (Old Train Station) ↔ kality Meneharia,16068572,AA,3,,1779c2,ffffff
+AB033,Kotebe Gebriel ↔ Arat Kilo,16068674,AA,3,,1779c2,ffffff
+AB036,Legehar (Old Train Station) ↔ Kara Kore,16068754,AA,3,,1779c2,ffffff
+AB037,Yeshi Debele ↔ St. George Church,16068915,AA,3,,1779c2,ffffff
+AB055,Legehar (Old Train Station) ↔ Gurara,16069113,AA,3,,1779c2,ffffff
+AB056,Saris ↔ Shero Meda,16069192,AA,3,,1779c2,ffffff
+AB058,Legehar (Old Train Station) ↔ Alem Bank,16069231,AA,3,,1779c2,ffffff
+AB064,Megenagna ↔ Gurara,16069472,AA,3,,1779c2,ffffff
+AB065,Autobis Tera ↔ Alem Bank,16069558,AA,3,,1779c2,ffffff
+AB066,Kara Kore ↔ Autobis Tera,16070513,AA,3,,1779c2,ffffff
+AB068,Menlik Hospital ↔ Torhailoch,16070566,AA,3,,1779c2,ffffff
+AB069,Philiphs (Lomi Meda) ↔ Autobis Tera,16070654,AA,3,,1779c2,ffffff
+AB070,Ayer Tena ↔ Abuare Roundabout,16071249,AA,3,,1779c2,ffffff
+AB077,Kera ↔ Ayer Tena,16071322,AA,3,,1779c2,ffffff
+AB082,Yerer Goro ↔ Lideta Condominium,16071554,AA,3,,1779c2,ffffff
+AB090,Betel ↔ Legehar (Old Train Station),16071657,AA,3,,1779c2,ffffff
+AB092,Hana Mariam ↔ Darmar,16071828,AA,3,,1779c2,ffffff
+AB094,Piassa Arada ↔ Mikili Land,16072018,AA,3,,1779c2,ffffff
+AB099,Alem Bank ↔ Ayer Tena,16072169,AA,3,,1779c2,ffffff
+AB100,Jemmo 1 ↔ Autobis Tera,16072247,AA,3,,1779c2,ffffff
+AB102,Kara ↔ Legehar (Old Train Station),16072458,AA,3,,1779c2,ffffff
+AB104,Werku Sefer ↔ Kera,16072500,AA,3,,1779c2,ffffff
+AB105,Anfo Meda ↔ Legehar (Old Train Station),16074160,AA,3,,1779c2,ffffff
+AB109,Saris Abo ↔ Tulu Dimtu Adebabay,16074208,AA,3,,1779c2,ffffff
+AB117,Sefera ↔ Mexico,16074342,AA,3,,1779c2,ffffff
+AB121,Jemo 3 ↔ Mexico,16074398,AA,3,,1779c2,ffffff
+AB123,Yeka Abado G13 ↔ Megenagna,16074456,AA,3,,1779c2,ffffff
+AB045,Dil Ber ↔ Legehar (Old Train Station),16074676,AA,3,,1779c2,ffffff
+AB062,Legehar (Old Train Station) ↔ Sebeta,16074771,AA,3,,1779c2,ffffff
+AB071,Gerji Mebrat Haile ↔ Darmar,16074871,AA,3,,1779c2,ffffff
+AB111,Piassa Arada ↔ Gefersa,16075030,AA,3,,1779c2,ffffff
+SH012,Sansusi ↔ Autobis Tera,16086556,AA,3,,1779c2,ffffff
+SH009,Ayer Tena ↔ Autobis Tera (2),16088269,AA,3,,1779c2,ffffff
+D46,Megenagna Terminal ↔ Bole Arabsa,16088616,AA,3,,1779c2,ffffff
+SH035,Shero Meda ↔ Megenagna,16088617,AA,3,,1779c2,ffffff
+SH022,Mexico ↔ Hana Mariam (2),16088618,AA,3,,1779c2,ffffff
+SH015,Bole Millenium ↔ 4 Kilo,16088619,AA,3,,1779c2,ffffff
+AB012,Gurara ↔ Autobis Tera,16112803,AA,3,,1779c2,ffffff
+AB007,Megenagna ↔ Aleltu,16112804,AA,3,,1779c2,ffffff
+AB025,Legehar (Old Train Station) ↔ Akaki Korkoro,16112805,AA,3,,1779c2,ffffff
+AB019,Sansusi ↔ Piassa Arada,16112806,AA,3,,1779c2,ffffff
+AB031,Shero Meda ↔ Legehar (Old Train Station),16113471,AA,3,,1779c2,ffffff
+AB048,Bole Mikael ↔ Piassa Arada,16148439,AA,3,,1779c2,ffffff
+AB091,Repi (Gerar) ↔ Autobis Tera,16148440,AA,3,,1779c2,ffffff
+AB085,Kela ↔ Chid Tera,16148441,AA,3,,1779c2,ffffff
+AB067,Legehar (Old Train Station) ↔ Jemmo 3,16148442,AA,3,,1779c2,ffffff
+AB030,Sululta ↔ Autobis Tera,16148443,AA,3,,1779c2,ffffff
+AB079,Summit Condominuiums ↔ Arat Kilo,16151480,AA,3,,1779c2,ffffff
+AB021,File Doro ↔ Autobis Tera,16151481,AA,3,,1779c2,ffffff
+AB098,Saris Abo ↔ Dukem,16239079,AA,3,,1779c2,ffffff
+AB060,Legehar (Old Train Station) ↔ DebreZeit,16239080,AA,3,,1779c2,ffffff
+AB039,Bole Medhanialem ↔ Autobis Tera,16290772,AA,3,,1779c2,ffffff
+AB057,Legehar (Old Train Station) ↔ Kara,16290774,AA,3,,1779c2,ffffff
+AB022,Summit Condominiums ↔ Legehar (Old Train Station),16290775,AA,3,,1779c2,ffffff
+E-W,Ayat ↔ Tor Hailoch (Light Rail),5697658,AA,0,,1779c2,ffffff
+S-N,Menelik II Square ↔ Kality (Light Rail),5697659,AA,0,,1779c2,ffffff
