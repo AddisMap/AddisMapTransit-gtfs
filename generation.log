@@ -739,6 +739,7 @@ INFO:root:Added stop: Goma Quteba - https://osm.org/node/7041071387
 INFO:root:Added stop: Abenet - https://osm.org/node/7041071388
 INFO:root:Added stop: Lideta Condominium - https://osm.org/node/7041071389
 INFO:root:Added stop: Darmar - https://osm.org/node/7041071390
+INFO:root:Added stop: Coca Cola - https://osm.org/node/7041071391
 INFO:root:Added stop: Austria Embassy - https://osm.org/node/7041071392
 INFO:root:Added stop: Mechare Meda - https://osm.org/node/7041071393
 INFO:root:Added stop: 3 Kutir Mazoriya (Total) - https://osm.org/node/7041071395
@@ -2379,6 +2380,17 @@ INFO:root:Added stop: St. Urael Church - https://osm.org/node/11171800359
 INFO:root:Added stop: Kazanchis (6th) - https://osm.org/node/11171800360
 INFO:root:Added stop: Place Parking (Gibi Gebriel) - https://osm.org/node/11171800361
 INFO:root:Added stop: Summit Condominiums - https://osm.org/node/11171800362
+INFO:root:Added stop: Mekanisa Kore - https://osm.org/node/11379983378
+INFO:root:Added stop: Mekanisa Kore - https://osm.org/node/11379983380
+INFO:root:Added stop: St. George Church - https://osm.org/node/11380086432
+INFO:root:Added stop: St. George Church - https://osm.org/node/11380086433
+INFO:root:Added stop: Finance - https://osm.org/node/11380281418
+INFO:root:Added stop: Kela - https://osm.org/node/11380281419
+INFO:root:Added stop: Menagesha - https://osm.org/node/11380281420
+INFO:root:Added stop: Menagesha - https://osm.org/node/11380281422
+INFO:root:Added stop: Gefersa - https://osm.org/node/11380281423
+INFO:root:Added stop: Firaol Hotel - https://osm.org/node/11380281424
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/11380367569
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2744,6 +2756,11 @@ Generating schedule for line: 16290774
 WARNING: No duration set --- Using default travel time for route with OSM ID 16290766
 WARNING: No duration set --- Using default travel time for route with OSM ID 16290765
 Generating schedule for line: 16290775
+Generating schedule for line: 16761109
+Generating schedule for line: 16761258
+Generating schedule for line: 16761408
+Generating schedule for line: 16761711
+Generating schedule for line: 16761937
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
