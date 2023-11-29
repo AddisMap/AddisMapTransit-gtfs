@@ -84,6 +84,13 @@ WARNING:root:https://osm.org/relation/15484447
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/16290773
 WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/16763787
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/16763787
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/16763787
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -852,6 +859,7 @@ INFO:root:Added stop: Medhanialem (TOTAL) - https://osm.org/node/7041071651
 INFO:root:Added stop: Finance - https://osm.org/node/7041071653
 INFO:root:Added stop: Finance - https://osm.org/node/7041071654
 INFO:root:Added stop: Winget Chaf - https://osm.org/node/7041071655
+INFO:root:Added stop: 4 Menta Adebabay - https://osm.org/node/7041071657
 INFO:root:Added stop: Mikili Land - https://osm.org/node/7041071658
 INFO:root:Added stop: Winget Adebabay - https://osm.org/node/7041071659
 INFO:root:Added stop: Awolia - https://osm.org/node/7041071660
@@ -1132,6 +1140,7 @@ INFO:root:Added stop: Kilinto Right (Heniken) - https://osm.org/node/7098810335
 INFO:root:Added stop: Koye Feche 4 - https://osm.org/node/7098810336
 INFO:root:Added stop: Koye Feche 3 - https://osm.org/node/7098810337
 INFO:root:Added stop: Koye Feche 2 - https://osm.org/node/7098810338
+INFO:root:Added stop: Koye Feche - https://osm.org/node/7098810339
 INFO:root:Added stop: Goro Roundabout - https://osm.org/node/7098810340
 INFO:root:Added stop: Kotebe Shet' - https://osm.org/node/7098810341
 INFO:root:Added stop: Bole Lemi - https://osm.org/node/7098810342
@@ -1248,6 +1257,7 @@ INFO:root:Added stop: 18 Mazoria (Atena Tera) - https://osm.org/node/7112215081
 INFO:root:Added stop: Atena Tera - https://osm.org/node/7112215082
 INFO:root:Added stop: Winget TVET - https://osm.org/node/7112215083
 INFO:root:Added stop: Winget - https://osm.org/node/7112215084
+INFO:root:Added stop: Winget - https://osm.org/node/7112280388
 INFO:root:Added stop: Winget TVET - https://osm.org/node/7112280389
 INFO:root:Added stop: kolfe (Atena Tera) - https://osm.org/node/7112280390
 INFO:root:Added stop: Atena Tera - https://osm.org/node/7112280391
@@ -2391,6 +2401,31 @@ INFO:root:Added stop: Menagesha - https://osm.org/node/11380281422
 INFO:root:Added stop: Gefersa - https://osm.org/node/11380281423
 INFO:root:Added stop: Firaol Hotel - https://osm.org/node/11380281424
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/11380367569
+INFO:root:Added stop: Mexico - https://osm.org/node/11380367570
+INFO:root:Added stop: 4 Menta Adebabay - https://osm.org/node/11381041307
+INFO:root:Added stop: 58 Mazoria - https://osm.org/node/11381108818
+INFO:root:Added stop: Saris - https://osm.org/node/11381108819
+INFO:root:Added stop: Saris - https://osm.org/node/11381108821
+INFO:root:Added stop: 58 Mazoria - https://osm.org/node/11381108822
+INFO:root:Added stop: Hana Maryam - https://osm.org/node/11381108824
+INFO:root:Added stop: Stadium - https://osm.org/node/11381162441
+INFO:root:Added stop: Stadium - https://osm.org/node/11381162442
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/11381232890
+INFO:root:Added stop: Bole Bulbula - https://osm.org/node/11381312090
+INFO:root:Added stop: Bole Bulbula - https://osm.org/node/11381312091
+INFO:root:Added stop: 93 Mazoria - https://osm.org/node/11381312092
+INFO:root:Added stop: Key Afer - https://osm.org/node/11381312094
+INFO:root:Added stop: Key Afer - https://osm.org/node/11381312095
+INFO:root:Added stop: Addis Sefer - https://osm.org/node/11381593813
+INFO:root:Added stop: Addis Sefer - https://osm.org/node/11381593815
+INFO:root:Added stop: Pastor - https://osm.org/node/11381593818
+INFO:root:Added stop: Kilonto - https://osm.org/node/11381711254
+INFO:root:Added stop: Kilonto - https://osm.org/node/11381711257
+INFO:root:Added stop: Entoto Mariam - https://osm.org/node/11381853560
+INFO:root:Added stop: Entoto Mariam - https://osm.org/node/11381853561
+INFO:root:Added stop: Bole Arabsa - https://osm.org/node/11382175105
+INFO:root:Added stop: Bole Arabsa - https://osm.org/node/11382175106
+INFO:root:Added stop: Koye Feche - https://osm.org/node/11382370771
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2597,7 +2632,7 @@ Generating schedule for line: 15916909
 Generating schedule for line: 15916957
 Generating schedule for line: 15917637
 Generating schedule for line: 15917697
-INFO:root:Removed 3 unused stops
+INFO:root:Removed 4 unused stops
 INFO:root:Removed 0 unused routes
 Generating schedule for line: 15917888
 Generating schedule for line: 15917949
@@ -2761,6 +2796,18 @@ Generating schedule for line: 16761258
 Generating schedule for line: 16761408
 Generating schedule for line: 16761711
 Generating schedule for line: 16761937
+Generating schedule for line: 16763531
+Generating schedule for line: 16763585
+Generating schedule for line: 16763690
+Generating schedule for line: 16763761
+Generating schedule for line: 16763889
+Generating schedule for line: 16764498
+Generating schedule for line: 16764670
+Generating schedule for line: 16764708
+Generating schedule for line: 16764849
+Generating schedule for line: 16765470
+Generating schedule for line: 16765619
+Generating schedule for line: 16765723
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
@@ -2790,6 +2837,8 @@ The stops "Haile Garment" (ID node/10842129120) and "Haile Garment" (ID
 node/7078164251) are 0.60m apart and probably represent the same location.
 The stops "Haile Garment" (ID node/10842129016) and "Haile Garment" (ID
 node/7049122266) are 0.52m apart and probably represent the same location.
+The stops "58 Mazoria" (ID node/10903393900) and "58 Mazoria" (ID
+node/11381108818) are 1.78m apart and probably represent the same location.
 The stops "Saris Abo" (ID node/10842129022) and "Saris Abo" (ID
 node/7103202619) are 0.24m apart and probably represent the same location.
 The stops "Abo Junction" (ID node/7041071289) and "Saris Abo" (ID
@@ -2808,6 +2857,10 @@ The stops "Jemmo 1" (ID node/10905771998) and "Jemo 1" (ID node/7041052944)
 are 1.49m apart and probably represent the same location.
 The stops "Weleta" (ID node/10997242295) and "Weleta" (ID node/10997242296)
 are 1.74m apart and probably represent the same location.
+The stops "Key Afer" (ID node/11381312095) and "Key Afer" (ID
+node/10890083968) are 1.18m apart and probably represent the same location.
+The stops "Key Afer" (ID node/11381312094) and "Key Afer" (ID
+node/10890290096) are 1.36m apart and probably represent the same location.
 The stops "Riventy" (ID node/10989306744) and "Riventy" (ID node/10989306745)
 are 1.89m apart and probably represent the same location.
 The stops "Bole Arabsa" (ID node/10926028111) and "Bole Arabsa" (ID
@@ -2868,6 +2921,8 @@ The stops "Flamingo" (ID node/7070861710) and "Flamingo" (ID node/10766121863)
 are 0.77m apart and probably represent the same location.
 The stops "Mexico" (ID node/7080440208) and "Mexico" (ID node/10932115667) are
 1.22m apart and probably represent the same location.
+The stops "TVET College (Tegbare'd)" (ID node/7041071425) and "Mexico" (ID
+node/11380367570) are 0.74m apart and probably represent the same location.
 The stops "Lideta Condominium" (ID node/11035607131) and "Lideta (Balcha
 Hospital)" (ID node/7041071430) are 0.45m apart and probably represent the
 same location.
@@ -2984,6 +3039,8 @@ The stops "Manen" (ID node/10991763449) and "Manen" (ID node/10991763450) are
 0.71m apart and probably represent the same location.
 The stops "Mezan" (ID node/10931884721) and "Mezan" (ID node/7041071719) are
 0.45m apart and probably represent the same location.
+The stops "Winget" (ID node/10915905494) and "Winget" (ID node/7112280388) are
+0.64m apart and probably represent the same location.
 The stops "Winget" (ID node/10915905493) and "Winget" (ID node/7112215084) are
 1.36m apart and probably represent the same location.
 The stops "Aba Kiros" (ID node/10925966510) and "Aba Kiros Roundabout" (ID
