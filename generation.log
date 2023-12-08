@@ -91,6 +91,13 @@ WARNING:root:https://osm.org/relation/16763787
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/16763787
 WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/16794104
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/16794104
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/16794104
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -686,7 +693,7 @@ INFO:root:Added stop: Jemo 1 - https://osm.org/node/7041052945
 INFO:root:Added stop: Mestawet Fabrica - https://osm.org/node/7041052946
 INFO:root:Added stop: Mestawet Fabrica - https://osm.org/node/7041052948
 INFO:root:Added stop: Jemo 3 - https://osm.org/node/7041052949
-INFO:root:Added stop: Jemo 3 - https://osm.org/node/7041052950
+INFO:root:Added stop: Jemmo 3 - https://osm.org/node/7041052950
 INFO:root:Added stop: Zenebework - https://osm.org/node/7041052951
 INFO:root:Added stop: Welete Maryam - https://osm.org/node/7041052952
 INFO:root:Added stop: Mickael Bridge - https://osm.org/node/7041052953
@@ -1009,6 +1016,7 @@ INFO:root:Added stop: Bethel - https://osm.org/node/7074504390
 INFO:root:Added stop: Mendida - https://osm.org/node/7074504392
 INFO:root:Added stop: Mebrat Nigist Hotel - https://osm.org/node/7074525370
 INFO:root:Added stop: Lideta Kefetega Firdbet - https://osm.org/node/7074541084
+INFO:root:Added stop: Sefera Square - https://osm.org/node/7074561389
 INFO:root:Added stop: Haile Garment - https://osm.org/node/7074561391
 INFO:root:Added stop: Mebrathile (EEPCo) - https://osm.org/node/7074561392
 INFO:root:Added stop: Hana Mariam - https://osm.org/node/7074561393
@@ -2426,6 +2434,56 @@ INFO:root:Added stop: Entoto Mariam - https://osm.org/node/11381853561
 INFO:root:Added stop: Bole Arabsa - https://osm.org/node/11382175105
 INFO:root:Added stop: Bole Arabsa - https://osm.org/node/11382175106
 INFO:root:Added stop: Koye Feche - https://osm.org/node/11382370771
+INFO:root:Added stop: 18 Kutir Mazoria - https://osm.org/node/11399912950
+INFO:root:Added stop: Kechenie Medhanialem - https://osm.org/node/11399912951
+INFO:root:Added stop: Chelote - https://osm.org/node/11399912952
+INFO:root:Added stop: Semen Hotel - https://osm.org/node/11399912953
+INFO:root:Added stop: Abune Petros - https://osm.org/node/11399912954
+INFO:root:Added stop: Shola - https://osm.org/node/11399912955
+INFO:root:Added stop: Shola - https://osm.org/node/11399912956
+INFO:root:Added stop: Chelote - https://osm.org/node/11399912957
+INFO:root:Added stop: Kechenie Medhanialem - https://osm.org/node/11399912959
+INFO:root:Added stop: 18 Kutir Mazoria - https://osm.org/node/11399912960
+INFO:root:Added stop: Raguel Church - https://osm.org/node/11399912962
+INFO:root:Added stop: Raguel Church - https://osm.org/node/11399912963
+INFO:root:Added stop: Kechenie - https://osm.org/node/11399912964
+INFO:root:Added stop: Kechenie - https://osm.org/node/11399912966
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/11400026861
+INFO:root:Added stop: Mexico - https://osm.org/node/11400026864
+INFO:root:Added stop: Jemmo 3 - https://osm.org/node/11400026865
+INFO:root:Added stop: Mebrathile (EEPCo) - https://osm.org/node/11400182732
+INFO:root:Added stop: Haile Garment - https://osm.org/node/11400182733
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11400182734
+INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/11400182735
+INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/11400182737
+INFO:root:Added stop: Total - https://osm.org/node/11400182738
+INFO:root:Added stop: Total - https://osm.org/node/11400182739
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11400182741
+INFO:root:Added stop: Haile Garment - https://osm.org/node/11400182742
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/11400182743
+INFO:root:Added stop: Megenagna - https://osm.org/node/11400973366
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/11400973367
+INFO:root:Added stop: Afincho Ber - https://osm.org/node/11400973368
+INFO:root:Added stop: Del Ber School - https://osm.org/node/11401004969
+INFO:root:Added stop: Adisu Gebeya - https://osm.org/node/11401004971
+INFO:root:Added stop: Adisu Gebeya - https://osm.org/node/11401004973
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/11401004974
+INFO:root:Added stop: Afincho Ber - https://osm.org/node/11401004975
+INFO:root:Added stop: Kela - https://osm.org/node/11401143484
+INFO:root:Added stop: Autobis Tera - https://osm.org/node/11401143486
+INFO:root:Added stop: Kela - https://osm.org/node/11401143487
+INFO:root:Added stop: Megenagna - https://osm.org/node/11401435281
+INFO:root:Added stop: Yosef - https://osm.org/node/11401435284
+INFO:root:Added stop: Kadisco - https://osm.org/node/11401435285
+INFO:root:Added stop: Haile Garment - https://osm.org/node/11401435286
+INFO:root:Added stop: Haile Garment - https://osm.org/node/11401435287
+INFO:root:Added stop: Hana Mariam - https://osm.org/node/11401435289
+INFO:root:Added stop: Kadisco - https://osm.org/node/11401435290
+INFO:root:Added stop: Yosef - https://osm.org/node/11401435291
+INFO:root:Added stop: Mamo - https://osm.org/node/11401435292
+INFO:root:Added stop: Megenagna - https://osm.org/node/11401435293
+INFO:root:Added stop: Mexico - https://osm.org/node/11401627123
+INFO:root:Added stop: Mexico - https://osm.org/node/11401627124
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2632,7 +2690,7 @@ Generating schedule for line: 15916909
 Generating schedule for line: 15916957
 Generating schedule for line: 15917637
 Generating schedule for line: 15917697
-INFO:root:Removed 4 unused stops
+INFO:root:Removed 6 unused stops
 INFO:root:Removed 0 unused routes
 Generating schedule for line: 15917888
 Generating schedule for line: 15917949
@@ -2808,6 +2866,14 @@ Generating schedule for line: 16764849
 Generating schedule for line: 16765470
 Generating schedule for line: 16765619
 Generating schedule for line: 16765723
+Generating schedule for line: 16793879
+Generating schedule for line: 16794335
+Generating schedule for line: 16794581
+Generating schedule for line: 16794648
+Generating schedule for line: 16794702
+Generating schedule for line: 16794769
+Generating schedule for line: 16794971
+Generating schedule for line: 16795336
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
@@ -2863,6 +2929,10 @@ The stops "Key Afer" (ID node/11381312094) and "Key Afer" (ID
 node/10890290096) are 1.36m apart and probably represent the same location.
 The stops "Riventy" (ID node/10989306744) and "Riventy" (ID node/10989306745)
 are 1.89m apart and probably represent the same location.
+The stops "Yosef" (ID node/11401435291) and "Yosef" (ID node/10842129086) are
+1.06m apart and probably represent the same location.
+The stops "Yosef" (ID node/11401435284) and "Yoseph" (ID node/10842129056) are
+1.33m apart and probably represent the same location.
 The stops "Bole Arabsa" (ID node/10926028111) and "Bole Arabsa" (ID
 node/7022397417) are 0.47m apart and probably represent the same location.
 The stops "Gerar" (ID node/7041052954) and "Gerar" (ID node/10913974720) are
@@ -3000,6 +3070,8 @@ The stops "Piassa" (ID node/10925161784) and "Piassa Arada" (ID
 node/10970829160) are 0.84m apart and probably represent the same location.
 The stops "Abune Petros" (ID node/10925161777) and "Abune Petros" (ID
 node/11034031013) are 0.84m apart and probably represent the same location.
+The stops "Abune Petros" (ID node/11399912954) and "Piassa" (ID
+node/10925161783) are 1.18m apart and probably represent the same location.
 The stops "Piassa Arada" (ID node/7041071579) and "Piassa" (ID
 node/10924088004) are 1.72m apart and probably represent the same location.
 The stops "Menelik II Hospital" (ID node/7041071483) and "Menelik II Hospital"
@@ -3031,6 +3103,8 @@ The stops "3rd Shaleka" (ID node/7041071721) and "Jan Meda" (ID
 node/10931884723) are 0.45m apart and probably represent the same location.
 The stops "Jan Meda" (ID node/10931884724) and "Jan Meda" (ID node/7062689855)
 are 0.45m apart and probably represent the same location.
+The stops "Shola" (ID node/11399912956) and "Shola" (ID node/10924087997) are
+1.39m apart and probably represent the same location.
 The stops "Kara Condominium" (ID node/7077785209) and "Kara Condominium" (ID
 node/10997243560) are 1.30m apart and probably represent the same location.
 The stops "Tero Mosque" (ID node/10970748194) and "Tero Mosque" (ID
@@ -3039,6 +3113,8 @@ The stops "Manen" (ID node/10991763449) and "Manen" (ID node/10991763450) are
 0.71m apart and probably represent the same location.
 The stops "Mezan" (ID node/10931884721) and "Mezan" (ID node/7041071719) are
 0.45m apart and probably represent the same location.
+The stops "Medhanalem" (ID node/10924087993) and "Kechenie Medhanialem" (ID
+node/11399912959) are 0.55m apart and probably represent the same location.
 The stops "Winget" (ID node/10915905494) and "Winget" (ID node/7112280388) are
 0.64m apart and probably represent the same location.
 The stops "Winget" (ID node/10915905493) and "Winget" (ID node/7112215084) are
