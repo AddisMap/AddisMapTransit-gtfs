@@ -707,6 +707,7 @@ INFO:root:Added stop: Repi (Gerar) - https://osm.org/node/7041052955
 INFO:root:Added stop: Gebre Kirstos - https://osm.org/node/7041052957
 INFO:root:Added stop: Bisrate Gebrael - https://osm.org/node/7041052958
 INFO:root:Added stop: Gofa Gebriel (2) - https://osm.org/node/7041052959
+INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/7041052960
 INFO:root:Added stop: MOHA (Pepsi Factory) - https://osm.org/node/7041052965
 INFO:root:Added stop: Addis Sefer (Gebriel) - https://osm.org/node/7041052966
 INFO:root:Added stop: Addis Sefer (Gebriel) - https://osm.org/node/7041052967
@@ -1389,6 +1390,8 @@ INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10766121873
 INFO:root:Added stop: kality Meneharia - https://osm.org/node/10766121874
 INFO:root:Added stop: Olympia - https://osm.org/node/10766454593
 INFO:root:Added stop: Bole Roundabout - https://osm.org/node/10766454594
+INFO:root:Added stop: German Square - https://osm.org/node/10768858714
+INFO:root:Added stop: Gofa Camp - https://osm.org/node/10768858715
 INFO:root:Added stop: African Union - https://osm.org/node/10768858718
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/10768858719
 INFO:root:Added stop: Guenet Hotel (Orbis) - https://osm.org/node/10768858720
@@ -2516,6 +2519,28 @@ INFO:root:Added stop: Taxi Tera - https://osm.org/node/11403841171
 INFO:root:Added stop: Arat Kilo - https://osm.org/node/11403841172
 INFO:root:Added stop: Gerji - https://osm.org/node/11403841173
 INFO:root:Added stop: Gerji - https://osm.org/node/11403841174
+INFO:root:Added stop: Alem Gena - https://osm.org/node/11405387337
+INFO:root:Added stop: Mexico - https://osm.org/node/11405387339
+INFO:root:Added stop: Autobis Tera - https://osm.org/node/11405450798
+INFO:root:Added stop: Zenebework - https://osm.org/node/11405450799
+INFO:root:Added stop: Tabot Maderya - https://osm.org/node/11405450800
+INFO:root:Added stop: Weyra Sefer - https://osm.org/node/11405450801
+INFO:root:Added stop: Bethel - https://osm.org/node/11405450802
+INFO:root:Added stop: Bethel - https://osm.org/node/11405450804
+INFO:root:Added stop: Weyra Sefer - https://osm.org/node/11405450806
+INFO:root:Added stop: Tabot Maderya - https://osm.org/node/11405450807
+INFO:root:Added stop: Tor Hailoch - https://osm.org/node/11405450808
+INFO:root:Added stop: Dembel City Center - https://osm.org/node/11405492950
+INFO:root:Added stop: Bole (Bora Amusement) - https://osm.org/node/11405492951
+INFO:root:Added stop: Taxi Tera - https://osm.org/node/11405492952
+INFO:root:Added stop: Meteorology - https://osm.org/node/11405492953
+INFO:root:Added stop: Tikur Anbessa Hospital - https://osm.org/node/11405492954
+INFO:root:Added stop: Gojam Berenda - https://osm.org/node/11405492955
+INFO:root:Added stop: Autobis Tera - https://osm.org/node/11405492956
+INFO:root:Added stop: Lafto - https://osm.org/node/11405544615
+INFO:root:Added stop: Lafto - https://osm.org/node/11405544617
+INFO:root:Added stop: Megenagna - https://osm.org/node/11406154070
+INFO:root:Added stop: Megenagna - https://osm.org/node/11406154071
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2722,8 +2747,6 @@ Generating schedule for line: 15916909
 Generating schedule for line: 15916957
 Generating schedule for line: 15917637
 Generating schedule for line: 15917697
-INFO:root:Removed 6 unused stops
-INFO:root:Removed 0 unused routes
 Generating schedule for line: 15917888
 Generating schedule for line: 15917949
 Generating schedule for line: 15917971
@@ -2917,6 +2940,16 @@ WARNING: No duration set --- Using default travel time for route with OSM ID 167
 Generating schedule for line: 16800759
 WARNING: No duration set --- Using default travel time for route with OSM ID 16800758
 WARNING: No duration set --- Using default travel time for route with OSM ID 16800757
+Generating schedule for line: 16803209
+Generating schedule for line: 16803318
+Generating schedule for line: 16803475
+WARNING: No duration set --- Using default travel time for route with OSM ID 16803474
+WARNING: No duration set --- Using default travel time for route with OSM ID 16803473
+Generating schedule for line: 16803572
+Generating schedule for line: 16804052
+INFO:root:Removed 6 unused stops
+INFO:root:Removed 0 unused routes
+Generating schedule for line: 16804748
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
@@ -2942,6 +2975,8 @@ The stops "Sefera" (ID node/7047495433) and "Sefera" (ID node/10901428143) are
 1.92m apart and probably represent the same location.
 The stops "Alem Gena" (ID node/7041052917) and "Alem Gena" (ID
 node/7041052916) are 1.64m apart and probably represent the same location.
+The stops "Alem Gena" (ID node/11035914858) and "Alem Gena" (ID
+node/11405387337) are 1.89m apart and probably represent the same location.
 The stops "Haile Garment" (ID node/10842129120) and "Haile Garment" (ID
 node/7078164251) are 0.60m apart and probably represent the same location.
 The stops "Haile Garment" (ID node/10842129016) and "Haile Garment" (ID
@@ -2980,6 +3015,8 @@ The stops "Bole Arabsa" (ID node/10926028112) and "Bole Arabsa" (ID
 node/11402646170) are 0.74m apart and probably represent the same location.
 The stops "Bole Arabsa" (ID node/10926028111) and "Bole Arabsa" (ID
 node/7022397417) are 0.47m apart and probably represent the same location.
+The stops "Gofa Gebriel" (ID node/10907781480) and "Gofa Gebriel" (ID
+node/7041052960) are 1.93m apart and probably represent the same location.
 The stops "Gerar" (ID node/7041052954) and "Gerar" (ID node/10913974720) are
 1.50m apart and probably represent the same location.
 The stops "Gerar" (ID node/7074353066) and "Gerar" (ID node/10913974719) are
@@ -3070,6 +3107,8 @@ The stops "Abenet" (ID node/10913863174) and "Abinet" (ID node/7077863018) are
 1.26m apart and probably represent the same location.
 The stops "Megenagna" (ID node/10886991026) and "Megenagna" (ID
 node/11402646169) are 0.49m apart and probably represent the same location.
+The stops "Megenagna" (ID node/10929694831) and "Megenagna" (ID
+node/11406154071) are 1.63m apart and probably represent the same location.
 The stops "Megenagna" (ID node/11403178491) and "Megenagna (Israel Embassy)"
 (ID node/10781643833) are 0.10m apart and probably represent the same
 location.
@@ -3080,6 +3119,8 @@ node/11403178494) are 0.60m apart and probably represent the same location.
 The stops "Megenagna (Marathon Motors)" (ID node/10781643831) and "Megenagna"
 (ID node/10931850027) are 1.24m apart and probably represent the same
 location.
+The stops "Megenagna" (ID node/11406154070) and "Marathon Motor (Megenagna)"
+(ID node/7037142417) are 0.59m apart and probably represent the same location.
 The stops "Megenagna" (ID node/10931788261) and "Megenagna (Marathon Motors)"
 (ID node/10781844863) are 0.55m apart and probably represent the same
 location.
@@ -3095,6 +3136,8 @@ The stops "Se'alite Mihret" (ID node/10931809325) and "Salite Mihret" (ID
 node/7037183498) are 0.95m apart and probably represent the same location.
 The stops "Mebrat Haile" (ID node/10913852033) and "Mebrathail" (ID
 node/7112123458) are 1.40m apart and probably represent the same location.
+The stops "Autobis Tera" (ID node/11405450798) and "Autobis Tera" (ID
+node/11034611751) are 1.78m apart and probably represent the same location.
 The stops "Piassa Arada" (ID node/11034015159) and "Piassa Arada" (ID
 node/10899150567) are 1.18m apart and probably represent the same location.
 The stops "Arat Kilo" (ID node/11403841172) and "4 Kilo" (ID node/10936313833)
@@ -3123,6 +3166,10 @@ The stops "Autobis Tera (3)" (ID node/7084722456) and "Autobis Tera" (ID
 node/11403178495) are 0.18m apart and probably represent the same location.
 The stops "Piassa" (ID node/10924116805) and "Piassa Arada" (ID
 node/7084255333) are 0.35m apart and probably represent the same location.
+The stops "Autobis Tera" (ID node/11405492956) and "Autobis Tera (3)" (ID
+node/7041071599) are 0.17m apart and probably represent the same location.
+The stops "Gojam Berenda" (ID node/10845731584) and "Gojam Berenda" (ID
+node/11405492955) are 0.99m apart and probably represent the same location.
 The stops "Piassa Arada" (ID node/10973319413) and "Piassa Arada" (ID
 node/10973319414) are 1.99m apart and probably represent the same location.
 The stops "Kokebe Tsebah (Kebena)" (ID node/10931850028) and "Kokebe Tsebah
