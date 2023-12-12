@@ -2550,6 +2550,13 @@ INFO:root:Added stop: Tafo - https://osm.org/node/11407727779
 INFO:root:Added stop: Kura Jida - https://osm.org/node/11407727780
 INFO:root:Added stop: Ejere - https://osm.org/node/11407727781
 INFO:root:Added stop: 44 Mazoria - https://osm.org/node/11407727782
+INFO:root:Added stop: Sebeta - https://osm.org/node/11409547051
+INFO:root:Added stop: Sebeta - https://osm.org/node/11409547052
+INFO:root:Added stop: Haile Garment - https://osm.org/node/11409931056
+INFO:root:Added stop: Chera Medhanilem - https://osm.org/node/11409931057
+INFO:root:Added stop: Mesalemia - https://osm.org/node/11409931058
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11409931059
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11409931061
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2961,6 +2968,7 @@ INFO:root:Removed 0 unused routes
 Generating schedule for line: 16804748
 Generating schedule for line: 16807402
 Generating schedule for line: 16807587
+Generating schedule for line: 16810442
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
