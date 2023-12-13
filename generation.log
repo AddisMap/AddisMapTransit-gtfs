@@ -106,6 +106,8 @@ WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/16807587
 WARNING:root:Using 'ref' from member variant instead
 WARNING:root:https://osm.org/relation/16807586
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16814775
+WARNING:root:  Problem at: https://osm.org/way/749949679
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -684,8 +686,10 @@ INFO:root:Added stop: Kality Gebriel - https://osm.org/node/7041052900
 INFO:root:Added stop: Kality Prison - https://osm.org/node/7041052901
 INFO:root:Added stop: Hana Maryam - https://osm.org/node/7041052912
 INFO:root:Added stop: Tabelew - https://osm.org/node/7041052914
+INFO:root:Added stop: Ubedi Academy - https://osm.org/node/7041052915
 INFO:root:Added stop: Alem Gena - https://osm.org/node/7041052916
 INFO:root:Added stop: Alem Gena - https://osm.org/node/7041052917
+INFO:root:Added stop: Mama - https://osm.org/node/7041052918
 INFO:root:Added stop: Mekanisa (Old Revenues Office) - https://osm.org/node/7041052927
 INFO:root:Added stop: German Square - https://osm.org/node/7041052928
 INFO:root:Added stop: Gebriel Bridge - https://osm.org/node/7041052932
@@ -967,6 +971,7 @@ INFO:root:Added stop: SNAP Building - https://osm.org/node/7070861696
 INFO:root:Added stop: Friendship - https://osm.org/node/7070861697
 INFO:root:Added stop: Heber Restaurant - https://osm.org/node/7070861698
 INFO:root:Added stop: RWANDA (Werbek House) - https://osm.org/node/7070861699
+INFO:root:Added stop: Wollo Sefer - https://osm.org/node/7070861700
 INFO:root:Added stop: Rwanda - https://osm.org/node/7070861701
 INFO:root:Added stop: Bole Printing Press - https://osm.org/node/7070861702
 INFO:root:Added stop: Bole Printing Press - https://osm.org/node/7070861703
@@ -1012,6 +1017,8 @@ INFO:root:Added stop: Project 15 - https://osm.org/node/7074332290
 INFO:root:Added stop: Kela - https://osm.org/node/7074332294
 INFO:root:Added stop: Chereta - https://osm.org/node/7074347184
 INFO:root:Added stop: Gerar - https://osm.org/node/7074353066
+INFO:root:Added stop: Jemo 3 - https://osm.org/node/7074374410
+INFO:root:Added stop: Furi - https://osm.org/node/7074374411
 INFO:root:Added stop: Sansusi - https://osm.org/node/7074387585
 INFO:root:Added stop: Kersa (2) - https://osm.org/node/7074496216
 INFO:root:Added stop: Ashewa Meda - https://osm.org/node/7074496217
@@ -1042,6 +1049,7 @@ INFO:root:Added stop: Saint Josphe School - https://osm.org/node/7074707881
 INFO:root:Added stop: St. Estifanos Church - https://osm.org/node/7074707883
 INFO:root:Added stop: Mamo (NFSL TVET) - https://osm.org/node/7074819178
 INFO:root:Added stop: Kality Maseltegna - https://osm.org/node/7074841188
+INFO:root:Added stop: Teklehaimanot - https://osm.org/node/7074921333
 INFO:root:Added stop: Dildiy Mariam - https://osm.org/node/7075101457
 INFO:root:Added stop: Kera (Gofa Stop) - https://osm.org/node/7075101459
 INFO:root:Added stop: Tor Hailoch - https://osm.org/node/7075129253
@@ -2557,6 +2565,33 @@ INFO:root:Added stop: Chera Medhanilem - https://osm.org/node/11409931057
 INFO:root:Added stop: Mesalemia - https://osm.org/node/11409931058
 INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11409931059
 INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11409931061
+INFO:root:Added stop: Repi Highschool - https://osm.org/node/11411722070
+INFO:root:Added stop: Ajamba Meskid - https://osm.org/node/11411722072
+INFO:root:Added stop: Ajamba - https://osm.org/node/11411722075
+INFO:root:Added stop: Ajamba - https://osm.org/node/11411722076
+INFO:root:Added stop: Yekatit 12 Hospital - https://osm.org/node/11411760271
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/11411760272
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/11411760274
+INFO:root:Added stop: Frensaye Kela - https://osm.org/node/11411760275
+INFO:root:Added stop: Ferensay - https://osm.org/node/11411760277
+INFO:root:Added stop: Ferensay - https://osm.org/node/11411760278
+INFO:root:Added stop: St. George Church - https://osm.org/node/11411869243
+INFO:root:Added stop: St. George Church - https://osm.org/node/11411869244
+INFO:root:Added stop: Aba Kiros - https://osm.org/node/11412470835
+INFO:root:Added stop: Aba Kiros - https://osm.org/node/11412470836
+INFO:root:Added stop: Mexico - https://osm.org/node/11412523438
+INFO:root:Added stop: Hachalu Squer - https://osm.org/node/11412604056
+INFO:root:Added stop: Tabelew - https://osm.org/node/11412604057
+INFO:root:Added stop: Ubedi Academy - https://osm.org/node/11412604058
+INFO:root:Added stop: Mariam Gedam - https://osm.org/node/11412604060
+INFO:root:Added stop: Alem Gena - https://osm.org/node/11412604062
+INFO:root:Added stop: Chaina Camp - https://osm.org/node/11412604063
+INFO:root:Added stop: Chaina Camp - https://osm.org/node/11412604064
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/11412604066
+INFO:root:Added stop: Teklehaymanot - https://osm.org/node/11412809612
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/11412861795
+INFO:root:Added stop: Mexico - https://osm.org/node/11412861796
+INFO:root:Added stop: Mexico - https://osm.org/node/11413149803
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -2963,12 +2998,26 @@ WARNING: No duration set --- Using default travel time for route with OSM ID 168
 WARNING: No duration set --- Using default travel time for route with OSM ID 16803473
 Generating schedule for line: 16803572
 Generating schedule for line: 16804052
-INFO:root:Removed 6 unused stops
+INFO:root:Removed 5 unused stops
 INFO:root:Removed 0 unused routes
 Generating schedule for line: 16804748
 Generating schedule for line: 16807402
 Generating schedule for line: 16807587
 Generating schedule for line: 16810442
+Generating schedule for line: 16813413
+Generating schedule for line: 16813486
+Generating schedule for line: 16813875
+Generating schedule for line: 16814055
+Generating schedule for line: 16814777
+Generating schedule for line: 16814864
+Generating schedule for line: 16815120
+Generating schedule for line: 16815233
+Generating schedule for line: 16815447
+Generating schedule for line: 16815552
+Generating schedule for line: 16815658
+Generating schedule for line: 16815683
+Generating schedule for line: 16815787
+Generating schedule for line: 16816053
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
@@ -2996,6 +3045,12 @@ The stops "Alem Gena" (ID node/7041052917) and "Alem Gena" (ID
 node/7041052916) are 1.64m apart and probably represent the same location.
 The stops "Alem Gena" (ID node/11035914858) and "Alem Gena" (ID
 node/11405387337) are 1.89m apart and probably represent the same location.
+The stops "Ubedi Academy" (ID node/11412604058) and "Ubedi Academy" (ID
+node/7041052915) are 0.70m apart and probably represent the same location.
+The stops "Tabelew" (ID node/11412604057) and "Tabelew" (ID node/7041052914)
+are 0.13m apart and probably represent the same location.
+The stops "Alem Gena" (ID node/11412604062) and "Alem Gena" (ID
+node/10905876026) are 1.23m apart and probably represent the same location.
 The stops "Haile Garment" (ID node/10842129120) and "Haile Garment" (ID
 node/7078164251) are 0.60m apart and probably represent the same location.
 The stops "Haile Garment" (ID node/10842129016) and "Haile Garment" (ID
@@ -3034,6 +3089,8 @@ The stops "Bole Arabsa" (ID node/10926028112) and "Bole Arabsa" (ID
 node/11402646170) are 0.74m apart and probably represent the same location.
 The stops "Bole Arabsa" (ID node/10926028111) and "Bole Arabsa" (ID
 node/7022397417) are 0.47m apart and probably represent the same location.
+The stops "Chaina Camp" (ID node/10907679404) and "Chaina Camp" (ID
+node/11412604063) are 1.59m apart and probably represent the same location.
 The stops "Gofa Gebriel" (ID node/10907781480) and "Gofa Gebriel" (ID
 node/7041052960) are 1.93m apart and probably represent the same location.
 The stops "Gerar" (ID node/7041052954) and "Gerar" (ID node/10913974720) are
@@ -3058,6 +3115,8 @@ The stops "Bole Bridge" (ID node/7110725242) and "Bole Bridge" (ID
 node/10881147492) are 0.62m apart and probably represent the same location.
 The stops "Bole Dildiy" (ID node/7037142466) and "Bole Bridge" (ID
 node/10881147490) are 0.37m apart and probably represent the same location.
+The stops "Bole Millenium" (ID node/7022397409) and "Bole Bridge" (ID
+node/11412861795) are 0.79m apart and probably represent the same location.
 The stops "Goro" (ID node/10899524538) and "Yerer Goro" (ID node/7037183490)
 are 0.88m apart and probably represent the same location.
 The stops "Bisrate Gebrael" (ID node/11035532608) and "Bisrate Gebrael" (ID
@@ -3092,6 +3151,8 @@ The stops "Mexico" (ID node/10995013009) and "Mexico" (ID node/7080527282) are
 0.17m apart and probably represent the same location.
 The stops "Flamingo" (ID node/7070861710) and "Flamingo" (ID node/10766121863)
 are 0.77m apart and probably represent the same location.
+The stops "Mexico" (ID node/10914160974) and "Mexico" (ID node/11412523438)
+are 0.20m apart and probably represent the same location.
 The stops "Mexico" (ID node/7080440208) and "Mexico" (ID node/10932115667) are
 1.22m apart and probably represent the same location.
 The stops "TVET College (Tegbare'd)" (ID node/7041071425) and "Mexico" (ID
@@ -3208,6 +3269,9 @@ location.
 The stops "Red-Cross (St. George Total)" (ID node/7041071638) and "St. George
 Total" (ID node/10932040830) are 0.22m apart and probably represent the same
 location.
+The stops "St. George Church" (ID node/11411869243) and "St. George Church
+(Total)" (ID node/7041071639) are 0.23m apart and probably represent the same
+location.
 The stops "Ras Mekonene Bridge (Seba Dereja)" (ID node/7041071628) and "Ras
 Mekonene Bridge (Seba Dereja)" (ID node/7057002162) are 1.14m apart and
 probably represent the same location.
@@ -3249,6 +3313,8 @@ The stops "Winget" (ID node/10915905493) and "Winget" (ID node/7112215084) are
 1.36m apart and probably represent the same location.
 The stops "Aba Kiros" (ID node/10925966510) and "Aba Kiros Roundabout" (ID
 node/11057053412) are 0.66m apart and probably represent the same location.
+The stops "Aba Kiros" (ID node/11412470836) and "Aba Kiros" (ID
+node/10925966511) are 0.40m apart and probably represent the same location.
 The stops "Tafo Square" (ID node/10926817921) and "Aba Kiros (Tafo)
 Roundabout" (ID node/7049921449) are 0.29m apart and probably represent the
 same location.
