@@ -20,7 +20,7 @@ INFO:root:(
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10458767
 WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550648
-WARNING:root:  Problem at: https://osm.org/way/761290294
+WARNING:root:  Problem at: https://osm.org/way/1231046554
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550649
 WARNING:root:  Problem at: https://osm.org/way/9717648
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15652319
@@ -108,6 +108,14 @@ WARNING:root:Using 'ref' from member variant instead
 WARNING:root:https://osm.org/relation/16807586
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16814775
 WARNING:root:  Problem at: https://osm.org/way/749949679
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16821503
+WARNING:root:  Problem at: https://osm.org/way/1231083903
+WARNING:root:RouteVariant without 'ref': 16822419
+WARNING:root:RouteVariant without 'ref': 16822420
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/16822421
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/16822421
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -965,6 +973,7 @@ INFO:root:Added stop: Mamo (NFSL TVET) - https://osm.org/node/7067942461
 INFO:root:Added stop: Agona Cinema - https://osm.org/node/7067942462
 INFO:root:Added stop: Agona Cinema - https://osm.org/node/7067942463
 INFO:root:Added stop: Tele Garage - https://osm.org/node/7067942465
+INFO:root:Added stop: Meshualekia - https://osm.org/node/7067942466
 INFO:root:Added stop: Zerihun Building - https://osm.org/node/7067990019
 INFO:root:Added stop: 6th (Raddison Blu) - https://osm.org/node/7067990020
 INFO:root:Added stop: National Palace - https://osm.org/node/7070861695
@@ -1049,6 +1058,7 @@ INFO:root:Added stop: ERA Office (Big Mak) - https://osm.org/node/7074707880
 INFO:root:Added stop: Saint Josphe School - https://osm.org/node/7074707881
 INFO:root:Added stop: St. Estifanos Church - https://osm.org/node/7074707883
 INFO:root:Added stop: Mamo (NFSL TVET) - https://osm.org/node/7074819178
+INFO:root:Added stop: Kadisco - https://osm.org/node/7074841187
 INFO:root:Added stop: Kality Maseltegna - https://osm.org/node/7074841188
 INFO:root:Added stop: Teklehaimanot - https://osm.org/node/7074921333
 INFO:root:Added stop: Dildiy Mariam - https://osm.org/node/7075101457
@@ -2606,6 +2616,41 @@ INFO:root:Added stop: Bole Bridge - https://osm.org/node/11415257682
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/11415257683
 INFO:root:Added stop: Kality Meneharia - https://osm.org/node/11415257684
 INFO:root:Added stop: Kality Meneharia - https://osm.org/node/11415257685
+INFO:root:Added stop: Stadium - https://osm.org/node/11416742888
+INFO:root:Added stop: Stadium - https://osm.org/node/11416742889
+INFO:root:Added stop: Tulu Dimtu Adebabay - https://osm.org/node/11416775507
+INFO:root:Added stop: Yeshi Total(2) - https://osm.org/node/11416775508
+INFO:root:Added stop: Yeshi Total(2) - https://osm.org/node/11416775509
+INFO:root:Added stop: Yeshi Total - https://osm.org/node/11416775510
+INFO:root:Added stop: Yeshi Total - https://osm.org/node/11416775511
+INFO:root:Added stop: Kality Menaheria - https://osm.org/node/11417018704
+INFO:root:Added stop: Saris - https://osm.org/node/11417018705
+INFO:root:Added stop: Saris - https://osm.org/node/11417018706
+INFO:root:Added stop: Kality Menaheria - https://osm.org/node/11417018707
+INFO:root:Added stop: Meshuwalekia Akaki - https://osm.org/node/11417137083
+INFO:root:Added stop: Koye Feche - https://osm.org/node/11417137085
+INFO:root:Added stop: Nifas Silk - https://osm.org/node/11417137086
+INFO:root:Added stop: Meshualekia - https://osm.org/node/11417137087
+INFO:root:Added stop: Koye Adebabay - https://osm.org/node/11417137088
+INFO:root:Added stop: Kilinto - https://osm.org/node/11417137089
+INFO:root:Added stop: Kilinto - https://osm.org/node/11417137090
+INFO:root:Added stop: Astu - https://osm.org/node/11417137091
+INFO:root:Added stop: Astu - https://osm.org/node/11417137092
+INFO:root:Added stop: Koye Adebabay - https://osm.org/node/11417137093
+INFO:root:Added stop: Meshuwalekia Akaki - https://osm.org/node/11417137094
+INFO:root:Added stop: Addis Sefer - https://osm.org/node/11417227013
+INFO:root:Added stop: Yeshi Total - https://osm.org/node/11417650902
+INFO:root:Added stop: Yeshi Total - https://osm.org/node/11417650903
+INFO:root:Added stop: Ferensay - https://osm.org/node/11417693225
+INFO:root:Added stop: Weserbi Realestate - https://osm.org/node/11417915838
+INFO:root:Added stop: Classy Water - https://osm.org/node/11417915839
+INFO:root:Added stop: Ashewa - https://osm.org/node/11417915840
+INFO:root:Added stop: 10 Kilo - https://osm.org/node/11417915842
+INFO:root:Added stop: Entoto Kela - https://osm.org/node/11417915843
+INFO:root:Added stop: Arsema Tsebel - https://osm.org/node/11417915844
+INFO:root:Added stop: Arsema Tsebel - https://osm.org/node/11417915845
+INFO:root:Added stop: Addisu Gebeya - https://osm.org/node/11417915846
+INFO:root:Added stop: Addisu Gebeya - https://osm.org/node/11417915847
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -3012,7 +3057,7 @@ WARNING: No duration set --- Using default travel time for route with OSM ID 168
 WARNING: No duration set --- Using default travel time for route with OSM ID 16803473
 Generating schedule for line: 16803572
 Generating schedule for line: 16804052
-INFO:root:Removed 4 unused stops
+INFO:root:Removed 2 unused stops
 INFO:root:Removed 0 unused routes
 Generating schedule for line: 16804748
 Generating schedule for line: 16807402
@@ -3043,6 +3088,18 @@ Generating schedule for line: 16817897
 Generating schedule for line: 16817958
 Generating schedule for line: 16819131
 Generating schedule for line: 16819161
+Generating schedule for line: 16820941
+Generating schedule for line: 16820954
+Generating schedule for line: 16820988
+Generating schedule for line: 16821152
+Generating schedule for line: 16821389
+Generating schedule for line: 16821505
+Generating schedule for line: 16821697
+Generating schedule for line: 16822289
+Generating schedule for line: 16822421
+Generating schedule for line: 16822501
+Generating schedule for line: 16822668
+Generating schedule for line: 16822706
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
@@ -3064,6 +3121,8 @@ The stops "Derartu" (ID node/10845731586) and "Derartu" (ID node/7037142443)
 are 1.82m apart and probably represent the same location.
 The stops "Kality Total" (ID node/7112648161) and "Kality Total" (ID
 node/10846106471) are 1.78m apart and probably represent the same location.
+The stops "Kality Menaheria" (ID node/11417018707) and "Kality Total" (ID
+node/10842129029) are 0.20m apart and probably represent the same location.
 The stops "Sebeta" (ID node/11037149944) and "Sebeta" (ID node/11037149943)
 are 0.61m apart and probably represent the same location.
 The stops "Sefera" (ID node/7047495433) and "Sefera" (ID node/10901428143) are
@@ -3087,11 +3146,17 @@ node/11381108818) are 1.78m apart and probably represent the same location.
 The stops "Saris Abo" (ID node/10842129022) and "Saris Abo" (ID
 node/7103202619) are 0.24m apart and probably represent the same location.
 The stops "Abo Junction" (ID node/7041071289) and "Saris Abo" (ID
-node/11034015157) are 0.30m apart and probably represent the same location.
+node/11034015157) are 1.10m apart and probably represent the same location.
+The stops "Saris Abo" (ID node/7110725253) and "Saris abo" (ID
+node/10842129129) are 0.80m apart and probably represent the same location.
 The stops "Lafto" (ID node/10973631797) and "Lafto" (ID node/7049122264) are
 1.58m apart and probably represent the same location.
 The stops "Mebrathile" (ID node/10908661149) and "Mebrathile (EEPCo)" (ID
 node/7074561392) are 0.36m apart and probably represent the same location.
+The stops "Saris" (ID node/10842129098) and "Saris" (ID node/11417018706) are
+1.66m apart and probably represent the same location.
+The stops "Saris" (ID node/11417018705) and "Saris" (ID node/10842129017) are
+1.13m apart and probably represent the same location.
 The stops "Gebriel Bridge" (ID node/7041052934) and "Gebriel Bridge" (ID
 node/10902267340) are 0.47m apart and probably represent the same location.
 The stops "Gebriel Bridge" (ID node/10899652824) and "Gebriel Bridge" (ID
@@ -3347,6 +3412,8 @@ node/10925966511) are 0.40m apart and probably represent the same location.
 The stops "Tafo Square" (ID node/10926817921) and "Aba Kiros (Tafo)
 Roundabout" (ID node/7049921449) are 0.29m apart and probably represent the
 same location.
+The stops "Ferensay" (ID node/11417693225) and "Ferensay" (ID
+node/10931884719) are 0.28m apart and probably represent the same location.
 The stops "Awolia" (ID node/7113004011) and "Awolia" (ID node/10915905491) are
 1.65m apart and probably represent the same location.
 The stops "Awolia" (ID node/7041071660) and "Awolia" (ID node/10915905492) are
@@ -3357,12 +3424,25 @@ The stops "Addisu Gebeya" (ID node/10923941251) and "Adisu Gebeya" (ID
 node/7074233344) are 0.22m apart and probably represent the same location.
 The stops "Addisu Gebeya" (ID node/7084255334) and "Addisu Gebeya" (ID
 node/10923941250) are 0.83m apart and probably represent the same location.
+The stops "Addisu Gebeya" (ID node/10923884110) and "Addisu Gebeya" (ID
+node/11417915846) are 0.18m apart and probably represent the same location.
+The stops "Addisu Gebeya" (ID node/11417915847) and "Addisu Gebeya" (ID
+node/10923884109) are 0.20m apart and probably represent the same location.
 The stops "Kechenie" (ID node/10924116808) and "Kechenie" (ID
 node/10937271651) are 1.26m apart and probably represent the same location.
 The stops "Shiromeda Selassie" (ID node/7076294515) and "Selassie" (ID
 node/7041071740) are 0.80m apart and probably represent the same location.
 The stops "Kuskoam" (ID node/11034054993) and "Kuskoam" (ID node/7041071742)
 are 1.98m apart and probably represent the same location.
+The stops "Entoto Kela" (ID node/11417915843) and "Entoto Kela" (ID
+node/7041071755) are 0.38m apart and probably represent the same location.
+The stops "Weserbi Realestate" (ID node/7041071758) and "Weserbi Realestate"
+(ID node/11417915838) are 1.69m apart and probably represent the same
+location.
+The stops "Classy Water" (ID node/7041071759) and "Classy Water" (ID
+node/11417915839) are 0.99m apart and probably represent the same location.
+The stops "Ashewa" (ID node/7041071775) and "Ashewa" (ID node/11417915840) are
+1.65m apart and probably represent the same location.
 The stops "Sululta" (ID node/11083569808) and "Sululta" (ID node/11083569807)
 are 1.03m apart and probably represent the same location.
 The stops "Aleltu" (ID node/11037676746) and "Aleltu" (ID node/11037676745)
