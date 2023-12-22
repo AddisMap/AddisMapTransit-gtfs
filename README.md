@@ -23,11 +23,11 @@ Additionally there are the GTFS ZIP files ready to be used in your applications 
 
 There are also the `generation.log` files with the output of OSM2GTFS to check for potential problems.
 
-* [Download full GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa.zip)
-* [Download only Minibus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa-minibus.zip)
-* [Download only Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa-bus.zip)
-* [Download only Anbessa Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa-bus-ab.zip)
-* [Download only Sheger Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa-bus-sh.zip)
+* [Download full GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs/raw/main/et-addisababa.zip)
+* [Download only Minibus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs/raw/main/et-addisababa-minibus.zip)
+* [Download only Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs/raw/main/et-addisababa-bus.zip)
+* [Download only Anbessa Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs/raw/main/et-addisababa-bus-ab.zip)
+* [Download only Sheger Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs/raw/main/et-addisababa-bus-sh.zip)
 
 ## See also
 
