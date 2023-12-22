@@ -1,0 +1,2738 @@
+INFO:root:Using the end date from config file: 20991231
+WARNING:root:Date range is more than one year.
+INFO:root:Query and build fresh data for routes
+INFO:root:(
+            /* Obtain route variants based on tags and bounding box */
+            relation['route' ~ '^share_taxi$'](8.8,38.61,9.13,38.96)->.routes;
+
+            /*  Query for related route masters */
+            relation[type=route_master](br.routes)->.masters;
+
+            /* Query for routes' geometry (ways and it's nodes) */
+            way(r.routes);
+            node(w);
+
+            /* Select all result sets  */
+            ( .routes;.masters;._; );
+
+            /* Return tags for elements and roles for relation members. */
+            );out body;
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15652319
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858007
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858006
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858149
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858150
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858267
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858337
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858402
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858403
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15919607
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15919608
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15919797
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15919796
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15958643
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15958642
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15960813
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15962102
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15962101
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15962157
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15962158
+WARNING:root:  Problem at: https://osm.org/way/202553225
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15999427
+WARNING:root:  Problem at: https://osm.org/way/1183705289
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15999428
+WARNING:root:  Problem at: https://osm.org/way/548379917
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16003638
+WARNING:root:  Problem at: https://osm.org/way/1183941090
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16003639
+WARNING:root:  Problem at: https://osm.org/way/1183705289
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16004440
+WARNING:root:  Problem at: https://osm.org/way/167446073
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
+WARNING:root:  Problem at: https://osm.org/way/202553225
+INFO:root:Query and build fresh data for stops
+INFO:root:(
+            /* Obtain route variants based on tags and bounding box */
+            relation['route' ~ '^share_taxi$'](8.8,38.61,9.13,38.96);
+
+            /*  Query for relation elements with role platform */
+            node(r:"platform")->.nodes;
+            way(r:"platform");
+            node(w);
+
+            /* Select all result sets  */
+            ( .nodes;._; );
+
+            /* Return tags for elements */
+            );out body;
+
+            /* Select stop area relations */
+            foreach.nodes(
+            rel(bn:"platform")["public_transport"="stop_area"];
+            out body;
+            );
+WARNING:root:OSM stop area has only one platform and can't be used as a GTFS station:
+WARNING:root: https://osm.org/relation/10578291
+INFO:root:* Found alternative stop name: Arada - https://osm.org/node/6728583386
+INFO:root:Agency creator: Default
+INFO:root:Feed info creator: Default
+INFO:root:Routes creator: et_addisababa
+INFO:root:Stops creator: et_addisababa
+INFO:root:Schedule creator: et_addisababa
+INFO:root:Trips creator: et_addisababa
+INFO:root:Added stop: Arada - https://osm.org/node/6728583386
+INFO:root:Added stop: Piassa Arada (2) - https://osm.org/node/6967281242
+INFO:root:Added stop: kadisco Building - https://osm.org/node/7041052978
+INFO:root:Added stop: 18 Mazoria - https://osm.org/node/7041071612
+INFO:root:Added stop: Lafto - https://osm.org/node/7049122264
+INFO:root:Added stop: Ummar School - https://osm.org/node/7084722454
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/7103202625
+INFO:root:Added stop: Kality Meneharia - https://osm.org/node/7110725256
+INFO:root:Added stop: Atena Tera - https://osm.org/node/7112280391
+INFO:root:Added stop: Wello Sefer - https://osm.org/node/7122983960
+INFO:root:Added stop: Kassech Kitfo - https://osm.org/node/7122983961
+INFO:root:Added stop: Ambasel - https://osm.org/node/7122983962
+INFO:root:Added stop: WAGGA (Singer Liquior Store) - https://osm.org/node/7122983963
+INFO:root:Added stop: Wengalawit - https://osm.org/node/7122983964
+INFO:root:Added stop: Wengalawit - https://osm.org/node/7122983968
+INFO:root:Added stop: MEDCO - https://osm.org/node/7122983969
+INFO:root:Added stop: Tebaber Berta - https://osm.org/node/7122983970
+INFO:root:Added stop: Wello Sefer - https://osm.org/node/7122983972
+INFO:root:Added stop: Beshale Area - https://osm.org/node/7123180286
+INFO:root:Added stop: Megenagna - https://osm.org/node/7123180287
+INFO:root:Added stop: Jacros - https://osm.org/node/7123180289
+INFO:root:Added stop: Safari - https://osm.org/node/7123180290
+INFO:root:Added stop: Safari (Summit) - https://osm.org/node/7123180291
+INFO:root:Added stop: Safari (Summit) - https://osm.org/node/7123180293
+INFO:root:Added stop: Safari - https://osm.org/node/7123180295
+INFO:root:Added stop: Beshale Area - https://osm.org/node/7123180296
+INFO:root:Added stop: Gurd Shola - https://osm.org/node/7123180297
+INFO:root:Added stop: Megenagna - https://osm.org/node/7123180298
+INFO:root:Added stop: Meskel Flower - https://osm.org/node/7123265052
+INFO:root:Added stop: Loza (Adot) - https://osm.org/node/7123265053
+INFO:root:Added stop: Nazra Hotel - https://osm.org/node/7123265054
+INFO:root:Added stop: Yetam Hotel - https://osm.org/node/7123265055
+INFO:root:Added stop: Kebele Kibeb - https://osm.org/node/7123265056
+INFO:root:Added stop: Mulu Shewa (Gazebo) - https://osm.org/node/7123265061
+INFO:root:Added stop: Kebele Kibeb - https://osm.org/node/7123265062
+INFO:root:Added stop: Yetam Hotel - https://osm.org/node/7123265063
+INFO:root:Added stop: Nazra Hotel - https://osm.org/node/7123265064
+INFO:root:Added stop: Loza (Adot) - https://osm.org/node/7123265065
+INFO:root:Added stop: Meskel Flower - https://osm.org/node/7123265066
+INFO:root:Added stop: Total 3 Kuter Mazoria - https://osm.org/node/7182111861
+INFO:root:Added stop: Kera - https://osm.org/node/7182111862
+INFO:root:Added stop: Sar Bet - https://osm.org/node/10755917239
+INFO:root:Added stop: Sar Bet - https://osm.org/node/10755917241
+INFO:root:Added stop: Kera - https://osm.org/node/10755917242
+INFO:root:Added stop: Kera - https://osm.org/node/10755917243
+INFO:root:Added stop: Sar Bet - https://osm.org/node/10755917244
+INFO:root:Added stop: karl Square - https://osm.org/node/10755917245
+INFO:root:Added stop: karl Square - https://osm.org/node/10755917246
+INFO:root:Added stop: Bisrate Gebrael - https://osm.org/node/10755917247
+INFO:root:Added stop: Bisrate Gebrael - https://osm.org/node/10755917248
+INFO:root:Added stop: Bisrate Gebrael - https://osm.org/node/10755917249
+INFO:root:Added stop: Total 3 Kuter Mazoria - https://osm.org/node/10755917250
+INFO:root:Added stop: kality Meneharia - https://osm.org/node/10766121857
+INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10766121859
+INFO:root:Added stop: Kadisco Roundabout - https://osm.org/node/10766121860
+INFO:root:Added stop: Bole Mickael - https://osm.org/node/10766121861
+INFO:root:Added stop: Bole Printing Press - https://osm.org/node/10766121862
+INFO:root:Added stop: Flamingo - https://osm.org/node/10766121863
+INFO:root:Added stop: St. Estifanos - https://osm.org/node/10766121864
+INFO:root:Added stop: 4 Kilo (Menlik) - https://osm.org/node/10766121865
+INFO:root:Added stop: 4 Kilo (Menlik) - https://osm.org/node/10766121866
+INFO:root:Added stop: Place Parking (Gibi Gebriel) - https://osm.org/node/10766121867
+INFO:root:Added stop: Flamingo - https://osm.org/node/10766121868
+INFO:root:Added stop: Wollo Sefer - https://osm.org/node/10766121869
+INFO:root:Added stop: Bole Mikael - https://osm.org/node/10766121871
+INFO:root:Added stop: Mamo (Nifas Silk) - https://osm.org/node/10766121872
+INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10766121873
+INFO:root:Added stop: kality Meneharia - https://osm.org/node/10766121874
+INFO:root:Added stop: Olympia - https://osm.org/node/10766454593
+INFO:root:Added stop: Bole Roundabout - https://osm.org/node/10766454594
+INFO:root:Added stop: Lamberet Menaheria - https://osm.org/node/10781643820
+INFO:root:Added stop: Arat Kilo - https://osm.org/node/10781643821
+INFO:root:Added stop: 4 kilo (Children Theatre) - https://osm.org/node/10781643822
+INFO:root:Added stop: Bel Air - https://osm.org/node/10781643823
+INFO:root:Added stop: Kebena - https://osm.org/node/10781643824
+INFO:root:Added stop: Kokebe Tsebah (Kebena) - https://osm.org/node/10781643825
+INFO:root:Added stop: Kenya Embassy (Kebena) - https://osm.org/node/10781643826
+INFO:root:Added stop: British Embassy - https://osm.org/node/10781643827
+INFO:root:Added stop: Abebe Sook - https://osm.org/node/10781643828
+INFO:root:Added stop: Shola (Yeka Court) - https://osm.org/node/10781643829
+INFO:root:Added stop: Shola Abyssinia Bank - https://osm.org/node/10781643830
+INFO:root:Added stop: Megenagna (Marathon Motors) - https://osm.org/node/10781643831
+INFO:root:Added stop: Megenagna - https://osm.org/node/10781643832
+INFO:root:Added stop: Megenagna (Israel Embassy) - https://osm.org/node/10781643833
+INFO:root:Added stop: Lamberet Menaheria - https://osm.org/node/10781643834
+INFO:root:Added stop: Kotebe - https://osm.org/node/10781643835
+INFO:root:Added stop: Kotebe - https://osm.org/node/10781643836
+INFO:root:Added stop: Kotebe Teachers College - https://osm.org/node/10781643837
+INFO:root:Added stop: Kotebe Gebriel - https://osm.org/node/10781643838
+INFO:root:Added stop: Kotebe Gebriel - https://osm.org/node/10781643839
+INFO:root:Added stop: Wessen Grocery - https://osm.org/node/10781643840
+INFO:root:Added stop: Kara - https://osm.org/node/10781643841
+INFO:root:Added stop: Kara - https://osm.org/node/10781643842
+INFO:root:Added stop: Abebe Sook - https://osm.org/node/10781844855
+INFO:root:Added stop: British Embassy - https://osm.org/node/10781844856
+INFO:root:Added stop: 5 Kilo St. Mary - https://osm.org/node/10781844857
+INFO:root:Added stop: 6 Kilo University - https://osm.org/node/10781844858
+INFO:root:Added stop: 6 Kilo University - https://osm.org/node/10781844859
+INFO:root:Added stop: 6 Kilo (Lion Zoo) - https://osm.org/node/10781844860
+INFO:root:Added stop: Kenya Embassy (Kebena) - https://osm.org/node/10781844861
+INFO:root:Added stop: Shola (Yeka Court) - https://osm.org/node/10781844862
+INFO:root:Added stop: Megenagna (Marathon Motors) - https://osm.org/node/10781844863
+INFO:root:Added stop: Sefera Atkilt Tera - https://osm.org/node/10842065101
+INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10842065103
+INFO:root:Added stop: Bulgaria - https://osm.org/node/10842065104
+INFO:root:Added stop: Kality Customs - https://osm.org/node/10842129005
+INFO:root:Added stop: Germen Square - https://osm.org/node/10842129006
+INFO:root:Added stop: Hana Mariam - https://osm.org/node/10842129008
+INFO:root:Added stop: Gomista - https://osm.org/node/10842129009
+INFO:root:Added stop: Nigd bank - https://osm.org/node/10842129010
+INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10842129011
+INFO:root:Added stop: Kadisco - https://osm.org/node/10842129012
+INFO:root:Added stop: Adey abeba - https://osm.org/node/10842129013
+INFO:root:Added stop: Saris abo - https://osm.org/node/10842129015
+INFO:root:Added stop: Haile Garment - https://osm.org/node/10842129016
+INFO:root:Added stop: Saris - https://osm.org/node/10842129017
+INFO:root:Added stop: Bole Cargo - https://osm.org/node/10842129019
+INFO:root:Added stop: Bulgaria - https://osm.org/node/10842129020
+INFO:root:Added stop: Kore - https://osm.org/node/10842129021
+INFO:root:Added stop: Saris Abo - https://osm.org/node/10842129022
+INFO:root:Added stop: Kality Menaheria - https://osm.org/node/10842129023
+INFO:root:Added stop: Sefera Square - https://osm.org/node/10842129024
+INFO:root:Added stop: Mexico - https://osm.org/node/10842129025
+INFO:root:Added stop: Kality Gebriel - https://osm.org/node/10842129026
+INFO:root:Added stop: Derartu - https://osm.org/node/10842129027
+INFO:root:Added stop: Bole Cargo - https://osm.org/node/10842129028
+INFO:root:Added stop: Kality Total - https://osm.org/node/10842129029
+INFO:root:Added stop: Noc - https://osm.org/node/10842129030
+INFO:root:Added stop: Lancha - https://osm.org/node/10842129031
+INFO:root:Added stop: Haile Garment - https://osm.org/node/10842129032
+INFO:root:Added stop: Agona - https://osm.org/node/10842129033
+INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10842129034
+INFO:root:Added stop: Mesqelegna - https://osm.org/node/10842129035
+INFO:root:Added stop: Jemo - https://osm.org/node/10842129037
+INFO:root:Added stop: Adey abeba - https://osm.org/node/10842129038
+INFO:root:Added stop: Saris Abo - https://osm.org/node/10842129040
+INFO:root:Added stop: Mebrat hayle - https://osm.org/node/10842129041
+INFO:root:Added stop: Kadisco - https://osm.org/node/10842129042
+INFO:root:Added stop: Hana Mariam - https://osm.org/node/10842129043
+INFO:root:Added stop: Mamo (NFSL) - https://osm.org/node/10842129045
+INFO:root:Added stop: Medhani alem - https://osm.org/node/10842129046
+INFO:root:Added stop: Mosque (Mesged) - https://osm.org/node/10842129047
+INFO:root:Added stop: Kality Gebriel - https://osm.org/node/10842129048
+INFO:root:Added stop: Bole Roundabout - https://osm.org/node/10842129051
+INFO:root:Added stop: Wuhalimat - https://osm.org/node/10842129052
+INFO:root:Added stop: Hana Mariam - https://osm.org/node/10842129053
+INFO:root:Added stop: Bole Mickael - https://osm.org/node/10842129054
+INFO:root:Added stop: Sheger building - https://osm.org/node/10842129055
+INFO:root:Added stop: Yoseph - https://osm.org/node/10842129056
+INFO:root:Added stop: Bulgaria - https://osm.org/node/10842129057
+INFO:root:Added stop: Mebrathayil - https://osm.org/node/10842129058
+INFO:root:Added stop: Sefera Square - https://osm.org/node/10842129059
+INFO:root:Added stop: Tele Garage - https://osm.org/node/10842129060
+INFO:root:Added stop: Mebrathayil - https://osm.org/node/10842129061
+INFO:root:Added stop: Haile garment - https://osm.org/node/10842129062
+INFO:root:Added stop: Meshualekia - https://osm.org/node/10842129063
+INFO:root:Added stop: Adey abada - https://osm.org/node/10842129066
+INFO:root:Added stop: Menaheria (Zenebu Werk) - https://osm.org/node/10842129069
+INFO:root:Added stop: Adis sefer - https://osm.org/node/10842129070
+INFO:root:Added stop: Kadisco - https://osm.org/node/10842129071
+INFO:root:Added stop: Bulgaria - https://osm.org/node/10842129072
+INFO:root:Added stop: Kadisco - https://osm.org/node/10842129073
+INFO:root:Added stop: Bulbula - https://osm.org/node/10842129074
+INFO:root:Added stop: Kadisko - https://osm.org/node/10842129075
+INFO:root:Added stop: Saris abo - https://osm.org/node/10842129076
+INFO:root:Added stop: Meshualekya - https://osm.org/node/10842129077
+INFO:root:Added stop: Agona - https://osm.org/node/10842129078
+INFO:root:Added stop: Gotera chaf - https://osm.org/node/10842129079
+INFO:root:Added stop: Saris - https://osm.org/node/10842129080
+INFO:root:Added stop: St. Joseph School - https://osm.org/node/10842129082
+INFO:root:Added stop: Kotari Condominium - https://osm.org/node/10842129083
+INFO:root:Added stop: Mamo - https://osm.org/node/10842129084
+INFO:root:Added stop: Saris Abo - https://osm.org/node/10842129085
+INFO:root:Added stop: Yosef - https://osm.org/node/10842129086
+INFO:root:Added stop: Kality Cheralia - https://osm.org/node/10842129088
+INFO:root:Added stop: Kality Cheralia - https://osm.org/node/10842129089
+INFO:root:Added stop: Lancha - https://osm.org/node/10842129090
+INFO:root:Added stop: Gomista - https://osm.org/node/10842129091
+INFO:root:Added stop: Haile Garment - https://osm.org/node/10842129092
+INFO:root:Added stop: Tele Garage - https://osm.org/node/10842129093
+INFO:root:Added stop: Selam Building - https://osm.org/node/10842129094
+INFO:root:Added stop: Medhani alem - https://osm.org/node/10842129095
+INFO:root:Added stop: Selam Building - https://osm.org/node/10842129096
+INFO:root:Added stop: Meshualekya - https://osm.org/node/10842129097
+INFO:root:Added stop: Saris - https://osm.org/node/10842129098
+INFO:root:Added stop: Germen adebabay - https://osm.org/node/10842129102
+INFO:root:Added stop: Mamo (NFSL) - https://osm.org/node/10842129103
+INFO:root:Added stop: Kera - https://osm.org/node/10842129105
+INFO:root:Added stop: Agona - https://osm.org/node/10842129106
+INFO:root:Added stop: Saris abo - https://osm.org/node/10842129107
+INFO:root:Added stop: Kera - https://osm.org/node/10842129108
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/10842129110
+INFO:root:Added stop: Temenja yasi - https://osm.org/node/10842129111
+INFO:root:Added stop: Riche - https://osm.org/node/10842129112
+INFO:root:Added stop: Haile garment - https://osm.org/node/10842129113
+INFO:root:Added stop: Bole Mickael - https://osm.org/node/10842129114
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/10842129116
+INFO:root:Added stop: Jemo - https://osm.org/node/10842129117
+INFO:root:Added stop: Land mark - https://osm.org/node/10842129118
+INFO:root:Added stop: Meskelegna - https://osm.org/node/10842129119
+INFO:root:Added stop: Haile Garment - https://osm.org/node/10842129120
+INFO:root:Added stop: Riche - https://osm.org/node/10842129121
+INFO:root:Added stop: Kore - https://osm.org/node/10842129122
+INFO:root:Added stop: Meshualekya - https://osm.org/node/10842129124
+INFO:root:Added stop: Bulbula - https://osm.org/node/10842129125
+INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10842129126
+INFO:root:Added stop: Saris abo - https://osm.org/node/10842129129
+INFO:root:Added stop: Addis sefer - https://osm.org/node/10842129131
+INFO:root:Added stop: Hana mariam - https://osm.org/node/10842129132
+INFO:root:Added stop: Kera - https://osm.org/node/10842129133
+INFO:root:Added stop: Gotera chaf - https://osm.org/node/10842129134
+INFO:root:Added stop: Akaki Subcity Office (Menaheria) - https://osm.org/node/10842129135
+INFO:root:Added stop: Condominium - https://osm.org/node/10842129136
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/10842129137
+INFO:root:Added stop: Wuhalimat - https://osm.org/node/10842129139
+INFO:root:Added stop: Mexico - https://osm.org/node/10842129140
+INFO:root:Added stop: Grand Anwar Mosque - https://osm.org/node/10845731573
+INFO:root:Added stop: Kebele 11 - https://osm.org/node/10845731574
+INFO:root:Added stop: Guenet hotel - https://osm.org/node/10845731575
+INFO:root:Added stop: Lancia - https://osm.org/node/10845731576
+INFO:root:Added stop: Pepsi - https://osm.org/node/10845731577
+INFO:root:Added stop: Lancia - https://osm.org/node/10845731578
+INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10845731579
+INFO:root:Added stop: Saris Abo - https://osm.org/node/10845731580
+INFO:root:Added stop: Legehar - https://osm.org/node/10845731581
+INFO:root:Added stop: Kera - https://osm.org/node/10845731582
+INFO:root:Added stop: Kality Customs - https://osm.org/node/10845731583
+INFO:root:Added stop: Gojam Berenda - https://osm.org/node/10845731584
+INFO:root:Added stop: Gojam Berenda - https://osm.org/node/10845731585
+INFO:root:Added stop: Derartu - https://osm.org/node/10845731586
+INFO:root:Added stop: Pepsi - https://osm.org/node/10845731587
+INFO:root:Added stop: Global Hotel - https://osm.org/node/10845731588
+INFO:root:Added stop: Sheger Building - https://osm.org/node/10845731589
+INFO:root:Added stop: Autobus Tera - https://osm.org/node/10845731590
+INFO:root:Added stop: Guenet hotel - https://osm.org/node/10845731591
+INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10845731592
+INFO:root:Added stop: Beg Tera - https://osm.org/node/10845731593
+INFO:root:Added stop: Global Hotel - https://osm.org/node/10845731594
+INFO:root:Added stop: Kality Correctional - https://osm.org/node/10845731595
+INFO:root:Added stop: Cheralia Factory - https://osm.org/node/10845731596
+INFO:root:Added stop: Kebele 11 - https://osm.org/node/10845731597
+INFO:root:Added stop: Grand Anwar Mosque - https://osm.org/node/10845731598
+INFO:root:Added stop: National Theatre - https://osm.org/node/10845731599
+INFO:root:Added stop: Saris - https://osm.org/node/10845731601
+INFO:root:Added stop: Beg Tera - https://osm.org/node/10845731602
+INFO:root:Added stop: Sengatera - https://osm.org/node/10845731603
+INFO:root:Added stop: Mexico - https://osm.org/node/10845731604
+INFO:root:Added stop: Bulgaria - https://osm.org/node/10845749005
+INFO:root:Added stop: kality Meneharia - https://osm.org/node/10845840895
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/10845840896
+INFO:root:Added stop: Germen adebabay - https://osm.org/node/10845840897
+INFO:root:Added stop: Kality Total - https://osm.org/node/10846106471
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/10881147490
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/10881147492
+INFO:root:Added stop: Autobus Tera - https://osm.org/node/10883106542
+INFO:root:Added stop: Bajaj Tera - https://osm.org/node/10886135782
+INFO:root:Added stop: Chera - https://osm.org/node/10886135783
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/10886135784
+INFO:root:Added stop: Total - https://osm.org/node/10886135785
+INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/10886135787
+INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/10886135789
+INFO:root:Added stop: G7 - https://osm.org/node/10886135790
+INFO:root:Added stop: Total - https://osm.org/node/10886135791
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/10886135793
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/10886281950
+INFO:root:Added stop: Bole Medhanyalem - https://osm.org/node/10886281951
+INFO:root:Added stop: Edna Mall Squar - https://osm.org/node/10886281952
+INFO:root:Added stop: Adey Ababa Stadium - https://osm.org/node/10886281953
+INFO:root:Added stop: 22 Mazoria - https://osm.org/node/10886281954
+INFO:root:Added stop: 22 Mazoria - https://osm.org/node/10886281956
+INFO:root:Added stop: Freedom - https://osm.org/node/10886281958
+INFO:root:Added stop: Werku Building - https://osm.org/node/10886281997
+INFO:root:Added stop: Adey Ababa Stadium - https://osm.org/node/10886281998
+INFO:root:Added stop: Edna Mall Squar - https://osm.org/node/10886281999
+INFO:root:Added stop: Bole Medhanyalem - https://osm.org/node/10886282000
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/10886282001
+INFO:root:Added stop: 22 Mazoria - https://osm.org/node/10886427067
+INFO:root:Added stop: Lem Hotel - https://osm.org/node/10886427068
+INFO:root:Added stop: Megenagna - https://osm.org/node/10886427069
+INFO:root:Added stop: Gurd Shola - https://osm.org/node/10886427070
+INFO:root:Added stop: Civil Servis College - https://osm.org/node/10886427071
+INFO:root:Added stop: Yetebaberut - https://osm.org/node/10886427072
+INFO:root:Added stop: Ayat - https://osm.org/node/10886427073
+INFO:root:Added stop: Civil Servis College - https://osm.org/node/10886427074
+INFO:root:Added stop: Ayat - https://osm.org/node/10886427075
+INFO:root:Added stop: Meshageria - https://osm.org/node/10886427076
+INFO:root:Added stop: Yetebaberut - https://osm.org/node/10886427077
+INFO:root:Added stop: Bole Bora Amusement - https://osm.org/node/10886883544
+INFO:root:Added stop: Megenagna - https://osm.org/node/10886883546
+INFO:root:Added stop: Anbessa Garage - https://osm.org/node/10886883547
+INFO:root:Added stop: Emperial Hotel - https://osm.org/node/10886883548
+INFO:root:Added stop: Hayat Hospital - https://osm.org/node/10886883549
+INFO:root:Added stop: Bole Bora Amusement - https://osm.org/node/10886883550
+INFO:root:Added stop: Sun shine - https://osm.org/node/10886991025
+INFO:root:Added stop: Megenagna - https://osm.org/node/10886991026
+INFO:root:Added stop: Meshualekia - https://osm.org/node/10886991027
+INFO:root:Added stop: Safari - https://osm.org/node/10886991028
+INFO:root:Added stop: Summit - https://osm.org/node/10886991029
+INFO:root:Added stop: Summit - https://osm.org/node/10886991031
+INFO:root:Added stop: Safari - https://osm.org/node/10886991032
+INFO:root:Added stop: Sun shine - https://osm.org/node/10886991033
+INFO:root:Added stop: Meshualekia - https://osm.org/node/10886991034
+INFO:root:Added stop: Michael - https://osm.org/node/10886991035
+INFO:root:Added stop: Gurd Shola - https://osm.org/node/10886991036
+INFO:root:Added stop: Hayat Hospital - https://osm.org/node/10887120325
+INFO:root:Added stop: Sport Accadamy - https://osm.org/node/10887120326
+INFO:root:Added stop: Emperial Hotel - https://osm.org/node/10887120327
+INFO:root:Added stop: Mulugeta Building - https://osm.org/node/10887120328
+INFO:root:Added stop: 93 Mazoria - https://osm.org/node/10890083966
+INFO:root:Added stop: Kaldisco - https://osm.org/node/10890083967
+INFO:root:Added stop: Key Afer - https://osm.org/node/10890083968
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/10890083969
+INFO:root:Added stop: Key Afer - https://osm.org/node/10890290096
+INFO:root:Added stop: 93 Mazoria - https://osm.org/node/10890290097
+INFO:root:Added stop: Kebele - https://osm.org/node/10890290098
+INFO:root:Added stop: Anbessa Garage - https://osm.org/node/10893030388
+INFO:root:Added stop: Jacros - https://osm.org/node/10893030389
+INFO:root:Added stop: Alem Ayew Building - https://osm.org/node/10893030390
+INFO:root:Added stop: Goro - https://osm.org/node/10893030392
+INFO:root:Added stop: Goro - https://osm.org/node/10893030394
+INFO:root:Added stop: Goro School - https://osm.org/node/10893030395
+INFO:root:Added stop: Alem Ayew Building - https://osm.org/node/10893030396
+INFO:root:Added stop: Jacros - https://osm.org/node/10893030397
+INFO:root:Added stop: Sport Accadamy - https://osm.org/node/10893030398
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/10893030400
+INFO:root:Added stop: Figa - https://osm.org/node/10893316186
+INFO:root:Added stop: Mesgid - https://osm.org/node/10893316189
+INFO:root:Added stop: Figa - https://osm.org/node/10893316190
+INFO:root:Added stop: Bole Mickael - https://osm.org/node/10898980600
+INFO:root:Added stop: Ambasader - https://osm.org/node/10898980601
+INFO:root:Added stop: Dembel - https://osm.org/node/10898980602
+INFO:root:Added stop: Stadium - https://osm.org/node/10898980603
+INFO:root:Added stop: Metrology - https://osm.org/node/10898980604
+INFO:root:Added stop: Tikur Anbesa - https://osm.org/node/10898986005
+INFO:root:Added stop: Tikur Anbesa - https://osm.org/node/10898986007
+INFO:root:Added stop: Metrology - https://osm.org/node/10898986008
+INFO:root:Added stop: Ambasader - https://osm.org/node/10898986009
+INFO:root:Added stop: Stadium - https://osm.org/node/10898986010
+INFO:root:Added stop: Dembel - https://osm.org/node/10898986011
+INFO:root:Added stop: Bole Printing Press - https://osm.org/node/10898986012
+INFO:root:Added stop: Bole Mickael - https://osm.org/node/10898986014
+INFO:root:Added stop: Cinema Ras - https://osm.org/node/10899009892
+INFO:root:Added stop: Cinema Ras - https://osm.org/node/10899009893
+INFO:root:Added stop: Rwanda - https://osm.org/node/10899150564
+INFO:root:Added stop: Shewa Dabo - https://osm.org/node/10899150565
+INFO:root:Added stop: St. Estifanos Church - https://osm.org/node/10899150566
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/10899150567
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/10899150568
+INFO:root:Added stop: Tewodros Square - https://osm.org/node/10899150569
+INFO:root:Added stop: Tikur Anbesa - https://osm.org/node/10899150570
+INFO:root:Added stop: Post Office - https://osm.org/node/10899150571
+INFO:root:Added stop: Ghion Hotel - https://osm.org/node/10899150572
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/10899278324
+INFO:root:Added stop: Friendship Building - https://osm.org/node/10899278325
+INFO:root:Added stop: Rwanda - https://osm.org/node/10899278326
+INFO:root:Added stop: Friendship Building - https://osm.org/node/10899278327
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/10899278328
+INFO:root:Added stop: Anbessa Garage - https://osm.org/node/10899524535
+INFO:root:Added stop: Condominium - Gerji Mebrat hayle - https://osm.org/node/10899524536
+INFO:root:Added stop: Gerji Mebrat hayle - https://osm.org/node/10899524537
+INFO:root:Added stop: Goro - https://osm.org/node/10899524538
+INFO:root:Added stop: kilinto Right - https://osm.org/node/10899524539
+INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/10899524540
+INFO:root:Added stop: kilinto Right - https://osm.org/node/10899524542
+INFO:root:Added stop: Goro - https://osm.org/node/10899524543
+INFO:root:Added stop: Gerji Mebrat hayle - https://osm.org/node/10899524544
+INFO:root:Added stop: Condominium - Gerji Mebrat hayle - https://osm.org/node/10899524545
+INFO:root:Added stop: Anbessa Garage - https://osm.org/node/10899524547
+INFO:root:Added stop: Mesgid - https://osm.org/node/10899590290
+INFO:root:Added stop: Saint Georgis - https://osm.org/node/10899590291
+INFO:root:Added stop: Saint Georgis - https://osm.org/node/10899590293
+INFO:root:Added stop: Mebrathile - https://osm.org/node/10899652823
+INFO:root:Added stop: Gebriel Bridge - https://osm.org/node/10899652824
+INFO:root:Added stop: Mickael Bridge - https://osm.org/node/10899652825
+INFO:root:Added stop: Zenebewerk - https://osm.org/node/10899652826
+INFO:root:Added stop: Chaina Camp - https://osm.org/node/10899652827
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/10899652829
+INFO:root:Added stop: Haile Garment - https://osm.org/node/10901428140
+INFO:root:Added stop: Sefera - https://osm.org/node/10901428141
+INFO:root:Added stop: Sefera Atkilt Tera - https://osm.org/node/10901428142
+INFO:root:Added stop: Sefera - https://osm.org/node/10901428143
+INFO:root:Added stop: Mesalemia - https://osm.org/node/10901522017
+INFO:root:Added stop: Chera Medhanilem - https://osm.org/node/10901522018
+INFO:root:Added stop: Haile Garment - https://osm.org/node/10901522020
+INFO:root:Added stop: Chera Medhanilem - https://osm.org/node/10901522021
+INFO:root:Added stop: Mesalemia - https://osm.org/node/10901522022
+INFO:root:Added stop: Saris - https://osm.org/node/10901643508
+INFO:root:Added stop: 58 Mazoria - https://osm.org/node/10901643510
+INFO:root:Added stop: Kidane Mihret Stebel - https://osm.org/node/10901643511
+INFO:root:Added stop: Mexico - https://osm.org/node/10902267327
+INFO:root:Added stop: Mexico - https://osm.org/node/10902267330
+INFO:root:Added stop: AU (Mikael) Rounrdabout - https://osm.org/node/10902267332
+INFO:root:Added stop: AU (Mikael) Rounrdabout - https://osm.org/node/10902267333
+INFO:root:Added stop: Sar Bet - https://osm.org/node/10902267334
+INFO:root:Added stop: Sar Bet - https://osm.org/node/10902267335
+INFO:root:Added stop: Abo Mazoria - https://osm.org/node/10902267336
+INFO:root:Added stop: Abo Mazoria - https://osm.org/node/10902267337
+INFO:root:Added stop: Mekanisa - https://osm.org/node/10902267338
+INFO:root:Added stop: Mekanisa - https://osm.org/node/10902267339
+INFO:root:Added stop: Gebriel Bridge - https://osm.org/node/10902267340
+INFO:root:Added stop: 58 Mazoria - https://osm.org/node/10903393900
+INFO:root:Added stop: Varnelo Squer - https://osm.org/node/10903398373
+INFO:root:Added stop: Jemmo 1 - https://osm.org/node/10903398374
+INFO:root:Added stop: Jemmo 1 - https://osm.org/node/10903398375
+INFO:root:Added stop: Jemmo Medhanialem - https://osm.org/node/10903398376
+INFO:root:Added stop: Jemmo Medhanialem - https://osm.org/node/10903398377
+INFO:root:Added stop: Kebele - https://osm.org/node/10903398378
+INFO:root:Added stop: Kebele - https://osm.org/node/10903398379
+INFO:root:Added stop: Varnelo Squer - https://osm.org/node/10903398380
+INFO:root:Added stop: Sar Bet - https://osm.org/node/10904734315
+INFO:root:Added stop: Austria Embassy - https://osm.org/node/10904734316
+INFO:root:Added stop: Total 3 Kuter Mazoria - https://osm.org/node/10904734318
+INFO:root:Added stop: Autobus Tera - https://osm.org/node/10905160356
+INFO:root:Added stop: Autobus Tera - https://osm.org/node/10905160357
+INFO:root:Added stop: Sebategna - https://osm.org/node/10905160358
+INFO:root:Added stop: Sebategna - https://osm.org/node/10905160359
+INFO:root:Added stop: Abenet - https://osm.org/node/10905160360
+INFO:root:Added stop: Abenet - https://osm.org/node/10905160361
+INFO:root:Added stop: Darmar - https://osm.org/node/10905160362
+INFO:root:Added stop: Darmar - https://osm.org/node/10905160363
+INFO:root:Added stop: Lideta Condominium - https://osm.org/node/10905160364
+INFO:root:Added stop: Lideta Condominium - https://osm.org/node/10905160365
+INFO:root:Added stop: Dessie Hotel - https://osm.org/node/10905160366
+INFO:root:Added stop: Dessie Hotel - https://osm.org/node/10905160367
+INFO:root:Added stop: Lideta - https://osm.org/node/10905160368
+INFO:root:Added stop: Lideta - https://osm.org/node/10905160369
+INFO:root:Added stop: AU (Mikael) Rounrdabout - https://osm.org/node/10905160370
+INFO:root:Added stop: AU (Mikael) Rounrdabout - https://osm.org/node/10905160371
+INFO:root:Added stop: Kera - https://osm.org/node/10905641592
+INFO:root:Added stop: Jemmo 1 - https://osm.org/node/10905771998
+INFO:root:Added stop: Jemmo Mickael - https://osm.org/node/10905771999
+INFO:root:Added stop: Metrology - https://osm.org/node/10905772000
+INFO:root:Added stop: karl Square - https://osm.org/node/10905772001
+INFO:root:Added stop: Bisrate Gebrael - https://osm.org/node/10905772002
+INFO:root:Added stop: Jemmo Mickael - https://osm.org/node/10905772003
+INFO:root:Added stop: Jemmo 1 - https://osm.org/node/10905772004
+INFO:root:Added stop: Noc - https://osm.org/node/10905866700
+INFO:root:Added stop: Alem Gena - https://osm.org/node/10905876026
+INFO:root:Added stop: Alem Gena - https://osm.org/node/10905876027
+INFO:root:Added stop: Noc - https://osm.org/node/10905876029
+INFO:root:Added stop: Jemmo 3 Squer - https://osm.org/node/10905876030
+INFO:root:Added stop: Jemmo 3 Squer - https://osm.org/node/10905876031
+INFO:root:Added stop: Post Office - https://osm.org/node/10905982178
+INFO:root:Added stop: Germen Square - https://osm.org/node/10905982179
+INFO:root:Added stop: Germen Square - https://osm.org/node/10905982180
+INFO:root:Added stop: Gofa - https://osm.org/node/10906020778
+INFO:root:Added stop: Gofa - https://osm.org/node/10906020779
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/10906074341
+INFO:root:Added stop: Germen Square - https://osm.org/node/10906074342
+INFO:root:Added stop: Germen Square - https://osm.org/node/10906074343
+INFO:root:Added stop: Mesked - https://osm.org/node/10907679395
+INFO:root:Added stop: Kidane Mihret - https://osm.org/node/10907679396
+INFO:root:Added stop: Tropical - https://osm.org/node/10907679398
+INFO:root:Added stop: Alem Bank - https://osm.org/node/10907679399
+INFO:root:Added stop: Alem Bank - https://osm.org/node/10907679400
+INFO:root:Added stop: Tropical - https://osm.org/node/10907679401
+INFO:root:Added stop: Kidane Mihret - https://osm.org/node/10907679402
+INFO:root:Added stop: Mesked - https://osm.org/node/10907679403
+INFO:root:Added stop: Chaina Camp - https://osm.org/node/10907679404
+INFO:root:Added stop: Zenebewerk - https://osm.org/node/10907725405
+INFO:root:Added stop: Mickael Bridge - https://osm.org/node/10907725406
+INFO:root:Added stop: Germen Square - https://osm.org/node/10907781477
+INFO:root:Added stop: Kera - https://osm.org/node/10907781478
+INFO:root:Added stop: Kera - https://osm.org/node/10907781479
+INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/10907781480
+INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/10907781481
+INFO:root:Added stop: Mekanisa Abo - https://osm.org/node/10908143594
+INFO:root:Added stop: Mekanisa Abo - https://osm.org/node/10908143595
+INFO:root:Added stop: Mexico - https://osm.org/node/10908143596
+INFO:root:Added stop: Mexico - https://osm.org/node/10908143597
+INFO:root:Added stop: Tewodros Square - https://osm.org/node/10908191497
+INFO:root:Added stop: Mekanisa - https://osm.org/node/10908191498
+INFO:root:Added stop: Mekanisa - https://osm.org/node/10908191499
+INFO:root:Added stop: Post Office - https://osm.org/node/10908191500
+INFO:root:Added stop: Mebrathile - https://osm.org/node/10908661149
+INFO:root:Added stop: Coca Cola - https://osm.org/node/10909186645
+INFO:root:Added stop: Merab Hotel - https://osm.org/node/10909186646
+INFO:root:Added stop: Abenet - https://osm.org/node/10909186647
+INFO:root:Added stop: Merab Hotel - https://osm.org/node/10909186648
+INFO:root:Added stop: Kolfe Keranyo - https://osm.org/node/10909186649
+INFO:root:Added stop: Holand - https://osm.org/node/10909186650
+INFO:root:Added stop: Holand - https://osm.org/node/10909186651
+INFO:root:Added stop: Kolfe Keranyo - https://osm.org/node/10909186652
+INFO:root:Added stop: Kolfe Keranyo - https://osm.org/node/10909186653
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10909186654
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10909186655
+INFO:root:Added stop: Keranio Mewcha - https://osm.org/node/10909186657
+INFO:root:Added stop: Keranio Mewcha - https://osm.org/node/10909186658
+INFO:root:Added stop: Mewcha - https://osm.org/node/10909186659
+INFO:root:Added stop: Mewcha - https://osm.org/node/10909186660
+INFO:root:Added stop: Mendida - https://osm.org/node/10909186661
+INFO:root:Added stop: Mendida - https://osm.org/node/10909186662
+INFO:root:Added stop: Betel - https://osm.org/node/10909186663
+INFO:root:Added stop: Betel - https://osm.org/node/10909186664
+INFO:root:Added stop: Alem Bank - https://osm.org/node/10909186665
+INFO:root:Added stop: Alem Bank - https://osm.org/node/10909186666
+INFO:root:Added stop: Zenebewerk - https://osm.org/node/10911198617
+INFO:root:Added stop: Zenebewerk - https://osm.org/node/10911198618
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/10911198619
+INFO:root:Added stop: Mexico Shebelle Hotel - https://osm.org/node/10911242345
+INFO:root:Added stop: Mexico Shebelle Hotel - https://osm.org/node/10911242346
+INFO:root:Added stop: Lideta - https://osm.org/node/10911242347
+INFO:root:Added stop: Lideta - https://osm.org/node/10911242348
+INFO:root:Added stop: Alem Bank - https://osm.org/node/10911242349
+INFO:root:Added stop: Alem Bank - https://osm.org/node/10911242350
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/10911695404
+INFO:root:Added stop: Betel - https://osm.org/node/10911717876
+INFO:root:Added stop: Betel - https://osm.org/node/10911717877
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/10911725505
+INFO:root:Added stop: Zenebewerk - https://osm.org/node/10912835918
+INFO:root:Added stop: Zenebewerk - https://osm.org/node/10912835920
+INFO:root:Added stop: Mebrat Haile - https://osm.org/node/10913852032
+INFO:root:Added stop: Mebrat Haile - https://osm.org/node/10913852033
+INFO:root:Added stop: 18 Mazoria - https://osm.org/node/10913852034
+INFO:root:Added stop: 18 Mazoria - https://osm.org/node/10913852035
+INFO:root:Added stop: Abenet - https://osm.org/node/10913863174
+INFO:root:Added stop: Abenet - https://osm.org/node/10913863175
+INFO:root:Added stop: Coca Cola - https://osm.org/node/10913863176
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10913863177
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10913863178
+INFO:root:Added stop: Augusta Bridge - https://osm.org/node/10913863179
+INFO:root:Added stop: Augusta Bridge - https://osm.org/node/10913863180
+INFO:root:Added stop: Old Airport - https://osm.org/node/10913863181
+INFO:root:Added stop: Old Airport - https://osm.org/node/10913863182
+INFO:root:Added stop: 3 Kutir Mazoriya (Total) - https://osm.org/node/10913863183
+INFO:root:Added stop: 3 Kutir Mazoriya (Total) - https://osm.org/node/10913863184
+INFO:root:Added stop: Kara Kore - https://osm.org/node/10913974717
+INFO:root:Added stop: Kara Kore - https://osm.org/node/10913974718
+INFO:root:Added stop: Gerar - https://osm.org/node/10913974719
+INFO:root:Added stop: Gerar - https://osm.org/node/10913974720
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/10913974721
+INFO:root:Added stop: Mexico - https://osm.org/node/10914160973
+INFO:root:Added stop: Mexico - https://osm.org/node/10914160974
+INFO:root:Added stop: Zenebewerk - https://osm.org/node/10914160976
+INFO:root:Added stop: Zenebewerk - https://osm.org/node/10914160977
+INFO:root:Added stop: Zenebewerk Meneharia - https://osm.org/node/10914680945
+INFO:root:Added stop: Zenebewerk Meneharia - https://osm.org/node/10914680946
+INFO:root:Added stop: Atena Tera - https://osm.org/node/10914784456
+INFO:root:Added stop: Atena Tera - https://osm.org/node/10914784457
+INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10915613002
+INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10915613003
+INFO:root:Added stop: Asko - https://osm.org/node/10915905485
+INFO:root:Added stop: Asko - https://osm.org/node/10915905486
+INFO:root:Added stop: Chereta - https://osm.org/node/10915905487
+INFO:root:Added stop: Chereta - https://osm.org/node/10915905488
+INFO:root:Added stop: Gulele Fana - https://osm.org/node/10915905489
+INFO:root:Added stop: Gulele Fana - https://osm.org/node/10915905490
+INFO:root:Added stop: Awolia - https://osm.org/node/10915905491
+INFO:root:Added stop: Awolia - https://osm.org/node/10915905492
+INFO:root:Added stop: Winget - https://osm.org/node/10915905493
+INFO:root:Added stop: Winget - https://osm.org/node/10915905494
+INFO:root:Added stop: Kokebe - https://osm.org/node/10918141989
+INFO:root:Added stop: Kokebe - https://osm.org/node/10918141990
+INFO:root:Added stop: Yeshi Debele - https://osm.org/node/10918141991
+INFO:root:Added stop: Yeshi Debele - https://osm.org/node/10918141992
+INFO:root:Added stop: Keranio Adebabay - https://osm.org/node/10918141993
+INFO:root:Added stop: Keranio Adebabay - https://osm.org/node/10918141994
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10918141995
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10918141996
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10918245686
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10918245687
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10918314820
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10918339958
+INFO:root:Added stop: Legehar - https://osm.org/node/10922141942
+INFO:root:Added stop: Zebera - https://osm.org/node/10923884107
+INFO:root:Added stop: Addisu Gebeya - https://osm.org/node/10923884109
+INFO:root:Added stop: Addisu Gebeya - https://osm.org/node/10923884110
+INFO:root:Added stop: Bera Tera - https://osm.org/node/10923884111
+INFO:root:Added stop: Zebera - https://osm.org/node/10923884112
+INFO:root:Added stop: Addisu Gebeya - https://osm.org/node/10923941250
+INFO:root:Added stop: Addisu Gebeya - https://osm.org/node/10923941251
+INFO:root:Added stop: Semen Mazegaga - https://osm.org/node/10923941252
+INFO:root:Added stop: Semen Mazegaga - https://osm.org/node/10923941253
+INFO:root:Added stop: Shola - https://osm.org/node/10923941254
+INFO:root:Added stop: Shola - https://osm.org/node/10923941255
+INFO:root:Added stop: Semen Hotel - https://osm.org/node/10923941256
+INFO:root:Added stop: Semen Hotel - https://osm.org/node/10923941257
+INFO:root:Added stop: Yohanes - https://osm.org/node/10923941258
+INFO:root:Added stop: Yohanes - https://osm.org/node/10923941259
+INFO:root:Added stop: Eritrea Hotel - https://osm.org/node/10923941260
+INFO:root:Added stop: Eritrea Hotel - https://osm.org/node/10923941261
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10924087993
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10924087994
+INFO:root:Added stop: Chelote - https://osm.org/node/10924087995
+INFO:root:Added stop: Chelote - https://osm.org/node/10924087996
+INFO:root:Added stop: Shola - https://osm.org/node/10924087997
+INFO:root:Added stop: Shola - https://osm.org/node/10924087998
+INFO:root:Added stop: St. George Church - https://osm.org/node/10924088002
+INFO:root:Added stop: St. George Church - https://osm.org/node/10924088003
+INFO:root:Added stop: Piassa - https://osm.org/node/10924088004
+INFO:root:Added stop: Piassa - https://osm.org/node/10924116805
+INFO:root:Added stop: Kechenie - https://osm.org/node/10924116806
+INFO:root:Added stop: Kechenie - https://osm.org/node/10924116808
+INFO:root:Added stop: Shegole - https://osm.org/node/10924211089
+INFO:root:Added stop: Shegole - https://osm.org/node/10924211090
+INFO:root:Added stop: Rufael - https://osm.org/node/10924211093
+INFO:root:Added stop: Rufael - https://osm.org/node/10924211094
+INFO:root:Added stop: Tureta Deldy - https://osm.org/node/10924211095
+INFO:root:Added stop: Tureta Deldy - https://osm.org/node/10924211096
+INFO:root:Added stop: Enqulal Fabrica - https://osm.org/node/10924211097
+INFO:root:Added stop: Enqulal Fabrica - https://osm.org/node/10924211098
+INFO:root:Added stop: Ras Desta - https://osm.org/node/10924212637
+INFO:root:Added stop: Ras Desta - https://osm.org/node/10924212638
+INFO:root:Added stop: Sebara Babur - https://osm.org/node/10924212640
+INFO:root:Added stop: Abune Petros - https://osm.org/node/10924212641
+INFO:root:Added stop: Abune Petros - https://osm.org/node/10924212642
+INFO:root:Added stop: Yohanes - https://osm.org/node/10924212643
+INFO:root:Added stop: Yohanes - https://osm.org/node/10924212644
+INFO:root:Added stop: Shola Abyssinia Bank - https://osm.org/node/10924342466
+INFO:root:Added stop: British Embassy - https://osm.org/node/10924342467
+INFO:root:Added stop: Menelik II Hospital - https://osm.org/node/10924342468
+INFO:root:Added stop: Menlik Hospital - https://osm.org/node/10924342469
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/10924342470
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/10924342471
+INFO:root:Added stop: Piassa - https://osm.org/node/10924981547
+INFO:root:Added stop: Kazanchis - https://osm.org/node/10924981836
+INFO:root:Added stop: Kazanchis - https://osm.org/node/10924981837
+INFO:root:Added stop: Meneharya - https://osm.org/node/10924981839
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/10924981840
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/10924981841
+INFO:root:Added stop: 6 Kilo (Lion Zoo) - https://osm.org/node/10925096455
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10925096457
+INFO:root:Added stop: Shiromeda - https://osm.org/node/10925096458
+INFO:root:Added stop: Shiromeda - https://osm.org/node/10925096459
+INFO:root:Added stop: Abune Petros - https://osm.org/node/10925161777
+INFO:root:Added stop: Abune Petros - https://osm.org/node/10925161778
+INFO:root:Added stop: St. George Total - https://osm.org/node/10925161780
+INFO:root:Added stop: Raguel Church - https://osm.org/node/10925161781
+INFO:root:Added stop: Raguel Church - https://osm.org/node/10925161782
+INFO:root:Added stop: Piassa - https://osm.org/node/10925161783
+INFO:root:Added stop: Piassa - https://osm.org/node/10925161784
+INFO:root:Added stop: Mexico - https://osm.org/node/10925195639
+INFO:root:Added stop: Winget - https://osm.org/node/10925695034
+INFO:root:Added stop: Winget - https://osm.org/node/10925695035
+INFO:root:Added stop: Shegole - https://osm.org/node/10925835130
+INFO:root:Added stop: Shegole - https://osm.org/node/10925835131
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10925835153
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10925835154
+INFO:root:Added stop: Pawlos Hospital - https://osm.org/node/10925835155
+INFO:root:Added stop: Pawlos Hospital - https://osm.org/node/10925835156
+INFO:root:Added stop: Pastor - https://osm.org/node/10925835157
+INFO:root:Added stop: Pastor - https://osm.org/node/10925835158
+INFO:root:Added stop: Michael - https://osm.org/node/10925835159
+INFO:root:Added stop: Michael - https://osm.org/node/10925835160
+INFO:root:Added stop: Autobus Tera - https://osm.org/node/10925835161
+INFO:root:Added stop: Autobus Tera - https://osm.org/node/10925835162
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/10925946103
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/10925946104
+INFO:root:Added stop: Meshageria - https://osm.org/node/10925966505
+INFO:root:Added stop: Derartu Adebabay - https://osm.org/node/10925966506
+INFO:root:Added stop: Derartu Adebabay - https://osm.org/node/10925966507
+INFO:root:Added stop: Gebreal - https://osm.org/node/10925966508
+INFO:root:Added stop: Gebreal - https://osm.org/node/10925966509
+INFO:root:Added stop: Aba Kiros - https://osm.org/node/10925966510
+INFO:root:Added stop: Aba Kiros - https://osm.org/node/10925966511
+INFO:root:Added stop: Bole Arabsa - https://osm.org/node/10926028111
+INFO:root:Added stop: Bole Arabsa - https://osm.org/node/10926028112
+INFO:root:Added stop: Maseltegna - https://osm.org/node/10926028113
+INFO:root:Added stop: Maseltegna - https://osm.org/node/10926028114
+INFO:root:Added stop: Sun shine - https://osm.org/node/10926028115
+INFO:root:Added stop: Sun shine - https://osm.org/node/10926028116
+INFO:root:Added stop: Ayat - https://osm.org/node/10926028117
+INFO:root:Added stop: Mariam - https://osm.org/node/10926040103
+INFO:root:Added stop: Mariam - https://osm.org/node/10926040104
+INFO:root:Added stop: Ayat - https://osm.org/node/10926074605
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/10926094674
+INFO:root:Added stop: Megenagna - https://osm.org/node/10926094675
+INFO:root:Added stop: Megenagna - https://osm.org/node/10926817920
+INFO:root:Added stop: Tafo Square - https://osm.org/node/10926817921
+INFO:root:Added stop: Tafo Square - https://osm.org/node/10926817922
+INFO:root:Added stop: Sun shine - https://osm.org/node/10926849848
+INFO:root:Added stop: Summit Chafe - https://osm.org/node/10926849849
+INFO:root:Added stop: Summit Chafe - https://osm.org/node/10926849850
+INFO:root:Added stop: Goro - https://osm.org/node/10926849851
+INFO:root:Added stop: Goro - https://osm.org/node/10926849852
+INFO:root:Added stop: Se'alite Mihret - https://osm.org/node/10926896755
+INFO:root:Added stop: Se'alite Mihret - https://osm.org/node/10926896756
+INFO:root:Added stop: Ayat Chefe Condominium - https://osm.org/node/10926896757
+INFO:root:Added stop: Ayat Chefe Condominium - https://osm.org/node/10926896758
+INFO:root:Added stop: Ayat - https://osm.org/node/10928177661
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/10928876312
+INFO:root:Added stop: Summit Condominiums - https://osm.org/node/10928876313
+INFO:root:Added stop: Tewodros Square - https://osm.org/node/10929299420
+INFO:root:Added stop: Tewodros Square - https://osm.org/node/10929299421
+INFO:root:Added stop: Tikur Anbesa - https://osm.org/node/10929299422
+INFO:root:Added stop: Mexico - https://osm.org/node/10929337801
+INFO:root:Added stop: Stadium - https://osm.org/node/10929337802
+INFO:root:Added stop: Stadium - https://osm.org/node/10929337803
+INFO:root:Added stop: Megenagna - https://osm.org/node/10929412718
+INFO:root:Added stop: Megenagna - https://osm.org/node/10929412719
+INFO:root:Added stop: 22 Mazoria - https://osm.org/node/10929412721
+INFO:root:Added stop: Lem Hotel - https://osm.org/node/10929694820
+INFO:root:Added stop: Lem Hotel - https://osm.org/node/10929694821
+INFO:root:Added stop: Signal - https://osm.org/node/10929694822
+INFO:root:Added stop: Signal - https://osm.org/node/10929694823
+INFO:root:Added stop: Abuare Gebeya - https://osm.org/node/10929694824
+INFO:root:Added stop: Abuare Gebeya - https://osm.org/node/10929694825
+INFO:root:Added stop: Tewodros Square - https://osm.org/node/10929694826
+INFO:root:Added stop: Tewodros Square - https://osm.org/node/10929694827
+INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10929694828
+INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10929694829
+INFO:root:Added stop: Megenagna - https://osm.org/node/10929694830
+INFO:root:Added stop: Megenagna - https://osm.org/node/10929694831
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10929752934
+INFO:root:Added stop: Megenagna - https://osm.org/node/10931788261
+INFO:root:Added stop: Megenagna - https://osm.org/node/10931788262
+INFO:root:Added stop: Kotebe - https://osm.org/node/10931809323
+INFO:root:Added stop: Se'alite Mihret - https://osm.org/node/10931809324
+INFO:root:Added stop: Se'alite Mihret - https://osm.org/node/10931809325
+INFO:root:Added stop: Lamberet - https://osm.org/node/10931809326
+INFO:root:Added stop: Lamberet - https://osm.org/node/10931809327
+INFO:root:Added stop: Kara - https://osm.org/node/10931809328
+INFO:root:Added stop: Kara - https://osm.org/node/10931809329
+INFO:root:Added stop: Megenagna - https://osm.org/node/10931809330
+INFO:root:Added stop: Megenagna - https://osm.org/node/10931850027
+INFO:root:Added stop: Kokebe Tsebah (Kebena) - https://osm.org/node/10931850028
+INFO:root:Added stop: 4 Kilo - https://osm.org/node/10931884718
+INFO:root:Added stop: Ferensay - https://osm.org/node/10931884719
+INFO:root:Added stop: Ferensay - https://osm.org/node/10931884720
+INFO:root:Added stop: Mezan - https://osm.org/node/10931884721
+INFO:root:Added stop: Mezan - https://osm.org/node/10931884722
+INFO:root:Added stop: Jan Meda - https://osm.org/node/10931884723
+INFO:root:Added stop: Jan Meda - https://osm.org/node/10931884724
+INFO:root:Added stop: Megenagna - https://osm.org/node/10931937848
+INFO:root:Added stop: Kadisco - https://osm.org/node/10931937849
+INFO:root:Added stop: Kebena - https://osm.org/node/10931995346
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/10932040828
+INFO:root:Added stop: St. George Total - https://osm.org/node/10932040829
+INFO:root:Added stop: St. George Total - https://osm.org/node/10932040830
+INFO:root:Added stop: Lem Hotel - https://osm.org/node/10932115661
+INFO:root:Added stop: Lamberet - https://osm.org/node/10932115662
+INFO:root:Added stop: Mexico - https://osm.org/node/10932115666
+INFO:root:Added stop: Mexico - https://osm.org/node/10932115667
+INFO:root:Added stop: Shola Gebeya - https://osm.org/node/10933668851
+INFO:root:Added stop: Shola Gebeya - https://osm.org/node/10933668852
+INFO:root:Added stop: Beg Tera - https://osm.org/node/10933668868
+INFO:root:Added stop: Beg Tera - https://osm.org/node/10933668869
+INFO:root:Added stop: Zebera - https://osm.org/node/10933668870
+INFO:root:Added stop: Zebera - https://osm.org/node/10933668871
+INFO:root:Added stop: Kidane Mihret - https://osm.org/node/10933668873
+INFO:root:Added stop: Kidane Mihret - https://osm.org/node/10933668874
+INFO:root:Added stop: St. Urael Church - https://osm.org/node/10933970678
+INFO:root:Added stop: St. Urael Church - https://osm.org/node/10933970679
+INFO:root:Added stop: Atlas - https://osm.org/node/10934121405
+INFO:root:Added stop: Atlas - https://osm.org/node/10934121406
+INFO:root:Added stop: St. Urael Church - https://osm.org/node/10934121407
+INFO:root:Added stop: St. Urael Church - https://osm.org/node/10934121408
+INFO:root:Added stop: Kera - https://osm.org/node/10934142102
+INFO:root:Added stop: Kera - https://osm.org/node/10934142103
+INFO:root:Added stop: 4 Kilo - https://osm.org/node/10934274056
+INFO:root:Added stop: St. Estifanos - https://osm.org/node/10934274058
+INFO:root:Added stop: Buna Ena Shay - https://osm.org/node/10934274059
+INFO:root:Added stop: Buna Ena Shay - https://osm.org/node/10934274060
+INFO:root:Added stop: 4 Kilo - https://osm.org/node/10936313832
+INFO:root:Added stop: 4 Kilo - https://osm.org/node/10936313833
+INFO:root:Added stop: Sebategna - https://osm.org/node/10936490562
+INFO:root:Added stop: Sebategna - https://osm.org/node/10936490563
+INFO:root:Added stop: Amanuel Total - https://osm.org/node/10936490564
+INFO:root:Added stop: Amanuel Total - https://osm.org/node/10936490565
+INFO:root:Added stop: Winget - https://osm.org/node/10936621813
+INFO:root:Added stop: Enqulal Fabrica - https://osm.org/node/10936724096
+INFO:root:Added stop: Enqulal Fabrica - https://osm.org/node/10936724097
+INFO:root:Added stop: karl Square - https://osm.org/node/10937101933
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/10937167108
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/10937167109
+INFO:root:Added stop: Kera - https://osm.org/node/10937209934
+INFO:root:Added stop: Kechenie - https://osm.org/node/10937271651
+INFO:root:Added stop: Mesalemia - https://osm.org/node/10961301939
+INFO:root:Added stop: Mesalemia - https://osm.org/node/10961301940
+INFO:root:Added stop: Merkato - https://osm.org/node/10961301941
+INFO:root:Added stop: Merkato - https://osm.org/node/10961301942
+INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10961408041
+INFO:root:Added stop: Abuare Roundabout - https://osm.org/node/10961408042
+INFO:root:Added stop: Abuare Roundabout - https://osm.org/node/10961408043
+INFO:root:Added stop: Keranio Adebabay - https://osm.org/node/10961408397
+INFO:root:Added stop: Mendida - https://osm.org/node/10961408398
+INFO:root:Added stop: Mendida - https://osm.org/node/10961408399
+INFO:root:Added stop: Bole Medhanyalem - https://osm.org/node/10963292174
+INFO:root:Added stop: Bole Medhanyalem - https://osm.org/node/10963292175
+INFO:root:Added stop: Weybla Mariam - https://osm.org/node/10963817572
+INFO:root:Added stop: Weybla Mariam - https://osm.org/node/10963817573
+INFO:root:Added stop: 22 Mazoria - https://osm.org/node/10963932669
+INFO:root:Added stop: Bisrate Gebrael - https://osm.org/node/10964879159
+INFO:root:Added stop: Luwkanda - https://osm.org/node/10970584167
+INFO:root:Added stop: Luwkanda - https://osm.org/node/10970584168
+INFO:root:Added stop: 18 Mazoria - https://osm.org/node/10970584169
+INFO:root:Added stop: 18 Mazoria - https://osm.org/node/10970584170
+INFO:root:Added stop: Abysinia Coffee - https://osm.org/node/10970584171
+INFO:root:Added stop: Abysinia Coffee - https://osm.org/node/10970584172
+INFO:root:Added stop: 18 Mazoria - https://osm.org/node/10970748190
+INFO:root:Added stop: 4 Menta Adebabay - https://osm.org/node/10970748192
+INFO:root:Added stop: 4 Menta Adebabay - https://osm.org/node/10970748193
+INFO:root:Added stop: Tero Mosque - https://osm.org/node/10970748194
+INFO:root:Added stop: Tero Mosque - https://osm.org/node/10970748195
+INFO:root:Added stop: Sebategna - https://osm.org/node/10970823802
+INFO:root:Added stop: Sebategna - https://osm.org/node/10970823803
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/10970829160
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/10970912911
+INFO:root:Added stop: Rufael - https://osm.org/node/10970912912
+INFO:root:Added stop: Rufael - https://osm.org/node/10970912913
+INFO:root:Added stop: Selefia Mosque - https://osm.org/node/10973319411
+INFO:root:Added stop: Selefia Mosque - https://osm.org/node/10973319412
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/10973319413
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/10973319414
+INFO:root:Added stop: Shiromeda - https://osm.org/node/10973319416
+INFO:root:Added stop: Shiromeda - https://osm.org/node/10973319417
+INFO:root:Added stop: Akaki Gebeya - https://osm.org/node/10973446898
+INFO:root:Added stop: Akaki Gebeya - https://osm.org/node/10973446899
+INFO:root:Added stop: Meshualekya - https://osm.org/node/10973446900
+INFO:root:Added stop: Mebrathayil - https://osm.org/node/10973631794
+INFO:root:Added stop: Mebrathayil - https://osm.org/node/10973631795
+INFO:root:Added stop: Lafto - https://osm.org/node/10973631797
+INFO:root:Added stop: Yeshi Total - https://osm.org/node/10973672014
+INFO:root:Added stop: Megenagna - https://osm.org/node/10973929780
+INFO:root:Added stop: Biretabret - https://osm.org/node/10973929781
+INFO:root:Added stop: Hanna Mariam - https://osm.org/node/10973929783
+INFO:root:Added stop: Hanna Mariam - https://osm.org/node/10973929784
+INFO:root:Added stop: Kotebe Teachers College - https://osm.org/node/10973929786
+INFO:root:Added stop: Kotebe Gebriel - https://osm.org/node/10973929787
+INFO:root:Added stop: Kotebe Gebriel - https://osm.org/node/10973929788
+INFO:root:Added stop: Kotebe - https://osm.org/node/10973960231
+INFO:root:Added stop: Kotebe - https://osm.org/node/10973960232
+INFO:root:Added stop: Kebena - https://osm.org/node/10973960233
+INFO:root:Added stop: Yeka Abado - https://osm.org/node/10974036529
+INFO:root:Added stop: Yeka Abado - https://osm.org/node/10974036530
+INFO:root:Added stop: Taxi Tera - https://osm.org/node/10989247669
+INFO:root:Added stop: Bole Bridge - https://osm.org/node/10989247670
+INFO:root:Added stop: Summit - https://osm.org/node/10989247671
+INFO:root:Added stop: Summit - https://osm.org/node/10989247672
+INFO:root:Added stop: Bole Mickael - https://osm.org/node/10989306740
+INFO:root:Added stop: Bole Mickael - https://osm.org/node/10989306742
+INFO:root:Added stop: Riventy - https://osm.org/node/10989306744
+INFO:root:Added stop: Riventy - https://osm.org/node/10989306745
+INFO:root:Added stop: Lomi Meda - https://osm.org/node/10989322788
+INFO:root:Added stop: Philiphs - https://osm.org/node/10989322789
+INFO:root:Added stop: Philiphs - https://osm.org/node/10989322790
+INFO:root:Added stop: Atena Tera - https://osm.org/node/10989322793
+INFO:root:Added stop: Atena Tera - https://osm.org/node/10989322794
+INFO:root:Added stop: Atena Tera - https://osm.org/node/10989352901
+INFO:root:Added stop: Atena Tera - https://osm.org/node/10989352903
+INFO:root:Added stop: Kolfe - https://osm.org/node/10989352904
+INFO:root:Added stop: Kolfe - https://osm.org/node/10989388405
+INFO:root:Added stop: Chid Tera - https://osm.org/node/10989388406
+INFO:root:Added stop: Chid Tera - https://osm.org/node/10989388407
+INFO:root:Added stop: Tourist Hotel - https://osm.org/node/10989495135
+INFO:root:Added stop: Tourist Hotel - https://osm.org/node/10989495136
+INFO:root:Added stop: St. George Church - https://osm.org/node/10989495137
+INFO:root:Added stop: St. George Church - https://osm.org/node/10989495138
+INFO:root:Added stop: Amanuel Church - https://osm.org/node/10989606497
+INFO:root:Added stop: Amanuel Church - https://osm.org/node/10989606498
+INFO:root:Added stop: Mesalemia - https://osm.org/node/10989606501
+INFO:root:Added stop: Mesalemia - https://osm.org/node/10989606502
+INFO:root:Added stop: Coca Cola - https://osm.org/node/10989606503
+INFO:root:Added stop: Coca Cola - https://osm.org/node/10989606504
+INFO:root:Added stop: Tikur Anbesa - https://osm.org/node/10989700748
+INFO:root:Added stop: Tikur Anbesa - https://osm.org/node/10989700750
+INFO:root:Added stop: Megenagna - https://osm.org/node/10989765272
+INFO:root:Added stop: Tourist Hotel - https://osm.org/node/10991706244
+INFO:root:Added stop: Ambasader - https://osm.org/node/10991706246
+INFO:root:Added stop: Ambasader - https://osm.org/node/10991706247
+INFO:root:Added stop: Manen - https://osm.org/node/10991763449
+INFO:root:Added stop: Manen - https://osm.org/node/10991763450
+INFO:root:Added stop: Selam Building - https://osm.org/node/10992050085
+INFO:root:Added stop: Saris Abo - https://osm.org/node/10992073740
+INFO:root:Added stop: Selam Building - https://osm.org/node/10992247910
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/10992247911
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/10992247913
+INFO:root:Added stop: Breta bret - https://osm.org/node/10994789635
+INFO:root:Added stop: Akaki CBE - https://osm.org/node/10994942333
+INFO:root:Added stop: Akaki CBE - https://osm.org/node/10994942334
+INFO:root:Added stop: Mexico - https://osm.org/node/10995013009
+INFO:root:Added stop: Lafto - https://osm.org/node/10995013010
+INFO:root:Added stop: Lafto (Mickael) - https://osm.org/node/10995013013
+INFO:root:Added stop: Woyira Sefer - https://osm.org/node/10995113524
+INFO:root:Added stop: Woyira Sefer - https://osm.org/node/10995113525
+INFO:root:Added stop: Total 3 Kutir mazoria - https://osm.org/node/10996939227
+INFO:root:Added stop: Mebrat - https://osm.org/node/10997112356
+INFO:root:Added stop: Mebrat - https://osm.org/node/10997112357
+INFO:root:Added stop: Biharetsege - https://osm.org/node/10997112358
+INFO:root:Added stop: Biharetsege - https://osm.org/node/10997112359
+INFO:root:Added stop: Adey Abeba - https://osm.org/node/10997112361
+INFO:root:Added stop: Adey Abeba - https://osm.org/node/10997112362
+INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/10997112364
+INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/10997112365
+INFO:root:Added stop: Abenet - https://osm.org/node/10997125769
+INFO:root:Added stop: Weleta - https://osm.org/node/10997242295
+INFO:root:Added stop: Weleta - https://osm.org/node/10997242296
+INFO:root:Added stop: Weleta Tele - https://osm.org/node/10997242298
+INFO:root:Added stop: Repi Highschool - https://osm.org/node/10997242299
+INFO:root:Added stop: Repi Highschool - https://osm.org/node/10997242300
+INFO:root:Added stop: Sara Ampol - https://osm.org/node/10997243557
+INFO:root:Added stop: Sara Ampol - https://osm.org/node/10997243558
+INFO:root:Added stop: Kara Condominium - https://osm.org/node/10997243559
+INFO:root:Added stop: Kara Condominium - https://osm.org/node/10997243560
+INFO:root:Added stop: Torhayloch - https://osm.org/node/10997360870
+INFO:root:Added stop: Mexico - https://osm.org/node/10997382833
+INFO:root:Added stop: Mexico - https://osm.org/node/10997382834
+INFO:root:Added stop: Mexico - https://osm.org/node/10997495133
+INFO:root:Added stop: Mexico - https://osm.org/node/10997495134
+INFO:root:Added stop: Darmar - https://osm.org/node/10997495135
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041498
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041499
+INFO:root:Added stop: Shola - https://osm.org/node/10998041503
+INFO:root:Added stop: Shola - https://osm.org/node/10998041504
+INFO:root:Added stop: Lomi Meda - https://osm.org/node/11084058584
+Timezone not checked (install pytz package for timezone validation)
+Generating schedule for line: 10568476
+Generating schedule for line: 15633036
+Generating schedule for line: 15676211
+Generating schedule for line: 15676212
+Generating schedule for line: 15676213
+Generating schedule for line: 15676215
+Generating schedule for line: 15677019
+Generating schedule for line: 15677252
+Generating schedule for line: 15774596
+Generating schedule for line: 15775112
+Generating schedule for line: 15797527
+Generating schedule for line: 15797528
+Generating schedule for line: 15797529
+Generating schedule for line: 15797530
+Generating schedule for line: 15830934
+Generating schedule for line: 15833378
+Generating schedule for line: 15833518
+Generating schedule for line: 15841640
+Generating schedule for line: 15841839
+Generating schedule for line: 15841978
+Generating schedule for line: 15842386
+Generating schedule for line: 15842687
+Generating schedule for line: 15845949
+Generating schedule for line: 15845950
+WARNING: No duration set --- Using default travel time for route with OSM ID 15845945
+WARNING: No duration set --- Using default travel time for route with OSM ID 15845946
+Generating schedule for line: 15846182
+Generating schedule for line: 15850226
+Generating schedule for line: 15850509
+Generating schedule for line: 15850623
+Generating schedule for line: 15858008
+Generating schedule for line: 15858151
+Generating schedule for line: 15858269
+Generating schedule for line: 15858339
+Generating schedule for line: 15858404
+Generating schedule for line: 15858713
+Generating schedule for line: 15858887
+Generating schedule for line: 15858958
+Generating schedule for line: 15861781
+Generating schedule for line: 15861962
+Generating schedule for line: 15863862
+Generating schedule for line: 15864075
+Generating schedule for line: 15865443
+Generating schedule for line: 15865947
+Generating schedule for line: 15866774
+Generating schedule for line: 15867049
+Generating schedule for line: 15867151
+Generating schedule for line: 15867420
+Generating schedule for line: 15867572
+Generating schedule for line: 15867651
+Generating schedule for line: 15867786
+Generating schedule for line: 15869243
+Generating schedule for line: 15869312
+Generating schedule for line: 15869366
+Generating schedule for line: 15869889
+Generating schedule for line: 15870075
+Generating schedule for line: 15870224
+Generating schedule for line: 15870632
+Generating schedule for line: 15870793
+Generating schedule for line: 15870960
+Generating schedule for line: 15871080
+Generating schedule for line: 15871275
+Generating schedule for line: 15871624
+Generating schedule for line: 15876625
+Generating schedule for line: 15876725
+Generating schedule for line: 15876752
+Generating schedule for line: 15876870
+Generating schedule for line: 15876935
+Generating schedule for line: 15877451
+Generating schedule for line: 15877500
+Generating schedule for line: 15879148
+Generating schedule for line: 15880133
+Generating schedule for line: 15880213
+Generating schedule for line: 15880308
+Generating schedule for line: 15880397
+Generating schedule for line: 15880659
+Generating schedule for line: 15881004
+Generating schedule for line: 15881508
+Generating schedule for line: 15881684
+Generating schedule for line: 15882444
+Generating schedule for line: 15882498
+Generating schedule for line: 15882550
+Generating schedule for line: 15882638
+Generating schedule for line: 15883171
+Generating schedule for line: 15885969
+Generating schedule for line: 15886152
+Generating schedule for line: 15887144
+Generating schedule for line: 15887191
+Generating schedule for line: 15887240
+Generating schedule for line: 15898347
+Generating schedule for line: 15900380
+Generating schedule for line: 15900555
+Generating schedule for line: 15900883
+Generating schedule for line: 15901020
+Generating schedule for line: 15901146
+Generating schedule for line: 15901995
+Generating schedule for line: 15902043
+Generating schedule for line: 15902171
+Generating schedule for line: 15902285
+Generating schedule for line: 15902321
+Generating schedule for line: 15903001
+Generating schedule for line: 15903091
+Generating schedule for line: 15903260
+Generating schedule for line: 15903402
+Generating schedule for line: 15903454
+Generating schedule for line: 15903518
+Generating schedule for line: 15904627
+Generating schedule for line: 15904691
+Generating schedule for line: 15904811
+Generating schedule for line: 15905759
+Generating schedule for line: 15905796
+Generating schedule for line: 15905849
+Generating schedule for line: 15906133
+Generating schedule for line: 15906163
+Generating schedule for line: 15906876
+Generating schedule for line: 15906946
+Generating schedule for line: 15907058
+Generating schedule for line: 15907234
+Generating schedule for line: 15907305
+Generating schedule for line: 15909909
+Generating schedule for line: 15909991
+Generating schedule for line: 15910058
+Generating schedule for line: 15910153
+Generating schedule for line: 15910213
+Generating schedule for line: 15910286
+Generating schedule for line: 15910343
+Generating schedule for line: 15910407
+Generating schedule for line: 15910507
+Generating schedule for line: 15910595
+Generating schedule for line: 15912626
+Generating schedule for line: 15912956
+Generating schedule for line: 15912995
+Generating schedule for line: 15913024
+Generating schedule for line: 15913086
+Generating schedule for line: 15913109
+Generating schedule for line: 15913170
+Generating schedule for line: 15913211
+Generating schedule for line: 15913312
+Generating schedule for line: 15913400
+Generating schedule for line: 15913788
+Generating schedule for line: 15913797
+Generating schedule for line: 15913851
+Generating schedule for line: 15913986
+Generating schedule for line: 15916307
+Generating schedule for line: 15916364
+Generating schedule for line: 15916401
+Generating schedule for line: 15916629
+Generating schedule for line: 15916756
+Generating schedule for line: 15916839
+Generating schedule for line: 15916909
+Generating schedule for line: 15916957
+Generating schedule for line: 15917637
+Generating schedule for line: 15917697
+Generating schedule for line: 15917888
+Generating schedule for line: 15917949
+Generating schedule for line: 15917971
+Generating schedule for line: 15918070
+Generating schedule for line: 15919609
+Generating schedule for line: 15919798
+Generating schedule for line: 15919880
+Generating schedule for line: 15921312
+Generating schedule for line: 15921454
+Generating schedule for line: 15921591
+Generating schedule for line: 15921656
+Generating schedule for line: 15957904
+Generating schedule for line: 15958044
+Generating schedule for line: 15958107
+Generating schedule for line: 15958349
+Generating schedule for line: 15958502
+Generating schedule for line: 15958564
+Generating schedule for line: 15958618
+Generating schedule for line: 15958644
+Generating schedule for line: 15958710
+Generating schedule for line: 15960815
+Generating schedule for line: 15960877
+Generating schedule for line: 15960944
+Generating schedule for line: 15960977
+Generating schedule for line: 15961078
+Generating schedule for line: 15961305
+Generating schedule for line: 15961341
+Generating schedule for line: 15961494
+Generating schedule for line: 15961764
+Generating schedule for line: 15961854
+Generating schedule for line: 15961885
+Generating schedule for line: 15961978
+Generating schedule for line: 15962019
+Generating schedule for line: 15962065
+Generating schedule for line: 15962103
+Generating schedule for line: 15962159
+Generating schedule for line: 15963098
+Generating schedule for line: 15963187
+Generating schedule for line: 15963257
+Generating schedule for line: 15970722
+Generating schedule for line: 15970883
+Generating schedule for line: 15970955
+Generating schedule for line: 15971057
+Generating schedule for line: 15971140
+Generating schedule for line: 15973776
+Generating schedule for line: 15973832
+Generating schedule for line: 15973924
+Generating schedule for line: 15974268
+Generating schedule for line: 15974308
+Generating schedule for line: 15974328
+Generating schedule for line: 15974746
+Generating schedule for line: 15974793
+INFO:root:Removed 0 unused stops
+INFO:root:Removed 0 unused routes
+Generating schedule for line: 15974906
+Generating schedule for line: 15992541
+Generating schedule for line: 15992646
+Generating schedule for line: 15992742
+Generating schedule for line: 15992882
+Generating schedule for line: 15992969
+Generating schedule for line: 15993132
+Generating schedule for line: 15993248
+Generating schedule for line: 15993363
+Generating schedule for line: 15993376
+Generating schedule for line: 15993527
+Generating schedule for line: 15993651
+Generating schedule for line: 15998238
+Generating schedule for line: 15998277
+Generating schedule for line: 15998427
+Generating schedule for line: 15999097
+Generating schedule for line: 15999123
+Generating schedule for line: 15999152
+Generating schedule for line: 15999254
+Generating schedule for line: 15999429
+Generating schedule for line: 16003640
+Generating schedule for line: 16004103
+Generating schedule for line: 16004169
+Generating schedule for line: 16004300
+Generating schedule for line: 16004409
+Generating schedule for line: 16004442
+Generating schedule for line: 16004670
+Generating schedule for line: 16006993
+Generating schedule for line: 16007055
+Generating schedule for line: 16007115
+Generating schedule for line: 16007166
+Generating schedule for line: 16007247
+Generating schedule for line: 16007282
+Generating schedule for line: 16007348
+Generating schedule for line: 16007491
+Generating schedule for line: 16007565
+Generating schedule for line: 16007600
+Generating schedule for line: 16007791
+Generating schedule for line: 16007850
+Generating schedule for line: 16007931
+Generating schedule for line: 16008090
+Generating schedule for line: 16008308
+Generating schedule for line: 16028728
+Generating schedule for line: 16028886
+All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
+no single day variations. If there are exceptions such as holiday service
+dates please ensure they are listed in calendar_dates.txt
+The stops "Lafto" (ID node/10973631797) and "Lafto" (ID node/7049122264) are
+1.58m apart and probably represent the same location.
+The stops "Weleta" (ID node/10997242295) and "Weleta" (ID node/10997242296)
+are 1.74m apart and probably represent the same location.
+The stops "Riventy" (ID node/10989306744) and "Riventy" (ID node/10989306745)
+are 1.89m apart and probably represent the same location.
+The stops "Summit Condominiums" (ID node/10928876313) and "Summit
+Condominiums" (ID node/10925946103) are 0.49m apart and probably represent the
+same location.
+The stops "Selefia Mosque" (ID node/10973319412) and "Selefia Mosque" (ID
+node/10973319411) are 1.97m apart and probably represent the same location.
+The stops "Mexico" (ID node/10997382833) and "Mexico Shebelle Hotel" (ID
+node/10911242345) are 0.63m apart and probably represent the same location.
+The stops "Mexico Shebelle Hotel" (ID node/10911242346) and "Mexico" (ID
+node/10997382834) are 0.69m apart and probably represent the same location.
+The stops "Megenagna (Marathon Motors)" (ID node/10781643831) and "Megenagna"
+(ID node/10931850027) are 1.24m apart and probably represent the same
+location.
+The stops "Megenagna" (ID node/10931788261) and "Megenagna (Marathon Motors)"
+(ID node/10781844863) are 0.55m apart and probably represent the same
+location.
+The stops "Lamberet Menaheria" (ID node/10781643820) and "Lamberet" (ID
+node/10932115662) are 0.66m apart and probably represent the same location.
+The stops "Shola (Yeka Court)" (ID node/10781643829) and "Shola" (ID
+node/10998041504) are 1.10m apart and probably represent the same location.
+The stops "Piassa Arada" (ID node/10973319413) and "Piassa Arada" (ID
+node/10973319414) are 1.99m apart and probably represent the same location.
+The stops "Piassa" (ID node/10925161784) and "Piassa Arada" (ID
+node/10970829160) are 0.84m apart and probably represent the same location.
+The stops "Atena Tera" (ID node/10914784457) and "Atena Tera" (ID
+node/7112280391) are 0.21m apart and probably represent the same location.
+The stops "Atena Tera" (ID node/10989322794) and "Atena Tera" (ID
+node/10989322793) are 1.64m apart and probably represent the same location.
+The stops "Philiphs" (ID node/10989322789) and "Philiphs" (ID
+node/10989322790) are 1.20m apart and probably represent the same location.
+The stops "Lomi Meda" (ID node/11084058584) and "Lomi Meda" (ID
+node/10989322788) are 0.25m apart and probably represent the same location.
+The stops "Tero Mosque" (ID node/10970748194) and "Tero Mosque" (ID
+node/10970748195) are 0.65m apart and probably represent the same location.
+The stops "Manen" (ID node/10991763449) and "Manen" (ID node/10991763450) are
+0.71m apart and probably represent the same location.
+The stops "Kechenie" (ID node/10924116808) and "Kechenie" (ID
+node/10937271651) are 1.26m apart and probably represent the same location.
+ column route_short_name
+Invalid value Tx Kal 001 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 005 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 001 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 005 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 014 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 010 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 015 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 016 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 018 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 019 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 020 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 021 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 022 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 010 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 014 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 015 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 017 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 018 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 021 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 019 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 020 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 022 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 023 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 024 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 025 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 026 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 027 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 028 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 031 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 032 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 001 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfe 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 005 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 015 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 010 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 014 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 016 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 017 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 018 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 019 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 020 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 021 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 022 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value TX Kolfe 023 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 024 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 025 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 026 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 027 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 028 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 017 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 001 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 005 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 010 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 001 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 005 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 010 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 014 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 010 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 001 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 010 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 016 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 023 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 003 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 005 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 004 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 014 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 015 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 016 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 017 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 020 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 021 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 022 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 026 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 028 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 030 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 031 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 038 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 042 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 043 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 044 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 047 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 048 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 052 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 053 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 058 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 011 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 016 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 023 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 018 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 032 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 033 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 037 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 034 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 036 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 037 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 014 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 015 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 016 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 017 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 020 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 034 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 042 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 016 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 039 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 040 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 045 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 015 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfe 035 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 042 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 038 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 039 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 040 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 043 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 014 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Bole 017 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 005 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 024 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 023 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 035 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 037 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 055 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ADK 057 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 001 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx ARD 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Gl 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 021 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 022 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 023 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 027 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 009 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 030 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 034 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kal 035 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 001 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx KRK 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 031 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 033 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 038 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Kolfa 041 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 001 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 016 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 030 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LK 012 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 002 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 005 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 008 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx LID 013 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 017 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 019 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx YK 021 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 006 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Tx Lafto 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
