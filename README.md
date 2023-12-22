@@ -25,7 +25,7 @@ There are also the `generation.log` files with the output of OSM2GTFS to check f
 
 * [Download full GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa.zip)
 * [Download only Minibus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa-minibus.zip)
-* [Download only Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/blob/raw/et-addisababa-bus.zip)
+* [Download only Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa-bus.zip)
 * [Download only Anbessa Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa-bus-ab.zip)
 * [Download only Sheger Bus GTFS](https://github.com/AddisMap/AddisMapTransit-gtfs-bus/raw/main/et-addisababa-bus-sh.zip)
 
