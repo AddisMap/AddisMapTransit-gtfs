@@ -31,12 +31,19 @@ jobs:
     - name: Run
       run: |
         cd osm2gtfs      
-        osm2gtfs -c osm2gtfs/creators/et_addisababa/config_bus.json --refresh-all 2>&1 | tee ..//generation.log
+        osm2gtfs -c osm2gtfs/creators/et_addisababa/config.json --refresh-all 2>&1 | tee ../generation.log      
+        cp data/et-addisababa.zip ../
+        osm2gtfs -c osm2gtfs/creators/et_addisababa/config_bus.json --refresh-all 2>&1 | tee ../generation-bus.log
         cp data/et-addisababa-bus.zip ../
+        osm2gtfs -c osm2gtfs/creators/et_addisababa/config_bus.json --refresh-all 2>&1 | tee ../generation-bus-ab.log
+        cp data/et-addisababa-bus-ab.zip ../
+        osm2gtfs -c osm2gtfs/creators/et_addisababa/config_bus.json --refresh-all 2>&1 | tee ../generation-bus-sh.log
+        cp data/et-addisababa-bus-sh.zip ../        
+        osm2gtfs -c osm2gtfs/creators/et_addisababa/config_minibus.json --refresh-all 2>&1 | tee ../generation-minibus.log
+        cp data/et-addisababa-minibus.zip ../        
         cd ../
         rm -r osm2gtfs
-        unzip -o et-addisababa-bus.zip
-        rm et-addisababa-bus.zip
+        unzip -o et-addisababa.zip        
         ls -al
     - name: Commit
       uses: EndBug/add-and-commit@v9
