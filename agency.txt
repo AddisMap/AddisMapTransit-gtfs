@@ -1,2 +1,2 @@
-agency_lang,agency_timezone,agency_url,agency_name,agency_id
-en,Africa/Addis_Ababa,https://addismaptransit.com/,Addis Ababa Transport (all),AA
+agency_url,agency_lang,agency_name,agency_timezone,agency_id
+https://addismaptransit.com/,en,Addis Ababa Transport (all),Africa/Addis_Ababa,AA
