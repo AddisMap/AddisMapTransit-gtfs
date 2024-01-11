@@ -116,6 +116,27 @@ WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16822421
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16822421
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17008592
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route has non-matching ways: https://osm.org/relation/17008889
+WARNING:root:  Problem at: https://osm.org/way/717920973
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17008890
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17010982
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/17011008
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/17011008
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17011008
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17011060
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -757,6 +778,7 @@ INFO:root:Added stop: Riche - https://osm.org/node/7041071356
 INFO:root:Added stop: 6th (Raddison Blu) - https://osm.org/node/7041071359
 INFO:root:Added stop: Filweha (Hotsprings) - https://osm.org/node/7041071360
 INFO:root:Added stop: Filweha (Hotsprings) - https://osm.org/node/7041071362
+INFO:root:Added stop: Ghion Hotel (Enterance) - https://osm.org/node/7041071363
 INFO:root:Added stop: Ghion Hotel (Enterance) - https://osm.org/node/7041071364
 INFO:root:Added stop: St. Joseph School - https://osm.org/node/7041071367
 INFO:root:Added stop: St. Joseph School - https://osm.org/node/7041071370
@@ -2651,6 +2673,13 @@ INFO:root:Added stop: Arsema Tsebel - https://osm.org/node/11417915844
 INFO:root:Added stop: Arsema Tsebel - https://osm.org/node/11417915845
 INFO:root:Added stop: Addisu Gebeya - https://osm.org/node/11417915846
 INFO:root:Added stop: Addisu Gebeya - https://osm.org/node/11417915847
+INFO:root:Added stop: Tafo Square - https://osm.org/node/11505488524
+INFO:root:Added stop: Tafo Square - https://osm.org/node/11505488525
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/11505488527
+INFO:root:Added stop: Piassa Arada - https://osm.org/node/11505488529
+INFO:root:Added stop: Megenagna - https://osm.org/node/11506725579
+INFO:root:Added stop: Kidane Mihret - https://osm.org/node/11506737713
+INFO:root:Added stop: Kidane Mihret - https://osm.org/node/11506737714
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -3057,7 +3086,7 @@ WARNING: No duration set --- Using default travel time for route with OSM ID 168
 WARNING: No duration set --- Using default travel time for route with OSM ID 16803473
 Generating schedule for line: 16803572
 Generating schedule for line: 16804052
-INFO:root:Removed 2 unused stops
+INFO:root:Removed 10 unused stops
 INFO:root:Removed 0 unused routes
 Generating schedule for line: 16804748
 Generating schedule for line: 16807402
@@ -3100,6 +3129,7 @@ Generating schedule for line: 16822421
 Generating schedule for line: 16822501
 Generating schedule for line: 16822668
 Generating schedule for line: 16822706
+Generating schedule for line: 17008501
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with

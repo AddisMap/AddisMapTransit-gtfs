@@ -61,6 +61,13 @@ WARNING:root:Warning: This relation route master:
 WARNING:root: https://osm.org/relation/16822706
 WARNING:root: has a member which is not a valid itinerary:
 WARNING:root: https://osm.org/relation/16822704
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/17011008
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/17011008
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17011008
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -1027,6 +1034,8 @@ INFO:root:Added stop: Hana Maryam - https://osm.org/node/11381108824
 INFO:root:Added stop: Stadium - https://osm.org/node/11381162441
 INFO:root:Added stop: Stadium - https://osm.org/node/11381162442
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/11381232890
+INFO:root:Added stop: Raguel Church - https://osm.org/node/11399912962
+INFO:root:Added stop: Raguel Church - https://osm.org/node/11399912963
 INFO:root:Added stop: Mexico - https://osm.org/node/11401627123
 INFO:root:Added stop: Arat Kilo - https://osm.org/node/11403841172
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/11405450798
@@ -1039,7 +1048,9 @@ INFO:root:Added stop: Mesalemia - https://osm.org/node/11409931058
 INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11409931059
 INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11409931061
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/11414368236
-INFO:root:Removed 6 unused stops
+INFO:root:Added stop: Kidane Mihret - https://osm.org/node/11506737713
+INFO:root:Added stop: Kidane Mihret - https://osm.org/node/11506737714
+INFO:root:Removed 10 unused stops
 INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
