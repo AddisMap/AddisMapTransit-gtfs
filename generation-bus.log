@@ -23,15 +23,13 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10550648
 WARNING:root:  Problem at: https://osm.org/way/1231046554
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550649
 WARNING:root:  Problem at: https://osm.org/way/9717648
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/16071554
+WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16074206
 WARNING:root:  Problem at: https://osm.org/way/9717648
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16074207
 WARNING:root:  Problem at: https://osm.org/way/43290672
-WARNING:root:Itinerary was assigned again:
-WARNING:root:https://osm.org/relation/15484447
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/16290773
-WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16763787
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -220,6 +218,8 @@ INFO:root:Added stop: St. Micheal Church - https://osm.org/node/7037183497
 INFO:root:Added stop: Salite Mihret - https://osm.org/node/7037183498
 INFO:root:Added stop: Hillside (Ethio-China Mebrathaile) - https://osm.org/node/7037183499
 INFO:root:Added stop: Wessen Michael - https://osm.org/node/7037183501
+INFO:root:Added stop: Hanna Mariam - https://osm.org/node/7037183502
+INFO:root:Added stop: Hanna Mariam - https://osm.org/node/7037183503
 INFO:root:Added stop: Wessen - https://osm.org/node/7037183504
 INFO:root:Added stop: Wessen - https://osm.org/node/7037183505
 INFO:root:Added stop: Wessen (Mariam) - https://osm.org/node/7037183507
@@ -815,7 +815,7 @@ INFO:root:Added stop: Lafto (Mickael) - https://osm.org/node/7105268826
 INFO:root:Added stop: Lafto - https://osm.org/node/7105268828
 INFO:root:Added stop: Lafto (Primary School) - https://osm.org/node/7105268830
 INFO:root:Added stop: Post Office (Ambassador) - https://osm.org/node/7105398617
-INFO:root:Added stop: 6 Kilo (University) - https://osm.org/node/7105398618
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/7105398618
 INFO:root:Added stop: Teferi Mekonen - https://osm.org/node/7105398619
 INFO:root:Added stop: Marathon Motor (Megenagna) - https://osm.org/node/7105584907
 INFO:root:Added stop: Arat Kilo - https://osm.org/node/7105584908
@@ -1473,7 +1473,6 @@ Generating schedule for line: 16070566
 Generating schedule for line: 16070654
 Generating schedule for line: 16071249
 Generating schedule for line: 16071322
-Generating schedule for line: 16071554
 Generating schedule for line: 16071657
 Generating schedule for line: 16071828
 Generating schedule for line: 16072018
@@ -1501,7 +1500,6 @@ Generating schedule for line: 16112804
 Generating schedule for line: 16112805
 Generating schedule for line: 16112806
 Generating schedule for line: 16113471
-Generating schedule for line: 16148439
 Generating schedule for line: 16148440
 Generating schedule for line: 16148441
 Generating schedule for line: 16148442
@@ -1511,6 +1509,7 @@ Generating schedule for line: 16151481
 Generating schedule for line: 16239079
 Generating schedule for line: 16239080
 Generating schedule for line: 16290772
+Generating schedule for line: 16290773
 Generating schedule for line: 16290774
 WARNING: No duration set --- Using default travel time for route with OSM ID 16290766
 WARNING: No duration set --- Using default travel time for route with OSM ID 16290765
@@ -1597,9 +1596,9 @@ Generating schedule for line: 16821697
 Generating schedule for line: 16822289
 Generating schedule for line: 16822421
 Generating schedule for line: 16822501
-INFO:root:Removed 12 unused stops
-INFO:root:Removed 0 unused routes
 Generating schedule for line: 16822668
+INFO:root:Removed 11 unused stops
+INFO:root:Removed 0 unused routes
 Generating schedule for line: 16822706
 Generating schedule for line: 17008501
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
