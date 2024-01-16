@@ -83,6 +83,18 @@ WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/17011060
 WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17032690
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17032741
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17032887
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17033336
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -182,7 +194,7 @@ INFO:root:Added stop: 08 Adarash - https://osm.org/node/7037142445
 INFO:root:Added stop: Meshuwalekia Akaki - https://osm.org/node/7037142446
 INFO:root:Added stop: Akaki Beretaberet - https://osm.org/node/7037142448
 INFO:root:Added stop: G7 (Tulu Dimtu) - https://osm.org/node/7037142450
-INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/7037142454
+INFO:root:Added stop: Tulu Dimtu Unisa - https://osm.org/node/7037142454
 INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/7037142455
 INFO:root:Added stop: Akaki Korkoro - https://osm.org/node/7037142456
 INFO:root:Added stop: Tulu Dimtu (Taf Gas Station) - https://osm.org/node/7037142459
@@ -628,6 +640,7 @@ INFO:root:Added stop: Gojo - https://osm.org/node/7074496225
 INFO:root:Added stop: Alem Bank - https://osm.org/node/7074504387
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/7074504388
 INFO:root:Added stop: Bethel - https://osm.org/node/7074504390
+INFO:root:Added stop: Mewcha - https://osm.org/node/7074504391
 INFO:root:Added stop: Mendida - https://osm.org/node/7074504392
 INFO:root:Added stop: Mebrat Nigist Hotel - https://osm.org/node/7074525370
 INFO:root:Added stop: Lideta Kefetega Firdbet - https://osm.org/node/7074541084
@@ -649,6 +662,7 @@ INFO:root:Added stop: Mamo (NFSL TVET) - https://osm.org/node/7074819178
 INFO:root:Added stop: Kadisco - https://osm.org/node/7074841187
 INFO:root:Added stop: Kality Maseltegna - https://osm.org/node/7074841188
 INFO:root:Added stop: Teklehaimanot - https://osm.org/node/7074921333
+INFO:root:Added stop: Berbere Tera - https://osm.org/node/7074921334
 INFO:root:Added stop: Dildiy Mariam - https://osm.org/node/7075101457
 INFO:root:Added stop: Kera (Gofa Stop) - https://osm.org/node/7075101459
 INFO:root:Added stop: Tor Hailoch - https://osm.org/node/7075129253
@@ -997,6 +1011,7 @@ INFO:root:Added stop: Autobus Tera - https://osm.org/node/10845731590
 INFO:root:Added stop: Beg Tera - https://osm.org/node/10845731593
 INFO:root:Added stop: Beg Tera - https://osm.org/node/10845731602
 INFO:root:Added stop: Bulgaria - https://osm.org/node/10845749005
+INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/10886135789
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10899278324
 INFO:root:Added stop: Friendship Building - https://osm.org/node/10899278325
 INFO:root:Added stop: Kality Meneharia - https://osm.org/node/11033818190
@@ -1125,7 +1140,7 @@ INFO:root:Added stop: Sululta - https://osm.org/node/11083569807
 INFO:root:Added stop: Sululta - https://osm.org/node/11083569808
 INFO:root:Added stop: Kality Total - https://osm.org/node/11141680766
 INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11141680767
-INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/11141680768
+INFO:root:Added stop: Tulu Dimtu Unisa - https://osm.org/node/11141680768
 INFO:root:Added stop: Delta Fuel Station - https://osm.org/node/11141680769
 INFO:root:Added stop: Sidama Awash NOC - https://osm.org/node/11141680770
 INFO:root:Added stop: Atlas Resort - https://osm.org/node/11141680771
@@ -1234,6 +1249,7 @@ INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/11400182735
 INFO:root:Added stop: Tulu Dimtu - https://osm.org/node/11400182737
 INFO:root:Added stop: Total - https://osm.org/node/11400182738
 INFO:root:Added stop: Total - https://osm.org/node/11400182739
+INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11400182740
 INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11400182741
 INFO:root:Added stop: Haile Garment - https://osm.org/node/11400182742
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/11400182743
@@ -1401,6 +1417,11 @@ INFO:root:Added stop: Piassa Arada - https://osm.org/node/11505488529
 INFO:root:Added stop: Megenagna - https://osm.org/node/11506725579
 INFO:root:Added stop: Kidane Mihret - https://osm.org/node/11506737713
 INFO:root:Added stop: Kidane Mihret - https://osm.org/node/11506737714
+INFO:root:Added stop: Anfo - https://osm.org/node/11519562283
+INFO:root:Added stop: Wereda 07 - https://osm.org/node/11519562284
+INFO:root:Added stop: Mewcha - https://osm.org/node/11519562285
+INFO:root:Added stop: Alem Bank Silase - https://osm.org/node/11519562287
+INFO:root:Added stop: Alem Bank Silase - https://osm.org/node/11519562288
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -1597,7 +1618,7 @@ Generating schedule for line: 16822289
 Generating schedule for line: 16822421
 Generating schedule for line: 16822501
 Generating schedule for line: 16822668
-INFO:root:Removed 11 unused stops
+INFO:root:Removed 20 unused stops
 INFO:root:Removed 0 unused routes
 Generating schedule for line: 16822706
 Generating schedule for line: 17008501
