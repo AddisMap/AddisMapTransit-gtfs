@@ -75,9 +75,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16004440
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
 WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/16071554
-WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16074206
 WARNING:root:  Problem at: https://osm.org/way/9717648
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16074207
@@ -86,9 +83,6 @@ WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16763787
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16763787
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/16763787
-WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16794104
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -96,10 +90,6 @@ WARNING:root:https://osm.org/relation/16794104
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/16794104
 WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/16799950
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/16799950
 WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/16807587
 WARNING:root:Using 'ref' from member variant instead
@@ -119,33 +109,12 @@ WARNING:root: https://osm.org/relation/17008592
 WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/17008889
 WARNING:root:  Problem at: https://osm.org/way/717920973
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/17008890
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/17010982
-WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/17011008
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/17011008
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/17011008
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/17011060
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/17032690
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/17032741
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/17032887
-WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/17033336
 WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:(
@@ -483,7 +452,6 @@ WARNING:root: https://osm.org/relation/10578291
 WARNING:root:OSM stop area has only one platform and can't be used as a GTFS station:
 WARNING:root: https://osm.org/relation/10354869
 INFO:root:* Found alternative stop name: Arada - https://osm.org/node/6728583386
-INFO:root:* Found alternative stop name: Kazanchis - https://osm.org/node/6728599185
 INFO:root:Agency creator: Default
 INFO:root:Feed info creator: Default
 INFO:root:Routes creator: et_addisababa
@@ -575,7 +543,6 @@ INFO:root:Added stop: Mebrathail - https://osm.org/node/6251054285
 INFO:root:Added stop: Asko - https://osm.org/node/6307600909
 INFO:root:Added stop: Bole Printing Press - https://osm.org/node/6373574986
 INFO:root:Added stop: Arada - https://osm.org/node/6728583386
-INFO:root:Added stop: Kazanchis - https://osm.org/node/6728599185
 INFO:root:Added stop: ከበደ ወሰኔ መንገድ - https://osm.org/node/6798927886
 INFO:root:Added stop: Mexico - https://osm.org/node/6814022390
 INFO:root:Added stop: Mebrat Condominium - https://osm.org/node/6967142984
@@ -700,7 +667,6 @@ INFO:root:Added stop: Ayat Adebabay Hulet (2) - https://osm.org/node/7037183546
 INFO:root:Added stop: Bole Arabsa (3) - https://osm.org/node/7037183547
 INFO:root:Added stop: Bole Arabsa (2) - https://osm.org/node/7037183548
 INFO:root:Added stop: Bole Arabsa - https://osm.org/node/7037183550
-INFO:root:Added stop: St. Gebereal - https://osm.org/node/7037183551
 INFO:root:Added stop: Yeka Condominium 1 - https://osm.org/node/7037183552
 INFO:root:Added stop: Tafo Gebrael - https://osm.org/node/7037183554
 INFO:root:Added stop: Tafo Condominium 1 - https://osm.org/node/7037183555
@@ -759,8 +725,6 @@ INFO:root:Added stop: Gofa Gebriel (2) - https://osm.org/node/7041052959
 INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/7041052960
 INFO:root:Added stop: Bole Mickael - https://osm.org/node/7041052963
 INFO:root:Added stop: MOHA (Pepsi Factory) - https://osm.org/node/7041052965
-INFO:root:Added stop: Addis Sefer (Gebriel) - https://osm.org/node/7041052966
-INFO:root:Added stop: Addis Sefer (Gebriel) - https://osm.org/node/7041052967
 INFO:root:Added stop: Gotera (Oilibiya) - https://osm.org/node/7041052969
 INFO:root:Added stop: Gotera (Oilibiya) - https://osm.org/node/7041052970
 INFO:root:Added stop: St. Joseph Church - https://osm.org/node/7041052975
@@ -805,8 +769,6 @@ INFO:root:Added stop: African Union - https://osm.org/node/7041071382
 INFO:root:Added stop: Popolare - https://osm.org/node/7041071383
 INFO:root:Added stop: Guenet Hotel - https://osm.org/node/7041071384
 INFO:root:Added stop: Guenet Hotel - https://osm.org/node/7041071385
-INFO:root:Added stop: Tikur Anbessa Hospital - https://osm.org/node/7041071386
-INFO:root:Added stop: Goma Quteba - https://osm.org/node/7041071387
 INFO:root:Added stop: Abenet - https://osm.org/node/7041071388
 INFO:root:Added stop: Lideta Condominium - https://osm.org/node/7041071389
 INFO:root:Added stop: Darmar - https://osm.org/node/7041071390
@@ -900,7 +862,6 @@ INFO:root:Added stop: Realstate - https://osm.org/node/7041071616
 INFO:root:Added stop: Police Tabiya - https://osm.org/node/7041071619
 INFO:root:Added stop: Feli Doro (1) - https://osm.org/node/7041071620
 INFO:root:Added stop: Feli Doro - https://osm.org/node/7041071622
-INFO:root:Added stop: Arada - https://osm.org/node/7041071623
 INFO:root:Added stop: Ras Mekonene Bridge (Seba Dereja) - https://osm.org/node/7041071628
 INFO:root:Added stop: 5 Kilo (History Museum) - https://osm.org/node/7041071629
 INFO:root:Added stop: 5 Kilo University - https://osm.org/node/7041071630
@@ -1112,7 +1073,6 @@ INFO:root:Added stop: Michael (2) - https://osm.org/node/7076294509
 INFO:root:Added stop: Shero Meda - https://osm.org/node/7076294510
 INFO:root:Added stop: Shero Meda - https://osm.org/node/7076294511
 INFO:root:Added stop: Dil Ber - https://osm.org/node/7076294512
-INFO:root:Added stop: Sanba Nekrsa - https://osm.org/node/7076294514
 INFO:root:Added stop: Shiromeda Selassie - https://osm.org/node/7076294515
 INFO:root:Added stop: Shero Meda - https://osm.org/node/7076294516
 INFO:root:Added stop: 6 Kilo (Akim Genbata) - https://osm.org/node/7076310930
@@ -1302,10 +1262,8 @@ INFO:root:Added stop: Bole Bridge - https://osm.org/node/7110725242
 INFO:root:Added stop: MOENCO - https://osm.org/node/7110725243
 INFO:root:Added stop: Sport Academy - https://osm.org/node/7110725244
 INFO:root:Added stop: Anbessa Garage - https://osm.org/node/7110725245
-INFO:root:Added stop: IVECO - https://osm.org/node/7110725246
 INFO:root:Added stop: Anbessa Garage - https://osm.org/node/7110725247
 INFO:root:Added stop: Emperial Hotel - https://osm.org/node/7110725248
-INFO:root:Added stop: MOENCO - https://osm.org/node/7110725249
 INFO:root:Added stop: Bole (Bora Amusement) - https://osm.org/node/7110725250
 INFO:root:Added stop: Bole Mickael (2) - https://osm.org/node/7110725251
 INFO:root:Added stop: Addis Sefer - https://osm.org/node/7110725252
@@ -1354,14 +1312,10 @@ INFO:root:Added stop: Awash Bank (Akaki Kality) - https://osm.org/node/711264816
 INFO:root:Added stop: Gelan Condominium - https://osm.org/node/7112648169
 INFO:root:Added stop: Belay Ab Moters - https://osm.org/node/7112648170
 INFO:root:Added stop: TAF Oil (Tulu Dimtu) - https://osm.org/node/7112648172
-INFO:root:Added stop: Addis Sefer (NFSL W09) - https://osm.org/node/7112755336
-INFO:root:Added stop: Addis Sefer - https://osm.org/node/7112755337
 INFO:root:Added stop: Teklehaymanot - https://osm.org/node/7112755338
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/7112755340
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/7112755342
 INFO:root:Added stop: Meteorology - https://osm.org/node/7112755343
-INFO:root:Added stop: Sengatera - https://osm.org/node/7112755344
-INFO:root:Added stop: Addis Sefer - https://osm.org/node/7112755345
 INFO:root:Added stop: Girum Hospital - https://osm.org/node/7113004009
 INFO:root:Added stop: Ras Hailu (Medhanialem) - https://osm.org/node/7113004010
 INFO:root:Added stop: Awolia - https://osm.org/node/7113004011
@@ -2307,7 +2261,6 @@ INFO:root:Added stop: Autobis Tera - https://osm.org/node/11034031010
 INFO:root:Added stop: Shero Meda - https://osm.org/node/11034031011
 INFO:root:Added stop: Tsehay Chora (ShiroMeda) - https://osm.org/node/11034031012
 INFO:root:Added stop: Abune Petros - https://osm.org/node/11034031013
-INFO:root:Added stop: Autobis Tera - https://osm.org/node/11034031014
 INFO:root:Added stop: Kuskoam - https://osm.org/node/11034054993
 INFO:root:Added stop: Arat Kilo - https://osm.org/node/11034209866
 INFO:root:Added stop: Kara Kore - https://osm.org/node/11034280233
@@ -2462,10 +2415,6 @@ INFO:root:Added stop: Ambassador - https://osm.org/node/11171800354
 INFO:root:Added stop: Bole Mickael - https://osm.org/node/11171800355
 INFO:root:Added stop: Wollo Sefer - https://osm.org/node/11171800356
 INFO:root:Added stop: Dembel - https://osm.org/node/11171800357
-INFO:root:Added stop: St. Urael Church - https://osm.org/node/11171800358
-INFO:root:Added stop: St. Urael Church - https://osm.org/node/11171800359
-INFO:root:Added stop: Kazanchis (6th) - https://osm.org/node/11171800360
-INFO:root:Added stop: Place Parking (Gibi Gebriel) - https://osm.org/node/11171800361
 INFO:root:Added stop: Summit Condominiums - https://osm.org/node/11171800362
 INFO:root:Added stop: Mekanisa Kore - https://osm.org/node/11379983378
 INFO:root:Added stop: Mekanisa Kore - https://osm.org/node/11379983380
@@ -2700,14 +2649,13 @@ INFO:root:Added stop: Wereda 07 - https://osm.org/node/11519562284
 INFO:root:Added stop: Mewcha - https://osm.org/node/11519562285
 INFO:root:Added stop: Alem Bank Silase - https://osm.org/node/11519562287
 INFO:root:Added stop: Alem Bank Silase - https://osm.org/node/11519562288
+INFO:root:Added stop: Yerer Goro - https://osm.org/node/11521311352
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
 Generating schedule for line: 10400405
 Generating schedule for line: 10406491
-Generating schedule for line: 10406697
 Generating schedule for line: 10407732
-Generating schedule for line: 10409764
 Generating schedule for line: 10410198
 Generating schedule for line: 10441511
 Generating schedule for line: 10458768
@@ -2742,12 +2690,9 @@ Generating schedule for line: 10542001
 Generating schedule for line: 10542096
 Generating schedule for line: 10542241
 Generating schedule for line: 10547202
-Generating schedule for line: 10547526
-Generating schedule for line: 10549686
 Generating schedule for line: 10550063
 Generating schedule for line: 10550163
 Generating schedule for line: 10550650
-Generating schedule for line: 10550800
 Generating schedule for line: 10551230
 Generating schedule for line: 10551231
 Generating schedule for line: 10551605
@@ -3004,9 +2949,6 @@ Generating schedule for line: 16028728
 Generating schedule for line: 16028886
 Generating schedule for line: 16067901
 Generating schedule for line: 16068007
-Generating schedule for line: 16068104
-Generating schedule for line: 16068274
-Generating schedule for line: 16068409
 Generating schedule for line: 16068572
 Generating schedule for line: 16068674
 Generating schedule for line: 16068754
@@ -3021,6 +2963,7 @@ Generating schedule for line: 16070566
 Generating schedule for line: 16070654
 Generating schedule for line: 16071249
 Generating schedule for line: 16071322
+Generating schedule for line: 16071554
 Generating schedule for line: 16071657
 Generating schedule for line: 16071828
 Generating schedule for line: 16072018
@@ -3031,8 +2974,6 @@ Generating schedule for line: 16072500
 Generating schedule for line: 16074160
 Generating schedule for line: 16074208
 Generating schedule for line: 16074342
-Generating schedule for line: 16074398
-Generating schedule for line: 16074456
 Generating schedule for line: 16074676
 Generating schedule for line: 16074771
 Generating schedule for line: 16074871
@@ -3048,7 +2989,6 @@ Generating schedule for line: 16112804
 Generating schedule for line: 16112805
 Generating schedule for line: 16112806
 Generating schedule for line: 16113471
-Generating schedule for line: 16148440
 Generating schedule for line: 16148441
 Generating schedule for line: 16148442
 Generating schedule for line: 16148443
@@ -3056,7 +2996,6 @@ Generating schedule for line: 16151480
 Generating schedule for line: 16151481
 Generating schedule for line: 16239079
 Generating schedule for line: 16239080
-Generating schedule for line: 16290772
 Generating schedule for line: 16290773
 Generating schedule for line: 16290774
 WARNING: No duration set --- Using default travel time for route with OSM ID 16290766
@@ -3071,6 +3010,7 @@ Generating schedule for line: 16763531
 Generating schedule for line: 16763585
 Generating schedule for line: 16763690
 Generating schedule for line: 16763761
+Generating schedule for line: 16763787
 Generating schedule for line: 16763889
 Generating schedule for line: 16764498
 Generating schedule for line: 16764670
@@ -3106,8 +3046,6 @@ WARNING: No duration set --- Using default travel time for route with OSM ID 168
 Generating schedule for line: 16803572
 Generating schedule for line: 16804052
 Generating schedule for line: 16804748
-INFO:root:Removed 19 unused stops
-INFO:root:Removed 0 unused routes
 Generating schedule for line: 16807402
 Generating schedule for line: 16807587
 Generating schedule for line: 16810442
@@ -3118,6 +3056,8 @@ Generating schedule for line: 16814055
 Generating schedule for line: 16814777
 Generating schedule for line: 16814864
 Generating schedule for line: 16815120
+INFO:root:Removed 8 unused stops
+INFO:root:Removed 0 unused routes
 Generating schedule for line: 16815233
 Generating schedule for line: 16815447
 Generating schedule for line: 16815552
@@ -3149,6 +3089,14 @@ Generating schedule for line: 16822501
 Generating schedule for line: 16822668
 Generating schedule for line: 16822706
 Generating schedule for line: 17008501
+Generating schedule for line: 17008890
+Generating schedule for line: 17010982
+Generating schedule for line: 17011060
+Generating schedule for line: 17032690
+Generating schedule for line: 17032741
+Generating schedule for line: 17032887
+Generating schedule for line: 17033336
+Generating schedule for line: 17034807
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
@@ -4936,29 +4884,29 @@ This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
-High speed travel detected in trip 621: Megenagna to Shola Gebeya. 657 meters
+High speed travel detected in trip 605: Megenagna to Shola Gebeya. 657 meters
 in 17 seconds. (139 km/h).
-High speed travel detected in trip 621: Shola Gebeya to Abebe Sook. 831 meters
+High speed travel detected in trip 605: Shola Gebeya to Abebe Sook. 831 meters
 in 22 seconds. (136 km/h).
-High speed travel detected in trip 621: Abebe Sook to Belgium Embassy. 629
+High speed travel detected in trip 605: Abebe Sook to Belgium Embassy. 629
 meters in 16 seconds. (142 km/h).
-High speed travel detected in trip 621: Belgium Embassy to Kokebe Tsebah
+High speed travel detected in trip 605: Belgium Embassy to Kokebe Tsebah
 School. 506 meters in 14 seconds. (130 km/h).
-High speed travel detected in trip 621: Kokebe Tsebah School to Bel Air. 842
+High speed travel detected in trip 605: Kokebe Tsebah School to Bel Air. 842
 meters in 22 seconds. (138 km/h).
-High speed travel detected in trip 621: Bel Air to 4 Kilo. 1078 meters in 28
+High speed travel detected in trip 605: Bel Air to 4 Kilo. 1078 meters in 28
 seconds. (139 km/h).
-High speed travel detected in trip 621: 4 Kilo to Education Bureau (6 Kilo).
+High speed travel detected in trip 605: 4 Kilo to Education Bureau (6 Kilo).
 1093 meters in 28 seconds. (141 km/h).
-High speed travel detected in trip 621: Education Bureau (6 Kilo) to 3rd
+High speed travel detected in trip 605: Education Bureau (6 Kilo) to 3rd
 Shaleka. 640 meters in 17 seconds. (136 km/h).
-High speed travel detected in trip 621: 3rd Shaleka to Mezan. 804 meters in 21
+High speed travel detected in trip 605: 3rd Shaleka to Mezan. 804 meters in 21
 seconds. (138 km/h).
-High speed travel detected in trip 621: Mezan to Abo Mazoriya. 718 meters in
+High speed travel detected in trip 605: Mezan to Abo Mazoriya. 718 meters in
 19 seconds. (136 km/h).
-High speed travel detected in trip 621: Abo Mazoriya to Biret Dildiy (Bono
+High speed travel detected in trip 605: Abo Mazoriya to Biret Dildiy (Bono
 Wuha). 492 meters in 13 seconds. (136 km/h).
-High speed travel detected in trip 621: Biret Dildiy (Bono Wuha) to Tena
+High speed travel detected in trip 605: Biret Dildiy (Bono Wuha) to Tena
 Tabya. 325 meters in 8 seconds. (146 km/h).
-High speed travel detected in trip 621: Tena Tabya to Gurara. 563 meters in 15
+High speed travel detected in trip 605: Tena Tabya to Gurara. 563 meters in 15
 seconds. (135 km/h).
