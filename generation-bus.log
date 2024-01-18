@@ -903,6 +903,9 @@ INFO:root:Added stop: Eyesus - https://osm.org/node/7113158623
 INFO:root:Added stop: Gurd Shola - https://osm.org/node/7123180297
 INFO:root:Added stop: 4 Kilo Minilik School - https://osm.org/node/7214490240
 INFO:root:Added stop: Kality Menaheriya - https://osm.org/node/7214490241
+INFO:root:Added stop: Holeta - https://osm.org/node/10672522047
+INFO:root:Added stop: Sademo - https://osm.org/node/10672522056
+INFO:root:Added stop: Cheshire Ethiopia - https://osm.org/node/10672522057
 INFO:root:Added stop: Delta Fuel Station - https://osm.org/node/10672721751
 INFO:root:Added stop: Sidama Awash NOC - https://osm.org/node/10672739809
 INFO:root:Added stop: Atlas Resort - https://osm.org/node/10672739811
@@ -1372,8 +1375,35 @@ INFO:root:Added stop: Mewcha - https://osm.org/node/11519562285
 INFO:root:Added stop: Alem Bank Silase - https://osm.org/node/11519562287
 INFO:root:Added stop: Alem Bank Silase - https://osm.org/node/11519562288
 INFO:root:Added stop: Yerer Goro - https://osm.org/node/11521311352
-INFO:root:Removed 8 unused stops
-INFO:root:Removed 0 unused routes
+INFO:root:Added stop: Kela Yetebaberut - https://osm.org/node/11524560445
+INFO:root:Added stop: Burayu - https://osm.org/node/11524560446
+INFO:root:Added stop: Merkato - https://osm.org/node/11524560448
+INFO:root:Added stop: Keta - https://osm.org/node/11524560449
+INFO:root:Added stop: Burayu - https://osm.org/node/11524560450
+INFO:root:Added stop: Tsedenya Mariam - https://osm.org/node/11524560451
+INFO:root:Added stop: Gefersa - https://osm.org/node/11524560452
+INFO:root:Added stop: Cheshire Ethiopia - https://osm.org/node/11524560453
+INFO:root:Added stop: NOC Fuel Station - https://osm.org/node/11524560454
+INFO:root:Added stop: Kolobo - https://osm.org/node/11524560455
+INFO:root:Added stop: Sademo - https://osm.org/node/11524560456
+INFO:root:Added stop: Blu Water Factory - https://osm.org/node/11524560457
+INFO:root:Added stop: Holeta 44 - https://osm.org/node/11524560458
+INFO:root:Added stop: Meskelegna (Condominiums) - https://osm.org/node/11524560459
+INFO:root:Added stop: Ch'Iri - https://osm.org/node/11524560460
+INFO:root:Added stop: Addis Alem Total - https://osm.org/node/11524560461
+INFO:root:Added stop: Addis Alem Coca - https://osm.org/node/11524560462
+INFO:root:Added stop: Addis Alem - https://osm.org/node/11524560463
+INFO:root:Added stop: Addis Alem - https://osm.org/node/11524560465
+INFO:root:Added stop: Maremia Mazoria - https://osm.org/node/11524560466
+INFO:root:Added stop: Addis Alem Coca - https://osm.org/node/11524560467
+INFO:root:Added stop: Addis Alem Total - https://osm.org/node/11524560468
+INFO:root:Added stop: Meskelegna - https://osm.org/node/11524582069
+INFO:root:Added stop: Muger Mazoria - https://osm.org/node/11524582070
+INFO:root:Added stop: Blu Water Factory - https://osm.org/node/11524582071
+INFO:root:Added stop: Sademo 2 - https://osm.org/node/11524582072
+INFO:root:Added stop: Menagesha CBE - https://osm.org/node/11524582073
+INFO:root:Added stop: Menagesha - https://osm.org/node/11524582074
+INFO:root:Added stop: Kela - https://osm.org/node/11524582075
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -1570,6 +1600,9 @@ Generating schedule for line: 17032741
 Generating schedule for line: 17032887
 Generating schedule for line: 17033336
 Generating schedule for line: 17034807
+INFO:root:Removed 8 unused stops
+INFO:root:Removed 0 unused routes
+Generating schedule for line: 17039849
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
