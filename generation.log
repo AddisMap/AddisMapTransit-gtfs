@@ -125,6 +125,12 @@ WARNING:root:https://osm.org/relation/17047999
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/17047999
 WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:RouteVariant without 'ref': 17052321
+WARNING:root:RouteVariant without 'ref': 17052322
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/17052323
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/17052323
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -2662,6 +2668,8 @@ INFO:root:Added stop: Mewcha - https://osm.org/node/11519562285
 INFO:root:Added stop: Alem Bank Silase - https://osm.org/node/11519562287
 INFO:root:Added stop: Alem Bank Silase - https://osm.org/node/11519562288
 INFO:root:Added stop: Yerer Goro - https://osm.org/node/11521311352
+INFO:root:Added stop: Dire Sololiya - https://osm.org/node/11524560442
+INFO:root:Added stop: Dire Sololiya - https://osm.org/node/11524560443
 INFO:root:Added stop: Kela Yetebaberut - https://osm.org/node/11524560445
 INFO:root:Added stop: Burayu - https://osm.org/node/11524560446
 INFO:root:Added stop: Merkato - https://osm.org/node/11524560448
@@ -2691,6 +2699,10 @@ INFO:root:Added stop: Sademo 2 - https://osm.org/node/11524582072
 INFO:root:Added stop: Menagesha CBE - https://osm.org/node/11524582073
 INFO:root:Added stop: Menagesha - https://osm.org/node/11524582074
 INFO:root:Added stop: Kela - https://osm.org/node/11524582075
+INFO:root:Added stop: Keta Medhanialem - https://osm.org/node/11531644819
+INFO:root:Added stop: Gebriel (Sansusi) - https://osm.org/node/11531644820
+INFO:root:Added stop: Keta Medhanialem - https://osm.org/node/11531644821
+INFO:root:Added stop: Andnet Hotel - https://osm.org/node/11531644822
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -3139,6 +3151,7 @@ Generating schedule for line: 17032887
 Generating schedule for line: 17033336
 Generating schedule for line: 17034807
 Generating schedule for line: 17039849
+Generating schedule for line: 17052323
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
