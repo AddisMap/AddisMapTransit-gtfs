@@ -131,6 +131,16 @@ WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/17052323
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/17052323
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/17065220
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/17065220
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/17065221
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route with existing route_id (ref)
+WARNING:root: https://osm.org/relation/17065221
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
@@ -2699,10 +2709,14 @@ INFO:root:Added stop: Sademo 2 - https://osm.org/node/11524582072
 INFO:root:Added stop: Menagesha CBE - https://osm.org/node/11524582073
 INFO:root:Added stop: Menagesha - https://osm.org/node/11524582074
 INFO:root:Added stop: Kela - https://osm.org/node/11524582075
+INFO:root:Added stop: 6 Kilo - https://osm.org/node/11528917462
 INFO:root:Added stop: Keta Medhanialem - https://osm.org/node/11531644819
 INFO:root:Added stop: Gebriel (Sansusi) - https://osm.org/node/11531644820
 INFO:root:Added stop: Keta Medhanialem - https://osm.org/node/11531644821
 INFO:root:Added stop: Andnet Hotel - https://osm.org/node/11531644822
+INFO:root:Added stop: Washington Hospital - https://osm.org/node/11539916206
+INFO:root:Added stop: ICT Park - https://osm.org/node/11539916207
+INFO:root:Added stop: Bole Mikael - https://osm.org/node/11539916209
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -3154,6 +3168,7 @@ Generating schedule for line: 17039849
 Generating schedule for line: 17052323
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
+Generating schedule for line: AB053
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
