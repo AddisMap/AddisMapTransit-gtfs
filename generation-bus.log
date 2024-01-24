@@ -35,9 +35,6 @@ WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16794104
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16794104
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/16794104
-WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/16807587
 WARNING:root:Using 'ref' from member variant instead
@@ -79,6 +76,9 @@ WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/17052323
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/17052323
+WARNING:root:'Ref' of route_master already taken
+WARNING:root: https://osm.org/relation/17071085
+WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/17065220
 WARNING:root: Please fix in OpenStreetMap
@@ -299,8 +299,8 @@ INFO:root:Added stop: Sheged Hotel - https://osm.org/node/7041052938
 INFO:root:Added stop: Jemo Michael - https://osm.org/node/7041052939
 INFO:root:Added stop: Jemo Michael - https://osm.org/node/7041052940
 INFO:root:Added stop: Jemo YBP (All Mart) - https://osm.org/node/7041052942
-INFO:root:Added stop: Jemo 1 - https://osm.org/node/7041052944
-INFO:root:Added stop: Jemo 1 - https://osm.org/node/7041052945
+INFO:root:Added stop: Jemmo 1 - https://osm.org/node/7041052944
+INFO:root:Added stop: Jemmo 1 - https://osm.org/node/7041052945
 INFO:root:Added stop: Mestawet Fabrica - https://osm.org/node/7041052946
 INFO:root:Added stop: Mestawet Fabrica - https://osm.org/node/7041052948
 INFO:root:Added stop: Jemo 3 - https://osm.org/node/7041052949
@@ -331,7 +331,6 @@ INFO:root:Added stop: Abo Junction - https://osm.org/node/7041071290
 INFO:root:Added stop: Customs (Train Station) - https://osm.org/node/7041071291
 INFO:root:Added stop: Kality Maseltegna - https://osm.org/node/7041071295
 INFO:root:Added stop: Wehalemat - https://osm.org/node/7041071296
-INFO:root:Added stop: Werku Sefer - https://osm.org/node/7041071297
 INFO:root:Added stop: Bulgaria Mazoria - https://osm.org/node/7041071342
 INFO:root:Added stop: Begtera - https://osm.org/node/7041071344
 INFO:root:Added stop: AU (Mikael) Rounrdabout - https://osm.org/node/7041071347
@@ -448,7 +447,7 @@ INFO:root:Added stop: Degu Hotel - https://osm.org/node/7041071609
 INFO:root:Added stop: 18 Mazoria - https://osm.org/node/7041071610
 INFO:root:Added stop: 18 Mazoria - https://osm.org/node/7041071612
 INFO:root:Added stop: Luwkanda - https://osm.org/node/7041071614
-INFO:root:Added stop: Comprensive - https://osm.org/node/7041071615
+INFO:root:Added stop: Kolfe Secondary School - https://osm.org/node/7041071615
 INFO:root:Added stop: Realstate - https://osm.org/node/7041071616
 INFO:root:Added stop: Police Tabiya - https://osm.org/node/7041071619
 INFO:root:Added stop: Feli Doro (1) - https://osm.org/node/7041071620
@@ -1053,9 +1052,6 @@ INFO:root:Added stop: Ayer Tena - https://osm.org/node/11035914865
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/11035914869
 INFO:root:Added stop: Kara - https://osm.org/node/11036026882
 INFO:root:Added stop: Saris Abo - https://osm.org/node/11036079238
-INFO:root:Added stop: Werku Sefer - https://osm.org/node/11036079239
-INFO:root:Added stop: Kera - https://osm.org/node/11036079243
-INFO:root:Added stop: Kera - https://osm.org/node/11036079245
 INFO:root:Added stop: Anfo Meda - https://osm.org/node/11036753217
 INFO:root:Added stop: Tulu Dimtu Adebabay - https://osm.org/node/11036769860
 INFO:root:Added stop: Saris Abo - https://osm.org/node/11036769861
@@ -1402,6 +1398,7 @@ INFO:root:Added stop: Alem Bank Silase - https://osm.org/node/11519562288
 INFO:root:Added stop: Yerer Goro - https://osm.org/node/11521311352
 INFO:root:Added stop: Dire Sololiya - https://osm.org/node/11524560442
 INFO:root:Added stop: Dire Sololiya - https://osm.org/node/11524560443
+INFO:root:Added stop: Merkato - https://osm.org/node/11524560444
 INFO:root:Added stop: Kela Yetebaberut - https://osm.org/node/11524560445
 INFO:root:Added stop: Burayu - https://osm.org/node/11524560446
 INFO:root:Added stop: Merkato - https://osm.org/node/11524560448
@@ -1425,10 +1422,10 @@ INFO:root:Added stop: Maremia Mazoria - https://osm.org/node/11524560466
 INFO:root:Added stop: Addis Alem Coca - https://osm.org/node/11524560467
 INFO:root:Added stop: Addis Alem Total - https://osm.org/node/11524560468
 INFO:root:Added stop: Meskelegna - https://osm.org/node/11524582069
-INFO:root:Added stop: Muger Mazoria - https://osm.org/node/11524582070
+INFO:root:Added stop: Surqa Harbu - https://osm.org/node/11524582070
 INFO:root:Added stop: Blu Water Factory - https://osm.org/node/11524582071
 INFO:root:Added stop: Sademo 2 - https://osm.org/node/11524582072
-INFO:root:Added stop: Menagesha CBE - https://osm.org/node/11524582073
+INFO:root:Added stop: Kolobo - https://osm.org/node/11524582073
 INFO:root:Added stop: Menagesha - https://osm.org/node/11524582074
 INFO:root:Added stop: Kela - https://osm.org/node/11524582075
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/11528917462
@@ -1439,6 +1436,16 @@ INFO:root:Added stop: Andnet Hotel - https://osm.org/node/11531644822
 INFO:root:Added stop: Washington Hospital - https://osm.org/node/11539916206
 INFO:root:Added stop: ICT Park - https://osm.org/node/11539916207
 INFO:root:Added stop: Bole Mikael - https://osm.org/node/11539916209
+INFO:root:Added stop: Gift Guesthouse - https://osm.org/node/11543153086
+INFO:root:Added stop: Menagesha - https://osm.org/node/11543153087
+INFO:root:Added stop: Gebeya - https://osm.org/node/11543153088
+INFO:root:Added stop: Kolobo 1st School - https://osm.org/node/11543153089
+INFO:root:Added stop: Kolobo - https://osm.org/node/11543153090
+INFO:root:Added stop: Kolobo 1st School - https://osm.org/node/11543153091
+INFO:root:Added stop: Gebeya - https://osm.org/node/11543153092
+INFO:root:Added stop: Menagesha - https://osm.org/node/11543153093
+INFO:root:Added stop: Gift Guesthouse - https://osm.org/node/11543153094
+INFO:root:Added stop: Holeta - https://osm.org/node/11543153095
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -1510,7 +1517,6 @@ Generating schedule for line: 16072018
 Generating schedule for line: 16072169
 Generating schedule for line: 16072247
 Generating schedule for line: 16072458
-Generating schedule for line: 16072500
 Generating schedule for line: 16074160
 Generating schedule for line: 16074208
 Generating schedule for line: 16074342
@@ -1560,6 +1566,7 @@ Generating schedule for line: 16765470
 Generating schedule for line: 16765619
 Generating schedule for line: 16765723
 Generating schedule for line: 16793879
+Generating schedule for line: 16794104
 Generating schedule for line: 16794335
 Generating schedule for line: 16794581
 Generating schedule for line: 16794648
@@ -1635,10 +1642,11 @@ Generating schedule for line: 17032741
 Generating schedule for line: 17032887
 Generating schedule for line: 17033336
 Generating schedule for line: 17034807
-INFO:root:Removed 8 unused stops
+INFO:root:Removed 7 unused stops
 INFO:root:Removed 0 unused routes
 Generating schedule for line: 17039849
 Generating schedule for line: 17052323
+Generating schedule for line: 17071140
 Generating schedule for line: AB053
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
@@ -1663,8 +1671,6 @@ The stops "Tabelew" (ID node/11412604057) and "Tabelew" (ID node/7041052914)
 are 0.13m apart and probably represent the same location.
 The stops "Abo Junction" (ID node/7041071289) and "Saris Abo" (ID
 node/11034015157) are 1.10m apart and probably represent the same location.
-The stops "Kera" (ID node/11036079245) and "Kera (Green Market)" (ID
-node/7084873009) are 0.40m apart and probably represent the same location.
 The stops "Bole Millenium" (ID node/7022397409) and "Bole Bridge" (ID
 node/11412861795) are 0.79m apart and probably represent the same location.
 The stops "Gerji" (ID node/11403841173) and "Gerji" (ID node/11403841174) are
@@ -1706,6 +1712,11 @@ The stops "Millenium School" (ID node/7041071602) and "Millenium School" (ID
 node/11035240259) are 1.79m apart and probably represent the same location.
 The stops "Kela" (ID node/7074269464) and "Kela" (ID node/7074269465) are
 0.31m apart and probably represent the same location.
+The stops "Kolobo 1st School" (ID node/11543153089) and "Kolobo 1st School"
+(ID node/11543153091) are 1.50m apart and probably represent the same
+location.
+The stops "Holeta" (ID node/10672522047) and "Holeta" (ID node/11543153095)
+are 1.48m apart and probably represent the same location.
 The stops "Shiromeda Selassie" (ID node/7076294515) and "Selassie" (ID
 node/7041071740) are 0.80m apart and probably represent the same location.
 The stops "Kuskoam" (ID node/11034054993) and "Kuskoam" (ID node/7041071742)
