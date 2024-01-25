@@ -142,9 +142,6 @@ WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/17052323
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/17052323
-WARNING:root:'Ref' of route_master already taken
-WARNING:root: https://osm.org/relation/17071085
-WARNING:root: Skipped. Please fix in OpenStreetMap
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/17065220
 WARNING:root: Please fix in OpenStreetMap
@@ -885,7 +882,6 @@ INFO:root:Added stop: Gojam Berenda - https://osm.org/node/7041071598
 INFO:root:Added stop: Autobis Tera (3) - https://osm.org/node/7041071599
 INFO:root:Added stop: Autobus Tera - https://osm.org/node/7041071600
 INFO:root:Added stop: Darsema Grosery - https://osm.org/node/7041071601
-INFO:root:Added stop: Millenium School - https://osm.org/node/7041071602
 INFO:root:Added stop: Girum Hospital - https://osm.org/node/7041071604
 INFO:root:Added stop: Woreda 7 TVET - https://osm.org/node/7041071605
 INFO:root:Added stop: Sefere Salam - https://osm.org/node/7041071606
@@ -2317,11 +2313,7 @@ INFO:root:Added stop: Saris - https://osm.org/node/11034511606
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/11034611751
 INFO:root:Added stop: Megenagna - https://osm.org/node/11034647605
 INFO:root:Added stop: Torhailoch - https://osm.org/node/11035234709
-INFO:root:Added stop: Millenium School - https://osm.org/node/11035240259
 INFO:root:Added stop: Chid Tera - https://osm.org/node/11035240260
-INFO:root:Added stop: Degu Hotel - https://osm.org/node/11035240261
-INFO:root:Added stop: Philiphs (Lomi Meda) - https://osm.org/node/11035240263
-INFO:root:Added stop: Philiphs (Lomi Meda) - https://osm.org/node/11035240264
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/11035502832
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/11035502833
 INFO:root:Added stop: Bisrate Gebrael - https://osm.org/node/11035532608
@@ -3048,7 +3040,6 @@ Generating schedule for line: 16069472
 Generating schedule for line: 16069558
 Generating schedule for line: 16070513
 Generating schedule for line: 16070566
-Generating schedule for line: 16070654
 Generating schedule for line: 16071249
 Generating schedule for line: 16071322
 Generating schedule for line: 16071554
@@ -3144,9 +3135,9 @@ Generating schedule for line: 16814055
 Generating schedule for line: 16814777
 Generating schedule for line: 16814864
 Generating schedule for line: 16815120
+Generating schedule for line: 16815233
 INFO:root:Removed 7 unused stops
 INFO:root:Removed 0 unused routes
-Generating schedule for line: 16815233
 Generating schedule for line: 16815447
 Generating schedule for line: 16815552
 Generating schedule for line: 16815658
@@ -3187,7 +3178,9 @@ Generating schedule for line: 17033336
 Generating schedule for line: 17034807
 Generating schedule for line: 17039849
 Generating schedule for line: 17052323
+Generating schedule for line: 17071085
 Generating schedule for line: 17071140
+Generating schedule for line: 17073030
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 Generating schedule for line: AB053
@@ -3466,8 +3459,6 @@ The stops "Kara" (ID node/10931809328) and "Kara" (ID node/11036026882) are
 0.17m apart and probably represent the same location.
 The stops "Kara" (ID node/10781643841) and "Kara" (ID node/11037676705) are
 0.53m apart and probably represent the same location.
-The stops "Millenium School" (ID node/7041071602) and "Millenium School" (ID
-node/11035240259) are 1.79m apart and probably represent the same location.
 The stops "Atena Tera" (ID node/10914784457) and "Atena Tera" (ID
 node/7112280391) are 0.21m apart and probably represent the same location.
 The stops "Atena Tera" (ID node/10989322794) and "Atena Tera" (ID
@@ -4975,6 +4966,18 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value Tx Lafto 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value AB036 (Special) in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value AB058 (Special) in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
