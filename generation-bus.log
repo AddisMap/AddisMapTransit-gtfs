@@ -1036,8 +1036,8 @@ INFO:root:Added stop: Bercheko Condominium - https://osm.org/node/11035818337
 INFO:root:Added stop: Alem Gena - https://osm.org/node/11035914858
 INFO:root:Added stop: Noc - https://osm.org/node/11035914859
 INFO:root:Added stop: Noc - https://osm.org/node/11035914860
-INFO:root:Added stop: Weleta Tele - https://osm.org/node/11035914861
-INFO:root:Added stop: Weleta - https://osm.org/node/11035914862
+INFO:root:Added stop: Welete Tele - https://osm.org/node/11035914861
+INFO:root:Added stop: Welete - https://osm.org/node/11035914862
 INFO:root:Added stop: Weleta - https://osm.org/node/11035914863
 INFO:root:Added stop: Weleta Tele - https://osm.org/node/11035914864
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/11035914865
@@ -1438,6 +1438,29 @@ INFO:root:Added stop: Gebeya - https://osm.org/node/11543153092
 INFO:root:Added stop: Menagesha - https://osm.org/node/11543153093
 INFO:root:Added stop: Gift Guesthouse - https://osm.org/node/11543153094
 INFO:root:Added stop: Holeta - https://osm.org/node/11543153095
+INFO:root:Added stop: Merkato - https://osm.org/node/11553349370
+INFO:root:Added stop: Coca Cola - https://osm.org/node/11553349371
+INFO:root:Added stop: Repi Highschool - https://osm.org/node/11553349372
+INFO:root:Added stop: Kentery - https://osm.org/node/11553349373
+INFO:root:Added stop: Gojeb Hotel - https://osm.org/node/11553349374
+INFO:root:Added stop: Meta Abo - https://osm.org/node/11553349375
+INFO:root:Added stop: Dima - https://osm.org/node/11553349376
+INFO:root:Added stop: Kela - https://osm.org/node/11553349377
+INFO:root:Added stop: Mezoria - https://osm.org/node/11553349378
+INFO:root:Added stop: Tefki - https://osm.org/node/11553349379
+INFO:root:Added stop: Tefki Tele - https://osm.org/node/11553349380
+INFO:root:Added stop: Unity Hotel - https://osm.org/node/11553349381
+INFO:root:Added stop: Teji - https://osm.org/node/11553349382
+INFO:root:Added stop: Unity Hotel - https://osm.org/node/11553349385
+INFO:root:Added stop: Tefki Tele - https://osm.org/node/11553349386
+INFO:root:Added stop: Tefki - https://osm.org/node/11553349387
+INFO:root:Added stop: Mezoria - https://osm.org/node/11553349388
+INFO:root:Added stop: Dima - https://osm.org/node/11553349389
+INFO:root:Added stop: Meta Abo - https://osm.org/node/11553349390
+INFO:root:Added stop: Gojeb Hotel - https://osm.org/node/11553349391
+INFO:root:Added stop: Kentery - https://osm.org/node/11553349392
+INFO:root:Added stop: Repi Highschool - https://osm.org/node/11553349393
+INFO:root:Added stop: Merkato - https://osm.org/node/11553349394
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -1640,6 +1663,7 @@ Generating schedule for line: 17052323
 Generating schedule for line: 17071085
 Generating schedule for line: 17071140
 Generating schedule for line: 17073030
+Generating schedule for line: 17082329
 Generating schedule for line: AB053
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
@@ -1664,6 +1688,8 @@ The stops "Tabelew" (ID node/11412604057) and "Tabelew" (ID node/7041052914)
 are 0.13m apart and probably represent the same location.
 The stops "Abo Junction" (ID node/7041071289) and "Saris Abo" (ID
 node/11034015157) are 1.10m apart and probably represent the same location.
+The stops "Repi Highschool" (ID node/11553349372) and "Repi Highschool" (ID
+node/11553349393) are 1.61m apart and probably represent the same location.
 The stops "Bole Millenium" (ID node/7022397409) and "Bole Bridge" (ID
 node/11412861795) are 0.79m apart and probably represent the same location.
 The stops "Gerji" (ID node/11403841173) and "Gerji" (ID node/11403841174) are
