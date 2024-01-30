@@ -17,29 +17,19 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10458767
-WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550648
 WARNING:root:  Problem at: https://osm.org/way/1231046554
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550649
 WARNING:root:  Problem at: https://osm.org/way/9717648
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15652319
 WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15858007
-WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15858006
-WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15858149
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15858150
 WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15858267
-WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15858337
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15883169
-WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15887189
 WARNING:root:  Problem at: https://osm.org/way/1174632389
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15907303
 WARNING:root:  Problem at: https://osm.org/way/1174632389
@@ -65,18 +55,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15999427
 WARNING:root:  Problem at: https://osm.org/way/1183705289
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999428
 WARNING:root:  Problem at: https://osm.org/way/548379917
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16003638
-WARNING:root:  Problem at: https://osm.org/way/1183941090
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16003639
-WARNING:root:  Problem at: https://osm.org/way/1183705289
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004440
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
 WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16074206
-WARNING:root:  Problem at: https://osm.org/way/9717648
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16074207
-WARNING:root:  Problem at: https://osm.org/way/43290672
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16763787
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -4979,13 +4961,13 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value AB036 (SP) in field route_short_name
+Invalid value AB036 (S) in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value AB058 (SP) in field route_short_name
+Invalid value AB058 (S) in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,

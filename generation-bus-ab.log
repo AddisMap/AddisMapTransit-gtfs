@@ -21,10 +21,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10550648
 WARNING:root:  Problem at: https://osm.org/way/1231046554
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550649
 WARNING:root:  Problem at: https://osm.org/way/9717648
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16074206
-WARNING:root:  Problem at: https://osm.org/way/9717648
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16074207
-WARNING:root:  Problem at: https://osm.org/way/43290672
 WARNING:root:Warning: This relation route master:
 WARNING:root: https://osm.org/relation/16290773
 WARNING:root: has a member which is not a valid itinerary:
@@ -1111,7 +1107,7 @@ are 1.03m apart and probably represent the same location.
 The stops "Aleltu" (ID node/11037676746) and "Aleltu" (ID node/11037676745)
 are 0.16m apart and probably represent the same location.
  column route_short_name
-Invalid value AB058 (SP) in field route_short_name
+Invalid value AB058 (S) in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
