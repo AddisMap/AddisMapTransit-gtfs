@@ -29,8 +29,6 @@ WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/16807587
 WARNING:root:Using 'ref' from member variant instead
 WARNING:root:https://osm.org/relation/16807586
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16821503
-WARNING:root:  Problem at: https://osm.org/way/1231083903
 WARNING:root:RouteVariant without 'ref': 16822419
 WARNING:root:RouteVariant without 'ref': 16822420
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.

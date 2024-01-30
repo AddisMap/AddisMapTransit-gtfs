@@ -17,18 +17,6 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15883169
-WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15960813
-WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15962157
-WARNING:root:  Problem at: https://osm.org/way/167446073
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15962158
-WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15999427
-WARNING:root:  Problem at: https://osm.org/way/1183705289
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15999428
-WARNING:root:  Problem at: https://osm.org/way/548379917
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16763787
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -41,8 +29,6 @@ WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/16807587
 WARNING:root:Using 'ref' from member variant instead
 WARNING:root:https://osm.org/relation/16807586
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16821503
-WARNING:root:  Problem at: https://osm.org/way/1231083903
 WARNING:root:RouteVariant without 'ref': 16822419
 WARNING:root:RouteVariant without 'ref': 16822420
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
