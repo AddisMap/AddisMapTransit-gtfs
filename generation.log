@@ -37,30 +37,16 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15858267
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15858337
 WARNING:root:  Problem at: https://osm.org/way/167446073
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15858402
-WARNING:root:  Problem at: https://osm.org/way/167446073
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15858403
-WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15883169
 WARNING:root:  Problem at: https://osm.org/way/1174632389
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15887189
 WARNING:root:  Problem at: https://osm.org/way/1174632389
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15907303
 WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15919607
-WARNING:root:  Problem at: https://osm.org/way/167446073
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15919608
-WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15919797
 WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15919796
 WARNING:root:  Problem at: https://osm.org/way/167446073
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15921589
-WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15958643
-WARNING:root:  Problem at: https://osm.org/way/167446073
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15958642
-WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15960813
 WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15962102
@@ -87,8 +73,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16004440
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
 WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16007053
-WARNING:root:  Problem at: https://osm.org/way/1174632389
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16074206
 WARNING:root:  Problem at: https://osm.org/way/9717648
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16074207
@@ -118,8 +102,6 @@ WARNING:root:https://osm.org/relation/16822421
 WARNING:root:'Ref' of route_master already taken
 WARNING:root: https://osm.org/relation/17008592
 WARNING:root: Skipped. Please fix in OpenStreetMap
-WARNING:root:Route has non-matching ways: https://osm.org/relation/17008889
-WARNING:root:  Problem at: https://osm.org/way/717920973
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/17011008
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -579,7 +561,7 @@ INFO:root:Added stop: Mebrathail - https://osm.org/node/6251054285
 INFO:root:Added stop: Asko - https://osm.org/node/6307600909
 INFO:root:Added stop: Bole Printing Press - https://osm.org/node/6373574986
 INFO:root:Added stop: Arada - https://osm.org/node/6728583386
-INFO:root:Added stop: ከበደ ወሰኔ መንገድ - https://osm.org/node/6798927886
+INFO:root:Added stop: Kebede Wessene Rd. - https://osm.org/node/6798927886
 INFO:root:Added stop: Mexico - https://osm.org/node/6814022390
 INFO:root:Added stop: Mebrat Condominium - https://osm.org/node/6967142984
 INFO:root:Added stop: Mebrat - https://osm.org/node/6967165728
@@ -4997,13 +4979,13 @@ contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value AB036 (Special) in field route_short_name
+Invalid value AB036 (SP) in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
-Invalid value AB058 (Special) in field route_short_name
+Invalid value AB058 (SP) in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,

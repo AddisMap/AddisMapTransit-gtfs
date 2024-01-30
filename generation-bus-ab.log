@@ -1111,7 +1111,7 @@ are 1.03m apart and probably represent the same location.
 The stops "Aleltu" (ID node/11037676746) and "Aleltu" (ID node/11037676745)
 are 0.16m apart and probably represent the same location.
  column route_short_name
-Invalid value AB058 (Special) in field route_short_name
+Invalid value AB058 (SP) in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
