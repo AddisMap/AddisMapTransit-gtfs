@@ -17,10 +17,6 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10550648
-WARNING:root:  Problem at: https://osm.org/way/1231046554
-WARNING:root:Route has non-matching ways: https://osm.org/relation/10550649
-WARNING:root:  Problem at: https://osm.org/way/9717648
 WARNING:root:Warning: This relation route master:
 WARNING:root: https://osm.org/relation/16290773
 WARNING:root: has a member which is not a valid itinerary:
