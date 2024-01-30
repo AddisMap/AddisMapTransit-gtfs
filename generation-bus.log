@@ -33,8 +33,6 @@ WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/16807587
 WARNING:root:Using 'ref' from member variant instead
 WARNING:root:https://osm.org/relation/16807586
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16814775
-WARNING:root:  Problem at: https://osm.org/way/749949679
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16821503
 WARNING:root:  Problem at: https://osm.org/way/1231083903
 WARNING:root:RouteVariant without 'ref': 16822419
@@ -1719,6 +1717,8 @@ location.
 The stops "Ras Mekonene Bridge (Seba Dereja)" (ID node/7041071628) and "Ras
 Mekonene Bridge (Seba Dereja)" (ID node/7057002162) are 1.14m apart and
 probably represent the same location.
+The stops "Aba Kiros Roundabout" (ID node/7022397418) and "Aba Kiros" (ID
+node/11412470836) are 0.95m apart and probably represent the same location.
 The stops "Kela" (ID node/7074269464) and "Kela" (ID node/7074269465) are
 0.31m apart and probably represent the same location.
 The stops "Kolobo 1st School" (ID node/11543153089) and "Kolobo 1st School"

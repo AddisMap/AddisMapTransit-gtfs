@@ -27,12 +27,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15858337
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15883169
 WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15907303
-WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15919797
-WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15919796
-WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15960813
 WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15962102
@@ -43,18 +37,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15962157
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15962158
 WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15970881
-WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15993526
-WARNING:root:  Problem at: https://osm.org/way/1174632389
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999427
 WARNING:root:  Problem at: https://osm.org/way/1183705289
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999428
 WARNING:root:  Problem at: https://osm.org/way/548379917
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16004440
-WARNING:root:  Problem at: https://osm.org/way/167446073
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
-WARNING:root:  Problem at: https://osm.org/way/202553225
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */

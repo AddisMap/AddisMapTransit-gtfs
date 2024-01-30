@@ -31,12 +31,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15858337
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15883169
 WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15907303
-WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15919797
-WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15919796
-WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15960813
 WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15962102
@@ -47,18 +41,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15962157
 WARNING:root:  Problem at: https://osm.org/way/167446073
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15962158
 WARNING:root:  Problem at: https://osm.org/way/202553225
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15970881
-WARNING:root:  Problem at: https://osm.org/way/1174632389
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15993526
-WARNING:root:  Problem at: https://osm.org/way/1174632389
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999427
 WARNING:root:  Problem at: https://osm.org/way/1183705289
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999428
 WARNING:root:  Problem at: https://osm.org/way/548379917
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16004440
-WARNING:root:  Problem at: https://osm.org/way/167446073
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16004441
-WARNING:root:  Problem at: https://osm.org/way/202553225
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/16763787
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
@@ -71,8 +57,6 @@ WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
 WARNING:root: https://osm.org/relation/16807587
 WARNING:root:Using 'ref' from member variant instead
 WARNING:root:https://osm.org/relation/16807586
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16814775
-WARNING:root:  Problem at: https://osm.org/way/749949679
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16821503
 WARNING:root:  Problem at: https://osm.org/way/1231083903
 WARNING:root:RouteVariant without 'ref': 16822419
@@ -3481,8 +3465,12 @@ The stops "Winget" (ID node/10915905493) and "Winget" (ID node/7112215084) are
 1.36m apart and probably represent the same location.
 The stops "Aba Kiros" (ID node/10925966510) and "Aba Kiros Roundabout" (ID
 node/11057053412) are 0.66m apart and probably represent the same location.
+The stops "Aba Kiros Roundabout" (ID node/7022397418) and "Aba Kiros" (ID
+node/11412470836) are 0.95m apart and probably represent the same location.
+The stops "Aba Kiros Roundabout" (ID node/7022397418) and "Aba Kiros" (ID
+node/10925966511) are 0.28m apart and probably represent the same location.
 The stops "Aba Kiros" (ID node/11412470836) and "Aba Kiros" (ID
-node/10925966511) are 0.40m apart and probably represent the same location.
+node/10925966511) are 0.88m apart and probably represent the same location.
 The stops "Tafo Square" (ID node/10926817921) and "Aba Kiros (Tafo)
 Roundabout" (ID node/7049921449) are 0.29m apart and probably represent the
 same location.
