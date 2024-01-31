@@ -21,10 +21,6 @@ WARNING:root:Warning: This relation route master:
 WARNING:root: https://osm.org/relation/16290773
 WARNING:root: has a member which is not a valid itinerary:
 WARNING:root: https://osm.org/relation/16290767
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/16763787
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/16763787
 WARNING:root:Warning: This relation route master:
 WARNING:root: https://osm.org/relation/16795336
 WARNING:root: has a member which is not a valid itinerary:
@@ -33,10 +29,6 @@ WARNING:root:Warning: This relation route master:
 WARNING:root: https://osm.org/relation/16804748
 WARNING:root: has a member which is not a valid itinerary:
 WARNING:root: https://osm.org/relation/16804746
-WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
-WARNING:root: https://osm.org/relation/16807587
-WARNING:root:Using 'ref' from member variant instead
-WARNING:root:https://osm.org/relation/16807586
 WARNING:root:Warning: This relation route master:
 WARNING:root: https://osm.org/relation/16816053
 WARNING:root: has a member which is not a valid itinerary:
@@ -45,10 +37,6 @@ WARNING:root:Warning: This relation route master:
 WARNING:root: https://osm.org/relation/16822706
 WARNING:root: has a member which is not a valid itinerary:
 WARNING:root: https://osm.org/relation/16822704
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/17011008
-WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
-WARNING:root:https://osm.org/relation/17011008
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
