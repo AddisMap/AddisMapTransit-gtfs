@@ -2700,8 +2700,6 @@ Generating schedule for line: 15842386
 Generating schedule for line: 15842687
 Generating schedule for line: 15845949
 Generating schedule for line: 15845950
-WARNING: No duration set --- Using default travel time for route with OSM ID 15845945
-WARNING: No duration set --- Using default travel time for route with OSM ID 15845946
 Generating schedule for line: 15846182
 Generating schedule for line: 15850226
 Generating schedule for line: 15850509
@@ -2974,8 +2972,6 @@ Generating schedule for line: 16239079
 Generating schedule for line: 16239080
 Generating schedule for line: 16290773
 Generating schedule for line: 16290774
-WARNING: No duration set --- Using default travel time for route with OSM ID 16290766
-WARNING: No duration set --- Using default travel time for route with OSM ID 16290765
 Generating schedule for line: 16290775
 Generating schedule for line: 16761109
 Generating schedule for line: 16761258
@@ -3010,16 +3006,10 @@ Generating schedule for line: 16799388
 Generating schedule for line: 16799566
 Generating schedule for line: 16799821
 Generating schedule for line: 16799950
-WARNING: No duration set --- Using default travel time for route with OSM ID 16799949
-WARNING: No duration set --- Using default travel time for route with OSM ID 16799948
 Generating schedule for line: 16800759
-WARNING: No duration set --- Using default travel time for route with OSM ID 16800758
-WARNING: No duration set --- Using default travel time for route with OSM ID 16800757
 Generating schedule for line: 16803209
 Generating schedule for line: 16803318
 Generating schedule for line: 16803475
-WARNING: No duration set --- Using default travel time for route with OSM ID 16803474
-WARNING: No duration set --- Using default travel time for route with OSM ID 16803473
 Generating schedule for line: 16803572
 Generating schedule for line: 16804052
 Generating schedule for line: 16804748
@@ -3034,8 +3024,6 @@ Generating schedule for line: 16814777
 Generating schedule for line: 16814864
 Generating schedule for line: 16815120
 Generating schedule for line: 16815233
-INFO:root:Removed 0 unused stops
-INFO:root:Removed 0 unused routes
 Generating schedule for line: 16815447
 Generating schedule for line: 16815552
 Generating schedule for line: 16815658
@@ -3043,10 +3031,7 @@ Generating schedule for line: 16815683
 Generating schedule for line: 16815787
 Generating schedule for line: 16816053
 Generating schedule for line: 16817583
-WARNING: No duration set --- Using default travel time for route with OSM ID 16817582
-WARNING: No duration set --- Using default travel time for route with OSM ID 16817581
 Generating schedule for line: 16817599
-WARNING: No duration set --- Using default travel time for route with OSM ID 16817598
 Generating schedule for line: 16817834
 Generating schedule for line: 16817865
 Generating schedule for line: 16817897
@@ -3062,6 +3047,8 @@ Generating schedule for line: 16821505
 Generating schedule for line: 16821697
 Generating schedule for line: 16822289
 Generating schedule for line: 16822421
+INFO:root:Removed 0 unused stops
+INFO:root:Removed 0 unused routes
 Generating schedule for line: 16822501
 Generating schedule for line: 16822668
 Generating schedule for line: 16822706

@@ -1402,6 +1402,8 @@ INFO:root:Added stop: Gojeb Hotel - https://osm.org/node/11553349391
 INFO:root:Added stop: Kentery - https://osm.org/node/11553349392
 INFO:root:Added stop: Repi Highschool - https://osm.org/node/11553349393
 INFO:root:Added stop: Merkato - https://osm.org/node/11553349394
+INFO:root:Removed 0 unused stops
+INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -1499,8 +1501,6 @@ Generating schedule for line: 16239079
 Generating schedule for line: 16239080
 Generating schedule for line: 16290773
 Generating schedule for line: 16290774
-WARNING: No duration set --- Using default travel time for route with OSM ID 16290766
-WARNING: No duration set --- Using default travel time for route with OSM ID 16290765
 Generating schedule for line: 16290775
 Generating schedule for line: 16761109
 Generating schedule for line: 16761258
@@ -1535,16 +1535,10 @@ Generating schedule for line: 16799388
 Generating schedule for line: 16799566
 Generating schedule for line: 16799821
 Generating schedule for line: 16799950
-WARNING: No duration set --- Using default travel time for route with OSM ID 16799949
-WARNING: No duration set --- Using default travel time for route with OSM ID 16799948
 Generating schedule for line: 16800759
-WARNING: No duration set --- Using default travel time for route with OSM ID 16800758
-WARNING: No duration set --- Using default travel time for route with OSM ID 16800757
 Generating schedule for line: 16803209
 Generating schedule for line: 16803318
 Generating schedule for line: 16803475
-WARNING: No duration set --- Using default travel time for route with OSM ID 16803474
-WARNING: No duration set --- Using default travel time for route with OSM ID 16803473
 Generating schedule for line: 16803572
 Generating schedule for line: 16804052
 Generating schedule for line: 16804748
@@ -1566,10 +1560,7 @@ Generating schedule for line: 16815683
 Generating schedule for line: 16815787
 Generating schedule for line: 16816053
 Generating schedule for line: 16817583
-WARNING: No duration set --- Using default travel time for route with OSM ID 16817582
-WARNING: No duration set --- Using default travel time for route with OSM ID 16817581
 Generating schedule for line: 16817599
-WARNING: No duration set --- Using default travel time for route with OSM ID 16817598
 Generating schedule for line: 16817834
 Generating schedule for line: 16817865
 Generating schedule for line: 16817897
@@ -1598,8 +1589,6 @@ Generating schedule for line: 17032690
 Generating schedule for line: 17032741
 Generating schedule for line: 17032887
 Generating schedule for line: 17033336
-INFO:root:Removed 0 unused stops
-INFO:root:Removed 0 unused routes
 Generating schedule for line: 17034807
 Generating schedule for line: 17039849
 Generating schedule for line: 17047999
