@@ -17,8 +17,6 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Route has non-matching ways: https://osm.org/relation/16003638
-WARNING:root:  Problem at: https://osm.org/way/1183941090
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/17065220
 WARNING:root: Please fix in OpenStreetMap
@@ -3428,7 +3426,7 @@ node/10923884109) are 0.20m apart and probably represent the same location.
 The stops "Kechenie" (ID node/10924116808) and "Kechenie" (ID
 node/10937271651) are 1.26m apart and probably represent the same location.
 The stops "Holeta" (ID node/10672522047) and "Holeta" (ID node/11543153095)
-are 1.48m apart and probably represent the same location.
+are 0.02m apart and probably represent the same location.
 The stops "Shiromeda Selassie" (ID node/7076294515) and "Selassie" (ID
 node/7041071740) are 0.80m apart and probably represent the same location.
 The stops "Kuskoam" (ID node/11034054993) and "Kuskoam" (ID node/7041071742)
