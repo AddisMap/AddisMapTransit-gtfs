@@ -4877,29 +4877,3 @@ This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
-High speed travel detected in trip 605: Megenagna to Shola Gebeya. 657 meters
-in 17 seconds. (139 km/h).
-High speed travel detected in trip 605: Shola Gebeya to Abebe Sook. 831 meters
-in 22 seconds. (136 km/h).
-High speed travel detected in trip 605: Abebe Sook to Belgium Embassy. 629
-meters in 16 seconds. (142 km/h).
-High speed travel detected in trip 605: Belgium Embassy to Kokebe Tsebah
-School. 506 meters in 14 seconds. (130 km/h).
-High speed travel detected in trip 605: Kokebe Tsebah School to Bel Air. 842
-meters in 22 seconds. (138 km/h).
-High speed travel detected in trip 605: Bel Air to 4 Kilo. 1078 meters in 28
-seconds. (139 km/h).
-High speed travel detected in trip 605: 4 Kilo to Education Bureau (6 Kilo).
-1093 meters in 28 seconds. (141 km/h).
-High speed travel detected in trip 605: Education Bureau (6 Kilo) to 3rd
-Shaleka. 640 meters in 17 seconds. (136 km/h).
-High speed travel detected in trip 605: 3rd Shaleka to Mezan. 804 meters in 21
-seconds. (138 km/h).
-High speed travel detected in trip 605: Mezan to Abo Mazoriya. 718 meters in
-19 seconds. (136 km/h).
-High speed travel detected in trip 605: Abo Mazoriya to Biret Dildiy (Bono
-Wuha). 492 meters in 13 seconds. (136 km/h).
-High speed travel detected in trip 605: Biret Dildiy (Bono Wuha) to Tena
-Tabya. 325 meters in 8 seconds. (146 km/h).
-High speed travel detected in trip 605: Tena Tabya to Gurara. 563 meters in 15
-seconds. (135 km/h).
