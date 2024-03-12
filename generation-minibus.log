@@ -290,6 +290,7 @@ INFO:root:Added stop: Cheralia Factory - https://osm.org/node/10845731596
 INFO:root:Added stop: Kebele 11 - https://osm.org/node/10845731597
 INFO:root:Added stop: Grand Anwar Mosque - https://osm.org/node/10845731598
 INFO:root:Added stop: National Theatre - https://osm.org/node/10845731599
+INFO:root:Added stop: Sheger Building - https://osm.org/node/10845731600
 INFO:root:Added stop: Saris - https://osm.org/node/10845731601
 INFO:root:Added stop: Beg Tera - https://osm.org/node/10845731602
 INFO:root:Added stop: Sengatera - https://osm.org/node/10845731603
@@ -359,6 +360,7 @@ INFO:root:Added stop: 93 Mazoria - https://osm.org/node/10890083966
 INFO:root:Added stop: Kaldisco - https://osm.org/node/10890083967
 INFO:root:Added stop: Key Afer - https://osm.org/node/10890083968
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10890083969
+INFO:root:Added stop: Mulugeta Building - https://osm.org/node/10890083974
 INFO:root:Added stop: Key Afer - https://osm.org/node/10890290096
 INFO:root:Added stop: 93 Mazoria - https://osm.org/node/10890290097
 INFO:root:Added stop: Kebele - https://osm.org/node/10890290098
@@ -876,6 +878,8 @@ INFO:root:Added stop: Taxi Tera - https://osm.org/node/10989247669
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10989247670
 INFO:root:Added stop: Summit - https://osm.org/node/10989247671
 INFO:root:Added stop: Summit - https://osm.org/node/10989247672
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10989247673
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10989247674
 INFO:root:Added stop: Bole Mickael - https://osm.org/node/10989306740
 INFO:root:Added stop: Bole Mickael - https://osm.org/node/10989306742
 INFO:root:Added stop: Riventy - https://osm.org/node/10989306744
@@ -952,6 +956,9 @@ INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041499
 INFO:root:Added stop: Shola - https://osm.org/node/10998041503
 INFO:root:Added stop: Shola - https://osm.org/node/10998041504
 INFO:root:Added stop: Lomi Meda - https://osm.org/node/11084058584
+INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260623
+INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260625
+INFO:root:Added stop: Kadisco - https://osm.org/node/11716260626
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10568476
 Generating schedule for line: 15633036
@@ -1202,6 +1209,10 @@ Generating schedule for line: 16008090
 Generating schedule for line: 16008308
 Generating schedule for line: 16028728
 Generating schedule for line: 16028886
+Generating schedule for line: 17332228
+Generating schedule for line: 17332229
+Generating schedule for line: 17332230
+Generating schedule for line: 17332231
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
@@ -2678,6 +2689,24 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value Tx Lafto 007 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Kolfe 042 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Lafto 044 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Lafto 045 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,

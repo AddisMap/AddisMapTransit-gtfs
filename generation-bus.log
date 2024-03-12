@@ -1402,6 +1402,17 @@ INFO:root:Added stop: Gojeb Hotel - https://osm.org/node/11553349391
 INFO:root:Added stop: Kentery - https://osm.org/node/11553349392
 INFO:root:Added stop: Repi Highschool - https://osm.org/node/11553349393
 INFO:root:Added stop: Merkato - https://osm.org/node/11553349394
+INFO:root:Added stop: Chancho - https://osm.org/node/11716456325
+INFO:root:Added stop: Cosober - https://osm.org/node/11716456326
+INFO:root:Added stop: Chancho Fitesha - https://osm.org/node/11716456327
+INFO:root:Added stop: Chancho - https://osm.org/node/11716456328
+INFO:root:Added stop: Chancho Fitesha - https://osm.org/node/11716456329
+INFO:root:Added stop: Eilamu - https://osm.org/node/11716456330
+INFO:root:Added stop: Cosober - https://osm.org/node/11716456332
+INFO:root:Added stop: Sakela - https://osm.org/node/11716456333
+INFO:root:Added stop: Kore Roba - https://osm.org/node/11716456334
+INFO:root:Added stop: Wererso - https://osm.org/node/11716456336
+INFO:root:Added stop: Wererso - https://osm.org/node/11716456337
 INFO:root:Removed 0 unused stops
 INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
@@ -1597,6 +1608,7 @@ Generating schedule for line: 17071085
 Generating schedule for line: 17071140
 Generating schedule for line: 17073030
 Generating schedule for line: 17082329
+Generating schedule for line: 17332417
 Generating schedule for line: AB053
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service

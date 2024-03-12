@@ -1496,6 +1496,7 @@ INFO:root:Added stop: Cheralia Factory - https://osm.org/node/10845731596
 INFO:root:Added stop: Kebele 11 - https://osm.org/node/10845731597
 INFO:root:Added stop: Grand Anwar Mosque - https://osm.org/node/10845731598
 INFO:root:Added stop: National Theatre - https://osm.org/node/10845731599
+INFO:root:Added stop: Sheger Building - https://osm.org/node/10845731600
 INFO:root:Added stop: Saris - https://osm.org/node/10845731601
 INFO:root:Added stop: Beg Tera - https://osm.org/node/10845731602
 INFO:root:Added stop: Sengatera - https://osm.org/node/10845731603
@@ -1565,6 +1566,7 @@ INFO:root:Added stop: 93 Mazoria - https://osm.org/node/10890083966
 INFO:root:Added stop: Kaldisco - https://osm.org/node/10890083967
 INFO:root:Added stop: Key Afer - https://osm.org/node/10890083968
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10890083969
+INFO:root:Added stop: Mulugeta Building - https://osm.org/node/10890083974
 INFO:root:Added stop: Key Afer - https://osm.org/node/10890290096
 INFO:root:Added stop: 93 Mazoria - https://osm.org/node/10890290097
 INFO:root:Added stop: Kebele - https://osm.org/node/10890290098
@@ -2082,6 +2084,8 @@ INFO:root:Added stop: Taxi Tera - https://osm.org/node/10989247669
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10989247670
 INFO:root:Added stop: Summit - https://osm.org/node/10989247671
 INFO:root:Added stop: Summit - https://osm.org/node/10989247672
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10989247673
+INFO:root:Added stop: Medhanalem - https://osm.org/node/10989247674
 INFO:root:Added stop: Bole Mickael - https://osm.org/node/10989306740
 INFO:root:Added stop: Bole Mickael - https://osm.org/node/10989306742
 INFO:root:Added stop: Riventy - https://osm.org/node/10989306744
@@ -2628,6 +2632,20 @@ INFO:root:Added stop: Gojeb Hotel - https://osm.org/node/11553349391
 INFO:root:Added stop: Kentery - https://osm.org/node/11553349392
 INFO:root:Added stop: Repi Highschool - https://osm.org/node/11553349393
 INFO:root:Added stop: Merkato - https://osm.org/node/11553349394
+INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260623
+INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260625
+INFO:root:Added stop: Kadisco - https://osm.org/node/11716260626
+INFO:root:Added stop: Chancho - https://osm.org/node/11716456325
+INFO:root:Added stop: Cosober - https://osm.org/node/11716456326
+INFO:root:Added stop: Chancho Fitesha - https://osm.org/node/11716456327
+INFO:root:Added stop: Chancho - https://osm.org/node/11716456328
+INFO:root:Added stop: Chancho Fitesha - https://osm.org/node/11716456329
+INFO:root:Added stop: Eilamu - https://osm.org/node/11716456330
+INFO:root:Added stop: Cosober - https://osm.org/node/11716456332
+INFO:root:Added stop: Sakela - https://osm.org/node/11716456333
+INFO:root:Added stop: Kore Roba - https://osm.org/node/11716456334
+INFO:root:Added stop: Wererso - https://osm.org/node/11716456336
+INFO:root:Added stop: Wererso - https://osm.org/node/11716456337
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -3070,6 +3088,11 @@ Generating schedule for line: 17071085
 Generating schedule for line: 17071140
 Generating schedule for line: 17073030
 Generating schedule for line: 17082329
+Generating schedule for line: 17332228
+Generating schedule for line: 17332229
+Generating schedule for line: 17332230
+Generating schedule for line: 17332231
+Generating schedule for line: 17332417
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 Generating schedule for line: AB053
@@ -3164,8 +3187,8 @@ The stops "Gerar" (ID node/7074353066) and "Gerar" (ID node/10913974719) are
 1.38m apart and probably represent the same location.
 The stops "Ayer Tena" (ID node/10911725505) and "Ayer Tena" (ID
 node/7074504388) are 0.69m apart and probably represent the same location.
-The stops "Ayer Tena" (ID node/7084932741) and "Ayer Tena" (ID
-node/10911198619) are 0.76m apart and probably represent the same location.
+The stops "Ayer Tena" (ID node/10911198619) and "Ayer Tena" (ID
+node/7084932741) are 1.63m apart and probably represent the same location.
 The stops "Summit Condominiums" (ID node/10928876313) and "Summit
 Condominiums" (ID node/10925946103) are 0.49m apart and probably represent the
 same location.
@@ -3244,8 +3267,6 @@ The stops "Ghion Hotel (Enterance)" (ID node/7041071364) and "Ghion Hotel" (ID
 node/10899150572) are 1.55m apart and probably represent the same location.
 The stops "6th (Raddison Blu)" (ID node/7041071359) and "6th (Raddison Blu)"
 (ID node/7067990020) are 0.16m apart and probably represent the same location.
-The stops "Keranio Adebabay" (ID node/7041071452) and "Keranio Adebabay" (ID
-node/10918141994) are 0.78m apart and probably represent the same location.
 The stops "Megenagna" (ID node/10931937848) and "Megenagna" (ID
 node/7037142441) are 0.56m apart and probably represent the same location.
 The stops "Abenet" (ID node/10913863174) and "Abinet" (ID node/7077863018) are
@@ -4873,6 +4894,24 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value AB058 (S) in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Kolfe 042 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Lafto 044 in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value Lafto 045 in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
