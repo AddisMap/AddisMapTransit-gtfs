@@ -17,6 +17,8 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
+WARNING:root:Route has non-matching ways: https://osm.org/relation/17033335
+WARNING:root:  Problem at: https://osm.org/way/1172073588
 WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/17065220
 WARNING:root: Please fix in OpenStreetMap
