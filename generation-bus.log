@@ -17,6 +17,10 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15520257
+WARNING:root:  Problem at: https://osm.org/way/1190834947
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16112801
+WARNING:root:  Problem at: https://osm.org/way/1203329306
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16819130
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16821696
