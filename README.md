@@ -6,7 +6,7 @@ Transit data of Addis Ababa, Ethiopia - based on OpenStreetMap
 * Bus data
 * Light rail
 
-The data is under the OSM License (ODbL).
+The data is under the OSM License (ODbL OpenStreetMap contributors / AddisMapTransit.com).
 
 ## Sponsors
 
