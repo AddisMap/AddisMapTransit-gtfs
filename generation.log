@@ -73,6 +73,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15520257
 WARNING:root:  Problem at: https://osm.org/way/1190834947
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16112801
 WARNING:root:  Problem at: https://osm.org/way/1203329306
+WARNING:root:Warning: This relation route master:
+WARNING:root: https://osm.org/relation/16815120
+WARNING:root: has a member which is not a valid itinerary:
+WARNING:root: https://osm.org/relation/12091003205
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16819130
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16821696
@@ -81,6 +85,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16822500
 WARNING:root:  Problem at: https://osm.org/way/1172073588
 WARNING:root:Route has non-matching ways: https://osm.org/relation/17033335
 WARNING:root:  Problem at: https://osm.org/way/1172073588
+WARNING:root:Warning: This relation route master:
+WARNING:root: https://osm.org/relation/17071140
+WARNING:root: has a member which is not a valid itinerary:
+WARNING:root: https://osm.org/relation/1305463529
 WARNING:root:Route has non-matching ways: https://osm.org/relation/17332225
 WARNING:root:  Problem at: https://osm.org/way/761078823
 WARNING:root:Route has non-matching ways: https://osm.org/relation/17332224
