@@ -17,20 +17,12 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
-WARNING:root:Warning: This relation route master:
-WARNING:root: https://osm.org/relation/16815120
-WARNING:root: has a member which is not a valid itinerary:
-WARNING:root: https://osm.org/relation/12091003205
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16819130
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16821696
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16822500
 WARNING:root:  Problem at: https://osm.org/way/1172073588
-WARNING:root:Warning: This relation route master:
-WARNING:root: https://osm.org/relation/17071140
-WARNING:root: has a member which is not a valid itinerary:
-WARNING:root: https://osm.org/relation/1305463529
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
