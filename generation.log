@@ -3133,10 +3133,10 @@ Generating schedule for line: 16821505
 Generating schedule for line: 16821697
 Generating schedule for line: 16822289
 Generating schedule for line: 16822421
-INFO:root:Removed 0 unused stops
-INFO:root:Removed 0 unused routes
 Generating schedule for line: 16822501
-Generating schedule for line: 16822668
+Generating schedule for line: 16822668INFO:root:Removed 0 unused stops
+INFO:root:Removed 0 unused routes
+
 Generating schedule for line: 16822706
 Generating schedule for line: 17008501
 Generating schedule for line: 17008592

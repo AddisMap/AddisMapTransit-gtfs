@@ -1224,9 +1224,9 @@ Generating schedule for line: 15992541
 Generating schedule for line: 15992646
 Generating schedule for line: 15992742
 Generating schedule for line: 15992882
-INFO:root:Removed 0 unused stops
+Generating schedule for line: 15992969INFO:root:Removed 0 unused stops
 INFO:root:Removed 0 unused routes
-Generating schedule for line: 15992969
+
 Generating schedule for line: 15993132
 Generating schedule for line: 15993248
 Generating schedule for line: 15993363
