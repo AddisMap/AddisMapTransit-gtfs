@@ -17,12 +17,28 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10460167
+WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10466723
+WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10541370
+WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10542239
+WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16813411
+WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16817833
+WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16819130
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16821696
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16822500
 WARNING:root:  Problem at: https://osm.org/way/1172073588
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16822705
+WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/17071139
+WARNING:root:  Problem at: https://osm.org/way/755492723
 INFO:root:Query and build fresh data for stops
 INFO:root:(
             /* Obtain route variants based on tags and bounding box */
