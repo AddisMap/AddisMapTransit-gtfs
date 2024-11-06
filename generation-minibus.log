@@ -83,6 +83,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15974266
 WARNING:root:  Problem at: https://osm.org/way/1177046813
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15974267
 WARNING:root:  Problem at: https://osm.org/way/548379917
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15992644
+WARNING:root:  Problem at: https://osm.org/way/93012258
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999427
 WARNING:root:  Problem at: https://osm.org/way/548379917
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999428
