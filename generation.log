@@ -25,6 +25,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10460167
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10466723
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10521541
+WARNING:root:  Problem at: https://osm.org/way/538089767
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10521542
+WARNING:root:  Problem at: https://osm.org/way/1240096081
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541370
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10542239
@@ -43,10 +47,16 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15830932
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15830933
 WARNING:root:  Problem at: https://osm.org/way/761078823
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15850621
+WARNING:root:  Problem at: https://osm.org/way/761290295
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15858268
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15858338
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858712
+WARNING:root:  Problem at: https://osm.org/way/538089767
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858711
+WARNING:root:  Problem at: https://osm.org/way/1240096081
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15867149
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15867571
@@ -97,8 +107,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15974266
 WARNING:root:  Problem at: https://osm.org/way/1177046813
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15974267
 WARNING:root:  Problem at: https://osm.org/way/548379917
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15992645
+WARNING:root:  Problem at: https://osm.org/way/1175980202
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15992644
-WARNING:root:  Problem at: https://osm.org/way/93012258
+WARNING:root:  Problem at: https://osm.org/way/1240096081
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999427
 WARNING:root:  Problem at: https://osm.org/way/548379917
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999428
@@ -129,16 +141,44 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15520257
 WARNING:root:  Problem at: https://osm.org/way/1190834947
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16112801
 WARNING:root:  Problem at: https://osm.org/way/1203329306
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16239077
+WARNING:root:  Problem at: https://osm.org/way/1240096081
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16239078
+WARNING:root:  Problem at: https://osm.org/way/538089767
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15484447
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16761256
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16764668
+WARNING:root:  Problem at: https://osm.org/way/1240096081
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16764669
+WARNING:root:  Problem at: https://osm.org/way/538089767
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16764848
+WARNING:root:  Problem at: https://osm.org/way/538089767
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16764847
+WARNING:root:  Problem at: https://osm.org/way/1240096081
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16765722
+WARNING:root:  Problem at: https://osm.org/way/538089767
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16765721
+WARNING:root:  Problem at: https://osm.org/way/1240096081
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16794102
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16794333
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16794647
+WARNING:root:  Problem at: https://osm.org/way/1240096081
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16794646
+WARNING:root:  Problem at: https://osm.org/way/538089767
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16799949
+WARNING:root:  Problem at: https://osm.org/way/1175980202
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16799948
+WARNING:root:  Problem at: https://osm.org/way/1240096081
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16813411
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16817598
+WARNING:root:  Problem at: https://osm.org/way/1175980202
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16817597
+WARNING:root:  Problem at: https://osm.org/way/1240096081
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16817833
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16819130
@@ -3252,8 +3292,6 @@ The stops "Breta bret" (ID node/10994789635) and "Akaki Beretaberet" (ID
 node/7037142448) are 1.95m apart and probably represent the same location.
 The stops "Tulu Dimtu" (ID node/10899524540) and "Tulu Dimtu" (ID
 node/11414255399) are 0.62m apart and probably represent the same location.
-The stops "Derartu" (ID node/10845731586) and "Derartu" (ID node/7037142443)
-are 1.82m apart and probably represent the same location.
 The stops "Kality Total" (ID node/7112648161) and "Kality Total" (ID
 node/10846106471) are 1.78m apart and probably represent the same location.
 The stops "Kality Menaheria" (ID node/11417018707) and "Kality Total" (ID
