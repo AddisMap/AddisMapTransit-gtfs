@@ -1,2 +1,2 @@
-feed_end_date,feed_publisher_name,feed_start_date,feed_lang,feed_contact_url,feed_contact_email,feed_version,feed_publisher_url
-20991231,AddisMap + DT4A,20191201,en,https://addismaptransit.com/support/,info@addismap.com,1.0,https://digitaltransport4africa.org/
+feed_publisher_url,feed_contact_url,feed_end_date,feed_version,feed_publisher_name,feed_lang,feed_contact_email,feed_start_date
+https://digitaltransport4africa.org/,https://addismaptransit.com/support/,20991231,1.0,AddisMap + DT4A,en,info@addismap.com,20191201
