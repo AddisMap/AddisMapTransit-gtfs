@@ -650,7 +650,6 @@ INFO:root:Added stop: Friendship Building - https://osm.org/node/6967281153
 INFO:root:Added stop: Piassa (Downtown Cafe) - https://osm.org/node/6967281241
 INFO:root:Added stop: Piassa Arada (2) - https://osm.org/node/6967281242
 INFO:root:Added stop: Gojo - https://osm.org/node/6967318740
-INFO:root:Added stop: Megenagna Terminal - https://osm.org/node/7022361366
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397409
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397410
 INFO:root:Added stop: Goro School - https://osm.org/node/7022397411
@@ -700,7 +699,6 @@ INFO:root:Added stop: Tulu Dimtu Adebabay - https://osm.org/node/7037142462
 INFO:root:Added stop: Project 12 Akababi - https://osm.org/node/7037142464
 INFO:root:Added stop: Mahiber Betoch - https://osm.org/node/7037142465
 INFO:root:Added stop: Bole Dildiy - https://osm.org/node/7037142466
-INFO:root:Added stop: Megenagna / Zefmesh - https://osm.org/node/7037142467
 INFO:root:Added stop: Megenagna - https://osm.org/node/7037142469
 INFO:root:Added stop: Megenagna - https://osm.org/node/7037142470
 INFO:root:Added stop: Abysinia Cafe Area - https://osm.org/node/7037142471
@@ -1020,12 +1018,10 @@ INFO:root:Added stop: Lafto - https://osm.org/node/7049122264
 INFO:root:Added stop: Hana Mariam (2) - https://osm.org/node/7049122265
 INFO:root:Added stop: Haile Garment - https://osm.org/node/7049122266
 INFO:root:Added stop: Yekiber Demena Church - https://osm.org/node/7049921444
-INFO:root:Added stop: Megenagna Terminal - https://osm.org/node/7049921445
 INFO:root:Added stop: Hill Bottom (Recreation) - https://osm.org/node/7049921447
 INFO:root:Added stop: Zone 8 - https://osm.org/node/7049921448
 INFO:root:Added stop: Aba Kiros (Tafo) Roundabout - https://osm.org/node/7049921449
 INFO:root:Added stop: Tafo Junction - https://osm.org/node/7050234123
-INFO:root:Added stop: Megenagna Terminal - https://osm.org/node/7050327664
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/7054842410
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/7054842414
 INFO:root:Added stop: Legehar (Old Train Station) - https://osm.org/node/7055060064
@@ -1038,7 +1034,6 @@ INFO:root:Added stop: St. Mary Church - https://osm.org/node/7055598743
 INFO:root:Added stop: NOC End - https://osm.org/node/7055598744
 INFO:root:Added stop: Kotebe Teachers College - https://osm.org/node/7056754511
 INFO:root:Added stop: Meskelegna (Ababdo) - https://osm.org/node/7056754514
-INFO:root:Added stop: Megenagna - https://osm.org/node/7056754516
 INFO:root:Added stop: Atlas - https://osm.org/node/7057002158
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/7057002161
 INFO:root:Added stop: Ras Mekonene Bridge (Seba Dereja) - https://osm.org/node/7057002162
@@ -1518,8 +1513,6 @@ INFO:root:Added stop: Abebe Sook - https://osm.org/node/10781643828
 INFO:root:Added stop: Shola (Yeka Court) - https://osm.org/node/10781643829
 INFO:root:Added stop: Shola Abyssinia Bank - https://osm.org/node/10781643830
 INFO:root:Added stop: Megenagna (Marathon Motors) - https://osm.org/node/10781643831
-INFO:root:Added stop: Megenagna - https://osm.org/node/10781643832
-INFO:root:Added stop: Megenagna (Israel Embassy) - https://osm.org/node/10781643833
 INFO:root:Added stop: Lamberet Menaheria - https://osm.org/node/10781643834
 INFO:root:Added stop: Kotebe - https://osm.org/node/10781643835
 INFO:root:Added stop: Kotebe - https://osm.org/node/10781643836
@@ -1716,7 +1709,6 @@ INFO:root:Added stop: Bole Medhanyalem - https://osm.org/node/10886282000
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10886282001
 INFO:root:Added stop: 22 Mazoria - https://osm.org/node/10886427067
 INFO:root:Added stop: Lem Hotel - https://osm.org/node/10886427068
-INFO:root:Added stop: Megenagna - https://osm.org/node/10886427069
 INFO:root:Added stop: Gurd Shola - https://osm.org/node/10886427070
 INFO:root:Added stop: Civil Servis College - https://osm.org/node/10886427071
 INFO:root:Added stop: Yetebaberut - https://osm.org/node/10886427072
@@ -1732,7 +1724,6 @@ INFO:root:Added stop: Emperial Hotel - https://osm.org/node/10886883548
 INFO:root:Added stop: Hayat Hospital - https://osm.org/node/10886883549
 INFO:root:Added stop: Bole Bora Amusement - https://osm.org/node/10886883550
 INFO:root:Added stop: Sun shine - https://osm.org/node/10886991025
-INFO:root:Added stop: Megenagna - https://osm.org/node/10886991026
 INFO:root:Added stop: Meshualekia - https://osm.org/node/10886991027
 INFO:root:Added stop: Safari - https://osm.org/node/10886991028
 INFO:root:Added stop: Summit - https://osm.org/node/10886991029
@@ -2105,8 +2096,6 @@ INFO:root:Added stop: Mariam - https://osm.org/node/10926040103
 INFO:root:Added stop: Mariam - https://osm.org/node/10926040104
 INFO:root:Added stop: Ayat - https://osm.org/node/10926074605
 INFO:root:Added stop: Summit Condominiums - https://osm.org/node/10926094674
-INFO:root:Added stop: Megenagna - https://osm.org/node/10926094675
-INFO:root:Added stop: Megenagna - https://osm.org/node/10926817920
 INFO:root:Added stop: Tafo Square - https://osm.org/node/10926817921
 INFO:root:Added stop: Tafo Square - https://osm.org/node/10926817922
 INFO:root:Added stop: Sun shine - https://osm.org/node/10926849848
@@ -2140,8 +2129,6 @@ INFO:root:Added stop: Tewodros Square - https://osm.org/node/10929694826
 INFO:root:Added stop: Tewodros Square - https://osm.org/node/10929694827
 INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10929694828
 INFO:root:Added stop: Tekle Haimanot - https://osm.org/node/10929694829
-INFO:root:Added stop: Megenagna - https://osm.org/node/10929694830
-INFO:root:Added stop: Megenagna - https://osm.org/node/10929694831
 INFO:root:Added stop: Torhayloch - https://osm.org/node/10929752934
 INFO:root:Added stop: Megenagna - https://osm.org/node/10931788261
 INFO:root:Added stop: Megenagna - https://osm.org/node/10931788262
@@ -2252,7 +2239,6 @@ INFO:root:Added stop: Mebrathayil - https://osm.org/node/10973631794
 INFO:root:Added stop: Mebrathayil - https://osm.org/node/10973631795
 INFO:root:Added stop: Lafto - https://osm.org/node/10973631797
 INFO:root:Added stop: Yeshi Total - https://osm.org/node/10973672014
-INFO:root:Added stop: Megenagna - https://osm.org/node/10973929780
 INFO:root:Added stop: Biretabret - https://osm.org/node/10973929781
 INFO:root:Added stop: Hanna Mariam - https://osm.org/node/10973929783
 INFO:root:Added stop: Hanna Mariam - https://osm.org/node/10973929784
@@ -2297,7 +2283,6 @@ INFO:root:Added stop: Coca Cola - https://osm.org/node/10989606503
 INFO:root:Added stop: Coca Cola - https://osm.org/node/10989606504
 INFO:root:Added stop: Tikur Anbesa - https://osm.org/node/10989700748
 INFO:root:Added stop: Tikur Anbesa - https://osm.org/node/10989700750
-INFO:root:Added stop: Megenagna - https://osm.org/node/10989765272
 INFO:root:Added stop: Tourist Hotel - https://osm.org/node/10991706244
 INFO:root:Added stop: Ambasader - https://osm.org/node/10991706246
 INFO:root:Added stop: Ambasader - https://osm.org/node/10991706247
@@ -2584,7 +2569,6 @@ INFO:root:Added stop: Afincho Ber - https://osm.org/node/11401004975
 INFO:root:Added stop: Kela - https://osm.org/node/11401143484
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/11401143486
 INFO:root:Added stop: Kela - https://osm.org/node/11401143487
-INFO:root:Added stop: Megenagna - https://osm.org/node/11401435281
 INFO:root:Added stop: Mamo - https://osm.org/node/11401435283
 INFO:root:Added stop: Yosef - https://osm.org/node/11401435284
 INFO:root:Added stop: Kadisco - https://osm.org/node/11401435285
@@ -2594,10 +2578,8 @@ INFO:root:Added stop: Hana Mariam - https://osm.org/node/11401435289
 INFO:root:Added stop: Kadisco - https://osm.org/node/11401435290
 INFO:root:Added stop: Yosef - https://osm.org/node/11401435291
 INFO:root:Added stop: Mamo - https://osm.org/node/11401435292
-INFO:root:Added stop: Megenagna - https://osm.org/node/11401435293
 INFO:root:Added stop: Mexico - https://osm.org/node/11401627123
 INFO:root:Added stop: Mexico - https://osm.org/node/11401627124
-INFO:root:Added stop: Megenagna - https://osm.org/node/11402646169
 INFO:root:Added stop: Mexico - https://osm.org/node/11402646171
 INFO:root:Added stop: Raguel Church - https://osm.org/node/11402726845
 INFO:root:Added stop: Bela Taxy Tera - https://osm.org/node/11402726846
@@ -2611,7 +2593,6 @@ INFO:root:Added stop: Dildiy - https://osm.org/node/11402726854
 INFO:root:Added stop: Jan Meda - https://osm.org/node/11402726855
 INFO:root:Added stop: Jan Meda - https://osm.org/node/11402726856
 INFO:root:Added stop: Shola - https://osm.org/node/11403178490
-INFO:root:Added stop: Megenagna - https://osm.org/node/11403178491
 INFO:root:Added stop: Lamberet - https://osm.org/node/11403178492
 INFO:root:Added stop: Lamberet - https://osm.org/node/11403178494
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/11403178495
@@ -2644,7 +2625,6 @@ INFO:root:Added stop: Autobis Tera - https://osm.org/node/11405492956
 INFO:root:Added stop: Lafto - https://osm.org/node/11405544615
 INFO:root:Added stop: Lafto - https://osm.org/node/11405544617
 INFO:root:Added stop: Megenagna - https://osm.org/node/11406154070
-INFO:root:Added stop: Megenagna - https://osm.org/node/11406154071
 INFO:root:Added stop: Tafo Junction - https://osm.org/node/11407727778
 INFO:root:Added stop: Tafo - https://osm.org/node/11407727779
 INFO:root:Added stop: Kura Jida - https://osm.org/node/11407727780
@@ -3450,13 +3430,6 @@ The stops "Megenagna" (ID node/10931937848) and "Megenagna" (ID
 node/7037142441) are 0.56m apart and probably represent the same location.
 The stops "Abenet" (ID node/10913863174) and "Abinet" (ID node/7077863018) are
 1.26m apart and probably represent the same location.
-The stops "Megenagna" (ID node/10886991026) and "Megenagna" (ID
-node/11402646169) are 0.49m apart and probably represent the same location.
-The stops "Megenagna" (ID node/10929694831) and "Megenagna" (ID
-node/11406154071) are 1.63m apart and probably represent the same location.
-The stops "Megenagna" (ID node/11403178491) and "Megenagna (Israel Embassy)"
-(ID node/10781643833) are 0.10m apart and probably represent the same
-location.
 The stops "Megenagna" (ID node/7037142469) and "Megenagna" (ID
 node/10931788262) are 1.03m apart and probably represent the same location.
 The stops "Lamberet Terminal (Bus)" (ID node/4884374622) and "Lamberet" (ID
