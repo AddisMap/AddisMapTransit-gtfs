@@ -125,6 +125,7 @@ INFO:root:Added stop: Friendship Building - https://osm.org/node/6967281153
 INFO:root:Added stop: Piassa (Downtown Cafe) - https://osm.org/node/6967281241
 INFO:root:Added stop: Piassa Arada (2) - https://osm.org/node/6967281242
 INFO:root:Added stop: Gojo - https://osm.org/node/6967318740
+INFO:root:Added stop: Megenagna Terminal - https://osm.org/node/7022361366
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397409
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397410
 INFO:root:Added stop: Goro School - https://osm.org/node/7022397411
@@ -171,6 +172,7 @@ INFO:root:Added stop: Tulu Dimtu Adebabay - https://osm.org/node/7037142462
 INFO:root:Added stop: Project 12 Akababi - https://osm.org/node/7037142464
 INFO:root:Added stop: Mahiber Betoch - https://osm.org/node/7037142465
 INFO:root:Added stop: Bole Dildiy - https://osm.org/node/7037142466
+INFO:root:Added stop: Megenagna / Zefmesh - https://osm.org/node/7037142467
 INFO:root:Added stop: Megenagna - https://osm.org/node/7037142469
 INFO:root:Added stop: Megenagna - https://osm.org/node/7037142470
 INFO:root:Added stop: Abysinia Cafe Area - https://osm.org/node/7037142471
@@ -483,10 +485,12 @@ INFO:root:Added stop: Sefera - https://osm.org/node/7047495433
 INFO:root:Added stop: Hana Mariam (2) - https://osm.org/node/7049122265
 INFO:root:Added stop: Haile Garment - https://osm.org/node/7049122266
 INFO:root:Added stop: Yekiber Demena Church - https://osm.org/node/7049921444
+INFO:root:Added stop: Megenagna Terminal - https://osm.org/node/7049921445
 INFO:root:Added stop: Hill Bottom (Recreation) - https://osm.org/node/7049921447
 INFO:root:Added stop: Zone 8 - https://osm.org/node/7049921448
 INFO:root:Added stop: Aba Kiros (Tafo) Roundabout - https://osm.org/node/7049921449
 INFO:root:Added stop: Tafo Junction - https://osm.org/node/7050234123
+INFO:root:Added stop: Megenagna Terminal - https://osm.org/node/7050327664
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/7054842410
 INFO:root:Added stop: 6 Kilo - https://osm.org/node/7054842414
 INFO:root:Added stop: Legehar (Old Train Station) - https://osm.org/node/7055060064
@@ -499,6 +503,7 @@ INFO:root:Added stop: St. Mary Church - https://osm.org/node/7055598743
 INFO:root:Added stop: NOC End - https://osm.org/node/7055598744
 INFO:root:Added stop: Kotebe Teachers College - https://osm.org/node/7056754511
 INFO:root:Added stop: Meskelegna (Ababdo) - https://osm.org/node/7056754514
+INFO:root:Added stop: Megenagna - https://osm.org/node/7056754516
 INFO:root:Added stop: Atlas - https://osm.org/node/7057002158
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/7057002161
 INFO:root:Added stop: Ras Mekonene Bridge (Seba Dereja) - https://osm.org/node/7057002162
@@ -886,6 +891,7 @@ INFO:root:Added stop: Abebe Sook - https://osm.org/node/10781643828
 INFO:root:Added stop: Shola (Yeka Court) - https://osm.org/node/10781643829
 INFO:root:Added stop: Shola Abyssinia Bank - https://osm.org/node/10781643830
 INFO:root:Added stop: Megenagna (Marathon Motors) - https://osm.org/node/10781643831
+INFO:root:Added stop: Megenagna - https://osm.org/node/10781643832
 INFO:root:Added stop: Abebe Sook - https://osm.org/node/10781844855
 INFO:root:Added stop: British Embassy - https://osm.org/node/10781844856
 INFO:root:Added stop: 5 Kilo St. Mary - https://osm.org/node/10781844857
@@ -1154,6 +1160,7 @@ INFO:root:Added stop: Afincho Ber - https://osm.org/node/11401004975
 INFO:root:Added stop: Kela - https://osm.org/node/11401143484
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/11401143486
 INFO:root:Added stop: Kela - https://osm.org/node/11401143487
+INFO:root:Added stop: Megenagna - https://osm.org/node/11401435281
 INFO:root:Added stop: Yosef - https://osm.org/node/11401435284
 INFO:root:Added stop: Kadisco - https://osm.org/node/11401435285
 INFO:root:Added stop: Haile Garment - https://osm.org/node/11401435286
@@ -1162,8 +1169,10 @@ INFO:root:Added stop: Hana Mariam - https://osm.org/node/11401435289
 INFO:root:Added stop: Kadisco - https://osm.org/node/11401435290
 INFO:root:Added stop: Yosef - https://osm.org/node/11401435291
 INFO:root:Added stop: Mamo - https://osm.org/node/11401435292
+INFO:root:Added stop: Megenagna - https://osm.org/node/11401435293
 INFO:root:Added stop: Mexico - https://osm.org/node/11401627123
 INFO:root:Added stop: Mexico - https://osm.org/node/11401627124
+INFO:root:Added stop: Megenagna - https://osm.org/node/11402646169
 INFO:root:Added stop: Mexico - https://osm.org/node/11402646171
 INFO:root:Added stop: Raguel Church - https://osm.org/node/11402726845
 INFO:root:Added stop: Bela Taxy Tera - https://osm.org/node/11402726846
@@ -1177,6 +1186,7 @@ INFO:root:Added stop: Dildiy - https://osm.org/node/11402726854
 INFO:root:Added stop: Jan Meda - https://osm.org/node/11402726855
 INFO:root:Added stop: Jan Meda - https://osm.org/node/11402726856
 INFO:root:Added stop: Shola - https://osm.org/node/11403178490
+INFO:root:Added stop: Megenagna - https://osm.org/node/11403178491
 INFO:root:Added stop: Lamberet - https://osm.org/node/11403178492
 INFO:root:Added stop: Lamberet - https://osm.org/node/11403178494
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/11403178495
@@ -1209,6 +1219,7 @@ INFO:root:Added stop: Autobis Tera - https://osm.org/node/11405492956
 INFO:root:Added stop: Lafto - https://osm.org/node/11405544615
 INFO:root:Added stop: Lafto - https://osm.org/node/11405544617
 INFO:root:Added stop: Megenagna - https://osm.org/node/11406154070
+INFO:root:Added stop: Megenagna - https://osm.org/node/11406154071
 INFO:root:Added stop: Tafo Junction - https://osm.org/node/11407727778
 INFO:root:Added stop: Tafo - https://osm.org/node/11407727779
 INFO:root:Added stop: Kura Jida - https://osm.org/node/11407727780
