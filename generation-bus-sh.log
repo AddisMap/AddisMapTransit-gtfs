@@ -17,6 +17,10 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10458767
+WARNING:root:  Problem at: https://osm.org/way/761200759
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10460045
+WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460167
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10466723
@@ -25,12 +29,18 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10521541
 WARNING:root:  Problem at: https://osm.org/way/538089767
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10521542
 WARNING:root:  Problem at: https://osm.org/way/1240096081
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10534540
+WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541370
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10542239
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10458622
+WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16813411
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16815657
+WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16817598
 WARNING:root:  Problem at: https://osm.org/way/1175980202
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16817597
@@ -365,7 +375,6 @@ INFO:root:Added stop: St. Mary Church - https://osm.org/node/7055598743
 INFO:root:Added stop: Meskelegna (Ababdo) - https://osm.org/node/7056754514
 INFO:root:Added stop: Megenagna - https://osm.org/node/7056754516
 INFO:root:Added stop: Ras Mekonene Bridge (Seba Dereja) - https://osm.org/node/7057002162
-INFO:root:Added stop: Gibi Gebriel Church - https://osm.org/node/7057002163
 INFO:root:Added stop: St.Gorgis - https://osm.org/node/7062689844
 INFO:root:Added stop: Arat Kilo - https://osm.org/node/7062689850
 INFO:root:Added stop: 4 Kilo - https://osm.org/node/7062689851
