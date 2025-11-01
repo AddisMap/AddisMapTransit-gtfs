@@ -1070,6 +1070,8 @@ INFO:root:Added stop: Lomi Meda - https://osm.org/node/11084058584
 INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260623
 INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260625
 INFO:root:Added stop: Kadisco - https://osm.org/node/11716260626
+INFO:root:Removed 0 unused stops
+INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10568476
 Generating schedule for line: 15633036
@@ -1279,9 +1281,7 @@ Generating schedule for line: 15992541
 Generating schedule for line: 15992646
 Generating schedule for line: 15992742
 Generating schedule for line: 15992882
-Generating schedule for line: 15992969INFO:root:Removed 0 unused stops
-INFO:root:Removed 0 unused routes
-
+Generating schedule for line: 15992969
 Generating schedule for line: 15993132
 Generating schedule for line: 15993248
 Generating schedule for line: 15993363

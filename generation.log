@@ -2861,6 +2861,8 @@ INFO:root:Added stop: Sakela - https://osm.org/node/11716456333
 INFO:root:Added stop: Kore Roba - https://osm.org/node/11716456334
 INFO:root:Added stop: Wererso - https://osm.org/node/11716456336
 INFO:root:Added stop: Wererso - https://osm.org/node/11716456337
+INFO:root:Removed 0 unused stops
+INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
@@ -3281,9 +3283,7 @@ Generating schedule for line: 16821697
 Generating schedule for line: 16822289
 Generating schedule for line: 16822421
 Generating schedule for line: 16822501
-Generating schedule for line: 16822668INFO:root:Removed 0 unused stops
-INFO:root:Removed 0 unused routes
-
+Generating schedule for line: 16822668
 Generating schedule for line: 16822706
 Generating schedule for line: 17008501
 Generating schedule for line: 17008592
