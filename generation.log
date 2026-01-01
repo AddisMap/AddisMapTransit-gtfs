@@ -17,10 +17,12 @@ INFO:root:(
 
             /* Return tags for elements and roles for relation members. */
             );out body;
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10406489
+WARNING:root:  Problem at: https://osm.org/way/749949702
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10410197
 WARNING:root:  Problem at: https://osm.org/way/223141386
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10410196
-WARNING:root:  Problem at: https://osm.org/way/62177815
+WARNING:root:  Problem at: https://osm.org/way/757843856
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10458767
 WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10460045
@@ -37,16 +39,24 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10534540
 WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541370
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10541999
+WARNING:root:  Problem at: https://osm.org/way/757910205
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10542000
+WARNING:root:  Problem at: https://osm.org/way/757910201
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10542239
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10550649
 WARNING:root:  Problem at: https://osm.org/way/761200759
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10551604
+WARNING:root:  Problem at: https://osm.org/way/755492732
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15487437
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10715392
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15652319
 WARNING:root:  Problem at: https://osm.org/way/761078823
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10694719
+WARNING:root:  Problem at: https://osm.org/way/755492732
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15774594
 WARNING:root:  Problem at: https://osm.org/way/1166096259
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15775110
@@ -67,10 +77,24 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15858712
 WARNING:root:  Problem at: https://osm.org/way/538089767
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15858711
 WARNING:root:  Problem at: https://osm.org/way/1240096081
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15858886
+WARNING:root:  Problem at: https://osm.org/way/25965888
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15867149
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15867571
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15867784
+WARNING:root:  Problem at: https://osm.org/way/1173922473
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15867785
+WARNING:root:  Problem at: https://osm.org/way/757910202
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15869242
+WARNING:root:  Problem at: https://osm.org/way/757910202
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15869241
+WARNING:root:  Problem at: https://osm.org/way/1173922473
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15869310
+WARNING:root:  Problem at: https://osm.org/way/1173922473
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15869311
+WARNING:root:  Problem at: https://osm.org/way/757910202
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15870223
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15880658
@@ -85,6 +109,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15902169
 WARNING:root:  Problem at: https://osm.org/way/62177815
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15902320
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15904809
+WARNING:root:  Problem at: https://osm.org/way/25965888
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15906875
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15907232
@@ -122,7 +148,7 @@ WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15962064
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15973831
-WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:  Problem at: https://osm.org/way/755492732
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15973923
 WARNING:root:  Problem at: https://osm.org/way/548379917
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15973922
@@ -185,6 +211,12 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15484447
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16761256
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16761407
+WARNING:root:  Problem at: https://osm.org/way/749949702
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16763786
+WARNING:root:  Problem at: https://osm.org/way/51403688
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16763785
+WARNING:root:  Problem at: https://osm.org/way/1174274676
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16764668
 WARNING:root:  Problem at: https://osm.org/way/1240096081
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16764669
@@ -193,6 +225,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16764848
 WARNING:root:  Problem at: https://osm.org/way/538089767
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16764847
 WARNING:root:  Problem at: https://osm.org/way/1240096081
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16765469
+WARNING:root:  Problem at: https://osm.org/way/749949702
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16765722
 WARNING:root:  Problem at: https://osm.org/way/538089767
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16765721
@@ -209,6 +243,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16799949
 WARNING:root:  Problem at: https://osm.org/way/1175980202
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16799948
 WARNING:root:  Problem at: https://osm.org/way/1240096081
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16804051
+WARNING:root:  Problem at: https://osm.org/way/757910202
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16813411
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16815657
@@ -688,6 +724,7 @@ INFO:root:Added stop: Friendship Building - https://osm.org/node/6967281153
 INFO:root:Added stop: Piassa (Downtown Cafe) - https://osm.org/node/6967281241
 INFO:root:Added stop: Piassa Arada (2) - https://osm.org/node/6967281242
 INFO:root:Added stop: Gojo - https://osm.org/node/6967318740
+INFO:root:Added stop: Se'alite Mihret Church - https://osm.org/node/7009876556
 INFO:root:Added stop: Megenagna Terminal - https://osm.org/node/7022361366
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397409
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397410
@@ -755,7 +792,6 @@ INFO:root:Added stop: Lamberet Area - https://osm.org/node/7037183486
 INFO:root:Added stop: Lamberet Area - https://osm.org/node/7037183487
 INFO:root:Added stop: Yerer Goro - https://osm.org/node/7037183490
 INFO:root:Added stop: Yerer Goro - https://osm.org/node/7037183491
-INFO:root:Added stop: Se'alite Mihret Church - https://osm.org/node/7037183492
 INFO:root:Added stop: Management Institute - https://osm.org/node/7037183493
 INFO:root:Added stop: Sealite Mihret - https://osm.org/node/7037183494
 INFO:root:Added stop: Civil Service College - https://osm.org/node/7037183495

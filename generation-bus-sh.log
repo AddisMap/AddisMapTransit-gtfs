@@ -33,6 +33,10 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10534540
 WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10541370
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10541999
+WARNING:root:  Problem at: https://osm.org/way/757910205
+WARNING:root:Route has non-matching ways: https://osm.org/relation/10542000
+WARNING:root:  Problem at: https://osm.org/way/757910201
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10542239
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/10458622
@@ -111,6 +115,7 @@ INFO:root:Added stop: Friendship Building - https://osm.org/node/6967281153
 INFO:root:Added stop: Piassa (Downtown Cafe) - https://osm.org/node/6967281241
 INFO:root:Added stop: Piassa Arada (2) - https://osm.org/node/6967281242
 INFO:root:Added stop: Gojo - https://osm.org/node/6967318740
+INFO:root:Added stop: Se'alite Mihret Church - https://osm.org/node/7009876556
 INFO:root:Added stop: Megenagna Terminal - https://osm.org/node/7022361366
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397409
 INFO:root:Added stop: Bole Millenium - https://osm.org/node/7022397410
@@ -154,7 +159,6 @@ INFO:root:Added stop: Lamberet Area - https://osm.org/node/7037183485
 INFO:root:Added stop: Lamberet Area - https://osm.org/node/7037183487
 INFO:root:Added stop: Yerer Goro - https://osm.org/node/7037183490
 INFO:root:Added stop: Yerer Goro - https://osm.org/node/7037183491
-INFO:root:Added stop: Se'alite Mihret Church - https://osm.org/node/7037183492
 INFO:root:Added stop: Management Institute - https://osm.org/node/7037183493
 INFO:root:Added stop: Sealite Mihret - https://osm.org/node/7037183494
 INFO:root:Added stop: Civil Service College - https://osm.org/node/7037183495
