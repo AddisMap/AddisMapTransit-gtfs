@@ -123,10 +123,16 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15974266
 WARNING:root:  Problem at: https://osm.org/way/1177046813
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15974267
 WARNING:root:  Problem at: https://osm.org/way/548379917
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15974327
+WARNING:root:  Problem at: https://osm.org/way/1219400016
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15974326
+WARNING:root:  Problem at: https://osm.org/way/1219400016
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15992645
 WARNING:root:  Problem at: https://osm.org/way/1175980202
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15992644
 WARNING:root:  Problem at: https://osm.org/way/1240096081
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15999095
+WARNING:root:  Problem at: https://osm.org/way/761078838
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999427
 WARNING:root:  Problem at: https://osm.org/way/548379917
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15999428

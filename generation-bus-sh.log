@@ -53,8 +53,12 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16817833
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16819130
 WARNING:root:  Problem at: https://osm.org/way/24554421
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16821503
+WARNING:root:  Problem at: https://osm.org/way/1219400016
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16821696
 WARNING:root:  Problem at: https://osm.org/way/24554421
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16822287
+WARNING:root:  Problem at: https://osm.org/way/1219400016
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16822500
 WARNING:root:  Problem at: https://osm.org/way/1172073588
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16822705
