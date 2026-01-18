@@ -17,7 +17,7 @@ Sponsored for a one year term under the [DigitalTransport 4 Africa Innovation Ch
 Much of the data was collected on the ground and uploaded to OSM by AddisMap Team that was made possible through the [DT4A Innovation Challenge Grant Award](https://digitaltransport4africa.org/wri-and-partners-select-4-winners-for-digital-transport-for-africa-innovation-challenge-2/) that was organized by [DT4A](https://digitaltransport4africa.org/) on December 7, 2021. This data is validated on OSM and directly extracted from the OSM OverPass API. 
 Please use any GTFS validation tool of your preference to do GTFS Specific validation. If you prefer pre-validated GTFS dataset you can checkout the [DT4A GitLab repository here](https://gitlab.com/digitaltransport/data/africa/addis-ababa). Note that you need to check the OSM history and routes data status before extracting new GTFS data set as such changes on OSM would affect the GTFS data too.
 
-The dataset is updated every night from OpenStreetMap data.
+The dataset is updated every week from OpenStreetMap data.
 
 If you want to use this data please contact info@addismap.com
 
