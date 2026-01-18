@@ -1,7 +1,11 @@
 INFO:root:Using the end date from config file: 20991231
 WARNING:root:Date range is more than one year.
 INFO:root:Query and build fresh data for routes
-INFO:root:(
+INFO:root:
+            [timeout:600]
+            ;
+            (
+
             /* Obtain route variants based on tags and bounding box */
             relation['operator:short' = 'AB']['route' ~ '^bus$'](8.8,38.61,9.13,38.96)->.routes;
 
@@ -114,7 +118,11 @@ WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/17065221
 WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
-INFO:root:(
+INFO:root:
+            [timeout:600]
+            ;
+            (
+
             /* Obtain route variants based on tags and bounding box */
             relation['operator:short' = 'AB']['route' ~ '^bus$'](8.8,38.61,9.13,38.96);
 
