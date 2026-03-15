@@ -85,6 +85,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15904809
 WARNING:root:  Problem at: https://osm.org/way/25965888
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15906875
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15907233
+WARNING:root:  Problem at: https://osm.org/way/761043770
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15907232
 WARNING:root:  Problem at: https://osm.org/way/1384285600
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15910211
@@ -105,6 +107,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15916400
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15958042
 WARNING:root:  Problem at: https://osm.org/way/1384285600
+WARNING:root:Route has non-matching ways: https://osm.org/relation/15958043
+WARNING:root:  Problem at: https://osm.org/way/761043770
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15960814
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15960813

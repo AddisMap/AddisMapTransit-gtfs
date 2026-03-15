@@ -55,6 +55,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/10458622
 WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16813411
 WARNING:root:  Problem at: https://osm.org/way/755492723
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16815231
+WARNING:root:  Problem at: https://osm.org/way/761043770
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16815657
 WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16817598
