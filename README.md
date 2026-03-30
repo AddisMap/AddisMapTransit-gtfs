@@ -8,7 +8,7 @@ Transit data of Addis Ababa, Ethiopia - based on OpenStreetMap
 
 The data is under the OSM License (ODbL OpenStreetMap contributors / AddisMapTransit.com).
 
-## Sponsors
+## Past Sponsors
 
 Sponsored for a one year term under the [DigitalTransport 4 Africa Innovation Challenge](https://digitaltransport4africa.org/innovation-challenge/) by [WRI](https://wri.org), [AFD FR](https://www.afd.fr/en) - partners:
 
