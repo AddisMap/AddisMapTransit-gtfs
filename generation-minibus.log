@@ -85,8 +85,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15904809
 WARNING:root:  Problem at: https://osm.org/way/25965888
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15906875
 WARNING:root:  Problem at: https://osm.org/way/755492723
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15907233
-WARNING:root:  Problem at: https://osm.org/way/761043770
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15907232
 WARNING:root:  Problem at: https://osm.org/way/1384285600
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15910211
@@ -107,8 +105,6 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/15916400
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15958042
 WARNING:root:  Problem at: https://osm.org/way/1384285600
-WARNING:root:Route has non-matching ways: https://osm.org/relation/15958043
-WARNING:root:  Problem at: https://osm.org/way/761043770
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15960814
 WARNING:root:  Problem at: https://osm.org/way/24554421
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15960813
@@ -167,6 +163,12 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/17332225
 WARNING:root:  Problem at: https://osm.org/way/761078823
 WARNING:root:Route has non-matching ways: https://osm.org/relation/17332224
 WARNING:root:  Problem at: https://osm.org/way/24554421
+WARNING:root:RouteVariant without 'ref': 20389821
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/20389825
+WARNING:root:RouteVariant without 'ref': 20389870
+WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
+WARNING:root:https://osm.org/relation/20389877
 INFO:root:Query and build fresh data for stops
 INFO:root:
             [timeout:600]
@@ -206,8 +208,12 @@ INFO:root:Added stop: Piassa Arada (2) - https://osm.org/node/6967281242
 INFO:root:Added stop: kadisco Building - https://osm.org/node/7041052978
 INFO:root:Added stop: 18 Mazoria - https://osm.org/node/7041071612
 INFO:root:Added stop: Lafto - https://osm.org/node/7049122264
+INFO:root:Added stop: Dildiy Mariam - https://osm.org/node/7075101457
+INFO:root:Added stop: Mebrat - https://osm.org/node/7080611085
 INFO:root:Added stop: Ummar School - https://osm.org/node/7084722454
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/7103202625
+INFO:root:Added stop: Mebrat (Lafto) - https://osm.org/node/7105268824
+INFO:root:Added stop: Dildiy Mariam - https://osm.org/node/7105268825
 INFO:root:Added stop: Kality Meneharia - https://osm.org/node/7110725256
 INFO:root:Added stop: Atena Tera - https://osm.org/node/7112280391
 INFO:root:Added stop: Wello Sefer - https://osm.org/node/7122983960
@@ -339,6 +345,7 @@ INFO:root:Added stop: Saris Abo - https://osm.org/node/10842129040
 INFO:root:Added stop: Mebrat hayle - https://osm.org/node/10842129041
 INFO:root:Added stop: Kadisco - https://osm.org/node/10842129042
 INFO:root:Added stop: Hana Mariam - https://osm.org/node/10842129043
+INFO:root:Added stop: Bulbula - https://osm.org/node/10842129044
 INFO:root:Added stop: Mamo (NFSL) - https://osm.org/node/10842129045
 INFO:root:Added stop: Medhani alem - https://osm.org/node/10842129046
 INFO:root:Added stop: Mosque (Mesged) - https://osm.org/node/10842129047
@@ -1072,6 +1079,7 @@ INFO:root:Added stop: Akaki CBE - https://osm.org/node/10994942333
 INFO:root:Added stop: Akaki CBE - https://osm.org/node/10994942334
 INFO:root:Added stop: Mexico - https://osm.org/node/10995013009
 INFO:root:Added stop: Lafto - https://osm.org/node/10995013010
+INFO:root:Added stop: Lafto (Mickael) - https://osm.org/node/10995013012
 INFO:root:Added stop: Lafto (Mickael) - https://osm.org/node/10995013013
 INFO:root:Added stop: Woyira Sefer - https://osm.org/node/10995113524
 INFO:root:Added stop: Woyira Sefer - https://osm.org/node/10995113525
@@ -1105,9 +1113,43 @@ INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041499
 INFO:root:Added stop: Shola - https://osm.org/node/10998041503
 INFO:root:Added stop: Shola - https://osm.org/node/10998041504
 INFO:root:Added stop: Lomi Meda - https://osm.org/node/11084058584
+INFO:root:Added stop: Kela - https://osm.org/node/11380281419
+INFO:root:Added stop: Kela - https://osm.org/node/11524582075
 INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260623
 INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260625
 INFO:root:Added stop: Kadisco - https://osm.org/node/11716260626
+INFO:root:Added stop: Lafto - https://osm.org/node/13687009067
+INFO:root:Added stop: Lafto - https://osm.org/node/13687009068
+INFO:root:Added stop: Mariam Condominium - https://osm.org/node/13687108020
+INFO:root:Added stop: Mariam Condominium - https://osm.org/node/13687108021
+INFO:root:Added stop: Taxi Tera - https://osm.org/node/13689526343
+INFO:root:Added stop: Taxi Tera - https://osm.org/node/13689526344
+INFO:root:Added stop: Kazanchis - https://osm.org/node/13689526345
+INFO:root:Added stop: Kazanchis - https://osm.org/node/13689526346
+INFO:root:Added stop: Balderas - https://osm.org/node/13689526347
+INFO:root:Added stop: Balderas - https://osm.org/node/13689526348
+INFO:root:Added stop: Winget - https://osm.org/node/13689947521
+INFO:root:Added stop: Winget - https://osm.org/node/13689947522
+INFO:root:Added stop: Ambasador - https://osm.org/node/13689947523
+INFO:root:Added stop: Beherawi Theatre - https://osm.org/node/13689947524
+INFO:root:Added stop: Beherawi Theatre - https://osm.org/node/13689947525
+INFO:root:Added stop: Ambasador - https://osm.org/node/13689947526
+INFO:root:Added stop: Filweha - https://osm.org/node/13689947527
+INFO:root:Added stop: Filweha - https://osm.org/node/13689947528
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947532
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947533
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947534
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947535
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947537
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947538
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947540
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947541
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947542
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947543
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947544
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947545
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947546
+INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947547
 INFO:root:Removed 0 unused stops
 INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
@@ -1362,11 +1404,23 @@ Generating schedule for line: 17332228
 Generating schedule for line: 17332229
 Generating schedule for line: 17332230
 Generating schedule for line: 17332231
+Generating schedule for line: 20385422
+Generating schedule for line: 20385488
+Generating schedule for line: 20389398
+Generating schedule for line: 20389399
+Generating schedule for line: 20389824
+Generating schedule for line: 20389825
+Generating schedule for line: 20389826
+Generating schedule for line: 20389875
+Generating schedule for line: 20389876
+Generating schedule for line: 20389877
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
 The stops "Lafto" (ID node/10973631797) and "Lafto" (ID node/7049122264) are
 1.58m apart and probably represent the same location.
+The stops "Lafto (Mickael)" (ID node/10995013013) and "Lafto (Mickael)" (ID
+node/10995013012) are 1.26m apart and probably represent the same location.
 The stops "Weleta" (ID node/10997242295) and "Weleta" (ID node/10997242296)
 are 1.74m apart and probably represent the same location.
 The stops "Riventy" (ID node/10989306744) and "Riventy" (ID node/10989306745)
