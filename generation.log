@@ -435,6 +435,36 @@ WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/17065221
 WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406755
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/20406755
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406756
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route with existing route_id (ref)
+WARNING:root: https://osm.org/relation/20406756
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406757
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/20406757
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406758
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route with existing route_id (ref)
+WARNING:root: https://osm.org/relation/20406758
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406759
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/20406759
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406760
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route with existing route_id (ref)
+WARNING:root: https://osm.org/relation/20406760
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:
             [timeout:600]
@@ -1020,6 +1050,7 @@ INFO:root:Added stop: Ubedi Academy - https://osm.org/node/7041052915
 INFO:root:Added stop: Alem Gena - https://osm.org/node/7041052916
 INFO:root:Added stop: Alem Gena - https://osm.org/node/7041052917
 INFO:root:Added stop: Mama - https://osm.org/node/7041052918
+INFO:root:Added stop: Gofa Camp - https://osm.org/node/7041052926
 INFO:root:Added stop: Mekanisa (Old Revenues Office) - https://osm.org/node/7041052927
 INFO:root:Added stop: German Square - https://osm.org/node/7041052928
 INFO:root:Added stop: Gebriel Bridge - https://osm.org/node/7041052932
@@ -1046,6 +1077,7 @@ INFO:root:Added stop: Gebre Kirstos - https://osm.org/node/7041052957
 INFO:root:Added stop: Bisrate Gebrael - https://osm.org/node/7041052958
 INFO:root:Added stop: Gofa Gebriel (2) - https://osm.org/node/7041052959
 INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/7041052960
+INFO:root:Added stop: JFK Building - https://osm.org/node/7041052962
 INFO:root:Added stop: Bole Mickael - https://osm.org/node/7041052963
 INFO:root:Added stop: MOHA (Pepsi Factory) - https://osm.org/node/7041052965
 INFO:root:Added stop: Gotera (Oilibiya) - https://osm.org/node/7041052969
@@ -1728,6 +1760,7 @@ INFO:root:Added stop: Olympia - https://osm.org/node/10766454593
 INFO:root:Added stop: Bole Roundabout - https://osm.org/node/10766454594
 INFO:root:Added stop: German Square - https://osm.org/node/10768858714
 INFO:root:Added stop: Gofa Camp - https://osm.org/node/10768858715
+INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/10768858717
 INFO:root:Added stop: African Union - https://osm.org/node/10768858718
 INFO:root:Added stop: Autobis Tera - https://osm.org/node/10768858719
 INFO:root:Added stop: Guenet Hotel (Orbis) - https://osm.org/node/10768858720
@@ -2691,7 +2724,7 @@ INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11141680767
 INFO:root:Added stop: Tulu Dimtu Unisa - https://osm.org/node/11141680768
 INFO:root:Added stop: Delta Fuel Station - https://osm.org/node/11141680769
 INFO:root:Added stop: Sidama Awash NOC - https://osm.org/node/11141680770
-INFO:root:Added stop: Atlas Resort - https://osm.org/node/11141680771
+INFO:root:Added stop: Gelan - https://osm.org/node/11141680771
 INFO:root:Added stop: KOSPI - https://osm.org/node/11141680772
 INFO:root:Added stop: Gelan - https://osm.org/node/11141680773
 INFO:root:Added stop: Gelan Customs - https://osm.org/node/11141680774
@@ -3090,7 +3123,9 @@ INFO:root:Added stop: Shano - https://osm.org/node/13691466814
 INFO:root:Added stop: Shano - https://osm.org/node/13691466815
 INFO:root:Added stop: Fiche Gelila - https://osm.org/node/13691466816
 INFO:root:Added stop: Fiche Gelila - https://osm.org/node/13691466817
-INFO:root:Removed 0 unused stops
+INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/13703953165
+INFO:root:Added stop: Gelan - https://osm.org/node/13703953167
+INFO:root:Removed 1 unused stop
 INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10400029
@@ -3553,6 +3588,9 @@ Generating schedule for line: 20391486
 Generating schedule for line: 5697658
 Generating schedule for line: 5697659
 Generating schedule for line: AB053
+Generating schedule for line: AB141SS
+Generating schedule for line: Minibus 009
+Generating schedule for line: Minibus 010
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
@@ -3569,9 +3607,9 @@ node/7037142448) are 1.95m apart and probably represent the same location.
 The stops "Tulu Dimtu" (ID node/10899524540) and "Tulu Dimtu" (ID
 node/11414255399) are 0.62m apart and probably represent the same location.
 The stops "Kality Total" (ID node/7112648161) and "Kality Total" (ID
-node/10846106471) are 1.78m apart and probably represent the same location.
+node/10846106471) are 1.08m apart and probably represent the same location.
 The stops "Kality Menaheria" (ID node/11417018707) and "Kality Total" (ID
-node/10842129029) are 0.20m apart and probably represent the same location.
+node/10842129029) are 1.03m apart and probably represent the same location.
 The stops "Sebeta" (ID node/11037149944) and "Sebeta" (ID node/11037149943)
 are 0.61m apart and probably represent the same location.
 The stops "Sefera" (ID node/7047495433) and "Sefera" (ID node/10901428143) are
@@ -3617,7 +3655,7 @@ node/10902267340) are 0.47m apart and probably represent the same location.
 The stops "Gebriel Bridge" (ID node/10899652824) and "Gebriel Bridge" (ID
 node/7041052932) are 0.60m apart and probably represent the same location.
 The stops "Jemmo 1" (ID node/10905772004) and "Jemmo 1" (ID node/7041052945)
-are 0.51m apart and probably represent the same location.
+are 1.74m apart and probably represent the same location.
 The stops "Jemmo 1" (ID node/10905771998) and "Jemmo 1" (ID node/7041052944)
 are 1.49m apart and probably represent the same location.
 The stops "Weleta" (ID node/10997242295) and "Weleta" (ID node/10997242296)
@@ -5385,6 +5423,12 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value AB007SSS in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value AB141SS in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,

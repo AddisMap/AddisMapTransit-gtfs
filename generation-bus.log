@@ -287,6 +287,16 @@ WARNING:root:  Problem at: https://osm.org/way/761200759
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/17065221
 WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406759
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/20406759
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406760
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route with existing route_id (ref)
+WARNING:root: https://osm.org/relation/20406760
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:
             [timeout:600]
@@ -1317,7 +1327,7 @@ INFO:root:Added stop: Gelan Condominium - https://osm.org/node/11141680767
 INFO:root:Added stop: Tulu Dimtu Unisa - https://osm.org/node/11141680768
 INFO:root:Added stop: Delta Fuel Station - https://osm.org/node/11141680769
 INFO:root:Added stop: Sidama Awash NOC - https://osm.org/node/11141680770
-INFO:root:Added stop: Atlas Resort - https://osm.org/node/11141680771
+INFO:root:Added stop: Gelan - https://osm.org/node/11141680771
 INFO:root:Added stop: KOSPI - https://osm.org/node/11141680772
 INFO:root:Added stop: Gelan - https://osm.org/node/11141680773
 INFO:root:Added stop: Gelan Customs - https://osm.org/node/11141680774
@@ -1681,6 +1691,7 @@ INFO:root:Added stop: Shano - https://osm.org/node/13691466814
 INFO:root:Added stop: Shano - https://osm.org/node/13691466815
 INFO:root:Added stop: Fiche Gelila - https://osm.org/node/13691466816
 INFO:root:Added stop: Fiche Gelila - https://osm.org/node/13691466817
+INFO:root:Added stop: Gelan - https://osm.org/node/13703953167
 INFO:root:Removed 0 unused stops
 INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
@@ -1881,6 +1892,7 @@ Generating schedule for line: 20391484
 Generating schedule for line: 20391485
 Generating schedule for line: 20391486
 Generating schedule for line: AB053
+Generating schedule for line: AB141SS
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
@@ -1891,7 +1903,7 @@ The stops "Dukem" (ID node/11141680777) and "Dukem" (ID node/11141680775) are
 The stops "Akaki Beretaberet" (ID node/11056827967) and "Akaki Beretaberet"
 (ID node/7037142448) are 1.33m apart and probably represent the same location.
 The stops "Kality Menaheria" (ID node/11417018707) and "Kality Total" (ID
-node/10842129029) are 0.20m apart and probably represent the same location.
+node/10842129029) are 1.03m apart and probably represent the same location.
 The stops "Sebeta" (ID node/11037149944) and "Sebeta" (ID node/11037149943)
 are 0.61m apart and probably represent the same location.
 The stops "Alem Gena" (ID node/7041052917) and "Alem Gena" (ID
@@ -1991,6 +2003,12 @@ that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
  column route_short_name
 Invalid value AB007SSS in field route_short_name
+This route_short_name is relatively long, which probably means that it
+contains a place name.  You should only use this field to hold a short code
+that riders use to identify a route.  If this route doesn't have such a code,
+it's OK to leave this field empty.
+ column route_short_name
+Invalid value AB141SS in field route_short_name
 This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,

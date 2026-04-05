@@ -169,6 +169,26 @@ WARNING:root:https://osm.org/relation/20389825
 WARNING:root:RouteVariant without 'ref': 20389870
 WARNING:root:Itinerary ID doesn't match line ID. Please fix in OSM.
 WARNING:root:https://osm.org/relation/20389877
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406755
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/20406755
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406756
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route with existing route_id (ref)
+WARNING:root: https://osm.org/relation/20406756
+WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406757
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/20406757
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/20406758
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:Route with existing route_id (ref)
+WARNING:root: https://osm.org/relation/20406758
+WARNING:root: Skipped. Please fix in OpenStreetMap
 INFO:root:Query and build fresh data for stops
 INFO:root:
             [timeout:600]
@@ -205,6 +225,11 @@ INFO:root:Schedule creator: et_addisababa
 INFO:root:Trips creator: et_addisababa
 INFO:root:Added stop: Arada - https://osm.org/node/6728583386
 INFO:root:Added stop: Piassa Arada (2) - https://osm.org/node/6967281242
+INFO:root:Added stop: Gofa Camp - https://osm.org/node/7041052926
+INFO:root:Added stop: Jemo Michael - https://osm.org/node/7041052939
+INFO:root:Added stop: Jemo Michael - https://osm.org/node/7041052940
+INFO:root:Added stop: Jemmo 1 - https://osm.org/node/7041052944
+INFO:root:Added stop: JFK Building - https://osm.org/node/7041052962
 INFO:root:Added stop: kadisco Building - https://osm.org/node/7041052978
 INFO:root:Added stop: 18 Mazoria - https://osm.org/node/7041071612
 INFO:root:Added stop: Lafto - https://osm.org/node/7049122264
@@ -276,6 +301,9 @@ INFO:root:Added stop: kality Maseltegna - https://osm.org/node/10766121873
 INFO:root:Added stop: kality Meneharia - https://osm.org/node/10766121874
 INFO:root:Added stop: Olympia - https://osm.org/node/10766454593
 INFO:root:Added stop: Bole Roundabout - https://osm.org/node/10766454594
+INFO:root:Added stop: German Square - https://osm.org/node/10768858714
+INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/10768858717
+INFO:root:Added stop: German Square - https://osm.org/node/10768858723
 INFO:root:Added stop: Lamberet Menaheria - https://osm.org/node/10781643820
 INFO:root:Added stop: Arat Kilo - https://osm.org/node/10781643821
 INFO:root:Added stop: 4 kilo (Children Theatre) - https://osm.org/node/10781643822
@@ -1112,8 +1140,11 @@ INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041498
 INFO:root:Added stop: Piassa Arada - https://osm.org/node/10998041499
 INFO:root:Added stop: Shola - https://osm.org/node/10998041503
 INFO:root:Added stop: Shola - https://osm.org/node/10998041504
+INFO:root:Added stop: Ayer Tena - https://osm.org/node/11035502832
 INFO:root:Added stop: Lomi Meda - https://osm.org/node/11084058584
 INFO:root:Added stop: Kela - https://osm.org/node/11380281419
+INFO:root:Added stop: Haile Garment - https://osm.org/node/11409931056
+INFO:root:Added stop: Chaina Camp - https://osm.org/node/11412604064
 INFO:root:Added stop: Kela - https://osm.org/node/11524582075
 INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260623
 INFO:root:Added stop: Abem Mebrat - https://osm.org/node/11716260625
@@ -1150,7 +1181,8 @@ INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947544
 INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947545
 INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947546
 INFO:root:Added stop: Taxi Stop - https://osm.org/node/13689947547
-INFO:root:Removed 0 unused stops
+INFO:root:Added stop: Gofa Gebriel - https://osm.org/node/13703953165
+INFO:root:Removed 6 unused stops
 INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
 Generating schedule for line: 10568476
@@ -1414,6 +1446,8 @@ Generating schedule for line: 20389826
 Generating schedule for line: 20389875
 Generating schedule for line: 20389876
 Generating schedule for line: 20389877
+Generating schedule for line: Minibus 009
+Generating schedule for line: Minibus 010
 All services are defined on a weekly basis from 2019-12-01 to 2099-12-31 with
 no single day variations. If there are exceptions such as holiday service
 dates please ensure they are listed in calendar_dates.txt
