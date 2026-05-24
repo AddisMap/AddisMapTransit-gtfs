@@ -58,11 +58,11 @@ WARNING:root:  Problem at: https://osm.org/way/162844956
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16068914
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16069112
-WARNING:root:  Problem at: https://osm.org/way/761200759
+WARNING:root:  Problem at: https://osm.org/way/761200758
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16069191
-WARNING:root:  Problem at: https://osm.org/way/761200759
+WARNING:root:  Problem at: https://osm.org/way/761200758
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16070565
-WARNING:root:  Problem at: https://osm.org/way/761200759
+WARNING:root:  Problem at: https://osm.org/way/761200758
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16071248
 WARNING:root:  Problem at: https://osm.org/way/755254707
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16071552
@@ -100,7 +100,7 @@ WARNING:root:  Problem at: https://osm.org/way/617828985
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16112802
 WARNING:root:  Problem at: https://osm.org/way/565777189
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15520470
-WARNING:root:  Problem at: https://osm.org/way/761200759
+WARNING:root:  Problem at: https://osm.org/way/761200758
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15520318
 WARNING:root:  Problem at: https://osm.org/way/1175598879
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16239075
@@ -201,7 +201,7 @@ WARNING:root:Route (variant) without route_master
 WARNING:root: https://osm.org/relation/17065221
 WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route has non-matching ways: https://osm.org/relation/17065221
-WARNING:root:  Problem at: https://osm.org/way/761200759
+WARNING:root:  Problem at: https://osm.org/way/761200758
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/17065221
 WARNING:root: Skipped. Please fix in OpenStreetMap
