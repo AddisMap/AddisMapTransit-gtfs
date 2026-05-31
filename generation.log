@@ -727,8 +727,6 @@ WARNING:root: Check tagging: https://osm.org/node/7093023266
 WARNING:root:Warning: Potential stop is invalid and has been ignored.
 WARNING:root: Check tagging: https://osm.org/node/7093023267
 WARNING:root:Warning: Potential stop is invalid and has been ignored.
-WARNING:root: Check tagging: https://osm.org/node/7093023268
-WARNING:root:Warning: Potential stop is invalid and has been ignored.
 WARNING:root: Check tagging: https://osm.org/node/7093023269
 WARNING:root:Warning: Potential stop is invalid and has been ignored.
 WARNING:root: Check tagging: https://osm.org/node/7093023270
@@ -794,6 +792,8 @@ WARNING:root:Warning: Potential stop is invalid and has been ignored.
 WARNING:root: Check tagging: https://osm.org/node/7093081295
 WARNING:root:Warning: Potential stop is invalid and has been ignored.
 WARNING:root: Check tagging: https://osm.org/node/7093081296
+WARNING:root:Warning: Potential stop is invalid and has been ignored.
+WARNING:root: Check tagging: https://osm.org/node/13892529830
 WARNING:root:OSM stop area has only one platform and can't be used as a GTFS station:
 WARNING:root: https://osm.org/relation/10550061
 WARNING:root:OSM stop area has only one platform and can't be used as a GTFS station:
@@ -1390,7 +1390,6 @@ INFO:root:Added stop: Bethel - https://osm.org/node/7074504390
 INFO:root:Added stop: Mewcha - https://osm.org/node/7074504391
 INFO:root:Added stop: Mendida - https://osm.org/node/7074504392
 INFO:root:Added stop: Mebrat Nigist Hotel - https://osm.org/node/7074525370
-INFO:root:Added stop: Lideta Kefetega Firdbet - https://osm.org/node/7074541084
 INFO:root:Added stop: Sefera Square - https://osm.org/node/7074561389
 INFO:root:Added stop: Haile Garment - https://osm.org/node/7074561391
 INFO:root:Added stop: Mebrathile (EEPCo) - https://osm.org/node/7074561392
@@ -1687,7 +1686,7 @@ INFO:root:Added stop: Shegole Bank - https://osm.org/node/7113004028
 INFO:root:Added stop: Michael - https://osm.org/node/7113004029
 INFO:root:Added stop: Eyesus - https://osm.org/node/7113158623
 INFO:root:Added stop: Wello Sefer - https://osm.org/node/7122983960
-INFO:root:Added stop: Kassech Kitfo - https://osm.org/node/7122983961
+INFO:root:Added stop: Ibex - https://osm.org/node/7122983961
 INFO:root:Added stop: Ambasel - https://osm.org/node/7122983962
 INFO:root:Added stop: WAGGA (Singer Liquior Store) - https://osm.org/node/7122983963
 INFO:root:Added stop: Wengalawit - https://osm.org/node/7122983964
@@ -2196,8 +2195,8 @@ INFO:root:Added stop: Zenebewerk - https://osm.org/node/10911198618
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/10911198619
 INFO:root:Added stop: Mexico Shebelle Hotel - https://osm.org/node/10911242345
 INFO:root:Added stop: Mexico Shebelle Hotel - https://osm.org/node/10911242346
-INFO:root:Added stop: Lideta - https://osm.org/node/10911242347
-INFO:root:Added stop: Lideta - https://osm.org/node/10911242348
+INFO:root:Added stop: High Court - https://osm.org/node/10911242347
+INFO:root:Added stop: High Court - https://osm.org/node/10911242348
 INFO:root:Added stop: Alem Bank - https://osm.org/node/10911242349
 INFO:root:Added stop: Alem Bank - https://osm.org/node/10911242350
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/10911695404
@@ -3736,15 +3735,8 @@ The stops "Mexico" (ID node/10995013009) and "Mexico" (ID node/7080527282) are
 0.17m apart and probably represent the same location.
 The stops "Flamingo" (ID node/7070861710) and "Flamingo" (ID node/10766121863)
 are 0.77m apart and probably represent the same location.
-The stops "Mexico" (ID node/10914160974) and "Mexico" (ID node/11412523438)
-are 0.20m apart and probably represent the same location.
-The stops "Mexico" (ID node/7080440208) and "Mexico" (ID node/10932115667) are
-1.22m apart and probably represent the same location.
 The stops "TVET College (Tegbare'd)" (ID node/7041071425) and "Mexico" (ID
 node/11380367570) are 0.74m apart and probably represent the same location.
-The stops "Lideta Condominium" (ID node/11035607131) and "Lideta (Balcha
-Hospital)" (ID node/7041071430) are 0.45m apart and probably represent the
-same location.
 The stops "Ayat Chefe Condominium" (ID node/10926896757) and "Ayat Chefe
 Condominium" (ID node/7037183543) are 1.09m apart and probably represent the
 same location.
@@ -3766,8 +3758,6 @@ The stops "6th (Raddison Blu)" (ID node/7041071359) and "6th (Raddison Blu)"
 (ID node/7067990020) are 0.16m apart and probably represent the same location.
 The stops "Megenagna" (ID node/10931937848) and "Megenagna" (ID
 node/7037142441) are 0.56m apart and probably represent the same location.
-The stops "Abenet" (ID node/10913863174) and "Abinet" (ID node/7077863018) are
-1.26m apart and probably represent the same location.
 The stops "Megenagna" (ID node/10886991026) and "Megenagna" (ID
 node/11402646169) are 0.49m apart and probably represent the same location.
 The stops "Megenagna" (ID node/10929694831) and "Megenagna" (ID
@@ -3803,16 +3793,12 @@ The stops "Autobis Tera" (ID node/11405450798) and "Autobis Tera" (ID
 node/11034611751) are 1.78m apart and probably represent the same location.
 The stops "Piassa Arada" (ID node/11034015159) and "Piassa Arada" (ID
 node/10899150567) are 1.18m apart and probably represent the same location.
-The stops "Arat Kilo" (ID node/11403841172) and "4 Kilo" (ID node/10936313833)
-are 0.46m apart and probably represent the same location.
 The stops "Ashewa Meda" (ID node/7074496218) and "Ashewa Meda" (ID
 node/7074496217) are 1.32m apart and probably represent the same location.
 The stops "Autobis Tera (1)" (ID node/7078406240) and "Autobus Tera" (ID
 node/10905160356) are 1.16m apart and probably represent the same location.
 The stops "Autobus Tera" (ID node/10905160357) and "Autobis Tera (1)" (ID
 node/7078406225) are 0.82m apart and probably represent the same location.
-The stops "Arat Kilo" (ID node/7105584908) and "Arat Kilo" (ID
-node/7105584911) are 0.62m apart and probably represent the same location.
 The stops "Piassa Arada" (ID node/7055598739) and "Piassa Arada" (ID
 node/10970912911) are 0.44m apart and probably represent the same location.
 The stops "Merkato" (ID node/7102193971) and "Merkato" (ID node/10961301942)
@@ -3859,9 +3845,6 @@ location.
 The stops "St. George Church" (ID node/11411869243) and "St. George Church
 (Total)" (ID node/7041071639) are 0.23m apart and probably represent the same
 location.
-The stops "Ras Mekonene Bridge (Seba Dereja)" (ID node/7041071628) and "Ras
-Mekonene Bridge (Seba Dereja)" (ID node/7057002162) are 1.14m apart and
-probably represent the same location.
 The stops "Kara" (ID node/7074330409) and "Kara" (ID node/10931809329) are
 0.97m apart and probably represent the same location.
 The stops "Kara" (ID node/10931809328) and "Kara" (ID node/11036026882) are

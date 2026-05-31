@@ -504,7 +504,6 @@ INFO:root:Added stop: Alem Bank - https://osm.org/node/7074504387
 INFO:root:Added stop: Ayer Tena - https://osm.org/node/7074504388
 INFO:root:Added stop: Bethel - https://osm.org/node/7074504390
 INFO:root:Added stop: Mebrat Nigist Hotel - https://osm.org/node/7074525370
-INFO:root:Added stop: Lideta Kefetega Firdbet - https://osm.org/node/7074541084
 INFO:root:Added stop: Sefera Square - https://osm.org/node/7074561389
 INFO:root:Added stop: Haile Garment - https://osm.org/node/7074561391
 INFO:root:Added stop: Mebrathile (EEPCo) - https://osm.org/node/7074561392
@@ -1006,14 +1005,9 @@ The stops "St. Gebriel" (ID node/7074496222) and "St. Gebriel" (ID
 node/7074496221) are 1.27m apart and probably represent the same location.
 The stops "Ashewa Meda" (ID node/7074496218) and "Ashewa Meda" (ID
 node/7074496217) are 1.32m apart and probably represent the same location.
-The stops "Arat Kilo" (ID node/7105584908) and "Arat Kilo" (ID
-node/7105584911) are 0.62m apart and probably represent the same location.
 The stops "St. George Church" (ID node/11411869243) and "St. George Church
 (Total)" (ID node/7041071639) are 0.23m apart and probably represent the same
 location.
-The stops "Ras Mekonene Bridge (Seba Dereja)" (ID node/7041071628) and "Ras
-Mekonene Bridge (Seba Dereja)" (ID node/7057002162) are 1.14m apart and
-probably represent the same location.
 The stops "Aba Kiros Roundabout" (ID node/7022397418) and "Aba Kiros" (ID
 node/11412470836) are 0.95m apart and probably represent the same location.
 The stops "Kela" (ID node/7074269464) and "Kela" (ID node/7074269465) are

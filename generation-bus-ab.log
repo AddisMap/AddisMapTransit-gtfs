@@ -719,7 +719,6 @@ INFO:root:Added stop: Ayer Tena - https://osm.org/node/7074504388
 INFO:root:Added stop: Bethel - https://osm.org/node/7074504390
 INFO:root:Added stop: Mewcha - https://osm.org/node/7074504391
 INFO:root:Added stop: Mendida - https://osm.org/node/7074504392
-INFO:root:Added stop: Lideta Kefetega Firdbet - https://osm.org/node/7074541084
 INFO:root:Added stop: Sefera Square - https://osm.org/node/7074561389
 INFO:root:Added stop: Haile Garment - https://osm.org/node/7074561391
 INFO:root:Added stop: Mebrathile (EEPCo) - https://osm.org/node/7074561392
@@ -1626,9 +1625,6 @@ The stops "Gerji" (ID node/11403841173) and "Gerji" (ID node/11403841174) are
 1.78m apart and probably represent the same location.
 The stops "TVET College (Tegbare'd)" (ID node/7041071425) and "Mexico" (ID
 node/11380367570) are 0.74m apart and probably represent the same location.
-The stops "Lideta Condominium" (ID node/11035607131) and "Lideta (Balcha
-Hospital)" (ID node/7041071430) are 0.45m apart and probably represent the
-same location.
 The stops "Tor Hailoch Junction" (ID node/7041071446) and "Torhailoch" (ID
 node/11035234709) are 0.58m apart and probably represent the same location.
 The stops "6th (Raddison Blu)" (ID node/7041071359) and "6th (Raddison Blu)"
@@ -1643,17 +1639,12 @@ The stops "Autobis Tera" (ID node/11405450798) and "Autobis Tera" (ID
 node/11034611751) are 1.78m apart and probably represent the same location.
 The stops "Ashewa Meda" (ID node/7074496218) and "Ashewa Meda" (ID
 node/7074496217) are 1.32m apart and probably represent the same location.
-The stops "Arat Kilo" (ID node/7105584908) and "Arat Kilo" (ID
-node/7105584911) are 0.62m apart and probably represent the same location.
 The stops "Autobis Tera (3)" (ID node/7084722456) and "Autobis Tera" (ID
 node/11403178495) are 0.18m apart and probably represent the same location.
 The stops "Autobis Tera" (ID node/11405492956) and "Autobis Tera (3)" (ID
 node/7041071599) are 0.17m apart and probably represent the same location.
 The stops "Gojam Berenda" (ID node/10845731584) and "Gojam Berenda" (ID
 node/11405492955) are 0.99m apart and probably represent the same location.
-The stops "Ras Mekonene Bridge (Seba Dereja)" (ID node/7041071628) and "Ras
-Mekonene Bridge (Seba Dereja)" (ID node/7057002162) are 1.14m apart and
-probably represent the same location.
 The stops "Kolobo 1st School" (ID node/11543153089) and "Kolobo 1st School"
 (ID node/11543153091) are 1.50m apart and probably represent the same
 location.
