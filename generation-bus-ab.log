@@ -191,6 +191,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/17047998
 WARNING:root:  Problem at: https://osm.org/way/1184275945
 WARNING:root:Route has non-matching ways: https://osm.org/relation/17047997
 WARNING:root:  Problem at: https://osm.org/way/1175598879
+WARNING:root:Route has non-matching ways: https://osm.org/relation/17082327
+WARNING:root:  Problem at: https://osm.org/way/224859346
 WARNING:root:Route has non-matching ways: https://osm.org/relation/17332415
 WARNING:root:  Problem at: https://osm.org/way/1175598879
 WARNING:root:Route (variant) without route_master
