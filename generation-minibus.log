@@ -88,9 +88,9 @@ WARNING:root:  Problem at: https://osm.org/way/224859346
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15901994
 WARNING:root:  Problem at: https://osm.org/way/62177815
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15901993
-WARNING:root:  Problem at: https://osm.org/way/761200758
+WARNING:root:  Problem at: https://osm.org/way/104694300
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15902170
-WARNING:root:  Problem at: https://osm.org/way/761200758
+WARNING:root:  Problem at: https://osm.org/way/104694300
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15902169
 WARNING:root:  Problem at: https://osm.org/way/62177815
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15902319
@@ -250,14 +250,14 @@ INFO:root:
             );
 WARNING:root:OSM stop area has only one platform and can't be used as a GTFS station:
 WARNING:root: https://osm.org/relation/10578291
-INFO:root:* Found alternative stop name: Arada - https://osm.org/node/6728583386
+INFO:root:* Found alternative stop name: no name - https://osm.org/node/6728583386
 INFO:root:Agency creator: Default
 INFO:root:Feed info creator: Default
 INFO:root:Routes creator: et_addisababa
 INFO:root:Stops creator: et_addisababa
 INFO:root:Schedule creator: et_addisababa
 INFO:root:Trips creator: et_addisababa
-INFO:root:Added stop: Arada - https://osm.org/node/6728583386
+INFO:root:Added stop: no name - https://osm.org/node/6728583386
 INFO:root:Added stop: Piassa Arada (2) - https://osm.org/node/6967281242
 INFO:root:Added stop: Gofa Camp - https://osm.org/node/7041052926
 INFO:root:Added stop: Jemo Michael - https://osm.org/node/7041052939

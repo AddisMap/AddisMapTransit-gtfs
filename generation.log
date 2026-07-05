@@ -156,9 +156,9 @@ WARNING:root:  Problem at: https://osm.org/way/224859346
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15901994
 WARNING:root:  Problem at: https://osm.org/way/62177815
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15901993
-WARNING:root:  Problem at: https://osm.org/way/761200758
+WARNING:root:  Problem at: https://osm.org/way/104694300
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15902170
-WARNING:root:  Problem at: https://osm.org/way/761200758
+WARNING:root:  Problem at: https://osm.org/way/104694300
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15902169
 WARNING:root:  Problem at: https://osm.org/way/62177815
 WARNING:root:Route has non-matching ways: https://osm.org/relation/15902319
@@ -840,7 +840,7 @@ WARNING:root:OSM stop area has only one platform and can't be used as a GTFS sta
 WARNING:root: https://osm.org/relation/10578291
 WARNING:root:OSM stop area has only one platform and can't be used as a GTFS station:
 WARNING:root: https://osm.org/relation/10354869
-INFO:root:* Found alternative stop name: Arada - https://osm.org/node/6728583386
+INFO:root:* Found alternative stop name: no name - https://osm.org/node/6728583386
 INFO:root:Agency creator: Default
 INFO:root:Feed info creator: Default
 INFO:root:Routes creator: et_addisababa
@@ -931,7 +931,7 @@ INFO:root:Added stop: Stadium - https://osm.org/node/5736089088
 INFO:root:Added stop: Mebrathail - https://osm.org/node/6251054285
 INFO:root:Added stop: Asko - https://osm.org/node/6307600909
 INFO:root:Added stop: Bole Printing Press - https://osm.org/node/6373574986
-INFO:root:Added stop: Arada - https://osm.org/node/6728583386
+INFO:root:Added stop: no name - https://osm.org/node/6728583386
 INFO:root:Added stop: Kebede Wessene Rd. - https://osm.org/node/6798927886
 INFO:root:Added stop: Mexico - https://osm.org/node/6814022390
 INFO:root:Added stop: Mebrat Condominium - https://osm.org/node/6967142984
