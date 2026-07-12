@@ -193,6 +193,8 @@ WARNING:root:Route has non-matching ways: https://osm.org/relation/16765721
 WARNING:root:  Problem at: https://osm.org/way/1491779317
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16793878
 WARNING:root:  Problem at: https://osm.org/way/1175598879
+WARNING:root:Route has non-matching ways: https://osm.org/relation/16793877
+WARNING:root:  Problem at: https://osm.org/way/1176922841
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16794102
 WARNING:root:  Problem at: https://osm.org/way/755492723
 WARNING:root:Route has non-matching ways: https://osm.org/relation/16794333
