@@ -509,6 +509,13 @@ WARNING:root: Please fix in OpenStreetMap
 WARNING:root:Route with existing route_id (ref)
 WARNING:root: https://osm.org/relation/20406760
 WARNING:root: Skipped. Please fix in OpenStreetMap
+WARNING:root:Route (variant) without route_master
+WARNING:root: https://osm.org/relation/21105336
+WARNING:root: Please fix in OpenStreetMap
+WARNING:root:RouteVariant without 'ref': 21105336
+WARNING:root:Relation without 'ref'. Please fix in OpenStreetMap
+WARNING:root: https://osm.org/relation/21105336
+WARNING:root:Route master relation without a route_master tag: https://osm.org/relation/21105336
 INFO:root:Query and build fresh data for stops
 INFO:root:
             [timeout:600]
@@ -3171,6 +3178,8 @@ INFO:root:Added stop: Gelan - https://osm.org/node/13703953167
 INFO:root:Removed 1 unused stop
 INFO:root:Removed 0 unused routes
 Timezone not checked (install pytz package for timezone validation)
+Generating schedule for line: 
+WARNING: No duration set --- Using default travel time for route with OSM ID 21105336
 Generating schedule for line: 10400029
 Generating schedule for line: 10400258
 Generating schedule for line: 10400405
@@ -5454,3 +5463,5 @@ This route_short_name is relatively long, which probably means that it
 contains a place name.  You should only use this field to hold a short code
 that riders use to identify a route.  If this route doesn't have such a code,
 it's OK to leave this field empty.
+The trip with the trip_id "0" doesn't have any stop times defined.
+Frequencies defined, but no stop times given in trip 0
