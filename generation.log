@@ -856,6 +856,8 @@ WARNING:root: https://osm.org/relation/10578291
 WARNING:root:OSM stop area has only one platform and can't be used as a GTFS station:
 WARNING:root: https://osm.org/relation/10354869
 INFO:root:* Found alternative stop name: no name - https://osm.org/node/6728583386
+INFO:root:* Found alternative stop name: የቱሪስት መረጃ እና አስጐብነኚ - https://osm.org/node/10886281953
+INFO:root:* Found alternative stop name: የቱሪስት መረጃ እና አስጐብነኚ - https://osm.org/node/10886281998
 INFO:root:Agency creator: Default
 INFO:root:Feed info creator: Default
 INFO:root:Routes creator: et_addisababa
@@ -2015,12 +2017,12 @@ INFO:root:Added stop: Gelan Condominium - https://osm.org/node/10886135793
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10886281950
 INFO:root:Added stop: Bole Medhanyalem - https://osm.org/node/10886281951
 INFO:root:Added stop: Edna Mall Squar - https://osm.org/node/10886281952
-INFO:root:Added stop: Adey Ababa Stadium - https://osm.org/node/10886281953
+INFO:root:Added stop: የቱሪስት መረጃ እና አስጐብነኚ - https://osm.org/node/10886281953
 INFO:root:Added stop: 22 Mazoria - https://osm.org/node/10886281954
 INFO:root:Added stop: 22 Mazoria - https://osm.org/node/10886281956
 INFO:root:Added stop: Freedom - https://osm.org/node/10886281958
 INFO:root:Added stop: Werku Building - https://osm.org/node/10886281997
-INFO:root:Added stop: Adey Ababa Stadium - https://osm.org/node/10886281998
+INFO:root:Added stop: የቱሪስት መረጃ እና አስጐብነኚ - https://osm.org/node/10886281998
 INFO:root:Added stop: Edna Mall Squar - https://osm.org/node/10886281999
 INFO:root:Added stop: Bole Medhanyalem - https://osm.org/node/10886282000
 INFO:root:Added stop: Bole Bridge - https://osm.org/node/10886282001
